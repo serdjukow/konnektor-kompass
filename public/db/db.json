@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "connector": "aber",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich möchte schwimmen gehen, aber ich habe keine Zeit."
+  },
+  {
+    "id": 2,
+    "connector": "und",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich mag Kaffee und Tee."
+  },
+  {
+    "id": 3,
+    "connector": "oder",
+    "sentence_type": "Hauptsatz",
+    "example": "Möchtest du Pizza oder Pasta zum Abendessen?"
+  },
+  {
+    "id": 4,
+    "connector": "sondern",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich esse kein Fleisch, sondern Gemüse."
+  },
+  {
+    "id": 5,
+    "connector": "weil",
+    "sentence_type": "Nebensatz",
+    "example": "Ich gehe ins Kino, weil ich einen Film sehen möchte."
+  },
+  {
+    "id": 6,
+    "connector": "denn",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich bleibe zu Hause, denn ich bin krank."
+  },
+  {
+    "id": 7,
+    "connector": "dass",
+    "sentence_type": "Nebensatz",
+    "example": "Er sagt, dass er später kommt."
+  },
+  {
+    "id": 8,
+    "connector": "wenn",
+    "sentence_type": "Nebensatz",
+    "example": "Ich gehe spazieren, wenn das Wetter schön ist."
+  },
+  {
+    "id": 9,
+    "connector": "obwohl",
+    "sentence_type": "Nebensatz",
+    "example": "Er arbeitet viel, obwohl er krank ist."
+  },
+  {
+    "id": 10,
+    "connector": "doch",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich möchte schwimmen gehen, doch das Wasser ist zu kalt."
+  },
+  {
+    "id": 11,
+    "connector": "weiterhin",
+    "sentence_type": "Hauptsatz",
+    "example": "Er hat keine Zeit, weiterhin möchte er helfen."
+  },
+  {
+    "id": 12,
+    "connector": "also",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich habe Hunger, also werde ich etwas essen."
+  },
+  {
+    "id": 13,
+    "connector": "trotzdem",
+    "sentence_type": "Hauptsatz",
+    "example": "Es regnet, trotzdem gehe ich spazieren."
+  },
+  {
+    "id": 14,
+    "connector": "trotz",
+    "sentence_type": "Nebensatz",
+    "example": "Trotz des Regens gehe ich spazieren."
+  },
+  {
+    "id": 15,
+    "connector": "während",
+    "sentence_type": "Nebensatz",
+    "example": "Ich lese ein Buch, während du fernsiehst."
+  },
+  {
+    "id": 16,
+    "connector": "seit",
+    "sentence_type": "Nebensatz",
+    "example": "Ich warte hier, seit du weg bist."
+  },
+  {
+    "id": 17,
+    "connector": "doch",
+    "sentence_type": "Nebensatz",
+    "example": "Ich gehe ins Kino, doch ich habe kein Ticket."
+  },
+  {
+    "id": 18,
+    "connector": "indem",
+    "sentence_type": "Nebensatz",
+    "example": "Sie lernen Deutsch, indem sie Bücher lesen."
+  },
+  {
+    "id": 19,
+    "connector": "wenn",
+    "sentence_type": "Hauptsatz",
+    "example": "Wenn es regnet, bleibe ich zu Hause."
+  },
+  {
+    "id": 20,
+    "connector": "je...desto",
+    "sentence_type": "Hauptsatz",
+    "example": "Je mehr ich lerne, desto besser werde ich."
+  },
+  {
+    "id": 21,
+    "connector": "wenn",
+    "sentence_type": "Nebensatz",
+    "example": "Wenn ich Zeit habe, gehe ich ins Kino."
+  },
+  {
+    "id": 22,
+    "connector": "damit",
+    "sentence_type": "Nebensatz",
+    "example": "Ich übe Deutsch, damit ich besser werde."
+  },
+  {
+    "id": 23,
+    "connector": "wie",
+    "sentence_type": "Nebensatz",
+    "example": "Ich frage mich, wie das möglich ist."
+  },
+  {
+    "id": 24,
+    "connector": "weil",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich esse nicht, weil ich keinen Hunger habe."
+  },
+  {
+    "id": 25,
+    "connector": "ob",
+    "sentence_type": "Nebensatz",
+    "example": "Ich frage mich, ob es regnen wird."
+  },
+  {
+    "id": 26,
+    "connector": "sobald",
+    "sentence_type": "Nebensatz",
+    "example": "Ich rufe dich an, sobald ich zu Hause bin."
+  },
+  {
+    "id": 27,
+    "connector": "bis",
+    "sentence_type": "Nebensatz",
+    "example": "Ich warte hier, bis du kommst."
+  },
+  {
+    "id": 28,
+    "connector": "obgleich",
+    "sentence_type": "Nebensatz",
+    "example": "Sie blieb freundlich, obgleich sie verärgert war."
+  },
+  {
+    "id": 29,
+    "connector": "indessen",
+    "sentence_type": "Hauptsatz",
+    "example": "Die Kinder spielen draußen, indessen die Eltern drinnen arbeiten."
+  },
+  {
+    "id": 30,
+    "connector": "gleichwohl",
+    "sentence_type": "Hauptsatz",
+    "example": "Sie war müde, gleichwohl machte sie weiter."
+  },
+  {
+    "id": 31,
+    "connector": "nachdem",
+    "sentence_type": "Nebensatz",
+    "example": "Ich esse, nachdem ich gekocht habe."
+  },
+  {
+    "id": 32,
+    "connector": "bevor",
+    "sentence_type": "Nebensatz",
+    "example": "Ich koche, bevor ich esse."
+  },
+  {
+    "id": 33,
+    "connector": "solange",
+    "sentence_type": "Nebensatz",
+    "example": "Ich warte, solange es nötig ist."
+  },
+  {
+    "id": 34,
+    "connector": "sofern",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich komme, sofern es möglich ist."
+  },
+  {
+    "id": 35,
+    "connector": "soweit",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich helfe dir, soweit es geht."
+  },
+  {
+    "id": 36,
+    "connector": "sonst",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich gehe, sonst verpasse ich den Zug."
+  },
+  {
+    "id": 37,
+    "connector": "stattdessen",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich trinke Tee, stattdessen Kaffee."
+  },
+  {
+    "id": 38,
+    "connector": "sodass",
+    "sentence_type": "Nebensatz",
+    "example": "Ich lerne viel, sodass ich gute Noten bekomme."
+  },
+  {
+    "id": 39,
+    "connector": "soviel",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich habe soviel gelernt, dass ich jetzt sicher bin."
+  },
+  {
+    "id": 40,
+    "connector": "solange",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich bleibe hier, solange du weg bist."
+  },
+  {
+    "id": 41,
+    "connector": "vor",
+    "sentence_type": "Nebensatz",
+    "example": "Ich esse, vor ich gehe."
+  },
+  {
+    "id": 42,
+    "connector": "vorausgesetzt",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich komme, vorausgesetzt ich habe Zeit."
+  },
+  {
+    "id": 43,
+    "connector": "weiter",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich arbeite weiter, weil ich fertig werden will."
+  },
+  {
+    "id": 44,
+    "connector": "wenn auch",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich komme, wenn auch spät."
+  },
+  {
+    "id": 45,
+    "connector": "während",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich arbeite, während du schläfst."
+  },
+  {
+    "id": 46,
+    "connector": "währenddessen",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich koche, währenddessen du liest."
+  },
+  {
+    "id": 47,
+    "connector": "wann",
+    "sentence_type": "Nebensatz",
+    "example": "Ich weiß nicht, wann ich komme."
+  },
+  {
+    "id": 48,
+    "connector": "zumal",
+    "sentence_type": "Hauptsatz",
+    "example": "Er liest viel, zumal er Student ist."
+  },
+  {
+    "id": 49,
+    "connector": "zu",
+    "sentence_type": "Hauptsatz",
+    "example": "Er ist groß, zu er klein war."
+  },
+  {
+    "id": 50,
+    "connector": "zurück",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich gehe zurück, weil ich etwas vergessen habe."
+  },
+  {
+    "id": 51,
+    "connector": "zurückblickend",
+    "sentence_type": "Hauptsatz",
+    "example": "Zurückblickend war es eine gute Entscheidung."
+  },
+  {
+    "id": 52,
+    "connector": "zumal",
+    "sentence_type": "Nebensatz",
+    "example": "Er verreist gern, zumal er viele Länder sehen möchte."
+  },
+  {
+    "id": 53,
+    "connector": "zumal",
+    "sentence_type": "Nebensatz",
+    "example": "Er geht nicht ins Kino, zumal er den Film schon gesehen hat."
+  },
+  {
+    "id": 54,
+    "connector": "zumindest",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich möchte zumindest versuchen, Deutsch zu lernen."
+  },
+  {
+    "id": 55,
+    "connector": "zumal",
+    "sentence_type": "Hauptsatz",
+    "example": "Sie liest gerne, zumal es draußen regnet."
+  },
+  {
+    "id": 56,
+    "connector": "zum Beispiel",
+    "sentence_type": "Hauptsatz",
+    "example": "Ich liebe italienisches Essen, zum Beispiel Pizza und Pasta."
+  },
+  {
+    "id": 57,
+    "connector": "zwar",
+    "sentence_type": "Hauptsatz",
+    "example": "Er hat zugegeben, dass er Fehler gemacht hat, zwar zu spät."
+  },
+  {
+    "id": 58,
+    "connector": "zweifellos",
+    "sentence_type": "Hauptsatz",
+    "example": "Er ist zweifellos der Beste in seiner Klasse."
+  },
+  {
+    "id": 59,
+    "connector": "zurückgezogen",
+    "sentence_type": "Hauptsatz",
+    "example": "Er lebt zurückgezogen, weil er gerne seine Ruhe hat."
+  },
+  {
+    "id": 60,
+    "connector": "zumindest",
+    "sentence_type": "Nebensatz",
+    "example": "Er versucht zumindest, pünktlich zu sein."
+  }
+]
