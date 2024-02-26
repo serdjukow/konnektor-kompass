@@ -14,18 +14,48 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-top: 70px;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
+  .nanigation {
+    display: flex;
+    gap: 20px;
+  }
+  .nanigation-link {
+    color: #999999;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.25s ease-in;
+    @media (any-hover: hover) {
+      &:hover {
+        color: #fff;
+      }
+    }
+    &.active {
+      color: #fff;
+    }
+  }
 }
 
 .logo {
+  flex: 0 0 170px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .info-panel {
@@ -51,14 +81,12 @@ body {
 }
 
 section {
-  margin-bottom: 20px;
+  margin: 20px auto 0;
+  max-width: 1280px;
+  padding: 0 15px;
 }
 
 .connector-card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 0 auto 20px;
   max-width: 500px;
   h2 {
     font-size: 54px;
@@ -100,9 +128,84 @@ section {
   }
 }
 
+.category {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  h2 {
+    font-size: 20px;
+    color: #fff;
+  }
+  &.subjunktion {
+    background-color: #0c72d2;
+  }
+  &.konjunktion {
+    background-color: #dea90d;
+  }
+  &.konjunktionaladverb {
+    background-color: #0cd240;
+  }
+}
+
+.word-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  &::last-child {
+    border-bottom: none;
+  }
+  .word {
+    background-color: #9d9d9d;
+    border: 1px solid #717171;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in;
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: #c0bfbf;
+    }
+  }
+  }
+}
+
 .footer {
   background-color: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
+}
+
+.home {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
 }
