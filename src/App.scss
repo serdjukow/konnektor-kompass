@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-::root {
-  --index: calc(1vw * 1vh)
+:root {
+  --index: calc(1vw);
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 90px;
+  padding-top: 70px;
   background-image: url(./assets/images/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -29,7 +29,7 @@ body {
 .header {
   position: fixed;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   top: 0;
   left: 0;
   width: 100%;
@@ -38,11 +38,11 @@ body {
   align-items: center;
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   .nanigation {
     display: flex;
-    gap: 20px;
+    gap: 15px;
   }
   .nanigation-link {
     color: #999999;
@@ -62,7 +62,7 @@ body {
 }
 
 .logo {
-  flex: 0 0 170px;
+  flex: 0 0 calc(var(--index) * 14);
   img {
     width: 100%;
     height: auto;
@@ -99,7 +99,7 @@ section {
 .connector-card {
   max-width: 500px;
   h2 {
-    font-size: 54px;
+    font-size: calc(var(--index) * 3.8);
     margin-bottom: 10px;
     text-align: center;
   }
@@ -145,15 +145,15 @@ section {
     text-align: center;
     padding: 10px;
     h2 {
-      font-size: 20px;
+      font-size: 23px;
       color: #fff;
     }
   }
 
   &__words {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
     gap: 10px;
     &::last-child {
       border-bottom: none;
@@ -161,11 +161,15 @@ section {
   }
 
   &__word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     border-radius: 3px;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
+    text-align: center;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
     transition: background-color 0.25s ease-in;
   }
