@@ -1,12 +1,25 @@
-import React from 'react';
-import styles from './Loader.module.scss';
+import React from 'react'
+import './loader.scss'
 
-const Loader = () => (
-  <div className={styles.Loader}>
-    <div id="global-loader">
-      <img src={require("../../assets/images/loader.svg").default} className="loader-img" alt="Loading...." />
+const Loader = () => {
+  return (
+    <div className="loader-container">
+      <div className="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-  </div>
-);
+  )
+}
 
-export default Loader;
+export default Loader

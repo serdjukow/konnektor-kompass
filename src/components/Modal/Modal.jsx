@@ -5,7 +5,7 @@ import './modal.scss'
 const Modal = (props) => {
 
     return (
-        <div className={`modal ${props.isOpen ? 'open' : null}`}>
+        <div className={`modal ${props.isOpen && 'open'}`}>
             <div className="modal__wrapper">
                 <div className="modal__body">
                     <div className="modal__header">
@@ -13,7 +13,6 @@ const Modal = (props) => {
                     </div>
                     <ConnectorCard connector={props.modalContent} />
                 </div>
-
             </div>
         </div>
     )

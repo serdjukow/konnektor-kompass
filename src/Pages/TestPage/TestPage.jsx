@@ -32,26 +32,7 @@ const TestPage = () => {
     return (
         <section id="connector-details">
             {randomConnector && <ConnectorCard connector={randomConnector} />}
-            <div className="options">
-                <button
-                    onClick={() => {
-                        nextCard();
-                        removeConnector();
-                    }}
-                    className="option"
-                >
-                    Next word
-                </button>
-                <button
-                    onClick={() => {
-                        removeConnector();
-                        nextCard();
-                    }}
-                    className="option"
-                >
-                    Delete this word
-                </button>
-            </div>
+            <h2>TestPage</h2>
         </section>
     )
 }

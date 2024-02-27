@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import Logo from '../../assets/images/logo.png'
 
-const Header = ({ connectors }) => {
+const Header = () => {
     return (
         <header className="header">
             <div className="logo">
@@ -15,12 +15,11 @@ const Header = ({ connectors }) => {
                 <NavLink className="nanigation-link" to={`/test`}>
                     Test
                 </NavLink>
+                {/* <NavLink className="nanigation-link" to={`/test/result`}>
+                    Test result
+                </NavLink> */}
             </nav>
-            <div className="info-panel">
-                <span className="connectors-value">{connectors.length || 0}</span>
-                <span className="answer-wrong">0</span>
-                <span className="answer-right">0</span>
-            </div>
+           
         </header>
     );
 }

@@ -43,14 +43,11 @@ const AppPage = () => {
 		!connectors.length && fetchConnectors();
 	});
 
-
 	const chengeIsOpen = () => {
 		setIsOpen(!isOpen)
 	}
 
-
 	return (
-
 		<DataContext.Provider
 			value={{
 				connectors: [...connectors],
@@ -68,7 +65,6 @@ const AppPage = () => {
 				</div>
 			</BrowserRouter>
 		</DataContext.Provider>
-
 	)
 }
 

@@ -3,13 +3,16 @@ import { Routes, Route } from 'react-router-dom'
 import {
 	HOME_ROUTE,
 	KONNEKTOREN_ROUTE,
-	TEST_ROUTE
+	TEST_ROUTE,
+	RESULT_ROUTE
 } from './utils/consts'
 
 
 const HomePage = lazy(() => import('./Pages/HomePage/HomePage'))
 const KonnektorenPage = lazy(() => import('./Pages/KonnektorenPage/KonnektorenPage'))
+const TestPages = lazy(() => import('./Pages/TestPages'))
 const TestPage = lazy(() => import('./Pages/TestPage/TestPage'))
+const ResultPage = lazy(() => import('./Pages/ResultPage/ResultPage'))
 
 // const BlogPage = lazy(() => import('./components/BlogPage'))
 // const Blogs = lazy(() => import('./components/pages/Blogs/Blogs'))
@@ -19,16 +22,16 @@ export const useRoutes = () => {
 	return (
 		<Routes>
 			<Route path={HOME_ROUTE} element={<HomePage />}>
-				<Route index element={<HomePage />} />
-
+				<Route index element={<HomePage />} />				
 			</Route>
 
 			<Route path={HOME_ROUTE} element={<KonnektorenPage />}>
 				<Route path={KONNEKTOREN_ROUTE} element={<KonnektorenPage />} />				
 			</Route>
 
-			<Route path={HOME_ROUTE} element={<TestPage />}>
+			<Route path={HOME_ROUTE} element={<TestPages />}>
 				<Route path={TEST_ROUTE} element={<TestPage />} />
+				<Route path={RESULT_ROUTE} element={<ResultPage />} />
 			</Route>
 
 			{/* <Route path={HOME_ROUTE} element={<BlogPage />}>
@@ -46,7 +49,7 @@ export const useRoutes = () => {
 				<Route path={`test/result`} element={<Noise />} />				 
 			</Route> */}
 
-			{/*<Route path="*" element={<Error500 />} /> */}
+			<Route path="*" element={<HomePage />} />
 		</Routes>
 	)
 }

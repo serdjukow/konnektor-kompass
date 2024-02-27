@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+::root {
+  --index: calc(1vw * 1vh)
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -14,11 +19,17 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 70px;
+  padding-top: 90px;
+  background-image: url(./assets/images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .header {
   position: fixed;
+  flex-wrap: wrap;
+  gap: 20px;
   top: 0;
   left: 0;
   width: 100%;
@@ -76,7 +87,6 @@ body {
 }
 
 .page {
-  padding: 20px;
   flex: 1 1 auto;
 }
 
@@ -129,50 +139,74 @@ section {
 }
 
 .category {
-  margin-bottom: 20px;
-}
+  margin-bottom: 30px;
+  &__title {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    h2 {
+      font-size: 20px;
+      color: #fff;
+    }
+  }
 
-.category-title {
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 10px;
-  h2 {
-    font-size: 20px;
-    color: #fff;
+  &__words {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    &::last-child {
+      border-bottom: none;
+    }
   }
-  &.subjunktion {
-    background-color: #0c72d2;
-  }
-  &.konjunktion {
-    background-color: #dea90d;
-  }
-  &.konjunktionaladverb {
-    background-color: #0cd240;
-  }
-}
 
-.word-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  &::last-child {
-    border-bottom: none;
-  }
-  .word {
-    background-color: #9d9d9d;
-    border: 1px solid #717171;
+  &__word {
     padding: 10px;
     border-radius: 3px;
     color: #fff;
     font-weight: 600;
     cursor: pointer;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
     transition: background-color 0.25s ease-in;
-  @media (any-hover: hover) {
-    &:hover {
-      background-color: #c0bfbf;
+  }
+  .subjunktion & {
+    &__title {
+      background-color: #0c72d2;
+    }
+    &__word {
+      background-color: rgba(#0c72d2, 0.7);
+      @media (any-hover: hover) {
+        &:hover {
+          background-color: #0c72d2;
+        }
+      }
     }
   }
+  .konjunktion & {
+    &__title {
+      background-color: #dea90d;
+    }
+    &__word {
+      background-color: rgba(#dea90d, 0.7);
+      @media (any-hover: hover) {
+        &:hover {
+          background-color: #dea90d;
+        }
+      }
+    }
+  }
+  .konjunktionaladverb & {
+    &__title {
+      background-color: #0abe3a;
+    }
+    &__word {
+      background-color: rgba(#0abe3a, 0.7);
+      @media (any-hover: hover) {
+        &:hover {
+          background-color: #0abe3a;
+        }
+      }
+    }
   }
 }
 
