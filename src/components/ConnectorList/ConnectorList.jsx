@@ -4,22 +4,26 @@ import DataContext from "../../context/DataContext";
 
 const ConnectorList = ({ connectors }) => {
     const { chengeIsOpen, setModalContent } = useContext(DataContext);
-    const [subjunktion, setSubjunktion] = useState([])
-    const [konjunktion, setKonjunktion] = useState([])
-    const [konjunktionaladverb, setKonjunktionaladverb] = useState([])
+    const [subjunktionen, setsubjunktionen] = useState([])
+    const [konjunktionen, setKonjunktionen] = useState([])
+    const [konjunktionaladverbien, setKonjunktionaladverbien] = useState([])
+    const [infinitivgruppe, setInfinitivgruppe] = useState([])
 
     const connectorenFilter = (type) => connectors?.filter(connector => connector.connector_type.toLowerCase() === type.toLowerCase())
 
-    const getSubjunktion = () => setSubjunktion(connectorenFilter('subjunktionen'))
+    const getsubjunktionen = () => setsubjunktionen(connectorenFilter('subjunktionen'))
 
-    const getKonjunktion = () => setKonjunktion(connectorenFilter('konjunktion'))
+    const getKonjunktionen = () => setKonjunktionen(connectorenFilter('konjunktionen'))
 
-    const getKonjunktionaladverb = () => setKonjunktionaladverb(connectorenFilter("konjunktionaladverbien"))
+    const getKonjunktionaladverb = () => setKonjunktionaladverbien(connectorenFilter("konjunktionaladverbien"))
+
+    const getInfinitivgruppe = () => setInfinitivgruppe(connectorenFilter("infinitivgruppe"))
 
     useEffect(() => {
-        getSubjunktion()
-        getKonjunktion()
+        getsubjunktionen()
+        getKonjunktionen()
         getKonjunktionaladverb()
+        getInfinitivgruppe()
     }, [])
 
     function findConnectorById(id) {
@@ -34,30 +38,38 @@ const ConnectorList = ({ connectors }) => {
 
     return (
         <>
-            <div className="category subjunktion">
-                <div className="category__title"><h2>Subjunktion (z.B.: weil, warum, dass, …)</h2></div>
+            <div className="category subjunktionen">
+                <div className="category__title"><h2>Konnektoren mit Nebensatz (= Subjunktionen)</h2></div>
                 <div className="category__words">
-                    {subjunktion.map(el => (
+                    {subjunktionen.map(el => (
                         <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
                     ))}
                 </div>
             </div>
-            <div className="category konjunktion">
-                <div className="category__title "><h2>Konjunktion (z.B.: und, oder, denn, …)</h2></div>
+            <div className="category konjunktionen">
+                <div className="category__title "><h2>Konnektoren mit Hauptsatz (Position 0) (= Konjunktionen)</h2></div>
                 <div className="category__words">
-                    {konjunktion.map(el => (
+                    {konjunktionen.map(el => (
                         <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
                     ))}
                 </div>
             </div>
-            <div className="category konjunktionaladverb">
-                <div className="category__title"><h2>Konjunktionaladverb (z.B.: deswegen, seitdem, trotzdem, …)</h2></div>
+            <div className="category konjunktionaladverbien">
+                <div className="category__title"><h2>Konnektoren mit Hauptsatz (Position 1) (= Konjunktionaladverbien)</h2></div>
                 <div className="category__words">
-                    {konjunktionaladverb.map(el => (
+                    {konjunktionaladverbien.map(el => (
                         <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
                     ))}
                 </div>
-            </div>           
+            </div>
+            <div className="category infinitivgruppe">
+                <div className="category__title"><h2>Konnektoren mit Infinitivgruppe</h2></div>
+                <div className="category__words">
+                    {infinitivgruppe.map(el => (
+                        <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
+                    ))}
+                </div>
+            </div>
         </>
     );
 }

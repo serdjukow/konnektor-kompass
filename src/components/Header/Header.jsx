@@ -1,12 +1,12 @@
-import { NavLink } from 'react-router-dom'
-import Logo from '../../assets/images/logo.png'
+import { NavLink, Link } from 'react-router-dom'
+import Logo from '../../assets/images/logo-2.png'
 
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo">
+            <Link to="/" className="logo">
                 <img src={Logo} alt="Logo" />
-            </div>
+            </Link>
             <nav className="nanigation">
                 <NavLink className="nanigation-link" to={`/`}>HOME</NavLink>
                 <NavLink className="nanigation-link" to={`/konnektoren`}>

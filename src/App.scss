@@ -62,7 +62,7 @@ body {
 }
 
 .logo {
-  flex: 0 0 calc(var(--index) * 14);
+  flex: 0 0 160px;
   img {
     width: 100%;
     height: auto;
@@ -97,23 +97,44 @@ section {
 }
 
 .connector-card {
+  padding-bottom: 30px;
   max-width: 500px;
   h2 {
     font-size: calc(var(--index) * 3.8);
     margin-bottom: 10px;
     text-align: center;
   }
-  p {
+  &__body {
+    min-height: 100px;
+  }
+  &__text {
     margin: 5px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+
+  &__exemple {
+  }
+
+  &.subjunktionen {
+    strong {
+      color: #0c72d2;
+    }
+  }
+  &.konjunktionen {
+    strong {
+      color: #dea90d;
+    }
+  }
+  &.konjunktionaladverbien {
     strong {
       color: #0cd240;
     }
   }
-  .example-output {
-    min-height: 100px;
-  }
-  .connector-example {
-    margin-bottom: 20px;
+  &.infinitivgruppe {
+    strong {
+      color: #bb0abe;
+    }
   }
 }
 
@@ -137,7 +158,12 @@ section {
     }
   }
 }
-
+.connectors {
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
 .category {
   margin-bottom: 30px;
   &__title {
@@ -153,7 +179,6 @@ section {
   &__words {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
     gap: 10px;
     &::last-child {
       border-bottom: none;
@@ -173,7 +198,7 @@ section {
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
     transition: background-color 0.25s ease-in;
   }
-  .subjunktion & {
+  .subjunktionen & {
     &__title {
       background-color: #0c72d2;
     }
@@ -186,7 +211,7 @@ section {
       }
     }
   }
-  .konjunktion & {
+  .konjunktionen & {
     &__title {
       background-color: #dea90d;
     }
@@ -199,7 +224,7 @@ section {
       }
     }
   }
-  .konjunktionaladverb & {
+  .konjunktionaladverbien & {
     &__title {
       background-color: #0abe3a;
     }
@@ -208,6 +233,19 @@ section {
       @media (any-hover: hover) {
         &:hover {
           background-color: #0abe3a;
+        }
+      }
+    }
+  }
+  .infinitivgruppe & {
+    &__title {
+      background-color: #bb0abe;
+    }
+    &__word {
+      background-color: rgba(#bb0abe, 0.7);
+      @media (any-hover: hover) {
+        &:hover {
+          background-color: #bb0abe;
         }
       }
     }
@@ -245,5 +283,27 @@ section {
 
   strong {
     font-weight: bold;
+  }
+}
+
+.connector-test {
+  &__title {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__body {
+    background-color: #fff;
+    max-width: 950px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px 15px 25px;
+  }
+  &__start-container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__button-start {
   }
 }

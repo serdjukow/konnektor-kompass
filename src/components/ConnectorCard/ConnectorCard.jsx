@@ -4,13 +4,14 @@ function createMarkup(example) {
 
 const ConnectorCard = ({ connector }) => {
     return (
-        <div id={connector.id} className="connector-card">
-            <h2>{connector.connector}</h2>
-            <div className="example-output">
-                <p className="connector-type">{connector.sentence_type}</p>
-                <p className="connector-type">{connector.connector_type}</p>
+        <div id={connector.id} className={`connector-card ${connector.connector_type}`}>
+
+            <div className="connector-card__body">
+                <p className="connector-card__text ">{connector.sentence_type}</p>
+                <h2>{connector.connector}</h2>
+                <p className="connector-card__text">{connector.connector_type}</p>
                 <p
-                    className="connector-example"
+                    className="connector-card__exemple"
                     dangerouslySetInnerHTML={createMarkup(connector.example)}
                 ></p>
             </div>

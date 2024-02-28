@@ -4,6 +4,7 @@ import DataContext from "../../context/DataContext.jsx";
 import Confetti from 'react-confetti'
 import { useWindowSize } from "@uidotdev/usehooks";
 
+
 const ResultPage = () => {
     const { width, height } = useWindowSize()
     const { connectors } = useContext(DataContext);

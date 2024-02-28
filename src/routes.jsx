@@ -4,7 +4,8 @@ import {
 	HOME_ROUTE,
 	KONNEKTOREN_ROUTE,
 	TEST_ROUTE,
-	RESULT_ROUTE
+	RESULT_ROUTE,
+	TEST_START_ROUTE
 } from './utils/consts'
 
 
@@ -12,6 +13,7 @@ const HomePage = lazy(() => import('./Pages/HomePage/HomePage'))
 const KonnektorenPage = lazy(() => import('./Pages/KonnektorenPage/KonnektorenPage'))
 const TestPages = lazy(() => import('./Pages/TestPages'))
 const TestPage = lazy(() => import('./Pages/TestPage/TestPage'))
+const TestStartPage = lazy(() => import('./Pages/TestStartPage/TestStartPage'))
 const ResultPage = lazy(() => import('./Pages/ResultPage/ResultPage'))
 
 // const BlogPage = lazy(() => import('./components/BlogPage'))
@@ -30,7 +32,8 @@ export const useRoutes = () => {
 			</Route>
 
 			<Route path={HOME_ROUTE} element={<TestPages />}>
-				<Route path={TEST_ROUTE} element={<TestPage />} />
+				<Route path={TEST_ROUTE} element={<TestPage />} />				
+				<Route path={TEST_START_ROUTE} element={<TestStartPage />} />
 				<Route path={RESULT_ROUTE} element={<ResultPage />} />
 			</Route>
 

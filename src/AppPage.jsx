@@ -21,7 +21,7 @@ const AppPage = () => {
 
 	async function fetchConnectors() {
 		try {
-			const response = await fetch("db/db3.json");
+			const response = await fetch("db/db.json");
 			if (!response.ok) {
 				throw new Error("Ошибка загрузки данных");
 			}
@@ -29,7 +29,9 @@ const AppPage = () => {
 			const newDate = data.map(el => {
 				return {
 					...el,
-					'id': uuidv4()
+					'id': uuidv4(),
+					"read": false,
+					"learned": false
 				}
 			})
 			localStorage.setItem("connectors", JSON.stringify(newDate));
@@ -53,7 +55,8 @@ const AppPage = () => {
 				connectors: [...connectors],
 				isOpen,
 				chengeIsOpen,
-				setModalContent
+				setModalContent,
+				fetchConnectors
 			}}
 		>
 			<BrowserRouter>
