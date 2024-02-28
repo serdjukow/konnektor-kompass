@@ -17,7 +17,7 @@ const ButtonStartTest = ({ onClick }) => {
         <div onClick={() => {
             onClick()
             animateButton()
-        }} class={`bubbly-button ${animate && 'animate'}`}>Start test</div>
+        }} className={`bubbly-button ${animate && 'animate'}`}>Start test</div>
     )
 }
 

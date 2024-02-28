@@ -1,8 +1,8 @@
 import './connector-test-card.scss'
 
-const ConnectorTestCard = ({ connector, testCardButtonClick }) => {
+const ConnectorTestCard = ({ connector, testCardButtonClick, buttonRef }) => {
     return (
-        <div id={connector.id} onClick={testCardButtonClick} className="connector-test-card">
+        <div id={connector.id} onClick={testCardButtonClick} ref={buttonRef} className="connector-test-card">
             <div className="connector-test-card__title">
                 <h2>{connector.connector}</h2>
             </div>

@@ -18,12 +18,13 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   padding-top: 70px;
   background-image: url(./assets/images/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow-y: auto;
 }
 
 .header {
@@ -305,5 +306,41 @@ section {
     align-items: center;
   }
   &__button-start {
+  }
+}
+
+.result {
+  &__title {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__container {
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+}
+
+.result-table {
+  display: grid;
+  grid-template-columns: 35px repeat(3, 1fr);
+  border: 1px solid #000;
+  &__row {
+    display: contents;
+  }
+  &__cell {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+
+    &.wrong {
+      color: #a40808;
+    }
+    &.right {
+      color: #17d106;
+    }
+  }
+  .cell-header {
+    background-color: #f0f0f0;
   }
 }

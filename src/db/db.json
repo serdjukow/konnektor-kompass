@@ -637,25 +637,25 @@
   },
   {
     "connector": "(an)statt zu",
-    "sentence_type": "",
+    "sentence_type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "<strong>Anstatt</strong> etwas <strong>zu</strong> essen, gehe ich heute hungrig schlafen."
   },
   {
     "connector": "außer zu",
-    "sentence_type": "",
+    "sentence_type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "Ich habe im Urlaub fast nichts gemacht, <strong>außer</strong> am Strand <strong>zu</strong> schlafen."
   },
   {
     "connector": "ohne zu",
-    "sentence_type": "",
+    "sentence_type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "Ich kann nicht losfahren, <strong>ohne</strong> dich nochmals <strong>zu</strong> treffen."
   },
   {
     "connector": "um zu",
-    "sentence_type": "",
+    "sentence_type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "<strong>Um</strong> den Test <strong>zu</strong> bestehen, musst du viel lernen."
   }

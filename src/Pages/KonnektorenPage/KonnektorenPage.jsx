@@ -1,19 +1,17 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import DataContext from "../../context/DataContext";
 import ConnectorList from '../../components/ConnectorList/ConnectorList'
+import Loader from '../../Layouts/Loader/Loader'
 
 const KonnektorenPage = () => {
-    const { connectors, fetchConnectors } = useContext(DataContext);
+    const { connectors } = useContext(DataContext);
 
-    useEffect(() => {
-        !connectors.length && fetchConnectors();
-    });
     return (
         <section id="connectors">
             <div className="connectors__title">
                 <h2>Wörter, die man als Satzverbindung verwenden kann</h2>
             </div>
-            {connectors && <ConnectorList connectors={connectors} />}
+            {connectors ? <ConnectorList connectors={connectors} /> : <Loader />}
         </section>
     )
 }

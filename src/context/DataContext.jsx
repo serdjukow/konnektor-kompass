@@ -7,6 +7,7 @@ const DataContext = createContext({
 	isOpen: Boolean,
 	chengeIsOpen: noop,
 	setModalContent: noop,
+	setConnectors: noop,
 	fetchConnectors: noop
 })
 

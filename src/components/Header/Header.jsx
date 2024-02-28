@@ -15,9 +15,6 @@ const Header = () => {
                 <NavLink className="nanigation-link" to={`/test`}>
                     Test
                 </NavLink>
-                {/* <NavLink className="nanigation-link" to={`/test/result`}>
-                    Test result
-                </NavLink> */}
             </nav>
            
         </header>

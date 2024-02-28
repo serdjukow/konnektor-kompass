@@ -1,85 +1,97 @@
-import React, { useState, useContext, useEffect } from "react";
-import { useNavigate } from 'react-router-dom'
+import React, { useState, useContext, useEffect, useRef } from "react";
 import DataContext from "../../context/DataContext.jsx";
 import ConnectorTestCard from "../../components/ConnectorTestCard/ConnectorTestCard.jsx";
 import Progress from '../../components/Progress/Progress.jsx'
 import 'react-circular-progressbar/dist/styles.css';
+import ResultPage from '../../Pages/ResultPage/ResultPage.jsx'
+import { v4 as uuidv4 } from "uuid";
+import data from '../../db/db.json'
 
 const TestStartPage = () => {
-    const { connectors } = useContext(DataContext);
-    const [connectorsData, setConnectorsData] = useState(connectors);
-    const [randomConnector, setRandomConnector] = useState(null);
-    const [currentValue, setCurrentValue] = useState(0);
-    const [riededConnectors, setRiededConnectors] = useState(0);
-
+    const { connectors, setConnectors } = useContext(DataContext);
+    const [randomConnector, setRandomConnector] = useState({});
+    const [unriededConnectors, setUnriededConnectors] = useState(connectors);
+    const buttonRef = useRef(null);
 
     const addRiededConnectors = () => {
-        let readConnectors = connectorsData.filter(connector => connector.read === true);
-        setRiededConnectors(readConnectors.length)
+        let unread = connectors?.filter(connector => connector?.read === false);
+        setUnriededConnectors(unread)
     }
 
     const getRandomConnector = () => {
-        const randomConnector =
-            connectorsData.length && connectorsData[Math.floor(Math.random() * connectors.length)];
+        const randomConnector = unriededConnectors[Math.floor(Math.random() * unriededConnectors.length)]
         setRandomConnector(randomConnector);
     };
 
-    console.log(randomConnector)
-    const removeConnector = () => {
-        let id = randomConnector && randomConnector.id;
-        const updatedConnectors = connectorsData.filter(
-            (connector) => connector.id !== id
-        );
-
-        const localStorageData = JSON.parse(localStorage.getItem("connectors"));
-        const updatedLocalStorageData = localStorageData.filter(
-            (connector) => connector.id !== id
-        );
-        localStorage.setItem("connectors", JSON.stringify(updatedLocalStorageData));
-    };
-    const history = useNavigate()
-    const goBack = () => {
-        history(-1)
-    }
-    const onClick = event => {
-        history('/test/start')
-
-    }
-
     useEffect(() => {
-        getRandomConnector()
         addRiededConnectors()
+        getRandomConnector()
     }, [])
 
-    useEffect(() => {
-        //addRiededConnectors()
-    }, [connectorsData])
-
-    const handleConnectorClick = (index) => {
-        const nextShapes = connectorsData.filter(connector => connector.id !== index); 
-        setConnectorsData(nextShapes)
+    const handleConnectorClick = (index, feld) => {
+        const newConnectors = connectors.map(item => {
+            if (item.id === index) {
+                return {
+                    ...item,
+                    "read": true,
+                    "answer": feld
+                }
+            }
+            return item
+        })
+        setConnectors(newConnectors)
+        getRandomConnector()
     };
 
     const testCardButtonClick = (e) => {
-        handleConnectorClick(e.currentTarget.id);
-        getRandomConnector()
-        //addRiededConnectors()
+        const id = buttonRef.current.id;
+        addRiededConnectors()
+        handleConnectorClick(id, e.target.id);
     }
-   
+
+    useEffect(() => {
+        const newDate = data.map((el) => {
+            return {
+                ...el,
+                id: uuidv4(),
+                read: false,
+                learned: false,
+                answer: '',
+            };
+        });
+        sessionStorage.setItem("connectors", JSON.stringify(newDate));
+        setConnectors(newDate)
+    }, []);
+
+    const getPerzent = (x, y) => {
+        return x - y
+    }
+    console.log(getPerzent(connectors.length, unriededConnectors.length));
+    console.log(connectors.length, unriededConnectors.length);
 
     return (
-        <section className="connector-test">
-            <div className="connector-test__container">
-                <div className="connector-test__title">
-                    <h2>Test</h2>
-                </div>
-                <Progress bgcolor="#6a1b9a" completed={connectors.length} currentValue={connectors.length - connectorsData.length} />
-                <div className="connector-test__body">
-                    {randomConnector && <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} />}
-                </div>
-            </div>
-        </section>
+        <>
+            {randomConnector ? (
+                <section className="connector-test" >
+                    <div className="connector-test__container">
+                        <div className="connector-test__title">
+                            <h2>Test</h2>
+                        </div>                       
+                        <Progress bgcolor="#6a1b9a" completed={connectors.length} currentValue={getPerzent(connectors.length, unriededConnectors.length)} />
+                        <div className="connector-test__body">
+                            <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} buttonRef={buttonRef} />
+                        </div>
+                    </div>
+                </section>
+            ) : (
+                <ResultPage />
+            )}
+        </>
+
     )
 }
 
 export default TestStartPage
+
+
+

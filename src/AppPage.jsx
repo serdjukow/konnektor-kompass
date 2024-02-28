@@ -1,4 +1,4 @@
-import { Suspense, useState, useEffect, createContext } from 'react'
+import { Suspense, useState, useEffect } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import Loader from './Layouts/Loader/Loader'
 import { useRoutes } from './routes'
@@ -7,34 +7,34 @@ import Footer from "./components/Footer/Footer";
 import DataContext from './context/DataContext'
 import Modal from './components/Modal/Modal'
 import "./App.scss";
-import { v4 as uuidv4 } from 'uuid';
-
-
+import { v4 as uuidv4 } from "uuid";
+import data from './db/db.json'
 
 const AppPage = () => {
 	const routes = useRoutes()
 	const [connectors, setConnectors] = useState([
-		...(JSON.parse(localStorage.getItem("connectors")) || []),
+		...(JSON.parse(sessionStorage.getItem("connectors")) || []),
 	]);
 	const [isOpen, setIsOpen] = useState(false)
 	const [modalContent, setModalContent] = useState({})
 
 	async function fetchConnectors() {
 		try {
-			const response = await fetch("db/db.json");
+			const response = await fetch("./db/db.json");
 			if (!response.ok) {
 				throw new Error("Ошибка загрузки данных");
 			}
 			const data = await response.json();
-			const newDate = data.map(el => {
+			const newDate = data.map((el) => {
 				return {
 					...el,
-					'id': uuidv4(),
-					"read": false,
-					"learned": false
-				}
-			})
-			localStorage.setItem("connectors", JSON.stringify(newDate));
+					id: uuidv4(),
+					read: false,
+					learned: false,
+					answer: '',
+				};
+			});
+			sessionStorage.setItem("connectors", JSON.stringify(newDate));
 			setConnectors(newDate);
 		} catch (error) {
 			console.error("Ошибка:", error.message);
@@ -42,8 +42,18 @@ const AppPage = () => {
 	}
 
 	useEffect(() => {
-		!connectors.length && fetchConnectors();
-	});
+		const newDate = data.map((el) => {
+			return {
+				...el,
+				id: uuidv4(),
+				read: false,
+				learned: false,
+				answer: '',
+			};
+		});
+		sessionStorage.setItem("connectors", JSON.stringify(newDate));
+		setConnectors(newDate)
+	}, []);
 
 	const chengeIsOpen = () => {
 		setIsOpen(!isOpen)
@@ -52,11 +62,11 @@ const AppPage = () => {
 	return (
 		<DataContext.Provider
 			value={{
-				connectors: [...connectors],
+				connectors,
+				setConnectors,
 				isOpen,
 				chengeIsOpen,
-				setModalContent,
-				fetchConnectors
+				setModalContent
 			}}
 		>
 			<BrowserRouter>

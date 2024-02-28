@@ -3,32 +3,58 @@ import { useNavigate } from 'react-router-dom'
 import DataContext from "../../context/DataContext.jsx";
 import Confetti from 'react-confetti'
 import { useWindowSize } from "@uidotdev/usehooks";
-
+import { v4 as uuidv4 } from "uuid";
+import data from '../../db/db.json'
 
 const ResultPage = () => {
     const { width, height } = useWindowSize()
-    const { connectors } = useContext(DataContext);
+    const { connectors, setConnectors } = useContext(DataContext);
     const history = useNavigate()
-    const goBack = () => {
-        history(-1)
+    const restsrt = () => {
+        const newDate = data.map((el) => {
+            return {
+                ...el,
+                id: uuidv4(),
+                read: false,
+                learned: false,
+                answer: '',
+            };
+        });
+        sessionStorage.setItem("connectors", JSON.stringify(newDate));
+        setConnectors(newDate)
+        history('/test')
     }
 
     return (
-        <section id="result">
-            <h2>result</h2>
-            <div className="info-panel">
-                <span className="connectors-value">{connectors.length || 0}</span>
-                <span className="answer-wrong">0</span>
-                <span className="answer-right">0</span>
+        <section id="result" className="result">
+            <h2 className="result__title">result</h2>
+            <div className="result__container">
+                <div className="result__table result-table">
+                    <div className="result-table__row">
+                        <div className="result-table__cell cell-header">Nr.</div>
+                        <div className="result-table__cell cell-header">Konnektor</div>
+                        <div className="result-table__cell cell-header">Antwort</div>
+                        <div className="result-table__cell cell-header">Richtige Antwort</div>
+                    </div>
+                    {connectors.map((item,id) => (
+                        <div key={item.id} className="result-table__row">
+                            <div className="result-table__cell cell-header">{id + 1}</div>
+                            <div className="result-table__cell ">{item.connector}</div>
+                            <div className={`result-table__cell ${item.answer !== item.sentence_type ? 'wrong' : 'right'}`}>{item.answer}</div>
+                            <div className="result-table__cell">{`${item.sentence_type} (${item.connector_type})`}</div>
+                        </div>
+                    ))}
+                </div>
             </div>
             <div className="options">
                 <button
-                    onClick={goBack}
+                    onClick={restsrt}
                     className="option"
                 >
-                    Back
+                    New starten
                 </button>
             </div>
+            
             <Confetti
                 width={width}
                 height={height}
