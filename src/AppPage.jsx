@@ -42,10 +42,10 @@ const AppPage = () => {
 	}
 
 	useEffect(() => {
-		const newDate = data.map((el) => {
+		const newDate = data.map((el, id) => {
 			return {
 				...el,
-				id: uuidv4(),
+				id: uuidv4() + id,
 				read: false,
 				learned: false,
 				answer: '',

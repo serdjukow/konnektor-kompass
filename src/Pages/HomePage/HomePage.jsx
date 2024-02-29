@@ -1,63 +1,18 @@
 const HomePage = () => {
     return (
-        <section className="home"><h1>Wichtige Hinweise</h1>
+        <section className="home">
+            <h1 className="home__title">Über das Projekt</h1>
+            <div className="home__container">
+                <p>Herzlich willkommen auf unserer Website! Unser Projekt bietet eine interaktive Möglichkeit, die deutschen Konnektoren zu lernen und zu trainieren. Konnektoren sind Wörter oder Wortgruppen, die Sätze oder Satzteile miteinander verbinden und dadurch den Textfluss verbessern. Durch die gezielte Verwendung von Konnektoren kann man seine Deutschkenntnisse effektiv verbessern und seinen Sprachstil verfeinern.</p>
+                <p>Unser Projekt ist nicht kommerziell und sammelt keine persönlichen Daten der Benutzer. Unser Hauptziel ist es, ein nützliches und zugängliches Lernwerkzeug für alle zu schaffen, die ihre Deutschkenntnisse vertiefen möchten.</p>
+                <p>Wir hoffen, dass Ihnen unser Projekt gefällt und Sie davon profitieren können. Viel Spaß beim Lernen!</p>
+                <div className="home__email">
+                    <p>Haben Sie Fragen, Anregungen oder Probleme? Zögern Sie nicht, uns zu kontaktieren!</p>
+                    <p>Sie können uns eine E-Mail senden an: <a href="mailto:sergej@serdjukow.eu">sergej@serdjukow.eu</a></p>
+                </div>
+            </div>
 
-            <h2>Andere Namen:</h2>
-            <p>
-                Viele Lehrer, Lerner und auch der Duden benutzen das Wort „Konjunktion“ als
-                Synonym für „Konnektor“. Das ist zwar von der Definition für „Konjunktion“ durchaus
-                richtig, macht es aber unglaublich schwer, die Unterschiede zwischen den einzelnen
-                Konnektoren zu erkennen und zu verstehen.
-            </p>
-
-            <h3>Meine Definition für Konjunktion, Subjunktion und Konjunktionaladverb:</h3>
-            <p>
-                Kleine Warnung: Meine Definition entspricht nicht zu 100% der Definition, die im
-                Duden steht. Meine Definition unterstützt aber das Verständnis für dich als Lerner, da
-                ich mich auf die Dinge konzentriere, die ein Deutschlerner auch wirklich braucht.
-            </p>
-
-            <h2>Konnektor</h2>
-            <p>
-                Alle Wörter, die Sätze, Satzteile, Satzglieder oder einzelne Wörter
-                miteinander verbinden und keine Präposition sind.
-            </p>
-
-            <h2>Konjunktion</h2>
-            <p>
-                Alle Konnektoren, die das Verb nicht ans Ende schicken und auf
-                Position 0 im Satz stehen, wie zum Beispiel „und“ oder „denn“.
-            </p>
-            <p>Heißen auch: „Nebenordnende Konjunktionen“</p>
-
-            <h2>Subjunktion</h2>
-            <p>
-                Alle Konnektoren, die das Verb ans Ende schicken, wie zum Beispiel
-                „weil“ oder „wenn“.
-            </p>
-            <p>Heißen auch: „Unterordnende Konjunktionen“</p>
-
-            <h2>Konjunktionaladverb</h2>
-            <p>
-                Alle Konnektoren, die das Verb nicht ans Ende schicken, aber
-                auf Position 1 im Satz stehen, wie zum Beispiel „deswegen“ oder
-                „trotzdem“.
-            </p>
-
-            <h2>Sprachgebrauch:</h2>
-            <p>
-                <strong>gehoben:</strong> Wird nur benutzt, wenn man besonders gebildet klingen
-                möchte. Kein Alltagsdeutsch.
-            </p>
-            <p>
-                <strong>standardsprachlich:</strong> Alle normal im Alltag benutzten Wendungen, die auch vom
-                Duden als korrekt anerkannt sind.
-            </p>
-            <p>
-                <strong>veraltet:</strong> Diese Konnektoren werden in der gesprochenen Sprache
-                nicht/kaum mehr benutzt. Du findest sie aber noch in älteren
-                Büchern und Texten.
-            </p></section>
+        </section>
     )
 }
 

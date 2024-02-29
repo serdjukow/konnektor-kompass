@@ -5,6 +5,7 @@ import Confetti from 'react-confetti'
 import { useWindowSize } from "@uidotdev/usehooks";
 import { v4 as uuidv4 } from "uuid";
 import data from '../../db/db.json'
+import ButtonStartTest from '../../components/ButtonStartTest/ButtunStartTest.jsx'
 
 const ResultPage = () => {
     const { width, height } = useWindowSize()
@@ -24,10 +25,13 @@ const ResultPage = () => {
         setConnectors(newDate)
         history('/test')
     }
-
+    
+    const onClick = () => {
+        history('/test/start')
+    }
     return (
         <section id="result" className="result">
-            <h2 className="result__title">result</h2>
+            <h2 className="result__title">Deine Ergebnisse</h2>
             <div className="result__container">
                 <div className="result__table result-table">
                     <div className="result-table__row">
@@ -36,7 +40,7 @@ const ResultPage = () => {
                         <div className="result-table__cell cell-header">Antwort</div>
                         <div className="result-table__cell cell-header">Richtige Antwort</div>
                     </div>
-                    {connectors.map((item,id) => (
+                    {connectors.map((item, id) => (
                         <div key={item.id} className="result-table__row">
                             <div className="result-table__cell cell-header">{id + 1}</div>
                             <div className="result-table__cell ">{item.connector}</div>
@@ -46,15 +50,10 @@ const ResultPage = () => {
                     ))}
                 </div>
             </div>
-            <div className="options">
-                <button
-                    onClick={restsrt}
-                    className="option"
-                >
-                    New starten
-                </button>
+            <div className="result__buttons">
+                <ButtonStartTest onClick={onClick}>Neuer Test</ButtonStartTest>
             </div>
-            
+
             <Confetti
                 width={width}
                 height={height}

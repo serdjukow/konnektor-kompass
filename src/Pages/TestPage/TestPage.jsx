@@ -10,7 +10,7 @@ const TestPage = () => {
     return (
         <section className="test">
             <div className="connector-test__start-container">
-                <ButtonStartTest onClick={onClick} />
+                <ButtonStartTest onClick={onClick}>Start test</ButtonStartTest>
             </div>
         </section>
     )

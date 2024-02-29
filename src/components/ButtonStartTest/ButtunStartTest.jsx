@@ -3,7 +3,7 @@ import './button-start-test.scss'
 
 
 
-const ButtonStartTest = ({ onClick }) => {
+const ButtonStartTest = (props) => {
     const [animate, setAnimate] = useState(false)
 
     const animateButton = () => {
@@ -15,9 +15,9 @@ const ButtonStartTest = ({ onClick }) => {
 
     return (
         <div onClick={() => {
-            onClick()
+            props.onClick()
             animateButton()
-        }} className={`bubbly-button ${animate && 'animate'}`}>Start test</div>
+        }} className={`bubbly-button ${animate && 'animate'}`}>{props.children}</div>
     )
 }
 

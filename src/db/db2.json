@@ -237,12 +237,6 @@
     "connector": "wenngleich",
     "sentence_type": "nebensatz",
     "connector_type": "subjunktionen",
-    "example": "Ich bin sehr zufrieden in Berlin, <strong>obwohl</strong> ich meine Familie in Madrid vermisse."
-  },
-  {
-    "connector": "wenngleich",
-    "sentence_type": "nebensatz",
-    "connector_type": "subjunktionen",
     "example": "Ich bin sehr zufrieden in Berlin, <strong>wenngleich</strong> ich meine Familie in Madrid vermisse."
   },
   {
@@ -378,7 +372,7 @@
     "example": "Bald habe ich eine Prüfung, <strong>bis dahin</strong> werde ich fleißig lernen."
   },
   {
-    "connector": "da**",
+    "connector": "da",
     "sentence_type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Wir schlafen in der Küche, <strong>da</strong> ist es viel wärmer als in unserem Zimmer."
