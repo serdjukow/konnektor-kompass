@@ -25,9 +25,9 @@ const ResultPage = () => {
         setConnectors(newDate)
         history('/test')
     }
-    
+
     const onClick = () => {
-        history('/test/start')
+        history('/test')
     }
     return (
         <section id="result" className="result">
