@@ -60,10 +60,18 @@
     "example": "Sie müssen die Straße weiterfahren, <strong>bis</strong> Sie die Linden auf der rechten Seite sehen können."
   },
   {
-    "connector": "da",
+    "connector": "da**",
     "sentence_type": "nebensatz",
     "connector_type": "subjunktionen",
-    "example": "Ich war gestern beim Arzt, <strong>da</strong> ich starke Kopfschmerzen hatte."
+    "example": "Ich war gestern beim Arzt, <strong>da</strong> ich starke Kopfschmerzen hatte.",
+    "comment": {
+      "title": "** Anmerkungen zu „da“:",
+      "text": [
+        "Nebensatz: Wir schlafen, da wir müde sind. (= Wir schlafen, weil wir müde sind.)",
+        "Hauptsatz: Wir wohnen in Berlin; da gefällt es uns gut. (= In Berlin gefällt es uns gut.)",
+        "Hauptsatz: Wir diskutierten; da hörten wir ein Geräusch. (= Beim Diskutieren hörten wir etwas.)"
+      ]
+    }
   },
   {
     "connector": "dadurch dass",
@@ -72,10 +80,17 @@
     "example": "Sie können das Video <strong>dadurch dass</strong> sie auf “Play” klicken."
   },
   {
-    "connector": "damit",
+    "connector": "damit***",
     "sentence_type": "nebensatz",
     "connector_type": "subjunktionen",
-    "example": "Bitte lassen Sie mich wissen, wie der aktuelle Stand der Dinge ist, <strong>damit</strong> ich eine Entscheidung treffen kann."
+    "example": "Bitte lassen Sie mich wissen, wie der aktuelle Stand der Dinge ist, <strong>damit</strong> ich eine Entscheidung treffen kann.",
+    "comment": {
+      "title": "*** Anmerkungen zu „damit“:",
+      "text": [
+        "Nebensatz: Er spart Geld, damit er sich ein Auto kaufen kann. (= Er spart Geld, um sich ein Auto zu kaufen.)",
+        "Hauptsatz: Das ist mein neuer Kuli; damit kann man gut schreiben. (= „schreiben“ + „mit“)"
+      ]
+    }
   },
   {
     "connector": "dass",
@@ -243,7 +258,14 @@
     "connector": "wie",
     "sentence_type": "nebensatz",
     "connector_type": "subjunktionen",
-    "example": "Du musst mir bitte erzählen, <strong>wie</strong> es funktioniert."
+    "example": "Du musst mir bitte erzählen, <strong>wie</strong> es funktioniert.",
+    "comment": {
+      "title": "* Anmerkung: Alle Fragewörter in indirekten Fragesätzen dienen als Konnektoren mit Nebensatz.",
+      "text": [
+        "Beispiele: Ich weiß nicht, wie er heißt.",
+        "Ich frage, wann der Film beginnt. Ich weiß, wo sie wohnt. Er erkundigt sich, welche U‐Bahn er nehmen muss."
+      ]
+    }
   },
   {
     "connector": "wiewohl",
@@ -372,10 +394,18 @@
     "example": "Bald habe ich eine Prüfung, <strong>bis dahin</strong> werde ich fleißig lernen."
   },
   {
-    "connector": "da",
+    "connector": "da**",
     "sentence_type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
-    "example": "Wir schlafen in der Küche, <strong>da</strong> ist es viel wärmer als in unserem Zimmer."
+    "example": "Wir schlafen in der Küche, <strong>da</strong> ist es viel wärmer als in unserem Zimmer.",
+    "comment": {
+      "title": "** Anmerkungen zu „da“:",
+      "text": [
+        "Nebensatz: Wir schlafen, da wir müde sind. (= Wir schlafen, weil wir müde sind.)",
+        "Hauptsatz: Wir wohnen in Berlin; da gefällt es uns gut. (= In Berlin gefällt es uns gut.)",
+        "Hauptsatz: Wir diskutierten; da hörten wir ein Geräusch. (= Beim Diskutieren hörten wir etwas.)"
+      ]
+    }
   },
   {
     "connector": "dadurch",
@@ -405,7 +435,14 @@
     "connector": "damit***",
     "sentence_type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
-    "example": "Das ist mein neues Fahrrad, <strong>damit</strong> kann man schnell fahren."
+    "example": "Das ist mein neues Fahrrad, <strong>damit</strong> kann man schnell fahren.",
+    "comment": {
+      "title": "*** Anmerkungen zu „damit“:",
+      "text": [
+        "Nebensatz: Er spart Geld, damit er sich ein Auto kaufen kann. (= Er spart Geld, um sich ein Auto zu kaufen.)",
+        "Hauptsatz: Das ist mein neuer Kuli; damit kann man gut schreiben. (= „schreiben“ + „mit“)"
+      ]
+    }
   },
   {
     "connector": "danach",

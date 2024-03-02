@@ -14,6 +14,17 @@ const ConnectorCard = ({ connector }) => {
                     className="connector-card__exemple"
                     dangerouslySetInnerHTML={createMarkup(connector.example)}
                 ></p>
+                {
+                    connector.comment && (
+                        <div className="connector-card__comment">
+                            <h5 className="connector-card__comment-title">* Anmerkung: Alle Fragewörter in indirekten Fragesätzen dienen als Konnektoren mit Nebensatz.</h5>
+                            {connector.comment.text.map((item, id) => (
+                                <p key={id} className="connector-card__comment-text">{item}</p>
+                            ))}
+                        </div>
+                    )
+                }
+
             </div>
         </div>
     );

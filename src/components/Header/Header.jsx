@@ -49,15 +49,6 @@ const Header = () => {
             <Link to="/" className="logo">
                 <img src={Logo} alt="Logo" />
             </Link>
-            {/* <nav className={`nanigation ${isMenuOpen ? '_active' : ''}`}>
-                <NavLink className="nanigation__link" to={`/`}>HOME</NavLink>
-                <NavLink className="nanigation__link" to={`/konnektoren`}>
-                    Konnektoren
-                </NavLink>
-                <NavLink className="nanigation__link" to={`/test`}>
-                    Test
-                </NavLink>
-            </nav> */}
             <NavigationLink />
             <div className={`menu__button ${isMenuOpen ? '_active' : ''}`} onClick={menuOpen}>
                 <div className={`menu__icon ${isMenuOpen ? '_active' : ''}`}>
