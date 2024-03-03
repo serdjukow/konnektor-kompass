@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import konnektoren_uebersicht from '../../assets/images/konnektoren.png'
 import konnektoren_test from '../../assets/images/konnektor-test.png'
 import test_result from '../../assets/images/test_result.png'
@@ -37,10 +38,9 @@ const HomePage = () => {
                 </div>
                 <div className="home__email">
                     <p>Haben Sie Fragen, Anregungen oder Probleme? Zögern Sie nicht, uns zu kontaktieren!</p>
-                    <p>Sie können uns eine E-Mail senden an: <a href="mailto:sergej@serdjukow.eu">sergej@serdjukow.eu</a></p>
+                    <p>Sie können uns eine E-Mail senden an: <Link href="mailto:support@serdjukow.eu">support@serdjukow.eu</Link></p>
                 </div>
             </div>
-
         </section>
     )
 }

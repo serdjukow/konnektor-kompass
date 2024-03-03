@@ -17,7 +17,7 @@ const ConnectorCard = ({ connector }) => {
                 {
                     connector.comment && (
                         <div className="connector-card__comment">
-                            <h5 className="connector-card__comment-title">* Anmerkung: Alle Fragewörter in indirekten Fragesätzen dienen als Konnektoren mit Nebensatz.</h5>
+                            <h5 className="connector-card__comment-title">{connector.comment.title}</h5>
                             {connector.comment.text.map((item, id) => (
                                 <p key={id} className="connector-card__comment-text">{item}</p>
                             ))}

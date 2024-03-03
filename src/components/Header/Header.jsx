@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import Logo from '../../assets/images/logo-2.png'
+import { menuList, HOME_ROUTE } from '../../utils/consts'
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -8,31 +9,9 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen)
     }
 
-    const onNavLinkClick = () => {
-        setIsMenuOpen(!isMenuOpen)
-    }
-
-
-    const menuList = [
-        {
-            itemName: 'Home',
-            itemLink: '/'
-        },
-        {
-            itemName: 'Konnektoren',
-            itemLink: '/konnektoren'
-        },
-        {
-            itemName: 'Test',
-            itemLink: '/test'
-        }
-    ]
-
-
-
     const NavigationLink = () => {
         return (
-            <nav className={`nanigation ${isMenuOpen ? '_active' : ''}`}>
+            <nav className={`nanigation ${isMenuOpen && '_active'}`}>
                 {menuList.map((item, id) => {
                     return (
                         <NavLink key={id} onClick={() => setIsMenuOpen(!isMenuOpen)} className="nanigation__link" to={item.itemLink}>
@@ -46,12 +25,12 @@ const Header = () => {
 
     return (
         <header className="header">
-            <Link to="/" className="logo">
-                <img src={Logo} alt="Logo" />
+            <Link to={HOME_ROUTE} className="logo">
+                <img src={Logo} alt="Konnektor Kompas Logo" />
             </Link>
             <NavigationLink />
-            <div className={`menu__button ${isMenuOpen ? '_active' : ''}`} onClick={menuOpen}>
-                <div className={`menu__icon ${isMenuOpen ? '_active' : ''}`}>
+            <div className={`menu__button ${isMenuOpen && '_active'}`} onClick={menuOpen}>
+                <div className={`menu__icon ${isMenuOpen && '_active'}`}>
                     <span></span>
                 </div>
             </div>
