@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import konnektoren_uebersicht from '../../assets/images/konnektoren.png'
 import konnektoren_test from '../../assets/images/konnektor-test.png'
 import test_result from '../../assets/images/test_result.png'
+import anzahl from '../../assets/images/anzahl.png'
 
 const HomePage = () => {
     return (
@@ -21,6 +22,14 @@ const HomePage = () => {
                     <p>Auf dieser Seite finden Sie eine Übersicht über einige der wichtigsten Konnektoren. Durch Klicken auf jeden Konnektor wird ein Fenster mit einem Beispielsatz angezeigt.</p>
                     <div className="home__img">
                         <img src={konnektoren_uebersicht} alt="Konnektoren-Übersicht" />
+                    </div>
+
+                    <h3 className="home__subtitle">Anzahl der Test-Fragen auswählen</h3>
+                    <p>Um den Test an Ihre Bedürfnisse anzupassen, können Sie die Anzahl der Fragen auswählen, die im Test angezeigt werden sollen.</p>
+                    <p>Wählen Sie einfach die gewünschte Anzahl aus der Dropdown-Liste aus und klicken Sie auf "Start", um den Test zu beginnen.</p>
+                    <p>Je nach Ihrer Auswahl werden nur die entsprechende Anzahl von Fragen im Test angezeigt.</p>
+                    <div className="home__img">
+                        <img src={anzahl} alt="Konnektoren-Test" />
                     </div>
 
                     <h3 className="home__subtitle">Konnektoren-Test</h3>

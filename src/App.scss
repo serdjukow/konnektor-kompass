@@ -41,6 +41,7 @@ body {
   color: #fff;
   padding: 5px 10px;
   text-align: center;
+  z-index: 100;
 }
 
 .nanigation {
@@ -91,6 +92,17 @@ body {
     width: 100%;
     height: auto;
   }
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .info-panel {
@@ -163,9 +175,12 @@ section {
       color: #bb0abe;
     }
   }
-  &__comment {}
-  &__comment-title {}
-  &__comment-text {}
+  &__comment {
+  }
+  &__comment-title {
+  }
+  &__comment-text {
+  }
 }
 
 .options {
@@ -396,12 +411,27 @@ section {
     padding: 15px 15px 25px;
   }
   &__start-container {
-    min-height: 70vh;
+    min-height: 20vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
   }
   &__button-start {
+  }
+
+  &__text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__select {
+    margin-bottom: 20px;
   }
 }
 
@@ -423,29 +453,69 @@ section {
     justify-content: center;
     margin-bottom: 30px;
   }
+  &__panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    gap: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  &__panel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+.panel-item {
+  &__value {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  &.item-all {
+    color: #0c72d2;
+  }
+  &.item-right {
+    color: #2dd60c;
+  }
+  &.item-wrong {
+    color: #d70909;
+  }
 }
 
 .result-table {
   display: grid;
   grid-template-columns: 35px repeat(3, 1fr);
-  border: 1px solid #333;
+  border: 1px solid #d7d7d7;
+  color: #4b4a4a;
+  margin-bottom: 30px;
   &__row {
     display: contents;
   }
   &__cell {
-    border: 1px solid #333;
+    border: 1px solid #d7d7d7;
     padding: 5px;
     text-align: center;
 
     &.wrong {
-      color: #a40808;
+      color: #d70909;
+      text-decoration: line-through;
     }
     &.right {
       color: #17d106;
     }
   }
   .cell-header {
-    background-color: #f0f0f0;
+    background-color: #f5f5f5;
+    color: #757575;
+  }
+  .cell-answer {
+    text-transform: capitalize;
   }
 }
 

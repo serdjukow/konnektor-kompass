@@ -8,7 +8,12 @@ const DataContext = createContext({
 	chengeIsOpen: noop,
 	setModalContent: noop,
 	setConnectors: noop,
-	fetchConnectors: noop
+	fetchConnectors: noop,
+	activeItem: {},
+	setActiveItem: noop,
+	currentConnectors: [], 
+	setCurrentConnectors: noop,
+	updateCurrentConnectors: noop
 })
 
 export default DataContext

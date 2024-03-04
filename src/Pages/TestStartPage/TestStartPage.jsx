@@ -6,11 +6,10 @@ import 'react-circular-progressbar/dist/styles.css';
 import ResultPage from '../../Pages/ResultPage/ResultPage.jsx'
 
 const TestStartPage = () => {
-    const { connectors, setConnectors } = useContext(DataContext);
-    const [unreadConnectors, setUmreadConnectors] = useState(connectors.sort(() => Math.random() - 0.5));
+    const { currentConnectors, setCurrentConnectors } = useContext(DataContext);  
+    const [unreadConnectors,] = useState(currentConnectors);
     const [readConnector, setReadConnector] = useState([]);
     const [randomConnector, setRandomConnector] = useState({});
-
     const buttonRef = useRef(null);
 
     useEffect(() => {
@@ -18,7 +17,7 @@ const TestStartPage = () => {
     }, [])
 
     const handleConnectorClick = (index, feld) => {
-        const newConnectors = connectors.map(item => {
+        const newConnectors = currentConnectors.map(item => {
             if (item.id === index) {
                 const newItem = {
                     ...item,
@@ -30,12 +29,11 @@ const TestStartPage = () => {
             }
             return item
         })
-        setConnectors(newConnectors)
+        setCurrentConnectors(newConnectors)
         unreadConnectors?.splice(0, 1)
     };
 
     const testCardButtonClick = (e) => {
-        const id = buttonRef.current.id;
         if (e.target.classList.contains('connector-test-card__button')) {
             handleConnectorClick(e.currentTarget.id, e.target.id);
             setRandomConnector(unreadConnectors[0])
@@ -44,20 +42,20 @@ const TestStartPage = () => {
 
     return (
         <>
-            {randomConnector ? (
+            {currentConnectors.length && randomConnector  ? (
                 <section className="connector-test" >
                     <div className="connector-test__container">
                         <div className="connector-test__title">
                             <h2>Test</h2>
                         </div>
-                        <Progress bgcolor="#6a1b9a" completed={connectors.length} currentValue={readConnector.length} />
+                        <Progress bgcolor="#6a1b9a" completed={currentConnectors.length} currentValue={readConnector.length} />
                         <div className="connector-test__body">
                             <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} buttonRef={buttonRef} />
                         </div>
                     </div>
                 </section>
             ) : (
-                <ResultPage />
+                <ResultPage currentConnectors={currentConnectors} />
             )}
         </>
 

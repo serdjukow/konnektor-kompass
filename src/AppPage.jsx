@@ -17,30 +17,15 @@ const AppPage = () => {
 	]);
 	const [isOpen, setIsOpen] = useState(false)
 	const [modalContent, setModalContent] = useState({})
+	const [activeItem, setActiveItem] = useState(JSON.parse(sessionStorage.getItem("activeItem")) || { label: 'Alle Fragen', value: +connectors.length })
+	const [currentConnectors, setCurrentConnectors] = useState([]);
 
-	async function fetchConnectors() {
-		try {
-			const response = await fetch("./db/db.json");
-			if (!response.ok) {
-				throw new Error("Ошибка загрузки данных");
-			}
-			const data = await response.json();
-			const newDate = data.map((el) => {
-				return {
-					...el,
-					id: uuidv4(),
-					read: false,
-					learned: false,
-					answer: '',
-				};
-			});
-			sessionStorage.setItem("connectors", JSON.stringify(newDate));
-			setConnectors(newDate);
-		} catch (error) {
-			console.error("Ошибка:", error.message);
-		}
+	function updateCurrentConnectors(value) {
+		const shuffledConnectors = connectors.sort(() => Math.random() - 0.5);
+		const selectedQuestions = shuffledConnectors.slice(0, value);
+		setCurrentConnectors(selectedQuestions);
 	}
-
+	
 	useEffect(() => {
 		const newDate = data.map((el, id) => {
 			return {
@@ -66,7 +51,12 @@ const AppPage = () => {
 				setConnectors,
 				isOpen,
 				chengeIsOpen,
-				setModalContent
+				setModalContent,
+				activeItem,
+				setActiveItem,
+				currentConnectors,
+				setCurrentConnectors,
+				updateCurrentConnectors
 			}}
 		>
 			<BrowserRouter>
