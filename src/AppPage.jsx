@@ -9,7 +9,6 @@ import Modal from './components/Modal/Modal'
 import "./App.scss";
 import { v4 as uuidv4 } from "uuid";
 import data from './db/db.json'
-import { Analytics } from '@vercel/analytics/react';
 
 const AppPage = () => {
 	const routes = useRoutes()
@@ -26,7 +25,7 @@ const AppPage = () => {
 		const selectedQuestions = shuffledConnectors.slice(0, value);
 		setCurrentConnectors(selectedQuestions);
 	}
-	
+
 	useEffect(() => {
 		const newDate = data.map((el, id) => {
 			return {
@@ -67,8 +66,7 @@ const AppPage = () => {
 					<Footer />
 					<Modal modalContent={modalContent} isOpen={isOpen} chengeIsOpen={chengeIsOpen} />
 				</div>
-				<Analytics />
-			</BrowserRouter>
+			</BrowserRouter>			
 		</DataContext.Provider>
 	)
 }
