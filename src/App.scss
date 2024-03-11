@@ -96,14 +96,8 @@ body {
 
 h2 {
   font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
-p {
-  font-size: 22px;
-  margin-bottom: 15px;
-}
 
 .info-panel {
   display: flex;
@@ -409,9 +403,15 @@ section {
     margin: 0 auto;
     border-radius: 20px;
     padding: 15px 15px 25px;
+    &.right {
+      background-color: rgba(2, 240, 18, 0.6);
+    }
+    &.wrong {
+      background-color: rgba(248, 16, 20, 0.6);
+      animation: shake 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) both;
+    }
   }
   &__start-container {
-    min-height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -432,6 +432,26 @@ section {
 
   &__select {
     margin-bottom: 20px;
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translateX(-0.5px);
+  }
+  20%,
+  80% {
+    transform: translateX(1px);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translateX(-2px);
+  }
+  40%,
+  60% {
+    transform: translateX(2px);
   }
 }
 

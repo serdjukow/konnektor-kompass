@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import { useNavigate } from 'react-router-dom'
 import ButtonStartTest from '../../components/ButtonStartTest/ButtunStartTest'
 import CustomSelect from '../../components/CustomSelect/CustomSelect.jsx';
@@ -11,7 +11,7 @@ const TestPage = () => {
         history('/test/start')
     }
 
-    const [options, ] = useState([
+    const [options,] = useState([
         {
             label: "20 Fragen",
             value: "20",
@@ -30,7 +30,7 @@ const TestPage = () => {
         },
         {
             label: "Alle Fragen",
-            value: connectors.length,
+            value: +connectors.length,
         },
     ])
 
@@ -45,17 +45,17 @@ const TestPage = () => {
             <div className="connector-test__start-container">
                 <div className="connector-test__text">
                     <h2>Anzahl der Fragen auswählen</h2>
+                    <p>Um den Test an Ihre Bedürfnisse anzupassen, können Sie die Anzahl der Fragen auswählen, die im Test angezeigt werden sollen.</p>
+                    <p>Je nach Ihrer Auswahl werden nur die entsprechende Anzahl von Fragen im Test angezeigt.</p>
+                    <br />
                     <div className="connector-test__select">
                         <CustomSelect
                             options={options}
-                            placeHolder='Alle Fragen'
+                            placeHolder='Anzahl auswählen'
                             onChange={(e) => handleChangeSelect(e)}
                             activeItem={activeItem}
                         />
                     </div>
-                    <p>Um den Test an Ihre Bedürfnisse anzupassen, können Sie die Anzahl der Fragen auswählen, die im Test angezeigt werden sollen.</p>
-                    <p>Wählen Sie einfach die gewünschte Anzahl aus der Dropdown-Liste aus und klicken Sie auf "Start", um den Test zu beginnen.</p>
-                    <p>Je nach Ihrer Auswahl werden nur die entsprechende Anzahl von Fragen im Test angezeigt.</p>
                 </div>
             </div>
             <div className="connector-test__start-container">

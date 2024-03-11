@@ -6,11 +6,13 @@ import 'react-circular-progressbar/dist/styles.css';
 import ResultPage from '../../Pages/ResultPage/ResultPage.jsx'
 
 const TestStartPage = () => {
-    const { currentConnectors, setCurrentConnectors } = useContext(DataContext);  
-    const [unreadConnectors,] = useState(currentConnectors);
+    const { currentConnectors, setCurrentConnectors } = useContext(DataContext);
+    const [unreadConnectors, setUnreadConnectors] = useState(currentConnectors);
     const [readConnector, setReadConnector] = useState([]);
     const [randomConnector, setRandomConnector] = useState({});
     const buttonRef = useRef(null);
+    const [isRight, setIsRight] = useState(null)
+    const [buttonLock, setButtonLock] = useState(false)
 
     useEffect(() => {
         setRandomConnector(unreadConnectors[0])
@@ -33,24 +35,40 @@ const TestStartPage = () => {
         unreadConnectors?.splice(0, 1)
     };
 
+    const checkAnswer = (item) => {
+        setButtonLock(true)
+        if (item === randomConnector.sentence_type) {
+            setIsRight('right')
+        } else if (item !== randomConnector.sentence_type) {
+            setIsRight('wrong')
+        }
+    }
+
+
     const testCardButtonClick = (e) => {
         if (e.target.classList.contains('connector-test-card__button')) {
             handleConnectorClick(e.currentTarget.id, e.target.id);
-            setRandomConnector(unreadConnectors[0])
+            checkAnswer(e.target.id)
+
+            setTimeout(() => {
+                setIsRight(null)
+                setButtonLock(false)
+                setRandomConnector(unreadConnectors[0])
+            }, 1000)
         }
     }
 
     return (
         <>
-            {currentConnectors.length && randomConnector  ? (
+            {currentConnectors.length && randomConnector ? (
                 <section className="connector-test" >
                     <div className="connector-test__container">
                         <div className="connector-test__title">
                             <h2>Test</h2>
                         </div>
                         <Progress bgcolor="#6a1b9a" completed={currentConnectors.length} currentValue={readConnector.length} />
-                        <div className="connector-test__body">
-                            <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} buttonRef={buttonRef} />
+                        <div className={`connector-test__body ${isRight}`} >
+                            <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} buttonRef={buttonRef} buttonLock={buttonLock} />
                         </div>
                     </div>
                 </section>
