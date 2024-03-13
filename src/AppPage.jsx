@@ -16,7 +16,7 @@ const AppPage = () => {
 		...(JSON.parse(sessionStorage.getItem("connectors")) || []),
 	]);
 	const [isOpen, setIsOpen] = useState(false)
-	const [modalContent, setModalContent] = useState({})
+	const [modalContent, setModalContent] = useState([])
 	const [activeItem, setActiveItem] = useState(JSON.parse(sessionStorage.getItem("activeItem")) || { label: 'Alle Fragen', value: +connectors.length })
 	const [currentConnectors, setCurrentConnectors] = useState([]);
 

@@ -7,7 +7,7 @@ const ConnectorCard = ({ connector }) => {
         <div id={connector.id} className={`connector-card ${connector.connector_type}`}>
 
             <div className="connector-card__body">
-                <p className="connector-card__text ">{connector.sentence_type}</p>
+                <p className="connector-card__text ">{connector.sentence_type.replace(/-/g, ' ')}</p>
                 <h2>{connector.connector}</h2>
                 <p className="connector-card__text">{connector.connector_type}</p>
                 <p

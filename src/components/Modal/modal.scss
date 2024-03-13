@@ -1,4 +1,3 @@
-
 .modal {
   position: fixed;
   top: 0;
@@ -7,8 +6,8 @@
   height: 100%;
   visibility: hidden;
   user-select: none;
-  opacity: 0;
-  padding: 0 10px;
+  opacity: 0;  
+  overflow-y: auto;
   &.open {
     visibility: visible;
     user-select: auto;
@@ -23,6 +22,8 @@
     backdrop-filter: blur(4px);
     pointer-events: inherit;
     transition: 0.3s ease-in;
+    min-height: 400px;
+    padding: 20px 10px;
   }
 
   &__body {
@@ -30,10 +31,11 @@
     border-radius: 20px;
     padding: 15px 20px;
     min-width: 300px;
+    max-width: 500px;
   }
   &__header {
-    text-align: end;
-
+    display: flex;
+    align-items: center;
     margin-bottom: 5px;
   }
   &__close {
@@ -51,11 +53,32 @@
   }
   &__title {
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 15px;
   }
   &__text {
   }
   &__footer {
   }
+}
+
+
+.swiper,
+.swiper-slide {
+  background-color: #fff;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  padding: 10px;
+  color: #ec7201 !important;
+  font-weight: 600;
+  top: 70px !important;
+  padding: 5px !important;
+}
+
+.swiper-custom-pagination {
+  font-size: 18px;
+  font-weight: 500;
 }
