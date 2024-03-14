@@ -98,7 +98,6 @@ h2 {
   font-size: 30px;
 }
 
-
 .info-panel {
   display: flex;
   gap: 15px;
@@ -294,6 +293,19 @@ section {
       @media (any-hover: hover) {
         &:hover {
           background-color: #bb0abe;
+        }
+      }
+    }
+  }
+  .besonderer-position & {
+    &__title {
+      background-color: #848484;
+    }
+    &__word {
+      background-color: rgba(#848484, 0.7);
+      @media (any-hover: hover) {
+        &:hover {
+          background-color: #848484;
         }
       }
     }
@@ -603,5 +615,3 @@ section {
     }
   }
 }
-
-

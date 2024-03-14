@@ -18,7 +18,7 @@
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-   white-space: nowrap;
+    white-space: nowrap;
     transition: opacity 0.25s ease-in;
 
     &.nebensatz {
@@ -32,6 +32,9 @@
     }
     &.infinitivgruppe {
       background-color: #bb0abe;
+    }
+    &.besonderer-position {
+      background-color: #848484;
     }
     @media (any-hover: hover) {
       &:hover {

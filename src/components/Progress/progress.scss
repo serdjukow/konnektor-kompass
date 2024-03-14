@@ -1,12 +1,6 @@
-//  minHeight: 15,
-//         width: '100%',
-//         backgroundColor: "#e0e0de",
-//         borderRadius: 50,
-//         marginBottom: 20,
-//         fontSize: 13
 .progress {
   width: 100%;
-  min-height: 25px;
+  min-height: 23px;
   background-color: #0ac0c6;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -15,6 +9,9 @@
   &__filler {
     height: 100%;
     text-align: right;
+    border-radius: 8px;
+    transition: .25s ease-in;
+
   }
   &__label {
     padding: 7px 17px;

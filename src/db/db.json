@@ -689,5 +689,23 @@
     "sentence_type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "<strong>Um</strong> den Test <strong>zu</strong> bestehen, musst du viel lernen."
+  },
+  {
+    "connector": "nämlich",
+    "sentence_type": "besonderer-position",
+    "connector_type": "besonderer-position",
+    "example": "Honolulu hat ein angenehmes Klima, es ist <strong>nämlich</strong> meist sonnig oder frühlingshaft dort."
+  },
+  {
+    "connector": "nicht nur, sondern auch",
+    "sentence_type": "besonderer-position",
+    "connector_type": "besonderer-position",
+    "example": "Ich habe morgen <strong>nicht nur</strong> Arbeit, <strong>sondern</strong> ich muss <strong>auch</strong> zum Deutschkurs."
+  },
+  {
+    "connector": "sowohl als auch",
+    "sentence_type": "besonderer-position",
+    "connector_type": "besonderer-position",
+    "example": "Ich möchte <strong>sowohl</strong> Deutsch <strong>als auch</strong> Französisch lernen."
   }
 ]

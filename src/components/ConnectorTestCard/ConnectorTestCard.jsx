@@ -10,14 +10,17 @@ const ConnectorTestCard = ({ connector, testCardButtonClick, buttonRef, buttonLo
                 <button id='nebensatz' disabled={buttonLock} className="connector-test-card__button nebensatz">
                     Nebensatz
                 </button>
-                <button id='hauptsatz-position-0' disabled={buttonLock}  className="connector-test-card__button hauptsatz-position-0">
+                <button id='hauptsatz-position-0' disabled={buttonLock} className="connector-test-card__button hauptsatz-position-0">
                     Hauptsatz (Position 0)
                 </button>
-                <button id='hauptsatz-position-1' disabled={buttonLock}  className="connector-test-card__button hauptsatz-position-1">
+                <button id='hauptsatz-position-1' disabled={buttonLock} className="connector-test-card__button hauptsatz-position-1">
                     Hauptsatz (Position 1)
                 </button>
                 <button id='infinitivgruppe' disabled={buttonLock} className="connector-test-card__button infinitivgruppe">
                     Infinitivgruppe
+                </button>
+                <button id='besonderer-position' disabled={buttonLock} className="connector-test-card__button besonderer-position">
+                    Besonderer Position
                 </button>
             </div>
         </div>

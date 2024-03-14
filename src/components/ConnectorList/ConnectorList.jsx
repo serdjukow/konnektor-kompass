@@ -52,8 +52,16 @@ const ConnectorList = ({ connectors }) => {
                         ))}
                     </div>
                 </div>
+                <div className="category besonderer-position">
+                    <div className="category__title"><h2>Konnektoren mit besonderer Position</h2></div>
+                    <div className="category__words">
+                        {connectorenFilter("besonderer-position").map(el => (
+                            <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
+                        ))}
+                    </div>
+                </div>
             </>) : (<Loader />)
     )
 }
-export default ConnectorList
+export default ConnectorList 
 
