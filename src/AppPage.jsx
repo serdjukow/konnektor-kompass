@@ -17,6 +17,7 @@ const AppPage = () => {
 	]);
 	const [isOpen, setIsOpen] = useState(false)
 	const [modalContent, setModalContent] = useState([])
+	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [activeItem, setActiveItem] = useState(JSON.parse(sessionStorage.getItem("activeItem")) || { label: 'Alle Fragen', value: +connectors.length })
 	const [currentConnectors, setCurrentConnectors] = useState([]);
 
@@ -56,17 +57,20 @@ const AppPage = () => {
 				setActiveItem,
 				currentConnectors,
 				setCurrentConnectors,
-				updateCurrentConnectors
+				updateCurrentConnectors,
+				isModalOpen,
+				setIsModalOpen
 			}}
 		>
 			<BrowserRouter>
 				<div className="wrapper">
-					<Header connectors={connectors} />
+					<Header />
 					<div className="page"><Suspense fallback={<Loader />}>{routes}</Suspense></div>
-					<Footer />
 					<Modal modalContent={modalContent} isOpen={isOpen} chengeIsOpen={chengeIsOpen} />
+					<Footer />
 				</div>
-			</BrowserRouter>			
+
+			</BrowserRouter>
 		</DataContext.Provider>
 	)
 }

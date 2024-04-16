@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 :root {
   --index: calc(1vw);
+  --swiper-navigation-size: 25px !important;
 }
 
 * {
@@ -19,79 +20,12 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding-top: 70px;
+  padding-top: 50px;
   background-image: url(./assets/images/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow-y: auto;
-}
-
-.header {
-  position: fixed;
-  flex-wrap: wrap;
-  gap: 10px;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 5px 10px;
-  text-align: center;
-  z-index: 100;
-}
-
-.nanigation {
-  position: fixed;
-  display: flex;
-  gap: 10px;
-  top: 40px;
-  right: 10px;
-  flex-direction: column;
-  background-color: #333;
-  padding: 30px;
-  visibility: hidden;
-  user-select: none;
-  opacity: 0;
-  transition: 0.25s ease-in;
-  z-index: 100000000 !important;
-  &._active {
-    visibility: visible;
-    user-select: auto;
-    opacity: 1;
-    top: 70px;
-    transition: 0.25s ease-in;
-    z-index: 10000;
-  }
-  &__link {
-    font-size: 35px;
-    color: #999999;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: color 0.25s ease-in;
-    @media (any-hover: hover) {
-      &:hover {
-        color: #fff;
-      }
-    }
-    &.active {
-      color: #fff;
-    }
-    @media (min-width: 576px) {
-      font-size: 25px;
-    }
-  }
-}
-
-.logo {
-  flex: 0 0 160px;
-  img {
-    width: 100%;
-    height: auto;
-  }
 }
 
 h2 {
@@ -116,6 +50,7 @@ h2 {
 }
 
 .page {
+  width: 100%;
   flex: 1 1 auto;
 }
 
@@ -125,13 +60,38 @@ section {
   padding: 0 15px;
 }
 
-.connector-card {
+.card {
   padding-bottom: 10px;
   max-width: 500px;
   h2 {
     font-size: 38px;
     margin-bottom: 10px;
     text-align: center;
+  }
+  &:is(.subjunktionen, .blue) {
+    h2 {
+      color: #0c72d2;
+    }
+  }
+  &:is(.konjunktionen, .yellow) {
+    h2 {
+      color: #dea90d;
+    }
+  }
+  &:is(.konjunktionaladverbien, .green) {
+    h2 {
+      color: #0cd240;
+    }
+  }
+  &:is(.infinitivgruppe, .violet) {
+    h2 {
+      color: #bb0abe;
+    }
+  }
+  &:is(.besonderer-position, .gray) {
+    h2 {
+      color: #848484;
+    }
   }
   &__body {
     min-height: 100px;
@@ -148,31 +108,30 @@ section {
     margin-bottom: 20px;
   }
 
-  &.subjunktionen {
-    strong {
+  &:is(.subjunktionen, .blue) {
+    strong, span {
       color: #0c72d2;
     }
   }
-  &.konjunktionen {
-    strong {
+  &:is(.konjunktionen, .yellow) {
+    strong, span {
       color: #dea90d;
     }
   }
-  &.konjunktionaladverbien {
-    strong {
+  &:is(.konjunktionaladverbien, .green) {
+    strong, span {
       color: #0cd240;
     }
   }
-  &.infinitivgruppe {
-    strong {
+  &:is(.infinitivgruppe, .violet) {
+    strong, span {
       color: #bb0abe;
     }
   }
-  &__comment {
-  }
-  &__comment-title {
-  }
-  &__comment-text {
+  &:is(.besonderer-position, .gray) {
+    strong, span {
+      color: #848484;
+    }
   }
 }
 
@@ -206,9 +165,33 @@ section {
       font-size: 20px;
     }
   }
+  &__page {
+    text-align: center;
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .example {
+      margin-left: 20px;
+      color: #666;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      list-style-type: none;
+    }
+  }
 }
+
 .category {
   margin-bottom: 30px;
+  width: 100%;
   &__title {
     margin-bottom: 10px;
     text-align: center;
@@ -245,7 +228,7 @@ section {
       font-size: 18px;
     }
   }
-  .subjunktionen & {
+  :is(.subjunktionen, .blue) & {
     &__title {
       background-color: #0c72d2;
     }
@@ -258,7 +241,7 @@ section {
       }
     }
   }
-  .konjunktionen & {
+  &:is(.konjunktionen, .yellow) & {
     &__title {
       background-color: #dea90d;
     }
@@ -271,7 +254,7 @@ section {
       }
     }
   }
-  .konjunktionaladverbien & {
+  &:is(.konjunktionaladverbien, .green) & {
     &__title {
       background-color: #0abe3a;
     }
@@ -284,7 +267,7 @@ section {
       }
     }
   }
-  .infinitivgruppe & {
+  &:is(.infinitivgruppe, .violet) & {
     &__title {
       background-color: #bb0abe;
     }
@@ -297,7 +280,7 @@ section {
       }
     }
   }
-  .besonderer-position & {
+  &:is(.besonderer-position, .gray) & {
     &__title {
       background-color: #848484;
     }

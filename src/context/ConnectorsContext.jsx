@@ -2,11 +2,8 @@ import { createContext } from 'react'
 
 const noop = () => { }
 
-const DataContext = createContext({
+const ConnectorsContext = createContext({
 	connectors: [],
-	isOpen: Boolean,
-	chengeIsOpen: noop,
-	setModalContent: noop,
 	setConnectors: noop,
 	fetchConnectors: noop,
 	activeItem: {},
@@ -14,8 +11,9 @@ const DataContext = createContext({
 	currentConnectors: [], 
 	setCurrentConnectors: noop,
 	updateCurrentConnectors: noop,
-	isModalOpen: Boolean,
-	setIsModalOpen: noop,
+	isOpen: Boolean,
+	chengeIsOpen: noop,
+	setModalContent: noop
 })
 
-export default DataContext
+export default ConnectorsContext

@@ -1,11 +1,9 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import ConnectorCard from "../ConnectorCard/ConnectorCard.jsx";
 import './modal.scss'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
 
 const Modal = (props) => {
     const wrapperRef = useRef(null);
@@ -55,7 +53,7 @@ const Modal = (props) => {
                     >
                         {props.modalContent[1]?.map(item => (
                             <SwiperSlide key={item.id} className="swiper-slide">
-                                <ConnectorCard connector={item} />
+                                <ConnectorCard item={item} />
                             </SwiperSlide>
                         ))}
                     </Swiper>
