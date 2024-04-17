@@ -22,6 +22,7 @@ import Logo from '../../assets/images/logo-2.png'
 import { menuList, HOME_ROUTE } from '../../utils/consts'
 import { v4 as uuidv4 } from "uuid";
 import { ChevronLeftIcon } from '@chakra-ui/icons'
+import { TfiDirection } from "react-icons/tfi";
 
 function HamurgerMenu() {
     const btnRef = useRef()
@@ -31,7 +32,7 @@ function HamurgerMenu() {
             pos='absolute'
             top="8px"
             right="20px"
-            
+
         >
             <Button
                 variant="unstyled"
@@ -42,7 +43,7 @@ function HamurgerMenu() {
                 p={1}
                 onClick={onOpen}
             >
-                <Icon as={GiHamburgerMenu}  />
+                <Icon as={GiHamburgerMenu} />
             </Button>
             <Drawer
                 isOpen={isOpen}
@@ -56,7 +57,7 @@ function HamurgerMenu() {
                     maxW={{ base: "full", md: "300px" }}
                     h="100vh"
                     bg="teal.500"
-                    flexDir="column"               
+                    flexDir="column"
                 >
                     <DrawerHeader>
                         <VStack m="0 auto 10px auto" cursor="pointer">
@@ -88,7 +89,7 @@ function HamurgerMenu() {
                             alignItems="flex-start"
                             w="100%"
                             justifyContent="flex-start"
-                            
+
                         >
                             <nav key={uuidv4()} >
                                 <ul>
@@ -108,7 +109,7 @@ function HamurgerMenu() {
                                                         color="#fff"
                                                         onClick={onClose}
                                                     >
-                                                        <Icon as={FaUser} />
+                                                        <TfiDirection />
                                                         <Text fontSize={18} >
                                                             {item.itemName}
                                                         </Text>

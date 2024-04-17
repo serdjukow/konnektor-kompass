@@ -32,6 +32,11 @@ h2 {
   font-size: 30px;
 }
 
+ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
 .info-panel {
   display: flex;
   gap: 15px;
@@ -109,27 +114,32 @@ section {
   }
 
   &:is(.subjunktionen, .blue) {
-    strong, span {
+    strong,
+    span {
       color: #0c72d2;
     }
   }
   &:is(.konjunktionen, .yellow) {
-    strong, span {
+    strong,
+    span {
       color: #dea90d;
     }
   }
   &:is(.konjunktionaladverbien, .green) {
-    strong, span {
+    strong,
+    span {
       color: #0cd240;
     }
   }
   &:is(.infinitivgruppe, .violet) {
-    strong, span {
+    strong,
+    span {
       color: #bb0abe;
     }
   }
   &:is(.besonderer-position, .gray) {
-    strong, span {
+    strong,
+    span {
       color: #848484;
     }
   }

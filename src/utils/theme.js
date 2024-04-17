@@ -17,3 +17,19 @@ const colors = {
 const customTheme = extendTheme({ colors })
 
 export default customTheme
+
+const colortSheme = [
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "teal",
+  "blue",
+  "cyan",
+  "purple",
+  "pink",
+  "gray",
+  "linkedin",
+]
+
+export { colortSheme }

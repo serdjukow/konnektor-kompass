@@ -14,6 +14,8 @@ export const PREPOSITIONEN_UEBERSICHT_ROUTE = "/prepositionen-uebersicht"
 export const NOMEN_MIT_PREPOSITIONEN_ROUTE = "/nomen-mit-prepositionen"
 export const VERBEN_MIT_PREPOSITIONEN_ROUTE = "/verben-mit-prepositionen"
 export const ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE = "/adjektive-mit-prepositionen"
+export const WORDS_ROUTE = "/words"
+export const WORDS_UEBERSICHT_ROUTE = "/words-uebersicht"
 
 export const menuList = [
   {
@@ -53,15 +55,9 @@ export const menuList = [
       },
     ],
   },
-  // {
-  //   itemName: "Nomen",
-  //   itemLink: NOMEN_ROUTE,
-  //   subItems: [
-  //     {
-  //       itemName: "Nomen Übersicht",
-  //       itemLink: NOMEN_UEBERSICHT_ROUTE,
-  //     },
-  //     { itemName: "Nomen Test", itemLink: "/nomen-test" },
-  //   ],
-  // },
+  {
+    itemName: "Wortschatz",
+    itemLink: WORDS_ROUTE,
+    subItems: [],
+  },
 ]

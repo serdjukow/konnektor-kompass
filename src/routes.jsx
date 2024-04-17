@@ -11,13 +11,16 @@ import {
 	PREPOSITIONEN_UEBERSICHT_ROUTE,
 	NOMEN_MIT_PREPOSITIONEN_ROUTE,
 	VERBEN_MIT_PREPOSITIONEN_ROUTE,
-	ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE
+	ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE,
+	WORDS_ROUTE,
+	WORDS_UEBERSICHT_ROUTE
 } from './utils/consts'
 
 const HomePage = lazy(() => import('./Pages/HomePage/HomePage'))
+const KonnektorenPages = lazy(() => import('./Pages/KonnektorenPages'))
 const KonnektorenPage = lazy(() => import('./Pages/Konnektoren/KonnektorenPage/KonnektorenPage'))
 const KonnektorenUebersichtPage = lazy(() => import('./Pages/Konnektoren/KonnektorenUebersichtPage/KonnektorenUebersichtPage'))
-const KonnektorenPages = lazy(() => import('./Pages/KonnektorenPages'))
+
 
 const PrepositionenPages = lazy(() => import('./Pages/PrepositionenPages'))
 const PrepositionenPage = lazy(() => import('./Pages/Prepositionen/PrepositionenPage/PrepositionenPage'))
@@ -29,6 +32,11 @@ const AdjektivePrepositionen = lazy(() => import('./Pages/Prepositionen/Adjektiv
 const TestPage = lazy(() => import('./Pages/Konnektoren/TestPage/TestPage'))
 const TestStartPage = lazy(() => import('./Pages/Konnektoren/TestStartPage/TestStartPage'))
 const ResultPage = lazy(() => import('./Pages/Konnektoren/ResultPage/ResultPage'))
+
+const WordsPages = lazy(() => import('./Pages/WordsPages'))
+const WordsPage = lazy(() => import('./Pages/Words/WordsPage/WordsPage'))
+const WordsUebersicht = lazy(() => import('./Pages/Words/WordsUebersicht/WordsUebersicht'))
+
 
 export const useRoutes = () => {
 	return (
@@ -51,6 +59,11 @@ export const useRoutes = () => {
 				<Route path={NOMEN_MIT_PREPOSITIONEN_ROUTE} element={<NomenPrepositionen />} />
 				<Route path={VERBEN_MIT_PREPOSITIONEN_ROUTE} element={<VerbenPrepositionen />} />
 				<Route path={ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE} element={<AdjektivePrepositionen />} />
+			</Route>
+
+			<Route path={HOME_ROUTE} element={<WordsPages />}>
+				<Route path={WORDS_ROUTE} element={<WordsPage />} />
+				<Route path={`${WORDS_ROUTE}/:theme`} element={<WordsUebersicht />} />
 			</Route>
 
 			<Route path="*" element={<HomePage />} />
