@@ -1043,5 +1043,5290 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Digitalisierung",
+    "unterthemen": [
+      {
+        "untertitle": "A Digitale Lebenswelten",
+        "words": [
+          {
+            "german": "die Augmented Reality (AR) (Sg.)",
+            "english": "augmented reality (AR)",
+            "russian": "дополненная реальность (ДР)"
+          },
+          {
+            "german": "die Automatisierung, -en",
+            "english": "automation",
+            "russian": "автоматизация"
+          },
+          {
+            "german": "Big Data (Sg., ohne Artikel)",
+            "english": "Big Data",
+            "russian": "большие данные"
+          },
+          {
+            "german": "das Cloud-Computing (Sg.)",
+            "english": "cloud computing",
+            "russian": "облачные вычисления"
+          },
+          {
+            "german": "die Demenz, -en",
+            "english": "dementia",
+            "russian": "деменция"
+          },
+          {
+            "german": "die Digitalisierung, -en",
+            "english": "digitalization",
+            "russian": "цифровизация"
+          },
+          {
+            "german": "disruptiv",
+            "english": "disruptive",
+            "russian": "деструктивный"
+          },
+          {
+            "german": "durchdringen",
+            "english": "to penetrate",
+            "russian": "проникать"
+          },
+          {
+            "german": "exzessiv",
+            "english": "excessive",
+            "russian": "чрезмерный"
+          },
+          {
+            "german": "das GPS, – (das Global Positioning System, -e)",
+            "english": "GPS (Global Positioning System)",
+            "russian": "GPS (глобальная система позиционирования)"
+          },
+          {
+            "german": "massenhaft",
+            "english": "massive",
+            "russian": "массовый"
+          },
+          {
+            "german": "menschengerecht",
+            "english": "human-centered",
+            "russian": "удовлетворяющий потребности человека"
+          },
+          {
+            "german": "nachlassen",
+            "english": "to diminish",
+            "russian": "ослабевать"
+          },
+          {
+            "german": "das Säulendiagramm, -e",
+            "english": "bar chart",
+            "russian": "столбчатая диаграмма"
+          },
+          {
+            "german": "den Schluss nahelegen",
+            "english": "to suggest, to imply",
+            "russian": "предполагать, близко подходить к заключению"
+          },
+          {
+            "german": "der Sensor, -en",
+            "english": "sensor",
+            "russian": "сенсор, датчик"
+          },
+          {
+            "german": "der Server, –",
+            "english": "server",
+            "russian": "сервер"
+          },
+          {
+            "german": "smart",
+            "english": "smart",
+            "russian": "интеллектуальный, умный"
+          },
+          {
+            "german": "die Transformation, -en",
+            "english": "transformation",
+            "russian": "трансформация"
+          },
+          {
+            "german": "die Vermarktung, -en",
+            "english": "marketing",
+            "russian": "маркетинг"
+          },
+          {
+            "german": "vernetzen",
+            "english": "to network",
+            "russian": "объединить в сеть"
+          },
+          {
+            "german": "die Vernetzung, -en",
+            "english": "networking",
+            "russian": "взаимосвязь"
+          },
+          {
+            "german": "verschmelzen",
+            "english": "to merge",
+            "russian": "сливаться"
+          },
+          {
+            "german": "die Verwertung, -en",
+            "english": "utilization",
+            "russian": "использование, монетизация"
+          },
+          {
+            "german": "voranschreiten",
+            "english": "to advance",
+            "russian": "продвигаться вперёд"
+          },
+          {
+            "german": "weltumspannend",
+            "english": "global",
+            "russian": "охватывающий весь мир"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Digitalisierung und Lernen",
+        "words": [
+          {
+            "german": "der Anspruch, \"-e",
+            "english": "claim, demand",
+            "russian": "требование, претензия"
+          },
+          {
+            "german": "(gut) aufbereitet",
+            "english": "(well) prepared",
+            "russian": "хорошо подготовленный"
+          },
+          {
+            "german": "sich aufraffen zu",
+            "english": "to muster the strength to",
+            "russian": "собираться с силами для"
+          },
+          {
+            "german": "ausblenden",
+            "english": "to hide, to exclude",
+            "russian": "скрыть, исключить"
+          },
+          {
+            "german": "ausgereift",
+            "english": "mature, developed",
+            "russian": "зрелый, развитый"
+          },
+          {
+            "german": "das Blended-Learning (Sg.)",
+            "english": "blended learning",
+            "russian": "смешанное обучение"
+          },
+          {
+            "german": "einblenden",
+            "english": "to display, to show",
+            "russian": "включить, показать"
+          },
+          {
+            "german": "in Einklang bringen mit",
+            "english": "to harmonize with",
+            "russian": "привести в соответствие с"
+          },
+          {
+            "german": "den Faden verlieren",
+            "english": "to lose the thread",
+            "russian": "потерять нить"
+          },
+          {
+            "german": "den Fokus legen auf",
+            "english": "to focus on",
+            "russian": "сосредотачиваться на"
+          },
+          {
+            "german": "evaluieren",
+            "english": "to evaluate",
+            "russian": "оценивать"
+          },
+          {
+            "german": "der Eye-Tracker, –",
+            "english": "eye tracker",
+            "russian": "устройство для отслеживания движения глаз"
+          },
+          {
+            "german": "förderlich",
+            "english": "beneficial",
+            "russian": "способствующий"
+          },
+          {
+            "german": "hierzulande",
+            "english": "here, in this country",
+            "russian": "в этой стране, в настоящее время"
+          },
+          {
+            "german": "inspiriert von",
+            "english": "inspired by",
+            "russian": "вдохновленный чем-то"
+          },
+          {
+            "german": "intensivieren",
+            "english": "to intensify",
+            "russian": "усиливать"
+          },
+          {
+            "german": "die Interaktion, -en",
+            "english": "interaction",
+            "russian": "взаимодействие"
+          },
+          {
+            "german": "die IT-Infrastruktur, -en",
+            "english": "IT infrastructure",
+            "russian": "ИТ-инфраструктура"
+          },
+          {
+            "german": "Kontakte knüpfen",
+            "english": "to make contacts",
+            "russian": "заводить контакты"
+          },
+          {
+            "german": "kontrovers",
+            "english": "controversial",
+            "russian": "противоречивый"
+          },
+          {
+            "german": "die künstliche Intelligenz, -en",
+            "english": "artificial intelligence (AI)",
+            "russian": "искусственный интеллект (ИИ)"
+          },
+          {
+            "german": "die Mündigkeit (Sg.)",
+            "english": "majority, legal capacity",
+            "russian": "совершеннолетие, дееспособность"
+          },
+          {
+            "german": "die Nase vorn haben",
+            "english": "to be ahead",
+            "russian": "быть впереди"
+          },
+          {
+            "german": "neuronal",
+            "english": "neuronal",
+            "russian": "нейрональный"
+          },
+          {
+            "german": "der Präsenzteil, -e",
+            "english": "presence component",
+            "russian": "компонент присутствия"
+          },
+          {
+            "german": "die Privatsphäre, -n",
+            "english": "privacy",
+            "russian": "частная жизнь, конфиденциальность"
+          },
+          {
+            "german": "jdm. zur Seite stehen",
+            "english": "to stand by someone",
+            "russian": "быть на чьей-то стороне"
+          },
+          {
+            "german": "simulieren",
+            "english": "to simulate",
+            "russian": "моделировать"
+          },
+          {
+            "german": "tiefgreifend",
+            "english": "profound, deep",
+            "russian": "глубокий, радикальный"
+          },
+          {
+            "german": "treffend",
+            "english": "apt, appropriate",
+            "russian": "точный, уместный"
+          },
+          {
+            "german": "überdenken",
+            "english": "to reconsider",
+            "russian": "пересматривать"
+          },
+          {
+            "german": "verweilen bei",
+            "english": "to dwell on",
+            "russian": "задерживаться на"
+          },
+          {
+            "german": "der Vorbehalt, -e",
+            "english": "reservation, caveat",
+            "russian": "зачисление, условие"
+          },
+          {
+            "german": "einen Vorbehalt haben gegenüber",
+            "english": "to have reservations about",
+            "russian": "иметь предвзятое отношение к"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Pflege",
+        "words": [
+          {
+            "german": "die Anschaffung, -en",
+            "english": "acquisition, purchase",
+            "russian": "приобретение"
+          },
+          {
+            "german": "abschneiden",
+            "english": "to cut off, to trim",
+            "russian": "срезать, обрезать"
+          },
+          {
+            "german": "aktualisieren",
+            "english": "to update",
+            "russian": "обновлять"
+          },
+          {
+            "german": "beziffern",
+            "english": "to quantify",
+            "russian": "количественно оценивать"
+          },
+          {
+            "german": "das Budget, -s",
+            "english": "budget",
+            "russian": "бюджет"
+          },
+          {
+            "german": "(steuerlich) geltend machen",
+            "english": "to claim (tax-wise)",
+            "russian": "предъявлять (налоговые) требования"
+          },
+          {
+            "german": "implementieren",
+            "english": "to implement",
+            "russian": "внедрять"
+          },
+          {
+            "german": "die Instandhaltung, -en",
+            "english": "maintenance",
+            "russian": "техническое обслуживание"
+          },
+          {
+            "german": "grünes Licht geben",
+            "english": "to give the green light",
+            "russian": "давать добро"
+          },
+          {
+            "german": "pflegeaufwendig",
+            "english": "requiring care",
+            "russian": "требующий заботы"
+          },
+          {
+            "german": "priorisieren",
+            "english": "to prioritize",
+            "russian": "определять по приоритету"
+          },
+          {
+            "german": "in die engere Wahl nehmen",
+            "english": "to shortlist",
+            "russian": "брать в ближний отбор"
+          },
+          {
+            "german": "die Wettbewerbsfähigkeit, -en",
+            "english": "competitiveness",
+            "russian": "конкурентоспособность"
+          },
+          {
+            "german": "Zeit in Anspruch nehmen",
+            "english": "to take time",
+            "russian": "занимать время"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Augmented Reality in der Produktion",
+        "words": [
+          {
+            "german": "der Apparat, -e",
+            "english": "apparatus",
+            "russian": "аппарат"
+          },
+          {
+            "german": "beweglich",
+            "english": "movable, flexible",
+            "russian": "подвижный"
+          },
+          {
+            "german": "abnutzen",
+            "english": "to wear out",
+            "russian": "изнашиваться"
+          },
+          {
+            "german": "auswechseln",
+            "english": "to replace",
+            "russian": "заменять"
+          },
+          {
+            "german": "explorieren",
+            "english": "to explore",
+            "russian": "исследовать"
+          },
+          {
+            "german": "der Füllstand, \"-e",
+            "english": "fill level",
+            "russian": "уровень заполнения"
+          },
+          {
+            "german": "das (produzierende) Gewerbe, –",
+            "english": "manufacturing industry",
+            "russian": "производственная отрасль"
+          },
+          {
+            "german": "immersiv",
+            "english": "immersive",
+            "russian": "погруженный"
+          },
+          {
+            "german": "minimieren",
+            "english": "to minimize",
+            "russian": "минимизировать"
+          },
+          {
+            "german": "die Montageoptimierung (Sg.)",
+            "english": "assembly optimization",
+            "russian": "оптимизация сборки"
+          },
+          {
+            "german": "in aller Munde sein",
+            "english": "to be on everyone's lips",
+            "russian": "находиться на слуху, обсуждаться повсюду"
+          },
+          {
+            "german": "die Schutzausrüstung, -en",
+            "english": "protective equipment",
+            "russian": "средства защиты"
+          },
+          {
+            "german": "die Sicherheitseinrichtung, -en",
+            "english": "safety device",
+            "russian": "средство безопасности"
+          },
+          {
+            "german": "signifikant",
+            "english": "significant",
+            "russian": "значительный"
+          },
+          {
+            "german": "die Stillstandzeit, -en",
+            "english": "downtime",
+            "russian": "время простоя"
+          },
+          {
+            "german": "das Verschleißteil, -e",
+            "english": "wear part",
+            "russian": "деталь, подверженная износу"
+          },
+          {
+            "german": "die Vibration, -en",
+            "english": "vibration",
+            "russian": "вибрация"
+          },
+          {
+            "german": "die Virtual-Reality (VR) (Sg.)",
+            "english": "virtual reality",
+            "russian": "виртуальная реальность"
+          },
+          {
+            "german": "die Wartung, -en",
+            "english": "maintenance",
+            "russian": "обслуживание"
+          }
+        ]
+      },
+      {
+        "untertitle": "E AR und technische Dokumentationen",
+        "words": [
+          {
+            "german": "der Anstoß, \"-e",
+            "english": "impulse, kick-start",
+            "russian": "толчок"
+          },
+          {
+            "german": "die Bedienungsanleitung, -en",
+            "english": "user manual, operating instructions",
+            "russian": "руководство по эксплуатации"
+          },
+          {
+            "german": "die Inbetriebnahme (Sg.)",
+            "english": "commissioning, start-up",
+            "russian": "ввод в эксплуатацию"
+          },
+          {
+            "german": "einen Mangel beheben",
+            "english": "to rectify a defect, to fix a deficiency",
+            "russian": "устранять недостаток"
+          },
+          {
+            "german": "der Sachschaden, \"-",
+            "english": "material damage",
+            "russian": "материальный ущерб"
+          },
+          {
+            "german": "schief gehen",
+            "english": "to go wrong, to go awry",
+            "russian": "идти не так, идти неверно"
+          },
+          {
+            "german": "der/die Sicherheitsbeauftragte, -n",
+            "english": "safety officer",
+            "russian": "ответственный по безопасности"
+          },
+          {
+            "german": "weisungsbefugt",
+            "english": "authorized to give instructions",
+            "russian": "вправе отдавать указания"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Kommunikation",
+    "unterthemen": [
+      {
+        "untertitle": "A Kommunikation im Alltag",
+        "words": [
+          {
+            "german": "die Arme verschränken",
+            "english": "to cross one's arms",
+            "russian": "скрещивать руки"
+          },
+          {
+            "german": "ausmachen",
+            "english": "to turn off",
+            "russian": "выключать"
+          },
+          {
+            "german": "(de-)kodieren",
+            "english": "(de-)code",
+            "russian": "(де-)кодировать"
+          },
+          {
+            "german": "entschlüsseln",
+            "english": "to decipher",
+            "russian": "расшифровывать"
+          },
+          {
+            "german": "die Evaluation, -en",
+            "english": "evaluation",
+            "russian": "оценка, эвалюация"
+          },
+          {
+            "german": "die Frisur richten",
+            "english": "to fix one's hair",
+            "russian": "ухаживать за прической"
+          },
+          {
+            "german": "die Fundgrube, -n",
+            "english": "treasure trove",
+            "russian": "кладовая, источник полезной информации"
+          },
+          {
+            "german": "funktionstüchtig",
+            "english": "functional",
+            "russian": "исправный, работоспособный"
+          },
+          {
+            "german": "der/die Geisteswissenschaftler, – / Geisteswissenschaftlerin, -innen",
+            "english": "humanities scholar",
+            "russian": "гуманитарий, исследователь в области гуманитарных наук"
+          },
+          {
+            "german": "die Gestik (Sg.)",
+            "english": "gesture",
+            "russian": "жестикуляция"
+          },
+          {
+            "german": "gestikulieren",
+            "english": "to gesture",
+            "russian": "жестикулировать"
+          },
+          {
+            "german": "instruktiv",
+            "english": "instructive",
+            "russian": "поучительный"
+          },
+          {
+            "german": "kongruent auftreten",
+            "english": "to act congruently",
+            "russian": "выступать согласованно"
+          },
+          {
+            "german": "lässig",
+            "english": "casual",
+            "russian": "небрежный, непринужденный"
+          },
+          {
+            "german": "das Missverständnis, -se",
+            "english": "misunderstanding",
+            "russian": "недопонимание"
+          },
+          {
+            "german": "mürrisch dreinschauen",
+            "english": "to look grumpy",
+            "russian": "смотреть угрюмо"
+          },
+          {
+            "german": "seinen Ohren nicht trauen",
+            "english": "to not believe one's ears",
+            "russian": "не верить своим ушам"
+          },
+          {
+            "german": "optimieren",
+            "english": "to optimize",
+            "russian": "оптимизировать"
+          },
+          {
+            "german": "der/die Otto Normalverbraucher, – / Otto Normalverbraucherin, -nen",
+            "english": "average consumer",
+            "russian": "простой потребитель, обычный человек"
+          },
+          {
+            "german": "paraverbal",
+            "english": "paraverbal",
+            "russian": "паравербальный"
+          },
+          {
+            "german": "der/die Personaler, – / Personalerin, -nen",
+            "english": "HR employee",
+            "russian": "сотрудник отдела кадров"
+          },
+          {
+            "german": "die Rezension, -en",
+            "english": "review",
+            "russian": "рецензия"
+          },
+          {
+            "german": "salopp",
+            "english": "colloquial",
+            "russian": "разговорный, непринужденный"
+          },
+          {
+            "german": "übermitteln",
+            "english": "to transmit",
+            "russian": "передавать"
+          },
+          {
+            "german": "unabdingbar",
+            "english": "indispensable",
+            "russian": "необходимый"
+          },
+          {
+            "german": "verbal",
+            "english": "verbal",
+            "russian": "вербальный"
+          },
+          {
+            "german": "jemandem einen Vogel zeigen",
+            "english": "to give someone the bird",
+            "russian": "подымать кого-то"
+          },
+          {
+            "german": "der Vorrat, \"-e",
+            "english": "stock, supply",
+            "russian": "запас"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Du bist gut – ich bin gut",
+        "words": [
+          {
+            "german": "auf fassen",
+            "english": "to grasp, understand",
+            "russian": "понимать, ухватывать"
+          },
+          {
+            "german": "baff",
+            "english": "flabbergasted",
+            "russian": "ошеломленный"
+          },
+          {
+            "german": "bekümmern",
+            "english": "to grieve",
+            "russian": "огорчать"
+          },
+          {
+            "german": "die Bevormundung (Sg.)",
+            "english": "patronizing, guardianship",
+            "russian": "опека, попечительство"
+          },
+          {
+            "german": "entrüsten",
+            "english": "to outrage",
+            "russian": "возмущаться"
+          },
+          {
+            "german": "entzücken",
+            "english": "to enchant",
+            "russian": "восхищать"
+          },
+          {
+            "german": "erbitten",
+            "english": "to request",
+            "russian": "просить"
+          },
+          {
+            "german": "favorisieren",
+            "english": "to favor",
+            "russian": "отдавать предпочтение"
+          },
+          {
+            "german": "von Grund auf (gut sein)",
+            "english": "to be good from the ground up",
+            "russian": "быть хорошим от природы"
+          },
+          {
+            "german": "haken",
+            "english": "to snag",
+            "russian": "заедать, останавливаться"
+          },
+          {
+            "german": "heilfroh",
+            "english": "extremely happy",
+            "russian": "чрезвычайно довольный"
+          },
+          {
+            "german": "herbeiführen",
+            "english": "to bring about",
+            "russian": "вызывать, приводить к"
+          },
+          {
+            "german": "niedergeschlagen",
+            "english": "depressed",
+            "russian": "удрученный"
+          },
+          {
+            "german": "perplex",
+            "english": "perplexed",
+            "russian": "изумленный, озадаченный"
+          },
+          {
+            "german": "provozieren",
+            "english": "to provoke",
+            "russian": "провоцировать"
+          },
+          {
+            "german": "soundso",
+            "english": "such and such",
+            "russian": "так или иначе, так сказать"
+          },
+          {
+            "german": "die Spekulation, -en",
+            "english": "speculation",
+            "russian": "спекуляция"
+          },
+          {
+            "german": "strahlen",
+            "english": "to shine",
+            "russian": "сиять"
+          },
+          {
+            "german": "tabu sein",
+            "english": "to be taboo",
+            "russian": "быть табу"
+          },
+          {
+            "german": "verblüffen",
+            "english": "to astound",
+            "russian": "изумлять"
+          },
+          {
+            "german": "verdutzt",
+            "english": "bewildered",
+            "russian": "изумленный"
+          },
+          {
+            "german": "vonstatten gehen",
+            "english": "to take place",
+            "russian": "происходить"
+          },
+          {
+            "german": "wertschätzen",
+            "english": "to appreciate",
+            "russian": "ценить"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Der Ton macht die Musik",
+        "words": [
+          {
+            "german": "der Abnehmerkreis, -e",
+            "english": "customer base",
+            "russian": "круг потребителей"
+          },
+          {
+            "german": "anfordern",
+            "english": "to request",
+            "russian": "требовать"
+          },
+          {
+            "german": "der Appell, -e",
+            "english": "appeal",
+            "russian": "призыв"
+          },
+          {
+            "german": "sich arrangieren",
+            "english": "to come to terms",
+            "russian": "мириться, договариваться"
+          },
+          {
+            "german": "das Begleitmaterial, -ien",
+            "english": "accompanying material",
+            "russian": "сопутствующий материал"
+          },
+          {
+            "german": "die Bekräftigung, -en",
+            "english": "confirmation",
+            "russian": "подтверждение"
+          },
+          {
+            "german": "das Beschwerdemanagement, -s",
+            "english": "complaint management",
+            "russian": "управление жалобами"
+          },
+          {
+            "german": "die Ermahnung, -en",
+            "english": "admonition",
+            "russian": "порицание"
+          },
+          {
+            "german": "die Ermunterung, -en",
+            "english": "encouragement",
+            "russian": "поддержка"
+          },
+          {
+            "german": "die Ermutigung, -en",
+            "english": "inspiration",
+            "russian": "воодушевление"
+          },
+          {
+            "german": "das Fingerspitzengefühl (Sg.)",
+            "english": "tact",
+            "russian": "тонкость, чувство меры"
+          },
+          {
+            "german": "das Gebot, -e",
+            "english": "commandment",
+            "russian": "предписание"
+          },
+          {
+            "german": "der Kundenstamm, \"-e",
+            "english": "customer base",
+            "russian": "клиентская база"
+          },
+          {
+            "german": "im Nachgang",
+            "english": "subsequently",
+            "russian": "впоследствии, после"
+          },
+          {
+            "german": "netterweise",
+            "english": "kindly",
+            "russian": "любезно"
+          },
+          {
+            "german": "das Patentrezept, -e",
+            "english": "panacea",
+            "russian": "патентованный рецепт"
+          },
+          {
+            "german": "tragfähig",
+            "english": "sustainable",
+            "russian": "устойчивый"
+          },
+          {
+            "german": "unterlassen",
+            "english": "to refrain",
+            "russian": "воздерживаться"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Intern kommunizieren – aber wie?",
+        "words": [
+          {
+            "german": "die Agenda, Agenden",
+            "english": "agenda",
+            "russian": "повестка дня"
+          },
+          {
+            "german": "ausgleichend",
+            "english": "balancing",
+            "russian": "компенсирующий"
+          },
+          {
+            "german": "sich auskennen mit",
+            "english": "to be familiar with",
+            "russian": "разбираться в чем-то"
+          },
+          {
+            "german": "die Belegschaft, -en",
+            "english": "workforce",
+            "russian": "персонал"
+          },
+          {
+            "german": "besonnen",
+            "english": "prudent",
+            "russian": "рассудительный"
+          },
+          {
+            "german": "die Effizienz, -en",
+            "english": "efficiency",
+            "russian": "эффективность"
+          },
+          {
+            "german": "energisch",
+            "english": "energetic",
+            "russian": "энергичный"
+          },
+          {
+            "german": "konstruktiv",
+            "english": "constructive",
+            "russian": "конструктивный"
+          },
+          {
+            "german": "kreuz und quer",
+            "english": "hither and thither",
+            "russian": "взад и вперед, поперек"
+          },
+          {
+            "german": "miteinander umgehen",
+            "english": "to interact with each other",
+            "russian": "общаться друг с другом"
+          },
+          {
+            "german": "pöbeln",
+            "english": "to insult",
+            "russian": "ругаться, скандалить"
+          },
+          {
+            "german": "poltern",
+            "english": "to make noise",
+            "russian": "греметь, шуметь"
+          },
+          {
+            "german": "störanfällig",
+            "english": "prone to failure",
+            "russian": "подверженный сбоям"
+          },
+          {
+            "german": "sich im Ton vergreifen",
+            "english": "to misspeak",
+            "russian": "выходить из тонуса"
+          },
+          {
+            "german": "das Wort erteilen",
+            "english": "to give the floor",
+            "russian": "давать слово"
+          },
+          {
+            "german": "zurückhaltend",
+            "english": "reserved",
+            "russian": "сдержанный"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Non- und paraverbale Kommunikation",
+        "words": [
+          {
+            "german": "sich blamieren",
+            "english": "to make a fool of oneself",
+            "russian": "опозориться"
+          },
+          {
+            "german": "ins Fettnäpfchen treten",
+            "english": "to put one's foot in it",
+            "russian": "попасть в ловушку, сделать глупость"
+          },
+          {
+            "german": "die geballte Faust in der Tasche haben",
+            "english": "to be angry without showing it",
+            "russian": "держать кулачок в кармане"
+          },
+          {
+            "german": "fuchteln",
+            "english": "to wave",
+            "russian": "махать руками"
+          },
+          {
+            "german": "das Indiz, -ien",
+            "english": "indication",
+            "russian": "признак"
+          },
+          {
+            "german": "der Krach (Sg.)",
+            "english": "noise",
+            "russian": "шум, скандал"
+          },
+          {
+            "german": "Missfallen ausdrücken",
+            "english": "to express displeasure",
+            "russian": "выражать недовольство"
+          },
+          {
+            "german": "auf die Nerven gehen",
+            "english": "to get on one's nerves",
+            "russian": "действовать на нервы"
+          },
+          {
+            "german": "auf die Pelle rücken",
+            "english": "to get too close",
+            "russian": "приставать, быть на хвосте"
+          },
+          {
+            "german": "resignieren",
+            "english": "to resign",
+            "russian": "терять надежду"
+          },
+          {
+            "german": "eine Schnute ziehen",
+            "english": "to pout",
+            "russian": "корчить рожу, дуться"
+          },
+          {
+            "german": "untrüglich",
+            "english": "unmistakable",
+            "russian": "надежный, безошибочный"
+          },
+          {
+            "german": "ins Wort fallen",
+            "english": "to interrupt",
+            "russian": "вклиниваться в разговор"
+          },
+          {
+            "german": "zwischenmenschlich",
+            "english": "interpersonal",
+            "russian": "межличностный"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Diversität",
+    "unterthemen": [
+      {
+        "untertitle": "A Diversität – Normalfall und Chance",
+        "words": [
+          {
+            "german": "die Ausgrenzung (Sg.)",
+            "english": "exclusion",
+            "russian": "Исключение, изоляция"
+          },
+          {
+            "german": "die Benachteiligung, -en",
+            "english": "disadvantage, discrimination",
+            "russian": "Ущемление, дискриминация"
+          },
+          {
+            "german": "die Chancengleichheit (Sg.)",
+            "english": "equal opportunities",
+            "russian": "Равные возможности"
+          },
+          {
+            "german": "die Diskriminierung (Sg.)",
+            "english": "discrimination",
+            "russian": "Дискриминация"
+          },
+          {
+            "german": "die Diversität (Sg.)",
+            "english": "diversity",
+            "russian": "Разнообразие, многообразие"
+          },
+          {
+            "german": "ethnisch",
+            "english": "ethnic",
+            "russian": "Этнический"
+          },
+          {
+            "german": "die Gepflogenheit, -en",
+            "english": "custom, tradition",
+            "russian": "Обычай, традиция"
+          },
+          {
+            "german": "das Geschlecht, -er",
+            "english": "gender",
+            "russian": "Пол, гендер"
+          },
+          {
+            "german": "die Gewohnheit, -en",
+            "english": "habit",
+            "russian": "Привычка"
+          },
+          {
+            "german": "die Gleichbehandlung (Sg.)",
+            "english": "equal treatment",
+            "russian": "Равноправное обращение"
+          },
+          {
+            "german": "die Gleichsetzung (Sg.)",
+            "english": "equation, equalization",
+            "russian": "Равенство, уравнивание"
+          },
+          {
+            "german": "greifbar machen",
+            "english": "to make tangible",
+            "russian": "Сделать ощутимым, конкретным"
+          },
+          {
+            "german": "die Herabsetzung, -en",
+            "english": "humiliation",
+            "russian": "Унижение, понижение"
+          },
+          {
+            "german": "die Hochschätzung, -en",
+            "english": "high esteem",
+            "russian": "Высокая оценка, почитание"
+          },
+          {
+            "german": "die Individualität, -en",
+            "english": "individuality",
+            "russian": "Индивидуальность"
+          },
+          {
+            "german": "die Mannigfaltigkeit, -en",
+            "english": "variety",
+            "russian": "Многообразие"
+          },
+          {
+            "german": "das Potenzial, -e",
+            "english": "potential",
+            "russian": "Потенциал, возможность"
+          },
+          {
+            "german": "präsent",
+            "english": "present",
+            "russian": "Присутствующий, налицо"
+          },
+          {
+            "german": "die Priorität, -en (kurz: Prio)",
+            "english": "priority",
+            "russian": "Приоритет"
+          },
+          {
+            "german": "propagieren",
+            "english": "to propagate",
+            "russian": "Пропагандировать, рекламировать"
+          },
+          {
+            "german": "der Rassismus (Sg.)",
+            "english": "racism",
+            "russian": "Расизм"
+          },
+          {
+            "german": "in Schubladen stecken",
+            "english": "to pigeonhole",
+            "russian": "Ставить в ящики, клеймить"
+          },
+          {
+            "german": "die Unterschiedlichkeit, -en",
+            "english": "difference, diversity",
+            "russian": "Различие, разнообразие"
+          },
+          {
+            "german": "die Vielfalt (Sg.)",
+            "english": "diversity",
+            "russian": "Многообразие"
+          },
+          {
+            "german": "die Würdigung, -en",
+            "english": "appreciation, recognition",
+            "russian": "Признание, оценка"
+          },
+          {
+            "german": "die Zugehörigkeit, -en",
+            "english": "affiliation, belonging",
+            "russian": "Принадлежность"
+          },
+          {
+            "german": "die Zurücksetzung, -en",
+            "english": "setback, postponement",
+            "russian": "Откладывание в сторону, отсрочка"
+          }
+        ]
+      },
+      {
+        "untertitle": "Stereotype und Vorurteile",
+        "words": [
+          {
+            "german": "an zweifeln",
+            "english": "to doubt",
+            "russian": "Подвергать сомнению"
+          },
+          {
+            "german": "die Aggression, -en",
+            "english": "aggression",
+            "russian": "Агрессия"
+          },
+          {
+            "german": "benachteiligen",
+            "english": "to disadvantage, to discriminate",
+            "russian": "Ущемлять, дискриминировать"
+          },
+          {
+            "german": "belanglos",
+            "english": "irrelevant, inconsequential",
+            "russian": "Не имеющий значения, неважный"
+          },
+          {
+            "german": "bloß stellen",
+            "english": "to expose, to embarrass",
+            "russian": "Выставлять в негативном свете"
+          },
+          {
+            "german": "eintönig",
+            "english": "monotonous, dull",
+            "russian": "Однообразный, монотонный"
+          },
+          {
+            "german": "festigen",
+            "english": "to strengthen, to solidify",
+            "russian": "Укреплять, закреплять"
+          },
+          {
+            "german": "die Frustrationstoleranz, -en",
+            "english": "frustration tolerance",
+            "russian": "Терпимость к фрустрации"
+          },
+          {
+            "german": "genügsam",
+            "english": "frugal, content",
+            "russian": "Скромный, удовлетворенный"
+          },
+          {
+            "german": "grässlich",
+            "english": "horrible, dreadful",
+            "russian": "Ужасный, отвратительный"
+          },
+          {
+            "german": "grundlegend",
+            "english": "fundamental, basic",
+            "russian": "Основополагающий, фундаментальный"
+          },
+          {
+            "german": "haltlos",
+            "english": "baseless, unfounded",
+            "russian": "Беспочвенный, необоснованный"
+          },
+          {
+            "german": "intuitiv",
+            "english": "intuitive",
+            "russian": "Интуитивный"
+          },
+          {
+            "german": "das Klischee, -s",
+            "english": "cliché",
+            "russian": "Клише"
+          },
+          {
+            "german": "projizieren auf (Akk.)",
+            "english": "to project onto",
+            "russian": "Проецировать на"
+          },
+          {
+            "german": "resistent gegen",
+            "english": "resistant to",
+            "russian": "Сопротивляющийся, устойчивый к"
+          },
+          {
+            "german": "revidieren",
+            "english": "to revise",
+            "russian": "Пересматривать, переосмысливать"
+          },
+          {
+            "german": "sich einen Scherz erlauben",
+            "english": "to make a joke",
+            "russian": "Позволить себе шутку"
+          },
+          {
+            "german": "selektieren",
+            "english": "to select, to sort",
+            "russian": "Выбирать, отбирать"
+          },
+          {
+            "german": "seriös",
+            "english": "serious, reputable",
+            "russian": "Серьезный, надежный"
+          },
+          {
+            "german": "simpel",
+            "english": "simple, basic",
+            "russian": "Простой, примитивный"
+          },
+          {
+            "german": "(nicht einfach so) stehen lassen",
+            "english": "not to let go, not to leave alone",
+            "russian": "Не оставлять в покое"
+          },
+          {
+            "german": "das Stereotyp, -e",
+            "english": "stereotype",
+            "russian": "Стереотип"
+          },
+          {
+            "german": "der Sündenbock, \"-e",
+            "english": "scapegoat",
+            "russian": "Козел отпущения"
+          },
+          {
+            "german": "tendenziell",
+            "english": "tendentious, biased",
+            "russian": "Тенденциозный"
+          },
+          {
+            "german": "die Übergeneralisierung, -en",
+            "english": "overgeneralization",
+            "russian": "Перегенерализация"
+          },
+          {
+            "german": "unerheblich",
+            "english": "irrelevant, insignificant",
+            "russian": "Неважный, ничтожный"
+          },
+          {
+            "german": "vehement",
+            "english": "vehement, forceful",
+            "russian": "Решительный, страстный"
+          },
+          {
+            "german": "voreilig",
+            "english": "premature, hasty",
+            "russian": "Поспешный, преждевременный"
+          },
+          {
+            "german": "vorgefasst",
+            "english": "preconceived, biased",
+            "russian": "Заранее подготовленный, предвзятый"
+          },
+          {
+            "german": "vorgefertigt",
+            "english": "prefabricated, ready-made",
+            "russian": "Готовый, изготовленный заранее"
+          },
+          {
+            "german": "eine Vorhersage treffen über (Akk.)",
+            "english": "to make a prediction about",
+            "russian": "Делать предсказание о"
+          },
+          {
+            "german": "zurecht biegen",
+            "english": "to straighten out, to correct",
+            "russian": "Исправлять, выправлять"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Diversity Managemen",
+        "words": [
+          {
+            "german": "das Diversity Management (Sg.)",
+            "english": "diversity management",
+            "russian": "Управление многообразием"
+          },
+          {
+            "german": "den Einstand feiern",
+            "english": "to celebrate the debut",
+            "russian": "Праздновать вступление (на работу)"
+          },
+          {
+            "german": "das Gender, –",
+            "english": "gender",
+            "russian": "Гендер, пол"
+          },
+          {
+            "german": "die Implementierung, -en",
+            "english": "implementation",
+            "russian": "Внедрение, реализация"
+          },
+          {
+            "german": "kommunal",
+            "english": "municipal",
+            "russian": "Муниципальный, коммунальный"
+          },
+          {
+            "german": "in Kraft treten",
+            "english": "to come into effect",
+            "russian": "Вступать в силу"
+          },
+          {
+            "german": "in die Lage versetzen",
+            "english": "to enable, to empower",
+            "russian": "Помещать в состояние, предоставлять возможность"
+          },
+          {
+            "german": "der Migrationshintergrund, \"-e",
+            "english": "migration background",
+            "russian": "Миграционная история"
+          },
+          {
+            "german": "das Personalwesen (Sg.)",
+            "english": "human resources management",
+            "russian": "Управление персоналом"
+          },
+          {
+            "german": "spendieren",
+            "english": "to treat, to provide",
+            "russian": "Трактовать, предоставлять"
+          },
+          {
+            "german": "die Synergie, -n",
+            "english": "synergy",
+            "russian": "Синергия, взаимодействие"
+          },
+          {
+            "german": "die Verankerung, -en",
+            "english": "anchoring, embedding",
+            "russian": "Закрепление, укрепление"
+          },
+          {
+            "german": "der/die Vorstandsvorsitzende, -n",
+            "english": "chairman of the board",
+            "russian": "Председатель правления"
+          },
+          {
+            "german": "der (demografische) Wandel (Sg.)",
+            "english": "demographic change",
+            "russian": "(Демографическое) изменение"
+          },
+          {
+            "german": "die Wertschätzung (Sg.)",
+            "english": "appreciation",
+            "russian": "Уважение, признание"
+          },
+          {
+            "german": "die Willkommenskultur (Sg.)",
+            "english": "culture of welcome",
+            "russian": "Культура приветствия"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Vorteil kultureller Diversität",
+        "words": [
+          {
+            "german": "aus weichen",
+            "english": "to yield, to give way",
+            "russian": "Уступать, отклоняться"
+          },
+          {
+            "german": "um den heißen Brei herum reden",
+            "english": "to beat around the bush",
+            "russian": "Говорить вокруг да около, избегать ясности"
+          },
+          {
+            "german": "das Dilemma, -s/-ta",
+            "english": "dilemma",
+            "russian": "Дилемма, трудный выбор"
+          },
+          {
+            "german": "entlasten",
+            "english": "to relieve, to unburden",
+            "russian": "Разгружать, облегчать"
+          },
+          {
+            "german": "erstaunt über",
+            "english": "astonished by",
+            "russian": "Удивленный чем-то, пораженный"
+          },
+          {
+            "german": "der/die Ethnologe, -n / Ethnologin, -nen",
+            "english": "ethnologist",
+            "russian": "Этнолог, этнологиня"
+          },
+          {
+            "german": "eine (offene) Haltung ein nehmen",
+            "english": "to adopt an (open) attitude",
+            "russian": "Принимать (открытое) положение, относиться (с открытым взглядом)"
+          },
+          {
+            "german": "die Intoleranz, -en",
+            "english": "intolerance",
+            "russian": "Нетерпимость"
+          },
+          {
+            "german": "der Kollektivismus (Sg.)",
+            "english": "collectivism",
+            "russian": "Коллективизм"
+          },
+          {
+            "german": "das Ressentiment, -s",
+            "english": "resentment",
+            "russian": "Рессентиман, негативное отношение"
+          },
+          {
+            "german": "ein Theater machen wegen",
+            "english": "to make a scene because of",
+            "russian": "Ставить спектакль из-за, устраивать скандал из-за"
+          },
+          {
+            "german": "der Übergriff, -e",
+            "english": "incident, encroachment",
+            "russian": "Происшествие, инцидент"
+          },
+          {
+            "german": "die Unachtsamkeit, -en",
+            "english": "carelessness, inattention",
+            "russian": "Невнимательность, небрежность"
+          },
+          {
+            "german": "verankert in (Dat.)",
+            "english": "anchored in",
+            "russian": "Закрепленный в (чем-то)"
+          },
+          {
+            "german": "die Verständigung, -en",
+            "english": "understanding, communication",
+            "russian": "Взаимопонимание"
+          },
+          {
+            "german": "zum Wohl agieren von",
+            "english": "to act for the benefit of",
+            "russian": "Действовать на благо, для блага"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Vielfalt in Unternehmen",
+        "words": [
+          {
+            "german": "die Dependance, -n",
+            "english": "branch, subsidiary",
+            "russian": "Филиал, дочернее предприятие"
+          },
+          {
+            "german": "abschließen",
+            "english": "to complete, to finish",
+            "russian": "заканчивать, завершать"
+          },
+          {
+            "german": "anschließen",
+            "english": "to connect, to join",
+            "russian": "подключать, присоединять"
+          },
+          {
+            "german": "aufschließen",
+            "english": "to unlock, to open",
+            "russian": "отпирать, открывать"
+          },
+          {
+            "german": "einschließen",
+            "english": "to include, to enclose",
+            "russian": "включать, заключать"
+          },
+          {
+            "german": "kurzschließen",
+            "english": "to short-circuit",
+            "russian": "короткозамыкать"
+          },
+          {
+            "german": "ausschließen",
+            "english": "to exclude",
+            "russian": "исключать"
+          },
+          {
+            "german": "umschließen",
+            "english": "to surround, to encircle",
+            "russian": "окружать"
+          },
+          {
+            "german": "entschließen",
+            "english": "to decide, to make up one's mind",
+            "russian": "решаться, решиться"
+          },
+          {
+            "german": "verschließen",
+            "english": "to lock, to close",
+            "russian": "запирать, закрывать"
+          },
+          {
+            "german": "beschließen",
+            "english": "to decide, to resolve",
+            "russian": "решать, принимать решение"
+          },
+          {
+            "german": "erschließen",
+            "english": "to open up, to develop",
+            "russian": "открывать, осваивать"
+          },
+          {
+            "german": "zuschließen",
+            "english": "to lock up, to close",
+            "russian": "запирать, закрывать"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Recht",
+    "unterthemen": [
+      {
+        "untertitle": "A Rechte und Pflichten",
+        "words": [
+          {
+            "german": "die Arbeitszeitverkürzung (Sg.)",
+            "english": "reduction of working hours",
+            "russian": "сокращение рабочего времени"
+          },
+          {
+            "german": "die Befristung, -en",
+            "english": "limitation, fixed-term",
+            "russian": "ограничение, срок"
+          },
+          {
+            "german": "in Betracht kommen",
+            "english": "to come into consideration",
+            "russian": "приниматься во внимание"
+          },
+          {
+            "german": "der Beweggrund, \"-e",
+            "english": "motive, incentive",
+            "russian": "мотив, стимул"
+          },
+          {
+            "german": "bindend",
+            "english": "binding, obligatory",
+            "russian": "обязывающий"
+          },
+          {
+            "german": "die Fürsorgepflicht (Sg.)",
+            "english": "duty of care",
+            "russian": "забота, ответственность"
+          },
+          {
+            "german": "der/die Gesetzgeber, – / Gesetzgeberin, -nen",
+            "english": "legislator",
+            "russian": "законодатель"
+          },
+          {
+            "german": "der/die Mandant, -en / Mandantin, -nen",
+            "english": "client (legal)",
+            "russian": "клиент, заказчик (в отношении юридических вопросов)"
+          },
+          {
+            "german": "die Meldepflicht (Sg.)",
+            "english": "reporting obligation",
+            "russian": "обязанность уведомления"
+          },
+          {
+            "german": "die Mitwirkungspflicht (Sg.)",
+            "english": "duty to cooperate",
+            "russian": "обязанность участия"
+          },
+          {
+            "german": "der Mutterschutz (Sg.)",
+            "english": "maternity protection",
+            "russian": "декретный отпуск по беременности и родам"
+          },
+          {
+            "german": "die Personalie, -n",
+            "english": "personal data",
+            "russian": "личное дело, персональные данные"
+          },
+          {
+            "german": "rechtens sein",
+            "english": "to be lawful",
+            "russian": "быть законным, действительным"
+          },
+          {
+            "german": "der Sachverhalt, -e",
+            "english": "fact, situation",
+            "russian": "обстоятельство, фактическое положение"
+          },
+          {
+            "german": "Sorge tragen für",
+            "english": "to take care of",
+            "russian": "заботиться о"
+          },
+          {
+            "german": "die Sorgfalt (Sg.)",
+            "english": "care, diligence",
+            "russian": "бережливость, тщательность"
+          },
+          {
+            "german": "der Unterhalt (Sg.)",
+            "english": "maintenance",
+            "russian": "содержание (в материальном смысле)"
+          },
+          {
+            "german": "vorschreiben",
+            "english": "to prescribe, to dictate",
+            "russian": "предписывать"
+          },
+          {
+            "german": "das Widerrufsrecht, -e",
+            "english": "right of withdrawal",
+            "russian": "право на отказ"
+          },
+          {
+            "german": "das Wohlergehen, –",
+            "english": "well-being",
+            "russian": "благополучие"
+          },
+          {
+            "german": "das Zivilrecht, -e",
+            "english": "civil law",
+            "russian": "гражданское право"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Mieterschutz",
+        "words": [
+          {
+            "german": "an gleichen",
+            "english": "to equalize",
+            "russian": "уравнивать"
+          },
+          {
+            "german": "die Anhebung, -en",
+            "english": "increase, raising",
+            "russian": "повышение, поднятие"
+          },
+          {
+            "german": "der Auszug, \"-e",
+            "english": "move-out, departure",
+            "russian": "выезд, отъезд"
+          },
+          {
+            "german": "bei fügen",
+            "english": "to comply, to submit",
+            "russian": "подчиняться, следовать"
+          },
+          {
+            "german": "belehren über",
+            "english": "to inform, to educate about",
+            "russian": "учить, информировать о"
+          },
+          {
+            "german": "die Beschaffenheit, -en",
+            "english": "quality, nature",
+            "russian": "качество, свойство"
+          },
+          {
+            "german": "einstweilen",
+            "english": "for the time being, temporarily",
+            "russian": "пока, временно"
+          },
+          {
+            "german": "das Entgelt, -e",
+            "english": "payment, remuneration",
+            "russian": "оплата, вознаграждение"
+          },
+          {
+            "german": "jdn. ersuchen etw. zu tun",
+            "english": "to request someone to do something",
+            "russian": "просить кого-то сделать что-то"
+          },
+          {
+            "german": "die Kaution, -en",
+            "english": "deposit, security deposit",
+            "russian": "залог, депозит"
+          },
+          {
+            "german": "die Mietminderung, -en",
+            "english": "rent reduction",
+            "russian": "снижение арендной платы"
+          },
+          {
+            "german": "der Mietspiegel, –",
+            "english": "rental price index",
+            "russian": "справочник по арендным ставкам"
+          },
+          {
+            "german": "netto",
+            "english": "net",
+            "russian": "нетто, чистый"
+          },
+          {
+            "german": "der Nettomietzins, -e",
+            "english": "net rent",
+            "russian": "чистая арендная плата"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Arbeitsverträge",
+        "words": [
+          {
+            "german": "ab gelten",
+            "english": "to come into effect",
+            "russian": "вступать в силу"
+          },
+          {
+            "german": "sich etw. anrechnen lassen",
+            "english": "to credit oneself with something",
+            "russian": "засчитывать себе что-то"
+          },
+          {
+            "german": "die Arbeitsvergütung, -en",
+            "english": "wage, remuneration",
+            "russian": "оплата труда"
+          },
+          {
+            "german": "der Arbeitsvertrag, \"-e",
+            "english": "employment contract",
+            "russian": "трудовой договор"
+          },
+          {
+            "german": "das Attest, -e",
+            "english": "medical certificate",
+            "russian": "медицинское заключение"
+          },
+          {
+            "german": "begleichen",
+            "english": "to settle, to pay off",
+            "russian": "урегулировать, погасить"
+          },
+          {
+            "german": "beeinträchtigen",
+            "english": "to impair, to affect",
+            "russian": "ограничивать, ущемлять"
+          },
+          {
+            "german": "die Bescheinigung, -en",
+            "english": "certificate, document",
+            "russian": "свидетельство, справка"
+          },
+          {
+            "german": "die Bewilligung, -en",
+            "english": "approval, authorization",
+            "russian": "разрешение"
+          },
+          {
+            "german": "brutto",
+            "english": "gross",
+            "russian": "валовой, брутто"
+          },
+          {
+            "german": "ehrenamtlich",
+            "english": "voluntary, honorary",
+            "russian": "почетный, добровольный"
+          },
+          {
+            "german": "die Einwilligung, -en",
+            "english": "consent",
+            "russian": "согласие, разрешение"
+          },
+          {
+            "german": "eine Einwilligung erteilen",
+            "english": "to give consent",
+            "russian": "давать согласие"
+          },
+          {
+            "german": "die Entgeltfortzahlung, -en",
+            "english": "continued payment of wages",
+            "russian": "сохранение заработка"
+          },
+          {
+            "german": "eine Erlaubnis einholen",
+            "english": "to obtain permission",
+            "russian": "получать разрешение"
+          },
+          {
+            "german": "erlöschen",
+            "english": "to expire, to extinguish",
+            "russian": "прекращаться, тухнуть"
+          },
+          {
+            "german": "freistellen",
+            "english": "to exempt, to release",
+            "russian": "освобождать, предоставлять отпуск"
+          },
+          {
+            "german": "geringfügig",
+            "english": "minor, negligible",
+            "russian": "незначительный, минимальный"
+          },
+          {
+            "german": "gewähren",
+            "english": "to grant, to provide",
+            "russian": "предоставлять, давать"
+          },
+          {
+            "german": "das Guthaben, –",
+            "english": "credit balance",
+            "russian": "кредит, счет в плюсе"
+          },
+          {
+            "german": "der Schriftform bedürfen",
+            "english": "to require written form",
+            "russian": "требовать письменной формы"
+          },
+          {
+            "german": "das Stillschweigen (Sg.)",
+            "english": "silence",
+            "russian": "молчание"
+          },
+          {
+            "german": "Stillschweigen bewahren",
+            "english": "to maintain silence",
+            "russian": "сохранять молчание"
+          },
+          {
+            "german": "unverschuldet",
+            "english": "not at fault, innocent",
+            "russian": "не по вине, невиновный"
+          },
+          {
+            "german": "die Verschwiegenheitspflicht, -en",
+            "english": "duty of confidentiality",
+            "russian": "обязанность сохранения конфиденциальности"
+          },
+          {
+            "german": "der Verstoß, \"-e gegen",
+            "english": "violation of",
+            "russian": "нарушение"
+          },
+          {
+            "german": "jdm. etw. verwehren",
+            "english": "to deny someone something",
+            "russian": "запрещать кому-то что-то"
+          },
+          {
+            "german": "der Widerruf, -e",
+            "english": "revocation",
+            "russian": "отзыв, аннулирование"
+          },
+          {
+            "german": "widerrufen",
+            "english": "to revoke",
+            "russian": "отзывать"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Kündigung und Kündigungsschutz",
+        "words": [
+          {
+            "german": "die Abfindung, -en",
+            "english": "compensation, severance pay",
+            "russian": "компенсация, выходное пособие"
+          },
+          {
+            "german": "abmahnen",
+            "english": "to warn, to caution",
+            "russian": "выгонять, предупреждать"
+          },
+          {
+            "german": "der Amtsmissbrauch,\"-e",
+            "english": "abuse of office",
+            "russian": "злоупотребление полномочиями"
+          },
+          {
+            "german": "sich etw. annehmen",
+            "english": "to take care of something",
+            "russian": "заниматься чем-то, брать на себя"
+          },
+          {
+            "german": "aus handeln",
+            "english": "to act, to negotiate",
+            "russian": "действовать"
+          },
+          {
+            "german": "ausstehen",
+            "english": "to await, to endure",
+            "russian": "ожидать"
+          },
+          {
+            "german": "die Betriebszugehörigkeit, -en",
+            "english": "length of service with a company",
+            "russian": "стаж работы в предприятии"
+          },
+          {
+            "german": "bezichtigen",
+            "english": "to accuse, to charge",
+            "russian": "обвинять, винить"
+          },
+          {
+            "german": "per Einschreiben versenden",
+            "english": "to send by registered mail",
+            "russian": "отправлять заказное письмо"
+          },
+          {
+            "german": "die Eskapade, -n",
+            "english": "escapade, stunt",
+            "russian": "выходка, выход из строя"
+          },
+          {
+            "german": "das (grobe) Fehlverhalten, –",
+            "english": "gross misconduct",
+            "russian": "грубое нарушение"
+          },
+          {
+            "german": "einen kühlen Kopf bewahren",
+            "english": "to keep a cool head",
+            "russian": "сохранять хладнокровие"
+          },
+          {
+            "german": "eine Kündigungsschutzklage anstrengen",
+            "english": "to file a claim for protection against dismissal",
+            "russian": "подавать иск о защите от увольнения"
+          },
+          {
+            "german": "die Mitschrift, -en",
+            "english": "transcript, notes",
+            "russian": "запись, протокол"
+          },
+          {
+            "german": "eine Mitschrift verfassen",
+            "english": "to write a transcript",
+            "russian": "составлять запись"
+          },
+          {
+            "german": "rechtskräftig",
+            "english": "legally binding",
+            "russian": "законный, обладающий силой закона"
+          },
+          {
+            "german": "rechtswirksam",
+            "english": "legally effective",
+            "russian": "действительный с точки зрения закона"
+          },
+          {
+            "german": "sich außerstande sehen etw. zu tun",
+            "english": "to feel unable to do something",
+            "russian": "чувствовать себя неспособным что-то делать"
+          },
+          {
+            "german": "die Staatsanwaltschaft, -en",
+            "english": "public prosecutor's office",
+            "russian": "прокуратура"
+          },
+          {
+            "german": "das Strafmaß, -e",
+            "english": "penalty, sentence",
+            "russian": "мера наказания"
+          },
+          {
+            "german": "der Tarifvertrag, \"-e",
+            "english": "collective agreement",
+            "russian": "тарифный договор"
+          },
+          {
+            "german": "unzureichend",
+            "english": "insufficient",
+            "russian": "недостаточный"
+          },
+          {
+            "german": "die Vollmacht, -en",
+            "english": "power of attorney",
+            "russian": "доверенность, полномочие"
+          },
+          {
+            "german": "eine Vollmacht vorweisen",
+            "english": "to present a power of attorney",
+            "russian": "предъявлять доверенность"
+          },
+          {
+            "german": "die Willenserklärung, -en",
+            "english": "declaration of intent",
+            "russian": "волеизъявление"
+          },
+          {
+            "german": "empfangsbedürftig",
+            "english": "requiring acceptance",
+            "russian": "требующий принятия"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Gewerkschaften und ihre Aufgaben",
+        "words": [
+          {
+            "german": "die Dachorganisation, -en",
+            "english": "umbrella organization",
+            "russian": "конфедерация, верховная организация"
+          },
+          {
+            "german": "der Entscheidungsträger, –",
+            "english": "decision-maker",
+            "russian": "принимающий решения"
+          },
+          {
+            "german": "der Flächentarifvertrag, \"-e",
+            "english": "industry-wide collective agreement",
+            "russian": "общенациональный тарифный договор"
+          },
+          {
+            "german": "der Gewerkschaftsbund, \"-e",
+            "english": "trade union federation",
+            "russian": "союз профсоюзов"
+          },
+          {
+            "german": "der Hungerlohn, \"-e",
+            "english": "starvation wage",
+            "russian": "голодная зарплата"
+          },
+          {
+            "german": "der Mindestlohn, \"-e",
+            "english": "minimum wage",
+            "russian": "минимальная зарплата"
+          },
+          {
+            "german": "die Schichtarbeit, -en",
+            "english": "shift work",
+            "russian": "сменный график"
+          },
+          {
+            "german": "Stellung beziehen zu",
+            "english": "to take a position on",
+            "russian": "принимать позицию относительно"
+          },
+          {
+            "german": "der Streik, -s/-e",
+            "english": "strike",
+            "russian": "забастовка"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Wirtschaft und Umwelt",
+    "unterthemen": [
+      {
+        "untertitle": "A Die Welt, in der wir leben",
+        "words": [
+          {
+            "german": "der Anbau (Sg.)",
+            "english": "cultivation",
+            "russian": "посев"
+          },
+          {
+            "german": "das Artensterben (Sg.)",
+            "english": "species extinction",
+            "russian": "вымирание видов"
+          },
+          {
+            "german": "die Auflage, -n",
+            "english": "requirement, condition",
+            "russian": "требование, условие"
+          },
+          {
+            "german": "aus bringen",
+            "english": "to produce, to yield",
+            "russian": "производить, давать (результат)"
+          },
+          {
+            "german": "das Auskommen (Sg.)",
+            "english": "means of subsistence",
+            "russian": "средства к существованию"
+          },
+          {
+            "german": "aus stoßen",
+            "english": "to expel, to emit",
+            "russian": "выбрасывать"
+          },
+          {
+            "german": "bei pflichten",
+            "english": "to comply with, to fulfill",
+            "russian": "соблюдать, исполнять"
+          },
+          {
+            "german": "der/die Befürworter, – / Befürworterin, -nen",
+            "english": "supporter",
+            "russian": "сторонник, сторонница"
+          },
+          {
+            "german": "der Brennstoff, -e",
+            "english": "fuel",
+            "russian": "топливо"
+          },
+          {
+            "german": "drosseln",
+            "english": "to throttle, to reduce",
+            "russian": "ограничивать, снижать"
+          },
+          {
+            "german": "Einhalt gebieten",
+            "english": "to put an end to",
+            "russian": "полагать конец, предотвращать"
+          },
+          {
+            "german": "der Erlös, -e",
+            "english": "proceeds, revenue",
+            "russian": "выручка"
+          },
+          {
+            "german": "exportieren",
+            "english": "to export",
+            "russian": "экспортировать"
+          },
+          {
+            "german": "fatal",
+            "english": "fatal",
+            "russian": "фатальный, роковой"
+          },
+          {
+            "german": "ins Feld führen",
+            "english": "to bring up, to introduce",
+            "russian": "выносить на обсуждение, внести в дискуссию"
+          },
+          {
+            "german": "fossil",
+            "english": "fossil",
+            "russian": "ископаемое топливо"
+          },
+          {
+            "german": "das Gütesiegel, –",
+            "english": "quality seal",
+            "russian": "знак качества"
+          },
+          {
+            "german": "die Hitze-/Dürreperiode, -n",
+            "english": "heat/drought period",
+            "russian": "период жары/засухи"
+          },
+          {
+            "german": "das Insektizid, -e",
+            "english": "insecticide",
+            "russian": "инсектицид, средство от насекомых"
+          },
+          {
+            "german": "der Meeresspiegel, –",
+            "english": "sea level",
+            "russian": "уровень моря"
+          },
+          {
+            "german": "der Missstand, \"-e",
+            "english": "deficiency, problem",
+            "russian": "неудовлетворительное положение, недостаток"
+          },
+          {
+            "german": "die Monokultur, -en",
+            "english": "monoculture",
+            "russian": "монокультура"
+          },
+          {
+            "german": "nachhaltig",
+            "english": "sustainable",
+            "russian": "устойчивый, долгосрочный"
+          },
+          {
+            "german": "die Nachhaltigkeit (Sg.)",
+            "english": "sustainability",
+            "russian": "устойчивость"
+          },
+          {
+            "german": "die Nutzpflanzenart, -en",
+            "english": "crop species",
+            "russian": "вид сельскохозяйственных растений"
+          },
+          {
+            "german": "plädieren für",
+            "english": "to plead for, to advocate",
+            "russian": "выступать за, отстаивать"
+          },
+          {
+            "german": "das Pestizid, -e",
+            "english": "pesticide",
+            "russian": "пестицид, средство от вредителей"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Wirtschaftsmotor Mode",
+        "words": [
+          {
+            "german": "die Austrocknung, -en",
+            "english": "dehydration, drying out",
+            "russian": "обезвоживание, засушливость"
+          },
+          {
+            "german": "der Direktvertrieb, -e",
+            "english": "direct sales",
+            "russian": "прямая продажа"
+          },
+          {
+            "german": "die Ethik, -en",
+            "english": "ethics",
+            "russian": "этика"
+          },
+          {
+            "german": "fündig werden",
+            "english": "to find what one is looking for",
+            "russian": "находить то, что нужно"
+          },
+          {
+            "german": "einen Fußabdruck hinterlassen",
+            "english": "to leave a footprint",
+            "russian": "оставлять след"
+          },
+          {
+            "german": "kultivieren",
+            "english": "to cultivate, to develop",
+            "russian": "развивать, возделывать"
+          },
+          {
+            "german": "die Produktionsstätte, -n",
+            "english": "production facility",
+            "russian": "производственное предприятие"
+          },
+          {
+            "german": "schonen",
+            "english": "to spare, to conserve",
+            "russian": "беречь, экономить"
+          },
+          {
+            "german": "im Stich lassen",
+            "english": "to leave in the lurch",
+            "russian": "бросать в беде, подводить"
+          },
+          {
+            "german": "die Textilproduktion, -en",
+            "english": "textile production",
+            "russian": "текстильное производство"
+          },
+          {
+            "german": "die Treibhausgas-Emission, -en",
+            "english": "greenhouse gas emission",
+            "russian": "выбросы парниковых газов"
+          },
+          {
+            "german": "das Upcycling, -s",
+            "english": "upcycling",
+            "russian": "переработка с целью повторного использования"
+          },
+          {
+            "german": "die Verflechtung, -en",
+            "english": "interlacing, intertwining",
+            "russian": "взаимосвязь, переплетение"
+          },
+          {
+            "german": "die Versalzung (der Böden) (Sg.)",
+            "english": "salinization (of soils)",
+            "russian": "засоление почвы"
+          },
+          {
+            "german": "sich verschreiben",
+            "english": "to dedicate oneself, to be committed",
+            "russian": "посвящаться, увлекаться"
+          },
+          {
+            "german": "zusehends",
+            "english": "increasingly",
+            "russian": "все более и более"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Regelungen und Verbraucherschutz",
+        "words": [
+          {
+            "german": "der/die Abnehmer, – / Abnehmerin, -nen",
+            "english": "consumer",
+            "russian": "потребитель, потребительница"
+          },
+          {
+            "german": "zur Anzeige bringen",
+            "english": "to report",
+            "russian": "довести до сведения, донести до органов"
+          },
+          {
+            "german": "aufdecken",
+            "english": "to uncover, to reveal",
+            "russian": "раскрывать, выявлять"
+          },
+          {
+            "german": "besorgniserregend",
+            "english": "alarming, concerning",
+            "russian": "тревожный, беспокойный"
+          },
+          {
+            "german": "(rechtlich) bindend",
+            "english": "(legally) binding",
+            "russian": "(юридически) обязывающий"
+          },
+          {
+            "german": "empfinden",
+            "english": "to feel, to perceive",
+            "russian": "чувствовать, воспринимать"
+          },
+          {
+            "german": "entkräften",
+            "english": "to weaken, to refute",
+            "russian": "ослаблять, уменьшать силу"
+          },
+          {
+            "german": "die Imagekampagne, -n",
+            "english": "image campaign",
+            "russian": "рекламная кампания, направленная на улучшение имиджа"
+          },
+          {
+            "german": "der/die Importeur, -e / Importeurin, -nen",
+            "english": "importer",
+            "russian": "импортер, импортерка"
+          },
+          {
+            "german": "die Schadstoffbelastung, -en",
+            "english": "pollutant load",
+            "russian": "загрязнение вредными веществами"
+          },
+          {
+            "german": "die Schadstofffreisetzung (Sg.)",
+            "english": "emission of pollutants",
+            "russian": "выброс вредных веществ"
+          },
+          {
+            "german": "das Synthetikgewebe, –",
+            "english": "synthetic fabric",
+            "russian": "синтетическая ткань"
+          },
+          {
+            "german": "die Verordnung, -en",
+            "english": "regulation, ordinance",
+            "russian": "постановление, норматив"
+          },
+          {
+            "german": "vollumfänglich",
+            "english": "completely, fully",
+            "russian": "в полном объеме, полностью"
+          },
+          {
+            "german": "vorhersehbar",
+            "english": "predictable",
+            "russian": "предсказуемый"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Interessensvertretungen",
+        "words": [
+          {
+            "german": "die Abbaubarkeit, -en",
+            "english": "biodegradability",
+            "russian": "разлагаемость"
+          },
+          {
+            "german": "das Abwasser, –",
+            "english": "wastewater",
+            "russian": "сточные воды"
+          },
+          {
+            "german": "ausloten",
+            "english": "to explore, to investigate",
+            "russian": "изучать, исследовать"
+          },
+          {
+            "german": "die Beschichtung, -en",
+            "english": "coating",
+            "russian": "покрытие"
+          },
+          {
+            "german": "der Betriebsrat, \"-e",
+            "english": "works council",
+            "russian": "профсоюзный комитет"
+          },
+          {
+            "german": "einhergehen mit",
+            "english": "to accompany, to go along with",
+            "russian": "сопровождаться чем-то"
+          },
+          {
+            "german": "eindämmen",
+            "english": "to contain, to curb",
+            "russian": "ограничивать, сдерживать"
+          },
+          {
+            "german": "der Farbstoff, -e",
+            "english": "dye",
+            "russian": "краситель"
+          },
+          {
+            "german": "sich Gehör verschaffen",
+            "english": "to make oneself heard",
+            "russian": "добиваться внимания"
+          },
+          {
+            "german": "das Gift, -e",
+            "english": "poison",
+            "russian": "яд"
+          },
+          {
+            "german": "hormonell wirksam",
+            "english": "hormonally active",
+            "russian": "гормонально активный"
+          },
+          {
+            "german": "die Interessenvertretung, -en",
+            "english": "representation of interests",
+            "russian": "представительство интересов"
+          },
+          {
+            "german": "karzinogen",
+            "english": "carcinogenic",
+            "russian": "канцерогенный"
+          },
+          {
+            "german": "die Konzentration, -en",
+            "english": "concentration",
+            "russian": "концентрация"
+          },
+          {
+            "german": "der Kunststoff, -e",
+            "english": "plastic",
+            "russian": "пластмасса"
+          },
+          {
+            "german": "die Massentierhaltung, -en",
+            "english": "factory farming",
+            "russian": "промышленное скотоводство"
+          },
+          {
+            "german": "das Mikrokügelchen, –",
+            "english": "microbead",
+            "russian": "микрогранула"
+          },
+          {
+            "german": "die Nahrungskette, -n",
+            "english": "food chain",
+            "russian": "пищевая цепь"
+          },
+          {
+            "german": "die Naturfaser, -n",
+            "english": "natural fiber",
+            "russian": "натуральное волокно"
+          },
+          {
+            "german": "der Rückschluss, \"-e",
+            "english": "conclusion, inference",
+            "russian": "вывод, заключение"
+          },
+          {
+            "german": "der Rückstand, \"-e",
+            "english": "residue",
+            "russian": "остаток"
+          },
+          {
+            "german": "einen Stoff aufnehmen",
+            "english": "to absorb a substance",
+            "russian": "поглощать вещество"
+          },
+          {
+            "german": "toxisch wirken",
+            "english": "to have a toxic effect",
+            "russian": "оказывать токсическое воздействие"
+          },
+          {
+            "german": "die Unfruchtbarkeit (Sg.)",
+            "english": "infertility",
+            "russian": "бесплодие"
+          },
+          {
+            "german": "das Wort ergreifen",
+            "english": "to take the floor",
+            "russian": "взять слово"
+          },
+          {
+            "german": "sich etw. zunutze machen",
+            "english": "to make use of something",
+            "russian": "воспользоваться чем-то"
+          },
+          {
+            "german": "der Zusammenschluss, \"-e",
+            "english": "merger, union",
+            "russian": "слияние, концентрация"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Eine Patentlösung?",
+        "words": [
+          {
+            "german": "sich (nicht) abfinden mit",
+            "english": "(not) to reconcile with",
+            "russian": "(не) смиряться с"
+          },
+          {
+            "german": "die Alternative, -n",
+            "english": "alternative",
+            "russian": "альтернатива"
+          },
+          {
+            "german": "in Angriff nehmen",
+            "english": "to tackle, to take on",
+            "russian": "приступить к"
+          },
+          {
+            "german": "einschreiten gegen",
+            "english": "to take action against",
+            "russian": "бороться, предпринимать действия против"
+          },
+          {
+            "german": "kompostierbar",
+            "english": "compostable",
+            "russian": "поддающийся компостированию"
+          },
+          {
+            "german": "die Recyclingmöglichkeit, -en",
+            "english": "recycling option",
+            "russian": "возможность переработки"
+          },
+          {
+            "german": "robust",
+            "english": "robust",
+            "russian": "прочный, надежный"
+          },
+          {
+            "german": "unabdingbar",
+            "english": "indispensable",
+            "russian": "неотъемлемый"
+          },
+          {
+            "german": "widerstandsfähig",
+            "english": "resilient",
+            "russian": "устойчивый"
+          },
+          {
+            "german": "die Wiederverwertung, -en",
+            "english": "recycling",
+            "russian": "переработка"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mobilität",
+    "unterthemen": [
+      {
+        "untertitle": "A Menschen in Bewegung",
+        "words": [
+          {
+            "german": "abfedern",
+            "english": "to cushion, to soften",
+            "russian": "отталкиваться"
+          },
+          {
+            "german": "die Abwanderung, -en",
+            "english": "emigration, migration away",
+            "russian": "отток, эмиграция"
+          },
+          {
+            "german": "sich ansiedeln",
+            "english": "to settle",
+            "russian": "поселяться"
+          },
+          {
+            "german": "die Arbeitsmigration, -en",
+            "english": "labor migration",
+            "russian": "трудовая миграция"
+          },
+          {
+            "german": "ausgesetzt sein",
+            "english": "to be exposed",
+            "russian": "подвергаться, быть подверженным"
+          },
+          {
+            "german": "die Auswanderung, -en",
+            "english": "emigration",
+            "russian": "эмиграция"
+          },
+          {
+            "german": "der Ballungsraum, -e",
+            "english": "urban area, metropolitan area",
+            "russian": "густонаселенный район, агломерация"
+          },
+          {
+            "german": "behindert",
+            "english": "disabled",
+            "russian": "инвалид, инвалидный"
+          },
+          {
+            "german": "der/die Behinderte, -n",
+            "english": "disabled person",
+            "russian": "инвалид, инвалидка"
+          },
+          {
+            "german": "die Berichterstattung, -en",
+            "english": "reporting",
+            "russian": "освещение, докладывание"
+          },
+          {
+            "german": "der/die Binnenvertriebene, -n",
+            "english": "internally displaced person",
+            "russian": "внутренне перемещенный человек"
+          },
+          {
+            "german": "brach liegen",
+            "english": "to lie fallow, to be unused",
+            "russian": "пролеживать пустующим"
+          },
+          {
+            "german": "die Diskrepanz, -en",
+            "english": "discrepancy, disparity",
+            "russian": "разрыв, расхождение"
+          },
+          {
+            "german": "die Feindseligkeit, -en",
+            "english": "hostility",
+            "russian": "враждебность"
+          },
+          {
+            "german": "die Freizügigkeit, -en",
+            "english": "freedom of movement",
+            "russian": "свобода передвижения"
+          },
+          {
+            "german": "handhaben",
+            "english": "to handle, to manage",
+            "russian": "обращаться, управлять"
+          },
+          {
+            "german": "das Humankapital (Sg.)",
+            "english": "human capital",
+            "russian": "человеческий капитал"
+          },
+          {
+            "german": "die Idylle, -n",
+            "english": "idyll",
+            "russian": "идиллия"
+          },
+          {
+            "german": "die Landflucht (Sg.)",
+            "english": "rural exodus",
+            "russian": "уход сельского населения в города"
+          },
+          {
+            "german": "der Lebensstandard, -s",
+            "english": "standard of living",
+            "russian": "уровень жизни"
+          },
+          {
+            "german": "die Lebenshaltungskosten (Pl.)",
+            "english": "cost of living",
+            "russian": "расходы на проживание"
+          },
+          {
+            "german": "der Mentalitätsunterschied, -e",
+            "english": "difference in mentality",
+            "russian": "различие в менталитете"
+          },
+          {
+            "german": "die Mobilität (Sg.)",
+            "english": "mobility",
+            "russian": "подвижность, мобильность"
+          },
+          {
+            "german": "der/die Mobilitätseingeschränkte, -n",
+            "english": "person with restricted mobility",
+            "russian": "человек с ограниченной подвижностью"
+          },
+          {
+            "german": "der Niedergang, -e",
+            "english": "decline, downfall",
+            "russian": "упадок, уменьшение"
+          },
+          {
+            "german": "der/die Nomade, -n / Nomadin, -nen",
+            "english": "nomad",
+            "russian": "номад, кочевник"
+          },
+          {
+            "german": "das Pendeln (Sg.)",
+            "english": "commuting",
+            "russian": "пенделюм, маятник; путь на работу"
+          },
+          {
+            "german": "die Rehabilitation, -en",
+            "english": "rehabilitation",
+            "russian": "реабилитация"
+          },
+          {
+            "german": "zu schaffen machen",
+            "english": "to create problems, to cope with",
+            "russian": "создавать проблемы"
+          },
+          {
+            "german": "die Schieflage, -n",
+            "english": "imbalance",
+            "russian": "наклон, неравенство"
+          },
+          {
+            "german": "die Sicherheitsvorkehrung, -en",
+            "english": "security measure",
+            "russian": "меры безопасности"
+          },
+          {
+            "german": "die Spitzenkraft, -e",
+            "english": "top performer",
+            "russian": "выдающаяся личность"
+          },
+          {
+            "german": "unerschwinglich",
+            "english": "unaffordable",
+            "russian": "непосильный, недоступный"
+          },
+          {
+            "german": "ungebrochen",
+            "english": "unbroken, undiminished",
+            "russian": "неослабевающий, неукротимый"
+          },
+          {
+            "german": "die Verödung, -en",
+            "english": "desolation, depopulation",
+            "russian": "опустошение, обезлюдение"
+          },
+          {
+            "german": "die Zuwanderung, -en",
+            "english": "immigration",
+            "russian": "иммиграция"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Wenn Fachkräfte fehlen",
+        "words": [
+          {
+            "german": "der Akademisierungswahn (Sg.)",
+            "english": "obsession with academic education",
+            "russian": "безумие академизации"
+          },
+          {
+            "german": "ein geringes/hohes Ansehen genießen",
+            "english": "to enjoy little/high respect",
+            "russian": "пользоваться малым/высоким уважением"
+          },
+          {
+            "german": "die Ausweitung, -en",
+            "english": "expansion, extension",
+            "russian": "расширение"
+          },
+          {
+            "german": "sich bemerkbar machen",
+            "english": "to become noticeable",
+            "russian": "проявляться, делать себя заметным"
+          },
+          {
+            "german": "die Eigenheit, -en",
+            "english": "peculiarity, quirk",
+            "russian": "особенность"
+          },
+          {
+            "german": "der Engpass, \"-e",
+            "english": "bottleneck, shortage",
+            "russian": "узкое место, нехватка"
+          },
+          {
+            "german": "der Fachkräftemangel (Sg.)",
+            "english": "shortage of skilled workers",
+            "russian": "нехватка квалифицированных кадров"
+          },
+          {
+            "german": "der Indikator, -en",
+            "english": "indicator",
+            "russian": "индикатор, показатель"
+          },
+          {
+            "german": "das Missverhältnis, -se",
+            "english": "disproportion, imbalance",
+            "russian": "неравенство, диспропорция"
+          },
+          {
+            "german": "quartalsweise",
+            "english": "quarterly",
+            "russian": "ежеквартально"
+          },
+          {
+            "german": "die Vakanzzeit, -en",
+            "english": "vacancy period",
+            "russian": "время вакансии"
+          },
+          {
+            "german": "verkennen",
+            "english": "to underestimate",
+            "russian": "недооценивать"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Mobile Pflege",
+        "words": [
+          {
+            "german": "die Abrechnung, -en",
+            "english": "billing, settlement",
+            "russian": "расчет, учет"
+          },
+          {
+            "german": "die Bürokratie, -n",
+            "english": "bureaucracy",
+            "russian": "бюрократия"
+          },
+          {
+            "german": "der Einwand gegen",
+            "english": "objection to",
+            "russian": "возражение против"
+          },
+          {
+            "german": "gebrechlich",
+            "english": "frail, feeble",
+            "russian": "хрупкий, слабый"
+          },
+          {
+            "german": "die Hingabe, -n",
+            "english": "devotion, dedication",
+            "russian": "преданность, отданность"
+          },
+          {
+            "german": "der/die Klient, -en / Klientin, -nen",
+            "english": "client",
+            "russian": "клиент, заказчик"
+          },
+          {
+            "german": "die Massenabfertigung, -en",
+            "english": "mass processing",
+            "russian": "массовая обработка"
+          },
+          {
+            "german": "die Nachlässigkeit, -en",
+            "english": "negligence, carelessness",
+            "russian": "небрежность, халатность"
+          },
+          {
+            "german": "die Neuausrichtung, -en",
+            "english": "realignment, reorientation",
+            "russian": "переориентация"
+          },
+          {
+            "german": "der Pflegedienst, -e",
+            "english": "nursing service",
+            "russian": "служба по уходу"
+          },
+          {
+            "german": "der Plausch, (-)e",
+            "english": "chat, conversation",
+            "russian": "беседа, человеческое общение"
+          },
+          {
+            "german": "die Rentabilität, -en",
+            "english": "profitability",
+            "russian": "прибыльность, рентабельность"
+          },
+          {
+            "german": "die Selbstbestimmung, -en",
+            "english": "self-determination, autonomy",
+            "russian": "самоопределение, самостоятельность"
+          },
+          {
+            "german": "schüren",
+            "english": "to stoke, to fuel",
+            "russian": "разжигать, подстрекать"
+          },
+          {
+            "german": "das Spannungsfeld, -er",
+            "english": "field of tension",
+            "russian": "поле напряженности"
+          },
+          {
+            "german": "der Tariflohn, \"-e",
+            "english": "collective wage",
+            "russian": "тарифная зарплата"
+          },
+          {
+            "german": "der Unmut (Sg.)",
+            "english": "discontent, displeasure",
+            "russian": "недовольство, негодование"
+          },
+          {
+            "german": "vergüten",
+            "english": "to compensate, to remunerate",
+            "russian": "возмещать, оплачивать"
+          },
+          {
+            "german": "die Zuwendung, -en",
+            "english": "attention, care",
+            "russian": "внимание, забота"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Mobilität im Job",
+        "words": [
+          {
+            "german": "bedauerlich",
+            "english": "regrettable",
+            "russian": "сожаление"
+          },
+          {
+            "german": "die Betriebsversammlung, -en",
+            "english": "company meeting",
+            "russian": "корпоративное собрание"
+          },
+          {
+            "german": "die Deeskalation, -en",
+            "english": "de-escalation",
+            "russian": "дезэскалация"
+          },
+          {
+            "german": "dumm auf der Straße rumstehen",
+            "english": "to stand stupidly on the street",
+            "russian": "глупо стоять на улице"
+          },
+          {
+            "german": "geltend machen",
+            "english": "to assert, to claim",
+            "russian": "предъявлять, добиваться признания"
+          },
+          {
+            "german": "genehmigen",
+            "english": "to approve",
+            "russian": "утверждать, одобрять"
+          },
+          {
+            "german": "unter Generalverdacht stellen",
+            "english": "to place under general suspicion",
+            "russian": "подвергать общему подозрению"
+          },
+          {
+            "german": "der/die Gleichstellungsbeauftragte, -n",
+            "english": "equality officer",
+            "russian": "уполномоченный по вопросам равенства"
+          },
+          {
+            "german": "am Herzen liegen",
+            "english": "to be close to one's heart",
+            "russian": "лежать на сердце, быть дорогим"
+          },
+          {
+            "german": "das Homeoffice, -s",
+            "english": "home office",
+            "russian": "удаленная работа из дома"
+          },
+          {
+            "german": "unter einen Hut bringen",
+            "english": "to reconcile, to bring under one roof",
+            "russian": "уместить в одном, совместить"
+          },
+          {
+            "german": "das Kontingent, -e",
+            "english": "quota, limit",
+            "russian": "квота, лимит"
+          },
+          {
+            "german": "platzt der Kragen",
+            "english": "to lose one's temper",
+            "russian": "лопается от злости"
+          },
+          {
+            "german": "das Misstrauen (Sg.)",
+            "english": "distrust",
+            "russian": "недоверие"
+          },
+          {
+            "german": "der/die Moderator, -en / Moderatorin, -nen",
+            "english": "moderator",
+            "russian": "ведущий, модератор"
+          },
+          {
+            "german": "moderieren",
+            "english": "to moderate",
+            "russian": "вести, модерировать"
+          },
+          {
+            "german": "rege",
+            "english": "lively, active",
+            "russian": "активный, оживленный"
+          },
+          {
+            "german": "in die Röhre schauen",
+            "english": "to be disappointed",
+            "russian": "остаться с носом, быть разочарованным"
+          },
+          {
+            "german": "die Schlussfolgerung, -en (ziehen)",
+            "english": "to draw a conclusion",
+            "russian": "делать вывод"
+          },
+          {
+            "german": "die Übergabe, -n",
+            "english": "handover, transfer",
+            "russian": "передача, передача полномочий"
+          },
+          {
+            "german": "die Vereinbarkeit, -en",
+            "english": "compatibility",
+            "russian": "совместимость"
+          },
+          {
+            "german": "vertraut sein mit",
+            "english": "to be familiar with",
+            "russian": "быть знакомым с"
+          },
+          {
+            "german": "die Vertretung, -en",
+            "english": "representation, substitute",
+            "russian": "представление, замещение"
+          },
+          {
+            "german": "der Zuschuss, \"-e",
+            "english": "subsidy",
+            "russian": "субсидия, дополнительное финансирование"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Ein neuer Firmenstandort",
+        "words": [
+          {
+            "german": "die Anbindung, -en (z.B. an die Autobahn)",
+            "english": "connection, access (e.g., to the highway)",
+            "russian": "связь, подключение (например, к автобану)"
+          },
+          {
+            "german": "belassen",
+            "english": "to leave",
+            "russian": "оставлять"
+          },
+          {
+            "german": "der Geschäftssitz, -e",
+            "english": "business location",
+            "russian": "офис, офисное здание"
+          },
+          {
+            "german": "die Gewerbeimmobilie, -n",
+            "english": "commercial property",
+            "russian": "коммерческая недвижимость"
+          },
+          {
+            "german": "zu schätzen wissen",
+            "english": "to appreciate, to value",
+            "russian": "ценить, оценивать"
+          },
+          {
+            "german": "der Trubel (Sg.)",
+            "english": "hustle and bustle",
+            "russian": "суета, суматоха"
+          },
+          {
+            "german": "der Verbleib (Sg.)",
+            "english": "whereabouts",
+            "russian": "пребывание, нахождение"
+          },
+          {
+            "german": "der Verkehrsknotenpunkt, -e",
+            "english": "transport hub, intersection",
+            "russian": "транспортный узел, пересечение"
+          },
+          {
+            "german": "votieren für/gegen",
+            "english": "to vote for/against",
+            "russian": "голосовать за/против"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Ideen und Innovationen",
+    "unterthemen": [
+      {
+        "untertitle": "A Innovationen in Alltag und Beruf",
+        "words": [
+          {
+            "german": "ab schlagen",
+            "english": "to reject",
+            "russian": "отвергать"
+          },
+          {
+            "german": "ab wägen",
+            "english": "to weigh up, to consider",
+            "russian": "взвешивать"
+          },
+          {
+            "german": "das Durchhaltevermögen (Sg.)",
+            "english": "perseverance, stamina",
+            "russian": "выдержка, упорство"
+          },
+          {
+            "german": "der/die Eigenbrötler, – / Eigenbrötlerin, -nen",
+            "english": "individualist, loner",
+            "russian": "индивидуалист, своенравный человек"
+          },
+          {
+            "german": "erschaffen",
+            "english": "to create, to invent",
+            "russian": "создавать, изобретать"
+          },
+          {
+            "german": "essenziell",
+            "english": "essential",
+            "russian": "существенный, важный"
+          },
+          {
+            "german": "fruchtbar",
+            "english": "fertile, productive",
+            "russian": "плодородный, результативный"
+          },
+          {
+            "german": "Furore machen",
+            "english": "to cause a sensation",
+            "russian": "произвести фурор, сделать фурор"
+          },
+          {
+            "german": "Gefahren in sich bergen",
+            "english": "to contain dangers",
+            "russian": "нести в себе опасности"
+          },
+          {
+            "german": "der Geistesblitz, -e",
+            "english": "brainwave, flash of inspiration",
+            "russian": "вдохновение, мгновенная идея"
+          },
+          {
+            "german": "genial",
+            "english": "brilliant, ingenious",
+            "russian": "гениальный"
+          },
+          {
+            "german": "zur Höchstform auflaufen",
+            "english": "to perform at one's best",
+            "russian": "достигнуть высшей формы"
+          },
+          {
+            "german": "die Human Ressources (Pl.)",
+            "english": "human resources",
+            "russian": "кадровые ресурсы"
+          },
+          {
+            "german": "das Imitat, -e",
+            "english": "imitation, fake",
+            "russian": "имитация, подделка"
+          },
+          {
+            "german": "die Innovation, -en",
+            "english": "innovation",
+            "russian": "инновация"
+          },
+          {
+            "german": "innovativ",
+            "english": "innovative",
+            "russian": "инновационный"
+          },
+          {
+            "german": "in die Irre führen",
+            "english": "to mislead",
+            "russian": "вводить в заблуждение"
+          },
+          {
+            "german": "kreieren",
+            "english": "to create, to design",
+            "russian": "создавать, изобретать"
+          },
+          {
+            "german": "die Neuschöpfung, -en",
+            "english": "new creation",
+            "russian": "новое творение"
+          },
+          {
+            "german": "der Prototyp, -en",
+            "english": "prototype",
+            "russian": "прототип"
+          },
+          {
+            "german": "skurril",
+            "english": "bizarre, eccentric",
+            "russian": "странный, эксцентричный"
+          },
+          {
+            "german": "das Start-up, -s",
+            "english": "start-up",
+            "russian": "стартап"
+          },
+          {
+            "german": "der Synergieeffekt, -e",
+            "english": "synergy effect",
+            "russian": "синергетический эффект"
+          },
+          {
+            "german": "tüfteln",
+            "english": "to tinker, to work out",
+            "russian": "изобретать, разрабатывать"
+          },
+          {
+            "german": "umgänglich",
+            "english": "affable, easy-going",
+            "russian": "общительный, приветливый"
+          },
+          {
+            "german": "umsetzen",
+            "english": "to implement, to realize",
+            "russian": "реализовывать, воплощать"
+          },
+          {
+            "german": "umsetzen",
+            "english": "to implement, to realize",
+            "russian": "реализовывать, воплощать"
+          },
+          {
+            "german": "verwerfen",
+            "english": "to reject",
+            "russian": "отвергать"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Lifehacks – Ideen für den Alltag",
+        "words": [
+          {
+            "german": "an mahnen",
+            "english": "to remind",
+            "russian": "напоминать"
+          },
+          {
+            "german": "an prangern",
+            "english": "to denounce, to condemn",
+            "russian": "обличать, осуждать"
+          },
+          {
+            "german": "die Banalität",
+            "english": "banality",
+            "russian": "банальность"
+          },
+          {
+            "german": "den Bogen überspannen",
+            "english": "to overstretch, to overdo",
+            "russian": "переборщить, перегибать палку"
+          },
+          {
+            "german": "brüten über",
+            "english": "to brood over",
+            "russian": "размышлять над"
+          },
+          {
+            "german": "erneuern",
+            "english": "to renew",
+            "russian": "обновлять"
+          },
+          {
+            "german": "sich etablieren",
+            "english": "to establish oneself",
+            "russian": "утверждаться, закрепляться"
+          },
+          {
+            "german": "das (konstruktive) Feedback",
+            "english": "(constructive) feedback",
+            "russian": "(конструктивная) обратная связь"
+          },
+          {
+            "german": "in einem neuen Gewand erscheinen",
+            "english": "to appear in a new guise",
+            "russian": "появиться в новом обличии"
+          },
+          {
+            "german": "vor sich hin vegetieren",
+            "english": "to vegetate, to lead a dull life",
+            "russian": "вести унылую, бесцельную жизнь"
+          },
+          {
+            "german": "eine (zündende) Idee haben",
+            "english": "to have a (sparkling) idea",
+            "russian": "иметь (вдохновляющую) идею"
+          },
+          {
+            "german": "die Kirche im Dorf lassen",
+            "english": "to keep things in perspective",
+            "russian": "не перегибать палку, держать меру"
+          },
+          {
+            "german": "ein Licht auf gehen",
+            "english": "to become clear, to dawn on",
+            "russian": "освещаться, проясняться"
+          },
+          {
+            "german": "der Lifehack",
+            "english": "life hack",
+            "russian": "лайфхак"
+          },
+          {
+            "german": "in die Luft gehen",
+            "english": "to skyrocket, to blow up",
+            "russian": "взлететь, выйти из строя"
+          },
+          {
+            "german": "lukrativ",
+            "english": "lucrative",
+            "russian": "прибыльный, выгодный"
+          },
+          {
+            "german": "optimierbar",
+            "english": "optimizable",
+            "russian": "оптимизируемый"
+          },
+          {
+            "german": "plädieren für/gegen",
+            "english": "to plead for/against",
+            "russian": "выступать за/против"
+          },
+          {
+            "german": "präzisieren",
+            "english": "to specify",
+            "russian": "уточнять"
+          },
+          {
+            "german": "Revue passieren lassen",
+            "english": "to review",
+            "russian": "вспоминать, пересматривать"
+          },
+          {
+            "german": "das Sinnbild",
+            "english": "symbol",
+            "russian": "символ"
+          },
+          {
+            "german": "subsumieren",
+            "english": "to subsume",
+            "russian": "сводить под одну категорию"
+          },
+          {
+            "german": "die Resignation",
+            "english": "resignation",
+            "russian": "резигнация, уныние"
+          },
+          {
+            "german": "Schindluder treiben (mit)",
+            "english": "to abuse, to misuse",
+            "russian": "делать шалости, злоупотреблять (чем-либо)"
+          },
+          {
+            "german": "sich unter ordnen",
+            "english": "to subordinate oneself",
+            "russian": "подчиняться, подчиняться порядку"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Kreativität und Innovation",
+        "words": [
+          {
+            "german": "ab klopfen auf (Akk.)",
+            "english": "to knock on",
+            "russian": "постучать по"
+          },
+          {
+            "german": "die Achse, -n",
+            "english": "axis",
+            "russian": "ось"
+          },
+          {
+            "german": "ad acta legen",
+            "english": "to put aside",
+            "russian": "откладывать в сторону"
+          },
+          {
+            "german": "an kurbeln",
+            "english": "to crank up, to stimulate",
+            "russian": "заводить, стимулировать"
+          },
+          {
+            "german": "an stacheln zu",
+            "english": "to provoke to",
+            "russian": "подстрекать к"
+          },
+          {
+            "german": "der Ehrgeiz (Sg.)",
+            "english": "ambition",
+            "russian": "амбиция, честолюбие"
+          },
+          {
+            "german": "sich einer Forderung nach etw. entziehen",
+            "english": "to evade a demand for sth.",
+            "russian": "уклоняться от требования чего-то"
+          },
+          {
+            "german": "die Erleuchtung, -en",
+            "english": "enlightenment, idea",
+            "russian": "просветление, идея"
+          },
+          {
+            "german": "initiieren",
+            "english": "to initiate",
+            "russian": "инициировать"
+          },
+          {
+            "german": "sich inspirieren lassen",
+            "english": "to be inspired",
+            "russian": "вдохновляться"
+          },
+          {
+            "german": "horizontal verlaufen",
+            "english": "to run horizontally",
+            "russian": "горизонтально протекать"
+          },
+          {
+            "german": "das Koordinatensystem, -e",
+            "english": "coordinate system",
+            "russian": "координатная система"
+          },
+          {
+            "german": "die Moderationskarte, -n",
+            "english": "moderation card",
+            "russian": "карта для модерации"
+          },
+          {
+            "german": "heften",
+            "english": "to attach, to staple",
+            "russian": "прикреплять, пришивать"
+          },
+          {
+            "german": "plagiieren",
+            "english": "to plagiarize",
+            "russian": "плагиатировать"
+          },
+          {
+            "german": "sachlich",
+            "english": "objective, factual",
+            "russian": "объективный, фактический"
+          },
+          {
+            "german": "vertikal verlaufen",
+            "english": "to run vertically",
+            "russian": "вертикально протекать"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Der Weg zum eigenen Unternehmen",
+        "words": [
+          {
+            "german": "Ausschau halten nach",
+            "english": "to keep an eye out for, to search",
+            "russian": "держать глаза открытыми, искать"
+          },
+          {
+            "german": "evaluieren",
+            "english": "to evaluate",
+            "russian": "оценивать"
+          },
+          {
+            "german": "das Förderdarlehen, –",
+            "english": "promotional loan",
+            "russian": "ссуда на поддержку"
+          },
+          {
+            "german": "der/die Gewerbetreibende, -n",
+            "english": "businessperson",
+            "russian": "предприниматель"
+          },
+          {
+            "german": "die GmbH, -s",
+            "english": "limited liability company (LLC)",
+            "russian": "ООО (Общество с ограниченной ответственностью)"
+          },
+          {
+            "german": "den Grundstein bilden für",
+            "english": "to lay the foundation for",
+            "russian": "положить основу для"
+          },
+          {
+            "german": "die Hürde, -n",
+            "english": "hurdle, barrier",
+            "russian": "барьера, преграда"
+          },
+          {
+            "german": "Hürden überwinden",
+            "english": "to overcome hurdles",
+            "russian": "преодолевать преграды"
+          },
+          {
+            "german": "die Reißleine ziehen",
+            "english": "to pull the ripcord, to make a decision to stop",
+            "russian": "потянуть за рычаг, принять решение прекратить"
+          },
+          {
+            "german": "das Scheitern (Sg.)",
+            "english": "failure",
+            "russian": "неудача, провал"
+          },
+          {
+            "german": "das Stammkapital (Sg.)",
+            "english": "share capital",
+            "russian": "уставной капитал"
+          },
+          {
+            "german": "unerlässlich",
+            "english": "indispensable, essential",
+            "russian": "необходимый, незаменимый"
+          },
+          {
+            "german": "die Verbindlichkeit, -en",
+            "english": "liability, obligation",
+            "russian": "обязательность, обязанность"
+          },
+          {
+            "german": "der Vertrieb, -e",
+            "english": "distribution, sales",
+            "russian": "сбыт, распространение"
+          },
+          {
+            "german": "das Vorhaben, –",
+            "english": "intention, plan",
+            "russian": "намерение, план"
+          },
+          {
+            "german": "die Vorsorge (Sg.)",
+            "english": "precaution, foresight",
+            "russian": "предвидение, предосторожность"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Ein Start-up gründen",
+        "words": [
+          {
+            "german": "ansatzweise",
+            "english": "in outline, roughly",
+            "russian": "в общих чертах, приблизительно"
+          },
+          {
+            "german": "im Argen liegen",
+            "english": "to be in a bad state, to be in danger",
+            "russian": "быть в плохом состоянии, находиться в опасности"
+          },
+          {
+            "german": "begutachten",
+            "english": "to evaluate, to examine",
+            "russian": "оценивать, рассматривать"
+          },
+          {
+            "german": "das Fördermittel, –",
+            "english": "funding, support",
+            "russian": "средства поддержки"
+          },
+          {
+            "german": "der Fuhrpark, -s",
+            "english": "vehicle fleet",
+            "russian": "автопарк"
+          },
+          {
+            "german": "nachvollziehen",
+            "english": "to comprehend, to understand",
+            "russian": "осуществлять, реализовывать"
+          },
+          {
+            "german": "ungefiltert",
+            "english": "unfiltered, uncensored",
+            "russian": "нефильтрованный, нецензурированный"
+          },
+          {
+            "german": "verallgemeinern",
+            "english": "to generalize",
+            "russian": "обобщать"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Projektarbeit",
+    "unterthemen": [
+      {
+        "untertitle": "A Projekte in Alltag und Beruf",
+        "words": [
+          {
+            "german": "die Agilität (Sg.)",
+            "english": "agility",
+            "russian": "агильность, гибкость"
+          },
+          {
+            "german": "das Ampelsystem, -e",
+            "english": "traffic light system",
+            "russian": "светофорная система"
+          },
+          {
+            "german": "die Ausbildungsvergütung, -en",
+            "english": "apprenticeship salary",
+            "russian": "пособие по обучению"
+          },
+          {
+            "german": "die (duale) Berufsausbildung, -en",
+            "english": "(dual) vocational training",
+            "russian": "(двойное) профессиональное образование"
+          },
+          {
+            "german": "das Controlling (Sg.)",
+            "english": "controlling, management",
+            "russian": "контроль, управление"
+          },
+          {
+            "german": "sich einigen auf (Akk.)",
+            "english": "to agree on",
+            "russian": "договариваться о"
+          },
+          {
+            "german": "die Flüchtlingshilfe, -n",
+            "english": "refugee aid",
+            "russian": "помощь беженцам"
+          },
+          {
+            "german": "die Informatik (Sg.)",
+            "english": "computer science",
+            "russian": "информатика"
+          },
+          {
+            "german": "das Ingenieurwesen (Sg.)",
+            "english": "engineering",
+            "russian": "инженерное дело"
+          },
+          {
+            "german": "die Initialisierung, -en",
+            "english": "initialization",
+            "russian": "инициализация"
+          },
+          {
+            "german": "das Lehrjahr, -e",
+            "english": "apprenticeship year",
+            "russian": "учебный год"
+          },
+          {
+            "german": "maßgeblich",
+            "english": "decisive, key",
+            "russian": "определяющий, ключевой"
+          },
+          {
+            "german": "die Medienwissenschaft, -en",
+            "english": "media studies",
+            "russian": "медиевистика"
+          },
+          {
+            "german": "der Meilenstein, -e",
+            "english": "milestone",
+            "russian": "рубеж, веха"
+          },
+          {
+            "german": "das Modul, -e",
+            "english": "module",
+            "russian": "модуль"
+          },
+          {
+            "german": "der Müll (Sg.)",
+            "english": "garbage",
+            "russian": "мусор"
+          },
+          {
+            "german": "die Nachhilfe, -n",
+            "english": "tutoring",
+            "russian": "репетиторская помощь"
+          },
+          {
+            "german": "die Projektlaufzeit, -en",
+            "english": "project duration",
+            "russian": "длительность проекта"
+          },
+          {
+            "german": "die Routinetätigkeit, -en",
+            "english": "routine task",
+            "russian": "рутинная деятельность"
+          },
+          {
+            "german": "die Seelsorge (Sg.)",
+            "english": "spiritual care",
+            "russian": "духовная забота"
+          },
+          {
+            "german": "die (berufsbildende) Schule, -n",
+            "english": "vocational school",
+            "russian": "профессиональная школа"
+          },
+          {
+            "german": "der Soll-/Ist-Stand (Sg.)",
+            "english": "target/actual status",
+            "russian": "план/факт"
+          },
+          {
+            "german": "transparent",
+            "english": "transparent",
+            "russian": "прозрачный"
+          },
+          {
+            "german": "unterscheiden",
+            "english": "to distinguish",
+            "russian": "различать"
+          },
+          {
+            "german": "der Verdienst, -e",
+            "english": "earnings, income",
+            "russian": "заработок"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Engagement für das Gemeinwohl",
+        "words": [
+          {
+            "german": "die Aufnahmegesellschaft, -en",
+            "english": "host society",
+            "russian": "принимающее общество"
+          },
+          {
+            "german": "das (ehrenamtliche) Engagement, -s",
+            "english": "(voluntary) commitment",
+            "russian": "волонтерская деятельность"
+          },
+          {
+            "german": "kuratieren",
+            "english": "to curate",
+            "russian": "кураторствовать"
+          },
+          {
+            "german": "der/die Geflüchtete, -n",
+            "english": "refugee",
+            "russian": "беженец, беженка"
+          },
+          {
+            "german": "das Gemeinwohl (Sg.)",
+            "english": "common good",
+            "russian": "общественное благо"
+          },
+          {
+            "german": "der/die Integrationsbeauftragte, -n",
+            "english": "integration officer",
+            "russian": "уполномоченный по интеграции"
+          },
+          {
+            "german": "die Koordination, -en",
+            "english": "coordination",
+            "russian": "координация"
+          },
+          {
+            "german": "profitorientiert",
+            "english": "profit-oriented",
+            "russian": "ориентированный на прибыль"
+          },
+          {
+            "german": "die Reichweite, -n",
+            "english": "reach, range",
+            "russian": "охват, дальность"
+          },
+          {
+            "german": "der Rettungsdienst, -e",
+            "english": "rescue service",
+            "russian": "служба спасения"
+          },
+          {
+            "german": "die Spende, -n",
+            "english": "donation",
+            "russian": "пожертвование"
+          },
+          {
+            "german": "der Streifzug, \"-e",
+            "english": "stroll, tour",
+            "russian": "прогулка, экскурсия"
+          },
+          {
+            "german": "die Teilhabe (Sg.)",
+            "english": "participation",
+            "russian": "участие"
+          },
+          {
+            "german": "verstören",
+            "english": "to disturb, unsettle",
+            "russian": "смущать, волновать"
+          },
+          {
+            "german": "das Vorurteil, -e",
+            "english": "prejudice",
+            "russian": "предвзятое мнение"
+          },
+          {
+            "german": "Vorurteile abbauen gegen",
+            "english": "to break down prejudices against",
+            "russian": "разрушать предрассудки против"
+          },
+          {
+            "german": "der Wohlfahrtsverband, \"-e",
+            "english": "welfare organization",
+            "russian": "благотворительная организация"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Ein Projekt in einem Unternehmen",
+        "words": [
+          {
+            "german": "die Abhilfe",
+            "english": "remedy, solution",
+            "russian": "мера по устранению"
+          },
+          {
+            "german": "abwickeln",
+            "english": "to process, to handle",
+            "russian": "проводить, осуществлять"
+          },
+          {
+            "german": "anfertigen",
+            "english": "to produce, to make",
+            "russian": "изготавливать, создавать"
+          },
+          {
+            "german": "beauftragt mit",
+            "english": "tasked with",
+            "russian": "поручено кому-то"
+          },
+          {
+            "german": "die Bestandsaufnahme, -n",
+            "english": "inventory, stocktaking",
+            "russian": "инвентаризация"
+          },
+          {
+            "german": "die Bilanz, -en",
+            "english": "balance sheet",
+            "russian": "баланс"
+          },
+          {
+            "german": "der/die Buchhalter, – / Buchhalterin, -nen",
+            "english": "accountant",
+            "russian": "бухгалтер"
+          },
+          {
+            "german": "der/die Dekorateur, -e / Dekorateurin, -nen",
+            "english": "decorator",
+            "russian": "декоратор"
+          },
+          {
+            "german": "unter Druck geraten",
+            "english": "to come under pressure",
+            "russian": "попасть под давление"
+          },
+          {
+            "german": "das Etappenziel, -e",
+            "english": "milestone",
+            "russian": "этапная цель"
+          },
+          {
+            "german": "die Expertise, -n",
+            "english": "expertise",
+            "russian": "экспертиза, компетенция"
+          },
+          {
+            "german": "der/die Filialleiter, – / Filialleiterin, -nen",
+            "english": "branch manager",
+            "russian": "руководитель филиала"
+          },
+          {
+            "german": "die Finanzbuchhaltung, -en",
+            "english": "financial accounting",
+            "russian": "финансовое бухгалтерство"
+          },
+          {
+            "german": "die Gegenüberstellung, -en",
+            "english": "comparison, juxtaposition",
+            "russian": "противостояние, сопоставление"
+          },
+          {
+            "german": "der/die Gestalter, – / Gestalterin, -nen (für visuelles Marketing)",
+            "english": "visual designer (for marketing)",
+            "russian": "дизайнер (визуального маркетинга)"
+          },
+          {
+            "german": "in Kauf nehmen",
+            "english": "to accept, to tolerate",
+            "russian": "принимать на себя"
+          },
+          {
+            "german": "die Inventur, -en",
+            "english": "inventory",
+            "russian": "инвентаризация"
+          },
+          {
+            "german": "die Materialbeschaffung (Sg.)",
+            "english": "material procurement",
+            "russian": "обеспечение материалами"
+          },
+          {
+            "german": "Priorität haben",
+            "english": "to have priority",
+            "russian": "иметь приоритет"
+          },
+          {
+            "german": "das Rechnungswesen (Sg.)",
+            "english": "accounting",
+            "russian": "бухгалтерия"
+          },
+          {
+            "german": "sich regen",
+            "english": "to move, to stir",
+            "russian": "двигаться, быть активным"
+          },
+          {
+            "german": "schaffen",
+            "english": "to create, to manage",
+            "russian": "создавать, справляться"
+          },
+          {
+            "german": "die Sortimentgestaltung, -en",
+            "english": "assortment design",
+            "russian": "формирование ассортимента"
+          },
+          {
+            "german": "die Vereinheitlichung, -en",
+            "english": "standardization",
+            "russian": "унификация"
+          },
+          {
+            "german": "der Versand (Sg.)",
+            "english": "shipping, dispatch",
+            "russian": "отправка, доставка"
+          },
+          {
+            "german": "die Warendisposition, -en",
+            "english": "goods planning",
+            "russian": "размещение товаров"
+          },
+          {
+            "german": "das Werbemittel, –",
+            "english": "advertising medium",
+            "russian": "рекламное средство"
+          },
+          {
+            "german": "der Widerstand, \"-e",
+            "english": "resistance",
+            "russian": "сопротивление"
+          },
+          {
+            "german": "wirtschaften",
+            "english": "to manage, to run (economically)",
+            "russian": "хозяйствовать, управлять экономикой"
+          },
+          {
+            "german": "der Zahlungseingang, \"-e",
+            "english": "receipt of payment",
+            "russian": "поступление платежа"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Protokolle",
+        "words": [
+          {
+            "german": "die (schriftliche) Dokumentation",
+            "english": "(written) documentation",
+            "russian": "(письменная) документация"
+          },
+          {
+            "german": "die Genauigkeit, -en",
+            "english": "accuracy",
+            "russian": "точность"
+          },
+          {
+            "german": "hausintern",
+            "english": "in-house",
+            "russian": "внутри фирмы"
+          },
+          {
+            "german": "das Namenskürzel, –",
+            "english": "initials",
+            "russian": "инициалы"
+          },
+          {
+            "german": "das Protokoll, -e",
+            "english": "protocol",
+            "russian": "протокол"
+          },
+          {
+            "german": "der/die Protokollant, -en / Protokollantin, -nen",
+            "english": "scribe, minute-taker",
+            "russian": "протоколист"
+          },
+          {
+            "german": "der/die Protokollierende, -n",
+            "english": "person taking minutes",
+            "russian": "ведущий протокол"
+          },
+          {
+            "german": "der Protokollkopf, \"-e",
+            "english": "protocol header",
+            "russian": "заголовок протокола"
+          },
+          {
+            "german": "der (wertungsfreie) Stil, -e",
+            "english": "(non-judgmental) style",
+            "russian": "(бесцензурный) стиль"
+          },
+          {
+            "german": "straffen",
+            "english": "to streamline, to tighten",
+            "russian": "уплотнить, укоротить"
+          },
+          {
+            "german": "der Verteiler, –",
+            "english": "distributor, recipient list",
+            "russian": "распределитель"
+          },
+          {
+            "german": "der Wortlaut (Sg.)",
+            "english": "wording",
+            "russian": "текст, формулировка"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Eine Unternehmenspräsentation",
+        "words": [
+          {
+            "german": "die AG, -s (Aktiengesellschaft, -en)",
+            "english": "public limited company (PLC)",
+            "russian": "акционерное общество (АО)"
+          },
+          {
+            "german": "die Dienstleistung, -en",
+            "english": "service",
+            "russian": "услуга"
+          },
+          {
+            "german": "ein kalkulieren",
+            "english": "to calculate",
+            "russian": "рассчитывать стоимость"
+          },
+          {
+            "german": "sich (gemeinnützig) engagieren für/gegen",
+            "english": "to volunteer for/against",
+            "russian": "волонтерски вкладываться в/против"
+          },
+          {
+            "german": "das Fazit, -e",
+            "english": "summary, conclusion",
+            "russian": "итог, вывод"
+          },
+          {
+            "german": "die Filiale, -n",
+            "english": "branch, subsidiary",
+            "russian": "филиал"
+          },
+          {
+            "german": "die Gewinnspanne, -n",
+            "english": "profit margin",
+            "russian": "маржа прибыли"
+          },
+          {
+            "german": "die Kommanditgesellschaft, -en",
+            "english": "limited partnership",
+            "russian": "компания с ограниченной ответственностью"
+          },
+          {
+            "german": "die Marge, -n",
+            "english": "margin",
+            "russian": "маржа"
+          },
+          {
+            "german": "mittelständisch",
+            "english": "medium-sized",
+            "russian": "средний по размеру"
+          },
+          {
+            "german": "die Niederlassung, -en",
+            "english": "branch, office",
+            "russian": "филиал, представительство"
+          },
+          {
+            "german": "der Nischenmarkt,\"-e",
+            "english": "niche market",
+            "russian": "нишевый рынок"
+          },
+          {
+            "german": "das Organigramm, -e",
+            "english": "organizational chart",
+            "russian": "организационная схема"
+          },
+          {
+            "german": "die Rechtsform, -en",
+            "english": "legal form",
+            "russian": "форма правления"
+          },
+          {
+            "german": "den Sitz haben in (z.B. München)",
+            "english": "to be based in (e.g. Munich)",
+            "russian": "иметь местонахождение в (например, в Мюнхене)"
+          },
+          {
+            "german": "das (gehobene) Sortiment, -e",
+            "english": "(premium) range of goods",
+            "russian": "(высококачественный) ассортимент"
+          },
+          {
+            "german": "das Stammhaus, \"-er",
+            "english": "headquarters",
+            "russian": "штаб-квартира"
+          },
+          {
+            "german": "der Standort, -e",
+            "english": "location",
+            "russian": "местоположение"
+          },
+          {
+            "german": "der Verkaufserlös, -e",
+            "english": "sales revenue",
+            "russian": "выручка от продаж"
+          },
+          {
+            "german": "der Zweig, -e",
+            "english": "branch, sector",
+            "russian": "филиал, отрасль"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Eigentum",
+    "unterthemen": [
+      {
+        "untertitle": "A Wem gehört was?",
+        "words": [
+          {
+            "german": "die Abmahnung, ­en",
+            "english": "warning, reprimand",
+            "russian": "предупреждение, выговор"
+          },
+          {
+            "german": "außer Acht lassen",
+            "english": "to disregard",
+            "russian": "не обращать внимание"
+          },
+          {
+            "german": "ahnden",
+            "english": "to punish",
+            "russian": "наказывать, наказываться"
+          },
+          {
+            "german": "aufspüren",
+            "english": "to track down, to locate",
+            "russian": "выслеживать, находить"
+          },
+          {
+            "german": "bestechen",
+            "english": "to bribe",
+            "russian": "подкупать"
+          },
+          {
+            "german": "der/die Betroffene, ­n",
+            "english": "affected person, victim",
+            "russian": "пострадавший, пострадавшая"
+          },
+          {
+            "german": "das Copyright, ­s",
+            "english": "copyright",
+            "russian": "авторское право"
+          },
+          {
+            "german": "das Eigentum (Sg.)",
+            "english": "property, ownership",
+            "russian": "собственность"
+          },
+          {
+            "german": "das Erschleichen (Sg.)",
+            "english": "obtaining by deception",
+            "russian": "получение путем обмана"
+          },
+          {
+            "german": "zu Fall bringen",
+            "english": "to bring down, to topple",
+            "russian": "свергнуть, повалить"
+          },
+          {
+            "german": "fälschen",
+            "english": "to forge, to counterfeit",
+            "russian": "подделывать"
+          },
+          {
+            "german": "gang und gäbe",
+            "english": "common, prevalent",
+            "russian": "распространенный, обычный"
+          },
+          {
+            "german": "der/die Geschädigte, ­n",
+            "english": "injured party, victim",
+            "russian": "пострадавший, пострадавшая"
+          },
+          {
+            "german": "das gewerbliche Recht, ­e",
+            "english": "commercial law",
+            "russian": "коммерческое право"
+          },
+          {
+            "german": "das Grundgesetz, ­e",
+            "english": "basic law, constitution",
+            "russian": "основной закон, Конституция"
+          },
+          {
+            "german": "der/die Inhaber, – / Inhaberin, ­nen",
+            "english": "owner",
+            "russian": "владелец, владелица"
+          },
+          {
+            "german": "innehaben",
+            "english": "to possess, to own",
+            "russian": "владеть"
+          },
+          {
+            "german": "der Intellekt, ­e",
+            "english": "intellect",
+            "russian": "интеллект"
+          },
+          {
+            "german": "der/die Laie, ­n / Laiin, ­nen",
+            "english": "layperson, non-expert",
+            "russian": "лаик, неспециалист"
+          },
+          {
+            "german": "nachahmen",
+            "english": "to imitate",
+            "russian": "подражать"
+          },
+          {
+            "german": "das Patent, ­e",
+            "english": "patent",
+            "russian": "патент"
+          },
+          {
+            "german": "patentiert",
+            "english": "patented",
+            "russian": "патентованный"
+          },
+          {
+            "german": "das Plagiat, ­e",
+            "english": "plagiarism",
+            "russian": "плагиат"
+          },
+          {
+            "german": "der Rechtsbruch, \"­e",
+            "english": "violation of law",
+            "russian": "нарушение закона"
+          },
+          {
+            "german": "die (geistige) Schöpfung, ­en",
+            "english": "(intellectual) creation",
+            "russian": "(интеллектуальное) творчество"
+          },
+          {
+            "german": "das (hoheitlich erteilte) Schutzrecht, ­e",
+            "english": "(officially granted) protective right",
+            "russian": "право на защиту (предоставленное государством)"
+          },
+          {
+            "german": "der/die Steuerhinterzieher, – / ­hinterzieherin, ­nen",
+            "english": "tax evader",
+            "russian": "уклоняющийся от уплаты налогов"
+          },
+          {
+            "german": "umgehend",
+            "english": "immediately",
+            "russian": "немедленно"
+          },
+          {
+            "german": "das Urheberrecht, ­e",
+            "english": "copyright",
+            "russian": "авторское право"
+          },
+          {
+            "german": "die Vergabe, ­n",
+            "english": "allocation, awarding",
+            "russian": "предоставление, назначение"
+          },
+          {
+            "german": "in Verruf stehen/geraten",
+            "english": "to be in disrepute",
+            "russian": "быть в дурном положении, находиться в опале"
+          },
+          {
+            "german": "der Verstoß, \"­e",
+            "english": "violation",
+            "russian": "нарушение"
+          },
+          {
+            "german": "verunglimpfen",
+            "english": "to defame, to vilify",
+            "russian": "порочить, унижать"
+          },
+          {
+            "german": "vorab",
+            "english": "in advance",
+            "russian": "заранее"
+          },
+          {
+            "german": "würdigen",
+            "english": "to appreciate, to value",
+            "russian": "оценивать, ценить"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Das Recht der Urheber",
+        "words": [
+          {
+            "german": "das Beanstandete (Sg.)",
+            "english": "the objected",
+            "russian": "замеченное"
+          },
+          {
+            "german": "belangen für",
+            "english": "to hold accountable for",
+            "russian": "требовать ответа за"
+          },
+          {
+            "german": "beteuern",
+            "english": "to assert, to affirm",
+            "russian": "заверять, утверждать"
+          },
+          {
+            "german": "einklagen",
+            "english": "to sue for",
+            "russian": "подать в суд"
+          },
+          {
+            "german": "die Entschädigung, ­en",
+            "english": "compensation, indemnification",
+            "russian": "компенсация, возмещение"
+          },
+          {
+            "german": "erwischen",
+            "english": "to catch, to nab",
+            "russian": "поймать, застать"
+          },
+          {
+            "german": "mit Füßen treten",
+            "english": "to trample, to scorn",
+            "russian": "ступать на (что-то) ногами, презирать"
+          },
+          {
+            "german": "zur Haftung heranziehen",
+            "english": "to hold liable",
+            "russian": "привлекать к ответственности"
+          },
+          {
+            "german": "die Hemmschwelle, ­n",
+            "english": "inhibition threshold",
+            "russian": "барьер, преграда"
+          },
+          {
+            "german": "minderjährig",
+            "english": "underage, minor",
+            "russian": "несовершеннолетний"
+          },
+          {
+            "german": "die Rubrik, ­en",
+            "english": "section, category",
+            "russian": "рубрика"
+          },
+          {
+            "german": "der Ruin (Sg.)",
+            "english": "ruin, bankruptcy",
+            "russian": "разруха, гибель"
+          },
+          {
+            "german": "strafmündig",
+            "english": "criminally responsible age",
+            "russian": "достигший возраста уголовной ответственности"
+          },
+          {
+            "german": "die Unterlassungserklärung, ­en",
+            "english": "declaration to cease and desist",
+            "russian": "заявление о невмешательстве"
+          },
+          {
+            "german": "der Urheber, –",
+            "english": "author, originator",
+            "russian": "автор"
+          },
+          {
+            "german": "ins Visier geraten (z.B. der Justiz)",
+            "english": "to come under scrutiny (e.g., by justice)",
+            "russian": "попасть в поле зрения (например, правосудия)"
+          },
+          {
+            "german": "der Vorfall, \"­e",
+            "english": "incident, occurrence",
+            "russian": "происшествие, инцидент"
+          },
+          {
+            "german": "die Zensur, ­en",
+            "english": "censorship",
+            "russian": "цензура"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Erfindungen und Patente",
+        "words": [
+          {
+            "german": "befugt zu",
+            "english": "authorized to",
+            "russian": "уполномочен на"
+          },
+          {
+            "german": "einreichen",
+            "english": "to submit",
+            "russian": "подавать (заявку)"
+          },
+          {
+            "german": "die Erfindung, ­en",
+            "english": "invention",
+            "russian": "изобретение"
+          },
+          {
+            "german": "gegeben",
+            "english": "given",
+            "russian": "имеющийся"
+          },
+          {
+            "german": "die Marktreife (Sg.)",
+            "english": "market readiness",
+            "russian": "готовность к внедрению на рынок"
+          },
+          {
+            "german": "die Nachahmung, ­en",
+            "english": "imitation",
+            "russian": "подражание"
+          },
+          {
+            "german": "der Schriftzug, \"­e",
+            "english": "inscription, slogan",
+            "russian": "надпись, лозунг"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Produkt- und Markenpiraterie",
+        "words": [
+          {
+            "german": "abschrecken von",
+            "english": "to deter from",
+            "russian": "отпугивать от"
+          },
+          {
+            "german": "beschlagnahmen",
+            "english": "to confiscate",
+            "russian": "конфисковывать"
+          },
+          {
+            "german": "betroffen von",
+            "english": "affected by",
+            "russian": "пострадавший от"
+          },
+          {
+            "german": "ersuchen",
+            "english": "to request",
+            "russian": "просить, обращаться с просьбой"
+          },
+          {
+            "german": "der Hemmschuh, ­e",
+            "english": "hindrance, obstacle",
+            "russian": "тормоз, препятствие"
+          },
+          {
+            "german": "konsultieren",
+            "english": "to consult",
+            "russian": "консультировать, советоваться"
+          },
+          {
+            "german": "die Nachbildung, ­en",
+            "english": "replica, imitation",
+            "russian": "копия, подделка"
+          },
+          {
+            "german": "das Quartal, ­e",
+            "english": "quarter",
+            "russian": "квартал"
+          },
+          {
+            "german": "der Regressanspruch, \"­e",
+            "english": "claim for compensation",
+            "russian": "право на компенсацию"
+          },
+          {
+            "german": "sich zu Schulden kommen lassen",
+            "english": "to make a mistake",
+            "russian": "совершить ошибку"
+          },
+          {
+            "german": "vorbehalten",
+            "english": "reserved",
+            "russian": "оставлять за собой, зарезервировать"
+          },
+          {
+            "german": "der Zoll (Sg.)",
+            "english": "customs",
+            "russian": "таможня"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Produktionsanlagen – patentfähig?",
+        "words": [
+          {
+            "german": "das Antriebssystem, ­e",
+            "english": "drive system",
+            "russian": "приводная система"
+          },
+          {
+            "german": "das Bauteil, ­e",
+            "english": "component",
+            "russian": "строительный блок"
+          },
+          {
+            "german": "(Oberflächen) beschichten",
+            "english": "to coat (surfaces)",
+            "russian": "покрывать (поверхности) слоем"
+          },
+          {
+            "german": "die Dichtigkeit (Sg.)",
+            "english": "tightness, density",
+            "russian": "герметичность"
+          },
+          {
+            "german": "elementar",
+            "english": "elementary, basic",
+            "russian": "элементарный, основной"
+          },
+          {
+            "german": "erstrebenswert",
+            "english": "desirable",
+            "russian": "желательный"
+          },
+          {
+            "german": "feilen",
+            "english": "to file",
+            "russian": "напиливать"
+          },
+          {
+            "german": "die (mannlose) Fertigung, ­en",
+            "english": "(unmanned) production",
+            "russian": "беспилотное производство"
+          },
+          {
+            "german": "die Fertigungsüberwachung, ­en",
+            "english": "production monitoring",
+            "russian": "контроль производства"
+          },
+          {
+            "german": "fräsen",
+            "english": "to mill",
+            "russian": "фрезеровать"
+          },
+          {
+            "german": "grundieren",
+            "english": "to prime",
+            "russian": "грунтовать"
+          },
+          {
+            "german": "von Hand erfolgen",
+            "english": "to be done by hand",
+            "russian": "выполнять вручную"
+          },
+          {
+            "german": "hobeln",
+            "english": "to plane",
+            "russian": "стругать"
+          },
+          {
+            "german": "hochfahren",
+            "english": "to start up",
+            "russian": "подниматься, включаться"
+          },
+          {
+            "german": "lackieren",
+            "english": "to paint",
+            "russian": "красить"
+          },
+          {
+            "german": "sägen",
+            "english": "to saw",
+            "russian": "пилить"
+          },
+          {
+            "german": "schleifen",
+            "english": "to grind",
+            "russian": "шлифовать"
+          },
+          {
+            "german": "schweißen",
+            "english": "to weld",
+            "russian": "сваривать"
+          },
+          {
+            "german": "steuern",
+            "english": "to control",
+            "russian": "управлять"
+          },
+          {
+            "german": "warten (z.B. eine Maschine)",
+            "english": "to maintain (e.g. a machine)",
+            "russian": "обслуживать (например, машину)"
+          },
+          {
+            "german": "die Holz­/Metallindustrie, ­n",
+            "english": "wood/metal industry",
+            "russian": "деревообрабатывающая/металлообрабатывающая промышленность"
+          },
+          {
+            "german": "die Oberfläche, ­n",
+            "english": "surface",
+            "russian": "поверхность"
+          },
+          {
+            "german": "patentfähig",
+            "english": "patentable",
+            "russian": "подлежащий патентованию"
+          },
+          {
+            "german": "die Produktionsanlage, ­n",
+            "english": "production facility",
+            "russian": "производственное оборудование"
+          },
+          {
+            "german": "die Prozesstechnologie, ­n",
+            "english": "process technology",
+            "russian": "технология производства"
+          },
+          {
+            "german": "stationär",
+            "english": "stationary",
+            "russian": "стационарный"
+          },
+          {
+            "german": "variantenreich",
+            "english": "varied",
+            "russian": "многообразный, разнообразный"
+          },
+          {
+            "german": "variationsfreudig",
+            "english": "fond of variations",
+            "russian": "любящий вариации"
+          },
+          {
+            "german": "der Werkstoff, ­e",
+            "english": "material",
+            "russian": "материал"
+          },
+          {
+            "german": "die Zuleitung, ­en",
+            "english": "supply line",
+            "russian": "подвод (например, электропитания)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Marketing und Vertrieb",
+    "unterthemen": [
+      {
+        "untertitle": "A Werbung in Alltag und Beruf",
+        "words": [
+          {
+            "german": "der/die Adressat, -en / Adressatin, -nen",
+            "english": "addressee",
+            "russian": "адресат, получатель"
+          },
+          {
+            "german": "die Geldbuße, -n",
+            "english": "fine, monetary penalty",
+            "russian": "штраф, денежное взыскание"
+          },
+          {
+            "german": "in Anspruch nehmen",
+            "english": "to use, to claim",
+            "russian": "использовать, претендовать на"
+          },
+          {
+            "german": "die Authentizität (Sg.)",
+            "english": "authenticity",
+            "russian": "подлинность, аутентичность"
+          },
+          {
+            "german": "Autorität genießen",
+            "english": "to enjoy authority",
+            "russian": "наслаждаться авторитетом"
+          },
+          {
+            "german": "beiläufig",
+            "english": "incidentally",
+            "russian": "кстати, мимолетный"
+          },
+          {
+            "german": "der Beliebtheitsgrad, -e",
+            "english": "popularity level",
+            "russian": "степень популярности"
+          },
+          {
+            "german": "der/die Betreiber, – / Betreiberin, -nen",
+            "english": "operator, owner",
+            "russian": "оператор, владелец"
+          },
+          {
+            "german": "einsetzen für",
+            "english": "to use for",
+            "russian": "использовать для"
+          },
+          {
+            "german": "erobern",
+            "english": "to conquer",
+            "russian": "завоевывать"
+          },
+          {
+            "german": "um den Finger wickeln",
+            "english": "to wrap around one's finger",
+            "russian": "завертывать вокруг пальца, обманывать"
+          },
+          {
+            "german": "der Gedankengang, \"-e",
+            "english": "train of thought",
+            "russian": "логическая цепочка мышления"
+          },
+          {
+            "german": "verstoßen gegen",
+            "english": "to violate",
+            "russian": "нарушать, противоречить"
+          },
+          {
+            "german": "der/die Gleichgesinnte, -n",
+            "english": "like-minded person",
+            "russian": "единомышленник, единомышленница"
+          },
+          {
+            "german": "das Blaue vom Himmel herunterlügen",
+            "english": "to lie outrageously",
+            "russian": "врать как сивый мерин"
+          },
+          {
+            "german": "die Kauflust (Sg.)",
+            "english": "shopping desire",
+            "russian": "желание покупать"
+          },
+          {
+            "german": "das Konsumverhalten, –",
+            "english": "consumer behavior",
+            "russian": "потребительское поведение"
+          },
+          {
+            "german": "die Kulisse, -n",
+            "english": "background, backdrop",
+            "russian": "фон, декорации"
+          },
+          {
+            "german": "der/die Multiplikator, -en / Multiplikatorin, -nen",
+            "english": "multiplier, promoter (in advertising)",
+            "russian": "множитель, умножитель (в рекламе)"
+          },
+          {
+            "german": "den Nerv treffen",
+            "english": "to hit the nerve",
+            "russian": "попасть в самое сердце, точно понять"
+          },
+          {
+            "german": "die Produktplatzierung, -en",
+            "english": "product placement",
+            "russian": "размещение продукции"
+          },
+          {
+            "german": "die Reklame, -n",
+            "english": "advertisement",
+            "russian": "реклама"
+          },
+          {
+            "german": "die Schleichwerbung, -en",
+            "english": "hidden advertising",
+            "russian": "скрытая реклама"
+          },
+          {
+            "german": "schmackhaft machen",
+            "english": "to make tasty, to make appealing",
+            "russian": "делать вкусным, привлекательным"
+          },
+          {
+            "german": "die Sehnsucht, \"-e",
+            "english": "longing, yearning",
+            "russian": "тоска, сильное желание"
+          },
+          {
+            "german": "Sehnsüchte ansprechen",
+            "english": "to address longings",
+            "russian": "обращаться к тоскам, желаниям"
+          },
+          {
+            "german": "richten an (Akk.)",
+            "english": "to address, to appeal to (someone)",
+            "russian": "обращаться к (кому-то)"
+          },
+          {
+            "german": "der/die Sponsor, -en / Sponsorin, -nen",
+            "english": "sponsor",
+            "russian": "спонсор"
+          },
+          {
+            "german": "nicht umhin kommen",
+            "english": "cannot avoid",
+            "russian": "не мочь избежать"
+          },
+          {
+            "german": "verführen",
+            "english": "to seduce",
+            "russian": "соблазнять"
+          },
+          {
+            "german": "die Vorliebe, -n",
+            "english": "preference, liking",
+            "russian": "предпочтение, любовь"
+          },
+          {
+            "german": "der Werbeträger, –",
+            "english": "advertising medium",
+            "russian": "рекламный носитель"
+          },
+          {
+            "german": "die Zielgruppenorientierung (Sg.)",
+            "english": "target group orientation",
+            "russian": "ориентация на целевую аудиторию"
+          }
+        ]
+      },
+      {
+        "untertitle": "B Corporate Design",
+        "words": [
+          {
+            "german": "das Alleinstellungsmerkmal, -e",
+            "english": "unique selling proposition",
+            "russian": "уникальная черта, особенность"
+          },
+          {
+            "german": "das Corporate Design, -s",
+            "english": "corporate design",
+            "russian": "фирменный стиль"
+          },
+          {
+            "german": "der Entwurf, \"-e",
+            "english": "draft, design",
+            "russian": "эскиз, проект"
+          },
+          {
+            "german": "das Firmenzeichen, –",
+            "english": "company logo",
+            "russian": "фирменный знак"
+          },
+          {
+            "german": "gelassen sein",
+            "english": "to be calm, composed",
+            "russian": "быть спокойным, невозмутимым"
+          },
+          {
+            "german": "die Gültigkeit, -en",
+            "english": "validity",
+            "russian": "действительность, валидность"
+          },
+          {
+            "german": "das Image, -s",
+            "english": "image",
+            "russian": "имидж, образ"
+          },
+          {
+            "german": "das Logo, -s",
+            "english": "logo",
+            "russian": "логотип"
+          },
+          {
+            "german": "das Markenamt, \"-er",
+            "english": "trademark office",
+            "russian": "патентное бюро"
+          },
+          {
+            "german": "mehrphasig",
+            "english": "multi-phase",
+            "russian": "многофазный"
+          },
+          {
+            "german": "die Modeströmung, -en",
+            "english": "fashion trend",
+            "russian": "модное направление"
+          },
+          {
+            "german": "nutzbringend",
+            "english": "beneficial",
+            "russian": "приносящий пользу"
+          },
+          {
+            "german": "die Optik (Sg.)",
+            "english": "appearance, optics",
+            "russian": "внешний вид, оптика"
+          },
+          {
+            "german": "per se",
+            "english": "in itself, inherently",
+            "russian": "само по себе, по своей природе"
+          },
+          {
+            "german": "prägnant",
+            "english": "concise, expressive",
+            "russian": "яркий, выразительный"
+          },
+          {
+            "german": "die Produktpalette, -n",
+            "english": "product range, assortment",
+            "russian": "линейка продукции, ассортимент"
+          },
+          {
+            "german": "der Slogan, -s",
+            "english": "slogan",
+            "russian": "слоган"
+          },
+          {
+            "german": "unverwechselbar",
+            "english": "distinctive, unique",
+            "russian": "неповторимый, уникальный"
+          },
+          {
+            "german": "die Verfeinerung, -en",
+            "english": "refinement",
+            "russian": "усовершенствование"
+          },
+          {
+            "german": "die Werbewirksamkeit, -en",
+            "english": "advertising effectiveness",
+            "russian": "эффективность рекламы"
+          },
+          {
+            "german": "der Wert, -e",
+            "english": "value",
+            "russian": "ценность"
+          },
+          {
+            "german": "widerspiegeln",
+            "english": "to reflect",
+            "russian": "отражать"
+          },
+          {
+            "german": "das Wesensmerkmal, -e",
+            "english": "essential feature",
+            "russian": "особенность, черта"
+          },
+          {
+            "german": "der Wesenszug, \"-e",
+            "english": "characteristic trait",
+            "russian": "характерная черта"
+          }
+        ]
+      },
+      {
+        "untertitle": "C Zielgruppengerecht werben",
+        "words": [
+          {
+            "german": "das Anzeigenblatt, \"-er",
+            "english": "advertising newspaper",
+            "russian": "рекламная газета, объявление"
+          },
+          {
+            "german": "bitternötig",
+            "english": "absolutely necessary",
+            "russian": "необходимый, крайне важный"
+          },
+          {
+            "german": "deskriptiv",
+            "english": "descriptive",
+            "russian": "описательный"
+          },
+          {
+            "german": "in Erstaunen versetzen",
+            "english": "to astonish, surprise",
+            "russian": "поражать удивлением"
+          },
+          {
+            "german": "erzkonservativ",
+            "english": "ultra-conservative",
+            "russian": "ультраконсервативный"
+          },
+          {
+            "german": "der Flyer, –",
+            "english": "leaflet, flyer",
+            "russian": "рекламный листок, флаер"
+          },
+          {
+            "german": "hochgradig",
+            "english": "highly",
+            "russian": "в высшей степени"
+          },
+          {
+            "german": "hyperaktiv",
+            "english": "hyperactive",
+            "russian": "гиперактивный"
+          },
+          {
+            "german": "infrage kommen",
+            "english": "to be considered, to come into question",
+            "russian": "подходить, быть актуальным"
+          },
+          {
+            "german": "die Kampagne, -n",
+            "english": "campaign",
+            "russian": "кампания, акция"
+          },
+          {
+            "german": "knallbunt",
+            "english": "brightly colored",
+            "russian": "яркий, кричащий"
+          },
+          {
+            "german": "kontraproduktiv",
+            "english": "counterproductive",
+            "russian": "контрпродуктивный, вредный"
+          },
+          {
+            "german": "die Litfaßsäule, -n",
+            "english": "advertising column",
+            "russian": "рекламный столб, рекламная труба"
+          },
+          {
+            "german": "die Plakatwand, \"-e",
+            "english": "billboard",
+            "russian": "рекламная доска, щит"
+          },
+          {
+            "german": "das Schaufenster, –",
+            "english": "shop window",
+            "russian": "витрина"
+          },
+          {
+            "german": "seit geraumer Zeit",
+            "english": "for some time",
+            "russian": "в течение некоторого времени"
+          },
+          {
+            "german": "selbstbewusst",
+            "english": "self-confident",
+            "russian": "уверенный в себе"
+          },
+          {
+            "german": "strapazierfähig",
+            "english": "resilient, durable",
+            "russian": "прочный, выносливый"
+          },
+          {
+            "german": "todschick",
+            "english": "dead chic, very fashionable",
+            "russian": "чертовски модный, шикарный"
+          },
+          {
+            "german": "treffsicher",
+            "english": "accurate, precise",
+            "russian": "точный, эффективный"
+          },
+          {
+            "german": "unterschieben",
+            "english": "to slip in, to attribute falsely",
+            "russian": "подсовывать, подделывать"
+          },
+          {
+            "german": "vorschnell",
+            "english": "premature",
+            "russian": "поспешный"
+          },
+          {
+            "german": "der Werbeetat, -s",
+            "english": "advertising budget",
+            "russian": "рекламный бюджет"
+          },
+          {
+            "german": "wohlverdient",
+            "english": "well-deserved",
+            "russian": "заслуженный"
+          },
+          {
+            "german": "zielgruppengerecht",
+            "english": "target group oriented",
+            "russian": "ориентированный на целевую аудиторию"
+          }
+        ]
+      },
+      {
+        "untertitle": "D Märkte analysieren",
+        "words": [
+          {
+            "german": "die Eckdaten (Pl.)",
+            "english": "key data",
+            "russian": "основные данные"
+          },
+          {
+            "german": "gesättigt",
+            "english": "saturated",
+            "russian": "насыщенный"
+          },
+          {
+            "german": "immateriell",
+            "english": "intangible",
+            "russian": "нематериальный"
+          },
+          {
+            "german": "die Kaufkraft (Sg.)",
+            "english": "purchasing power",
+            "russian": "покупательная способность"
+          },
+          {
+            "german": "die Konkurrenzanalyse, -n",
+            "english": "competitive analysis",
+            "russian": "анализ конкуренции"
+          },
+          {
+            "german": "materiell",
+            "english": "material",
+            "russian": "материальный"
+          },
+          {
+            "german": "das Nischenprodukt, -e",
+            "english": "niche product",
+            "russian": "нишевый продукт"
+          },
+          {
+            "german": "die Reputation, -en",
+            "english": "reputation",
+            "russian": "репутация"
+          },
+          {
+            "german": "sondieren",
+            "english": "to explore, to probe",
+            "russian": "изучать, исследовать"
+          },
+          {
+            "german": "der Vertriebsweg, -e",
+            "english": "distribution channel",
+            "russian": "канал сбыта"
+          }
+        ]
+      },
+      {
+        "untertitle": "E Ein neues Produkt vermarkten",
+        "words": [
+          {
+            "german": "das Bedenken, –",
+            "english": "concern, reservation",
+            "russian": "сомнение, опасение"
+          },
+          {
+            "german": "geeignet für",
+            "english": "suitable for",
+            "russian": "подходящий для"
+          },
+          {
+            "german": "die Haltbarkeit, -en",
+            "english": "durability, shelf life",
+            "russian": "долговечность, срок годности"
+          },
+          {
+            "german": "das Herzstück, -e",
+            "english": "heart, core",
+            "russian": "главное, основное"
+          },
+          {
+            "german": "markant",
+            "english": "distinctive, noticeable",
+            "russian": "выразительный, заметный"
+          },
+          {
+            "german": "das Zubehör, -e",
+            "english": "accessory, equipment",
+            "russian": "аксессуар, комплектующие"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import {
     ListItem,
     UnorderedList,
-    Container,
+    Flex,
     Box,
     Heading,
     Text
@@ -12,8 +12,8 @@ const WordsList = ({ state = {}, view = 'ru' }) => {
 
     if (!!Object.keys(state).length) {
         return (
-            <Container maxW='2xl' bg='#fff' centerContent> 
-                <Box padding='4' color='black' w='100%'>
+            <Flex w="100%"  bg='#fff' justifyContent="center"> 
+                <Box padding='8' color='black' w="100%">
                     {state.map(item => (
                         <Fragment key={item.untertitle}>
                             <Heading as='h4' size='md' mt={4} mb={1}>
@@ -31,7 +31,7 @@ const WordsList = ({ state = {}, view = 'ru' }) => {
                         </Fragment>
                     ))}
                 </Box>
-            </Container>
+            </Flex>
         )
     }
 }

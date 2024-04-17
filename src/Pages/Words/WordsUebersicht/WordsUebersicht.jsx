@@ -8,11 +8,12 @@ import {
     BreadcrumbLink,
     Spinner,
     Flex,
-    Button, ButtonGroup, Stack
+    Button, ButtonGroup, Stack, useColorModeValue, useColorMode
 } from '@chakra-ui/react'
 import {
     WORDS_ROUTE
 } from '../../../utils/consts'
+import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 
 
 const WordsUebersicht = () => {
@@ -20,6 +21,7 @@ const WordsUebersicht = () => {
     const [viewport, setViewport] = useState('grid')
     const [view, setView] = useState("ru")
     const { theme } = useParams()
+    const { colorMode, toggleColorMode } = useColorMode()
     
     const { title, unterthemen } = isSuccess && data.find(item => item.title === theme)
     
@@ -71,6 +73,9 @@ const WordsUebersicht = () => {
                             >
                                 Englisch
                             </Button>
+                            {/* <Button onClick={toggleColorMode}>
+                                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                            </Button> */}
                         </ButtonGroup>
                     </Stack>
                 </Flex>
