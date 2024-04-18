@@ -17,6 +17,8 @@ export const ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE = "/adjektive-mit-prepositionen"
 export const WORDS_ROUTE = "/words"
 export const WORDS_UEBERSICHT_ROUTE = "/words-uebersicht"
 
+export const FAQ_ROUTE = "/faq"
+
 export const menuList = [
   {
     itemName: "Home",
@@ -59,5 +61,9 @@ export const menuList = [
     itemName: "Wortschatz",
     itemLink: WORDS_ROUTE,
     subItems: [],
+  },
+  {
+    itemName: "FAQ",
+    itemLink: FAQ_ROUTE,
   },
 ]

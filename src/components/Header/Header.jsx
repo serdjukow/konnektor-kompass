@@ -44,7 +44,7 @@ const Header = (props) => {
                     </Link>
 
                     <Flex alignItems={'center'}>
-                        <Stack direction={'row'} spacing={7}>
+                        <Stack direction={'row'} spacing={7} gap="3">
                             <Button
                                 onClick={toggleColorMode}
                                 _focus={{ outline: "none" }}

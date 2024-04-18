@@ -62,16 +62,14 @@ function HamurgerMenu() {
                         <VStack m="0 auto 10px auto" cursor="pointer">
                             <HStack justifyContent="space-between" alignItems="center" w="100%">
                                 <Link to={HOME_ROUTE} className="logo">
-                                    <img src={colorMode === "light" ? LogoDark : Logo } alt="Konnektor Kompas Logo" />
+                                    <img src={colorMode === "light" ? LogoDark : Logo} alt="Konnektor Kompas Logo" />
                                 </Link>
                                 <Button
                                     _focus={{ outline: "none" }}
-                                    bg="transparent"
                                     _focusWithin={{
                                         bg: "none",
                                     }}
-                                    _hover={{ color: "#265958" }}
-                                    fontSize={34}
+                                    fontSize={20}
                                     onClick={onClose}
                                 >
                                     <Icon as={CgClose} />
@@ -126,15 +124,13 @@ function HamurgerMenu() {
                                                                 spacing={3}
                                                                 w="100%"
                                                                 justifyContent="flex-start"
-                                                                _hover={{
-                                                                    color: 'cyan.400',
-                                                                }}
+                                                                _hover={{color: 'cyan.400'}}
                                                                 cursor="pointer"
                                                                 py={1}
                                                                 pl='20px'
                                                                 onClick={onClose}
                                                             >
-                                                                <ChevronLeftIcon w={3} h={3} color="teal.800" />
+                                                                <ChevronLeftIcon w={3} h={3} />
                                                                 <Text fontSize={16} >
                                                                     {subItem.itemName}
                                                                 </Text>

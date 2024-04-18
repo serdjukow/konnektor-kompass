@@ -13,7 +13,7 @@ import {
 	VERBEN_MIT_PREPOSITIONEN_ROUTE,
 	ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE,
 	WORDS_ROUTE,
-	WORDS_UEBERSICHT_ROUTE
+	FAQ_ROUTE
 } from './utils/consts'
 
 const HomePage = lazy(() => import('./Pages/HomePage/HomePage'))
@@ -36,6 +36,11 @@ const ResultPage = lazy(() => import('./Pages/Konnektoren/ResultPage/ResultPage'
 const WordsPages = lazy(() => import('./Pages/WordsPages'))
 const WordsPage = lazy(() => import('./Pages/Words/WordsPage/WordsPage'))
 const WordsUebersicht = lazy(() => import('./Pages/Words/WordsUebersicht/WordsUebersicht'))
+
+const ServicePages = lazy(() => import('./Pages/ServicePages'))
+const FaqPages = lazy(() => import('./Pages/FaqPage/FaqPage'))
+
+
 
 
 export const useRoutes = () => {
@@ -64,6 +69,10 @@ export const useRoutes = () => {
 			<Route path={HOME_ROUTE} element={<WordsPages />}>
 				<Route path={WORDS_ROUTE} element={<WordsPage />} />
 				<Route path={`${WORDS_ROUTE}/:theme`} element={<WordsUebersicht />} />
+			</Route>
+
+			<Route path={HOME_ROUTE} element={<ServicePages />}>
+				<Route path={FAQ_ROUTE} element={<FaqPages />} />
 			</Route>
 
 			<Route path="*" element={<HomePage />} />
