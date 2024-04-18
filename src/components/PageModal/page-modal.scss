@@ -1,4 +1,5 @@
 .page-modal {
+  
   &__overlay {
     position: fixed;
     top: 0;
@@ -19,7 +20,7 @@
   }
 
   &__content {
-    background-color: #fff;
+    background: var(--chakra-colors-chakra-body-bg);
     border-radius: 15px;
     padding: 15px 20px;
     min-width: 300px;
@@ -49,7 +50,7 @@
 
 .swiper,
 .swiper-slide {
-  background-color: #fff;
+  
 }
 
 .swiper-button-prev,

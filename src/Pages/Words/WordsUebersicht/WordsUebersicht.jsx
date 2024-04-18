@@ -8,7 +8,7 @@ import {
     BreadcrumbLink,
     Spinner,
     Flex,
-    Button, ButtonGroup, Stack, useColorModeValue, useColorMode
+    Button, ButtonGroup, Stack, useColorModeValue, useColorMode, IconButton
 } from '@chakra-ui/react'
 import {
     WORDS_ROUTE
@@ -62,20 +62,17 @@ const WordsUebersicht = () => {
                             <Button
                                 variant={view === "ru" ? "solid" : "outline"}
                                 onClick={() => setView("ru")}
-                                colorScheme='teal'
+                                colorScheme='gray'
                             >
-                                Russisch
+                                RU
                             </Button>
                             <Button
                                 variant={view === "en" ? "solid" : "outline"}
                                 onClick={() => setView("en")}
-                                colorScheme='teal'
+                                colorScheme='gray'
                             >
-                                Englisch
-                            </Button>
-                            {/* <Button onClick={toggleColorMode}>
-                                {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-                            </Button> */}
+                                EN
+                            </Button>                           
                         </ButtonGroup>
                     </Stack>
                 </Flex>

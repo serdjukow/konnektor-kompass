@@ -27,7 +27,7 @@
   }
 
   &__body {
-    background-color: #fff;
+    background: var(--chakra-colors-chakra-body-bg);
     border-radius: 20px;
     padding: 15px 20px;
     min-width: 300px;
@@ -50,6 +50,7 @@
     }
   }
   &__content {
+    background: var(--chakra-colors-chakra-body-bg);
   }
   &__title {
     text-align: center;
@@ -65,7 +66,8 @@
 
 .swiper,
 .swiper-slide {
-  background-color: #fff;
+  background: var(--chakra-colors-chakra-body-bg);
+  
 }
 
 .swiper-button-prev,

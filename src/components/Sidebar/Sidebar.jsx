@@ -13,12 +13,14 @@ import {
     DrawerBody,
     DrawerContent,
     DrawerHeader,
-    Icon
+    Icon,
+    useColorModeValue,
+    useColorMode
 } from "@chakra-ui/react"
 import { GiHamburgerMenu } from "react-icons/gi"
 import { CgClose } from "react-icons/cg"
-import { FaUser } from "react-icons/fa"
 import Logo from '../../assets/images/logo-2.png'
+import LogoDark from '../../assets/images/logo-dark.png'
 import { menuList, HOME_ROUTE } from '../../utils/consts'
 import { v4 as uuidv4 } from "uuid";
 import { ChevronLeftIcon } from '@chakra-ui/icons'
@@ -27,20 +29,17 @@ import { TfiDirection } from "react-icons/tfi";
 function HamurgerMenu() {
     const btnRef = useRef()
     const { isOpen, onOpen, onClose } = useDisclosure()
+    const { colorMode } = useColorMode()
+
     return (
         <Flex
-            pos='absolute'
-            top="8px"
-            right="20px"
-
+            pos='relative'
         >
             <Button
-                variant="unstyled"
-                color='#fff'
+                //variant='outline'
+                color={useColorModeValue('gray.900', 'gray.100')}
                 _focus={{ outline: "none" }}
-                _hover={{ color: "#265958" }}
-                fontSize={34}
-                p={1}
+                fontSize={20}
                 onClick={onOpen}
             >
                 <Icon as={GiHamburgerMenu} />
@@ -54,16 +53,16 @@ function HamurgerMenu() {
                 <DrawerOverlay />
                 <DrawerContent
                     minW="200px"
-                    maxW={{ base: "full", md: "300px" }}
+                    maxW={{ base: "full", sm: "300px" }}
                     h="100vh"
-                    bg="teal.500"
+                    bg={useColorModeValue('gray.100', 'gray.900')}
                     flexDir="column"
                 >
                     <DrawerHeader>
                         <VStack m="0 auto 10px auto" cursor="pointer">
                             <HStack justifyContent="space-between" alignItems="center" w="100%">
                                 <Link to={HOME_ROUTE} className="logo">
-                                    <img src={Logo} alt="Konnektor Kompas Logo" />
+                                    <img src={colorMode === "light" ? LogoDark : Logo } alt="Konnektor Kompas Logo" />
                                 </Link>
                                 <Button
                                     _focus={{ outline: "none" }}
@@ -72,7 +71,6 @@ function HamurgerMenu() {
                                         bg: "none",
                                     }}
                                     _hover={{ color: "#265958" }}
-                                    color="#fff"
                                     fontSize={34}
                                     onClick={onClose}
                                 >
@@ -103,10 +101,11 @@ function HamurgerMenu() {
                                                         spacing={3}
                                                         w="100%"
                                                         justifyContent="flex-start"
-                                                        _hover={{ color: "#265958" }}
+                                                        _hover={{
+                                                            color: 'cyan.400',
+                                                        }}
                                                         cursor="pointer"
                                                         py={1}
-                                                        color="#fff"
                                                         onClick={onClose}
                                                     >
                                                         <TfiDirection />
@@ -127,11 +126,12 @@ function HamurgerMenu() {
                                                                 spacing={3}
                                                                 w="100%"
                                                                 justifyContent="flex-start"
-                                                                _hover={{ color: "#265958" }}
+                                                                _hover={{
+                                                                    color: 'cyan.400',
+                                                                }}
                                                                 cursor="pointer"
                                                                 py={1}
                                                                 pl='20px'
-                                                                color="#fff"
                                                                 onClick={onClose}
                                                             >
                                                                 <ChevronLeftIcon w={3} h={3} color="teal.800" />

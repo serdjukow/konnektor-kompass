@@ -79,7 +79,7 @@ const ConnectorList = ({ data = {}, viewport = 'grid' }) => {
                 :
                 (
                     <>
-                        <TableContainer w="100%" bgColor="#fff" p="10" borderRadius="4">
+                        <TableContainer w="100%" p="10" borderRadius="4">
                             <Table variant='simple' >
                                 <Thead>
                                     <Tr>

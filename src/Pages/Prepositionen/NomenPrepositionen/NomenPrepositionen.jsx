@@ -51,7 +51,7 @@ const NomenPrepositionen = () => {
                 <Flex w="100%" gap="2" justifyContent='flex-end' alignItems='center' mt={2} mb={4}>
                     <IconButton
                         variant='outline'
-                        colorScheme='teal'
+                        colorScheme='gray'
                         aria-label='Show as grid'
                         onClick={() => setViewport('grid')}
                     >
@@ -59,7 +59,7 @@ const NomenPrepositionen = () => {
                     </IconButton>
                     <IconButton
                         variant='outline'
-                        colorScheme='teal'
+                        colorScheme='gray'
                         aria-label='Show as list'
                         onClick={() => setViewport('list')}
                     >
