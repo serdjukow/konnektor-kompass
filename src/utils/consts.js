@@ -1,4 +1,5 @@
 export const HOME_ROUTE = "/"
+export const GET_STARTED_ROUTE = "/get-started"
 
 export const KONNEKTOREN_ROUTE = "/konnektoren"
 export const KONNEKTOREN_UEBERSICHT_ROUTE = "/konnektoren-uebersicht"
@@ -23,6 +24,12 @@ export const menuList = [
   {
     itemName: "Home",
     itemLink: HOME_ROUTE,
+    subItems: [
+      {
+        itemName: "Get Started",
+        itemLink: GET_STARTED_ROUTE,
+      },
+    ],
   },
   {
     itemName: "Konnektoren",

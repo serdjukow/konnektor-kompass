@@ -56,43 +56,43 @@ const Footer = () => {
                         </Stack>
                         <Stack align={'flex-start'}>
                             <ListHeader>Konnektoren</ListHeader>
-                            <Box as="a" href={KONNEKTOREN_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={KONNEKTOREN_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Konnektoren
                             </Box>
-                            <Box as="a" href={KONNEKTOREN_UEBERSICHT_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={KONNEKTOREN_UEBERSICHT_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Konnektoren Übersicht
                             </Box>
-                            <Box as="a" href={KONNEKTOREN_TEST_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={KONNEKTOREN_TEST_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Konnektoren Test
                             </Box>
                         </Stack>
                         <Stack align={'flex-start'}>
                             <ListHeader>Präpositionen</ListHeader>
-                            <Box as="a" href={PREPOSITIONEN_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Präpositionen
                             </Box>
-                            <Box as="a" href={PREPOSITIONEN_UEBERSICHT_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={PREPOSITIONEN_UEBERSICHT_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Präpositionen Übersicht
                             </Box>
-                            <Box as="a" href={NOMEN_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={NOMEN_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Nomen mit Präposition
                             </Box>
-                            <Box as="a" href={VERBEN_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={VERBEN_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Verben mit Präposition
                             </Box>
-                            <Box as="a" href={ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Adjektive mit Präposition
                             </Box>
                         </Stack>
                         <Stack align={'flex-start'}>
                             <ListHeader>Wortschatz</ListHeader>
-                            <Box as="a" href={WORDS_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={WORDS_ROUTE} _hover={{ color: 'orange.400' }}>
                                 Wortschatz
                             </Box>
                         </Stack>
                         <Stack align={'flex-start'}>
                             <ListHeader>Service Pages</ListHeader>
-                            <Box as="a" href={FAQ_ROUTE} _hover={{ color: 'cyan.400' }}>
+                            <Box as="a" href={FAQ_ROUTE} _hover={{ color: 'orange.400' }}>
                                 FAQ
                             </Box>
                         </Stack>

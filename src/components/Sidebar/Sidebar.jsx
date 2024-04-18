@@ -100,7 +100,7 @@ function HamurgerMenu() {
                                                         w="100%"
                                                         justifyContent="flex-start"
                                                         _hover={{
-                                                            color: 'cyan.400',
+                                                            color: 'orange.400',
                                                         }}
                                                         cursor="pointer"
                                                         py={1}
@@ -124,7 +124,7 @@ function HamurgerMenu() {
                                                                 spacing={3}
                                                                 w="100%"
                                                                 justifyContent="flex-start"
-                                                                _hover={{color: 'cyan.400'}}
+                                                                _hover={{ color: 'orange.400'}}
                                                                 cursor="pointer"
                                                                 py={1}
                                                                 pl='20px'

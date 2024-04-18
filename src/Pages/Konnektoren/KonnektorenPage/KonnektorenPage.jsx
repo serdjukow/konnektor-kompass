@@ -10,6 +10,21 @@ import {
     KONNEKTOREN_UEBERSICHT_ROUTE
 } from '../../../utils/consts'
 
+const KonnektorenPageContent = [
+    {
+        title: "Konnektoren Übersicht",
+        text: "Konnektoren in der deutschen Sprache sind Wörter oder Wortgruppen, die dazu dienen, Teile eines Satzes oder mehrere Sätze miteinander zu verbinden. Sie helfen, den Text flüssig und logisch zu gestalten und Beziehungen zwischen Informationen herzustellen. Konnektoren können sowohl Konjunktionen (Bindewörter) als auch Adverbien sein. Beispiele für Konnektoren sind: \"weil\" (weil), \"aber\" (aber), \"deshalb\" (deshalb), \"zum Beispiel\" (zum Beispiel), \"trotzdem\" (trotzdem) usw.",
+        buttonText: "Mehr zum Thema",
+        buttonLink: KONNEKTOREN_UEBERSICHT_ROUTE
+    },
+    {
+        title: "Konnektoren Test",
+        text: "Machen Sie den Test zu Konnektoren in Deutsch und wählen Sie die richtige Verwendung aus mehreren Antwortmöglichkeiten aus.",
+        buttonText: "Mehr zum Thema",
+        buttonLink: KONNEKTOREN_TEST_ROUTE
+    },
+]
+
 const KonnektorenPage = () => {
     return (
         <>
@@ -28,63 +43,33 @@ const KonnektorenPage = () => {
                     Konnektoren in der deutschen Sprache
                 </Heading>
                 <SimpleGrid w='100%' spacing={4} templateColumns='repeat(auto-fit, minmax(400px, 1fr))'>
-                    <Card>
-                        <CardHeader pb={1}>
-                            <Heading lineHeight='tall' as='h3' size='md' textAlign="center">
-                                <Highlight
-                                    query={['Konnektoren']}
-                                    styles={{ px: '2', py: '1', rounded: 'full', bg: 'teal.100' }}
+                    {KonnektorenPageContent.map((item, index) => (
+                        <Card>
+                            <CardHeader pb={1}>
+                                <Heading lineHeight='tall' as='h3' size='md' textAlign="center">
+                                    <Highlight
+                                        query={['Konnektoren']}
+                                        styles={{ px: '2', py: '1', rounded: 'full', bg: 'teal.100' }}
 
-                                >
-                                    Konnektoren Übersicht
-                                </Highlight>
-                            </Heading>
-                        </CardHeader>
-                        <CardBody>
-                            <Text fontSize='md'>
-                                Konnektoren in der deutschen Sprache sind Wörter oder Wortgruppen, die dazu dienen, Teile eines
-                                Satzes oder mehrere Sätze miteinander zu verbinden. Sie helfen, den Text flüssig und logisch zu
-                                gestalten und Beziehungen zwischen Informationen herzustellen. Konnektoren können sowohl
-                                Konjunktionen (Bindewörter) als auch Adverbien sein. Beispiele für Konnektoren sind: "weil"
-                                (weil), "aber" (aber), "deshalb" (deshalb), "zum Beispiel" (zum Beispiel), "trotzdem" (trotzdem) usw.
-                            </Text>
-                        </CardBody>
-                        <CardFooter w='100%' align='center' justifyContent='center'>
-                            <Link to={KONNEKTOREN_UEBERSICHT_ROUTE}>
-                                <Button colorScheme='orange' size='md'>
-                                    Mehr zum Thema
-                                </Button>
-                            </Link>
-                        </CardFooter>
-                    </Card>
-                    <Card>
-                        <CardHeader pb={1}>
-                            <Heading lineHeight='tall' as='h3' size='md' textAlign="center">
-                                <Highlight
-                                    query={['Konnektoren']}
-                                    styles={{ px: '2', py: '1', rounded: 'full', bg: 'teal.100' }}
-
-                                >
-                                    Konnektoren Test
-                                </Highlight>
-                            </Heading>
-                        </CardHeader>
-                        <CardBody>
-                            <Text fontSize='md'>
-                                Nomen mit Präposition in der deutschen Sprache bezeichnen Substantive, die oft in Kombination mit bestimmten Präpositionen
-                                verwendet werden, um bestimmte Bedeutungen oder Verhältnisse im Satz auszudrücken. Diese Kombinationen können den Fall des Nomens
-                                beeinflussen und sind wichtig für die korrekte Bildung von Sätzen. Beispiele sind: "mit" (mit) + Dativ, "auf" (auf) + Akkusativ,
-                                "zu" (zu) + Dativ usw.
-                            </Text>
-                        </CardBody>
-                        <CardFooter w='100%' align='center' justifyContent='center'>
-                            <Link to={KONNEKTOREN_TEST_ROUTE}>
-                                <Button colorScheme='orange' size='md'>
-                                    Mehr zum Thema
-                                </Button>
-                            </Link>
-                        </CardFooter>
-                    </Card>
+                                    >
+                                        {item.title}
+                                    </Highlight>
+                                </Heading>
+                            </CardHeader>
+                            <CardBody>
+                                <Text fontSize='md'>
+                                    {item.text}
+                                </Text>
+                            </CardBody>
+                            <CardFooter w='100%' align='center' justifyContent='center'>
+                                <Link to={item.buttonLink}>
+                                    <Button colorScheme='orange' size='md'>
+                                        {item.buttonText}
+                                    </Button>
+                                </Link>
+                            </CardFooter>
+                        </Card>
+                    ))}
                 </SimpleGrid>
             </Container >
         </>

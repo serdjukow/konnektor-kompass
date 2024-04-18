@@ -37,6 +37,7 @@ const Header = (props) => {
                 px={4}
                 top="0"
                 position="fixed"
+                zIndex={'1000'}
             >
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <Link to={HOME_ROUTE} className="logo">

@@ -25,7 +25,10 @@ const HomePage = () => {
                     textAlign={'center'}
                     align={'center'}
                     spacing={{ base: 8, md: 10 }}
-                    py={{ base: 20, md: 28 }}>
+                    py={{ base: 20, md: 28 }}
+                    gap="8"
+                    
+                    >
                     <Text maxW={'3xl'} fontSize={{ base: 'md', sm: 'xl', md: '2xl' }}>
                         Herzlich willkommen auf unserer Website!
                     </Text>
@@ -41,15 +44,13 @@ const HomePage = () => {
 
                     <Text maxW={'3xl'}>
                         Projekt "Konnektor Kompass" bietet eine interaktive Möglichkeit,
-                        die deutschen Wörter, Konnektoren, Verben, Adjektive und Substantive zu lernen und zu trainieren.
-                    </Text>                   
-                    <Text maxW={'3xl'}>
+                        die deutschen Wörter, Konnektoren, Verben, Adjektive und Substantive zu lernen und zu trainieren. <br />
                         Viel Spaß beim Lernen!
                     </Text>
                     <Stack spacing={6} direction={'row'}>
                         <Button
                             as="a"
-                            href={'/konnektoren'}
+                            href={'/get-started'}
                             rounded={'full'}
                             px={6}
                             colorScheme={'orange'}
@@ -70,7 +71,7 @@ const HomePage = () => {
                     <Flex w={'full'} justifyContent="center">
                         {/* <Illustration height={{ sm: '24rem', lg: '28rem' }} mt={{ base: 12, sm: 16 }} /> */}
                         <Image
-                            height={{ sm: '24rem', lg: '28rem' }} mt={{ base: 12, sm: 16 }}
+                            height={{ sm: '24rem', lg: '28rem' }} mt={{ base: 5, sm: 8 }}
                             objectFit={'cover'}
                             src={IMAGE}
                             alt="Home Page"
