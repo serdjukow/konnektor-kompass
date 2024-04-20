@@ -112,33 +112,34 @@ function HamurgerMenu() {
                                                         </Text>
                                                     </HStack>
                                                 </NavLink>
-                                                <ul>
-                                                    {item.subItems && item.subItems.map((subItem) => (
-                                                        <NavLink
-                                                            key={uuidv4()}
-                                                            to={subItem.itemLink}
-                                                            className='header-nav-link'
-                                                        >
-                                                            <HStack
-                                                                fontSize={14}
-                                                                spacing={3}
-                                                                w="100%"
-                                                                justifyContent="flex-start"
-                                                                _hover={{ color: 'orange.400'}}
-                                                                cursor="pointer"
-                                                                py={1}
-                                                                pl='20px'
-                                                                onClick={onClose}
+                                                {item.subItems && (
+                                                    <ul>
+                                                        {item.subItems.map((subItem) => (
+                                                            <NavLink
+                                                                key={uuidv4()}
+                                                                to={subItem.itemLink}
+                                                                className='header-nav-link'
                                                             >
-                                                                <ChevronLeftIcon w={3} h={3} />
-                                                                <Text fontSize={16} >
-                                                                    {subItem.itemName}
-                                                                </Text>
-                                                            </HStack>
-
-                                                        </NavLink>
-                                                    ))}
-                                                </ul>
+                                                                <HStack
+                                                                    fontSize={14}
+                                                                    spacing={3}
+                                                                    w="100%"
+                                                                    justifyContent="flex-start"
+                                                                    _hover={{ color: 'orange.400' }}
+                                                                    cursor="pointer"
+                                                                    py={1}
+                                                                    pl='20px'
+                                                                    onClick={onClose}
+                                                                >
+                                                                    <ChevronLeftIcon w={3} h={3} />
+                                                                    <Text fontSize={16} >
+                                                                        {subItem.itemName}
+                                                                    </Text>
+                                                                </HStack>
+                                                            </NavLink>
+                                                        ))}
+                                                    </ul>
+                                                )}
                                             </li>
                                         )
                                     })}

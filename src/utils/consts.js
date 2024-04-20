@@ -66,11 +66,10 @@ export const menuList = [
   },
   {
     itemName: "Wortschatz",
-    itemLink: WORDS_ROUTE,
-    subItems: [],
+    itemLink: WORDS_ROUTE
   },
   {
     itemName: "FAQ",
-    itemLink: FAQ_ROUTE,
+    itemLink: FAQ_ROUTE
   },
 ]

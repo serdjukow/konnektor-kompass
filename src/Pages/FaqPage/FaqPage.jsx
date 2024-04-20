@@ -45,7 +45,7 @@ const FaqPage = () => {
                             <Text>
                                 Haben Sie Fragen, Anregungen oder Probleme? Zögern Sie nicht, uns zu kontaktieren!
                                 Sie können uns eine E-Mail senden an: {" "}
-                                <Link color="teal.500" href="mailto:support@serdjukow.eu">
+                                <Link color='blue.500' href="mailto:support@serdjukow.eu">
                                     support@serdjukow.eu
                                 </Link>
                             </Text>

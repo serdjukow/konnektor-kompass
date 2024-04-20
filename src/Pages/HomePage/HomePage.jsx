@@ -1,8 +1,3 @@
-import { Link } from 'react-router-dom'
-import konnektoren_uebersicht from '../../assets/images/konnektoren.png'
-import konnektoren_test from '../../assets/images/konnektor-test.png'
-import test_result from '../../assets/images/test_result.png'
-import anzahl from '../../assets/images/anzahl.png'
 import IMAGE from '../../assets/images/start-page-4.svg'
 
 import {
@@ -12,7 +7,6 @@ import {
     Stack,
     Text,
     Button,
-    Icon,
     Image,
 } from '@chakra-ui/react'
 
@@ -36,9 +30,9 @@ const HomePage = () => {
                         fontWeight={600}
                         fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                         lineHeight={'110%'}>
-                        Projekt{' '}
+                        Konnektor{' '}
                         <Text as={'span'} color={'orange.400'}>
-                            Konnektor Kompass
+                            Kompass
                         </Text>
                     </Heading>
 
@@ -68,8 +62,7 @@ const HomePage = () => {
                             Learn more
                         </Button>
                     </Stack>
-                    <Flex w={'full'} justifyContent="center">
-                        {/* <Illustration height={{ sm: '24rem', lg: '28rem' }} mt={{ base: 12, sm: 16 }} /> */}
+                    <Flex w={'full'} justifyContent="center">                       
                         <Image
                             height={{ sm: '24rem', lg: '28rem' }} mt={{ base: 5, sm: 8 }}
                             objectFit={'cover'}

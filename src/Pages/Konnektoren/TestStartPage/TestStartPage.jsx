@@ -4,6 +4,19 @@ import ConnectorTestCard from "../../../components/ConnectorTestCard/ConnectorTe
 import Progress from '../../../components/Progress/Progress.jsx'
 import 'react-circular-progressbar/dist/styles.css';
 import ResultPage from '../../Konnektoren/ResultPage/ResultPage.jsx'
+import {
+    Container,
+    Text,
+    Heading,
+    Button,
+    Breadcrumb,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    Stack,
+    Flex,
+    Box,
+    createMultiStyleConfigHelpers
+} from '@chakra-ui/react'
 
 const TestStartPage = () => {
     const { currentConnectors, setCurrentConnectors } = useContext(DataContext);
@@ -58,23 +71,43 @@ const TestStartPage = () => {
         }
     }
 
+
     return (
         <>
             {currentConnectors.length && randomConnector ? (
-                <section className="connector-test" >
-                    <div className="connector-test__container">
-                        <div className="connector-test__title">
-                            <h2>Test</h2>
-                        </div>
-                        <Progress bgcolor="#6a1b9a" completed={currentConnectors.length} currentValue={readConnector.length} />
-                        <div className={`connector-test__body ${isRight}`} >
-                            <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} buttonRef={buttonRef} buttonLock={buttonLock} />
-                        </div>
-                    </div>
-                </section>
+                <>
+                    <Container maxW='1280px' mb={2} mt={6}>
+                        <Breadcrumb fontWeight='medium' fontSize='md'>
+                            <BreadcrumbItem>
+                                <BreadcrumbLink href='/'>Home</BreadcrumbLink>
+                            </BreadcrumbItem>
+                            <BreadcrumbItem>
+                                <BreadcrumbLink href='/konnektoren-test'>Konnektoren Test</BreadcrumbLink>
+                            </BreadcrumbItem>
+                            <BreadcrumbItem isCurrentPage>
+                                <BreadcrumbLink href='#'>Start Test</BreadcrumbLink>
+                            </BreadcrumbItem>
+                        </Breadcrumb>
+                    </Container>
+                    <Container maxW='1280px' centerContent mb={6} mt={6} justifyContent="flex-start">
+                        <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'} mb={'10'}>
+                            <Heading fontSize={{ base: '2xl', sm: '4xl' }} fontWeight={'bold'}>
+                                Konnektoren Test
+                            </Heading>
+                        </Stack>
+                        <Flex w={'100%'} className="connector-test" flexDirection={'column'}>
+                            <Progress bgcolor="#6a1b9a" completed={currentConnectors.length} currentValue={readConnector.length} />
+                            <Stack w={'100%'} className={`connector-test__body ${isRight}`} >
+                                <ConnectorTestCard connector={randomConnector} testCardButtonClick={testCardButtonClick} buttonRef={buttonRef} buttonLock={buttonLock} />
+                            </Stack>
+                        </Flex>
+                    </Container>
+                </>
+
             ) : (
-                <ResultPage currentConnectors={currentConnectors} />
+                'Not found' //<ResultPage currentConnectors={currentConnectors} />
             )}
+
         </>
 
     )

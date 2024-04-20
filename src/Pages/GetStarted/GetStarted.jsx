@@ -2,8 +2,21 @@ import React from "react";
 import {
     Container, Text, Heading, Card, CardHeader, CardBody, CardFooter, SimpleGrid, Button, Breadcrumb,
     BreadcrumbItem,
-    BreadcrumbLink
+    BreadcrumbLink,
+    Flex,
+    Box,
+    Icon,
+    Stack,
+    useColorModeValue
 } from '@chakra-ui/react'
+import {
+    FcAbout,
+    FcAssistant,
+    FcCollaboration,
+    FcDonate,
+    FcManager,
+    FcApproval
+} from 'react-icons/fc'
 import {
     KONNEKTOREN_TEST_ROUTE,
     KONNEKTOREN_UEBERSICHT_ROUTE,
@@ -60,6 +73,45 @@ const GetStartedPageContent = [
     }
 ]
 
+const GetStartedCard = ({ heading, description, icon, href, buttonText }) => {
+    return (
+        <Box
+            maxW={{ base: 'full', md: '300px' }}
+            w={'full'}
+            borderWidth="1px"
+            borderRadius="lg"
+            overflow="hidden"
+            p={5}>
+            <Stack align={'start'} spacing={2} h={'100%'}>
+                <Flex
+                    w={16}
+                    h={16}
+                    align={'center'}
+                    justify={'center'}
+                    flexShrink={'0'}
+                    color={'white'}
+                    rounded={'full'}
+                    bg={useColorModeValue('gray.100', 'gray.700')}>
+                    {icon}
+                </Flex>
+                <Box mt={2} h={'100%'}>
+                    <Heading size="md">{heading}</Heading>
+                    <Text mt={1} fontSize={'sm'}>
+                        {description}
+                    </Text>
+                </Box>
+                <Button
+                    variant={'link'}
+                    as="a"
+                    href={href}
+                    colorScheme={'blue'}
+                >{buttonText}
+                </Button>
+            </Stack>
+        </Box>
+    )
+}
+
 const GetStarted = () => {
     return (
         <>
@@ -73,31 +125,23 @@ const GetStarted = () => {
                     </BreadcrumbItem>
                 </Breadcrumb>
             </Container>
-            <Container maxW='1280px' centerContent mb={6} mt={6} justifyContent="flex-start">
+            <Container maxW='1280px' centerContent mb={10} mt={6} justifyContent="flex-start">
                 <Heading as='h2' size='xl' mt={4} mb={4} >
                     Get Started
                 </Heading>
-                <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(310px, 1fr))'>
-                    {GetStartedPageContent.map((item, index) => (
-                        <Card key={index} >
-                            <CardHeader>
-                                <Heading size='md' textAlign="center">{item.title}</Heading>
-                            </CardHeader>
-                            <CardBody>
-                                <Text>{item.text}</Text>
-                            </CardBody>
-                            <CardFooter>
-                                <Button
-                                    as="a"
-                                    href={item.buttonLink}
-                                    colorScheme={'orange'}
-                                    m="0 auto"
-                                >{item.buttonText}
-                                </Button>
-                            </CardFooter>
-                        </Card>
-                    ))}
-                </SimpleGrid>
+                <Container maxW={'5xl'} mt={12}>
+                    <Flex flexWrap="wrap" gridGap={6} justify="center">
+                        {GetStartedPageContent.map((item, index) => (
+                            <GetStartedCard key={index}
+                                heading={item.title}
+                                icon={<Icon as={FcApproval} w={10} h={10} />}
+                                description={item.text}
+                                href={item.buttonLink}
+                                buttonText={item.buttonText}
+                            />
+                        ))}
+                    </Flex>
+                </Container>
             </Container >
         </>
     )

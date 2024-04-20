@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import {
-    Container, Text, Heading, Card, CardHeader, CardBody, CardFooter, SimpleGrid, Button, Highlight, Breadcrumb,
+    Container, Text, Heading, Card, 
+    CardHeader, CardBody, CardFooter, SimpleGrid, Button, 
+    Highlight, 
+    Breadcrumb,
     BreadcrumbItem,
     BreadcrumbLink
 } from '@chakra-ui/react'

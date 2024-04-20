@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/images/logo-2.png'
 import LogoDark from '../../assets/images/logo-dark.png'
+import { v4 as uuidv4 } from "uuid";
 import {
     HOME_ROUTE,
     KONNEKTOREN_ROUTE,
@@ -12,7 +13,8 @@ import {
     VERBEN_MIT_PREPOSITIONEN_ROUTE,
     ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE,
     WORDS_ROUTE,
-    FAQ_ROUTE
+    FAQ_ROUTE,
+    menuList
 } from '../../utils/consts'
 import {
     Box,
@@ -37,69 +39,39 @@ const Footer = () => {
     const { colorMode } = useColorMode()
 
     return (
-        <>
-            <Box
-                as="footer"
-                bg={useColorModeValue('gray.50', 'gray.900')}
-                color={useColorModeValue('gray.700', 'gray.200')}>
-                <Container as={Stack} maxW={'6xl'} py={10}>
-                    <SimpleGrid
-                        templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr 1fr' }}
-                        spacing={8}>
-                        <Stack spacing={6}>
-                            <Box>
-                                <Link to={HOME_ROUTE} className="logo">
-                                    <img src={colorMode === "light" ? LogoDark : Logo} alt="Konnektor Kompass" />
-                                </Link>
+        <Box
+            as="footer"
+            bg={useColorModeValue('gray.50', 'gray.900')}
+            color={useColorModeValue('gray.700', 'gray.200')}>
+            <Container as={Stack} maxW={'6xl'} py={10}>
+                <SimpleGrid
+                    templateColumns={{ sm: '1fr 1fr', md: 'repeat(6, auto)' }}
+                    spacing={8}>
+                    <Stack spacing={6}>
+                        <Box maxW={'200px'}>
+                            <Link to={HOME_ROUTE} className="logo">
+                                <img src={colorMode === "light" ? LogoDark : Logo} alt="Konnektor Kompass" />
+                            </Link>
+                        </Box>
+                        <Text fontSize={'sm'}>© 2024 Konnektor Kompass</Text>
+                    </Stack>
+                    {menuList.map(item => (
+                        <Stack key={uuidv4()} align={'flex-start'}>
+                            {/* <ListHeader>{item.itemName}</ListHeader> */}
+                            <Box as="a" href={item.itemLink} _hover={{ color: 'orange.400' }}>
+                                {item.itemName}
                             </Box>
-                            <Text fontSize={'sm'}>© 2024 Konnektor Kompass</Text>
+                            {item.subItems && item.subItems.map((subItem) => (
+                                <Box key={uuidv4()} as="a" href={subItem.itemLink} _hover={{ color: 'orange.400' }}>
+                                    {subItem.itemName}
+                                </Box>
+                            ))}
+                            
                         </Stack>
-                        <Stack align={'flex-start'}>
-                            <ListHeader>Konnektoren</ListHeader>
-                            <Box as="a" href={KONNEKTOREN_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Konnektoren
-                            </Box>
-                            <Box as="a" href={KONNEKTOREN_UEBERSICHT_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Konnektoren Übersicht
-                            </Box>
-                            <Box as="a" href={KONNEKTOREN_TEST_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Konnektoren Test
-                            </Box>
-                        </Stack>
-                        <Stack align={'flex-start'}>
-                            <ListHeader>Präpositionen</ListHeader>
-                            <Box as="a" href={PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Präpositionen
-                            </Box>
-                            <Box as="a" href={PREPOSITIONEN_UEBERSICHT_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Präpositionen Übersicht
-                            </Box>
-                            <Box as="a" href={NOMEN_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Nomen mit Präposition
-                            </Box>
-                            <Box as="a" href={VERBEN_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Verben mit Präposition
-                            </Box>
-                            <Box as="a" href={ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Adjektive mit Präposition
-                            </Box>
-                        </Stack>
-                        <Stack align={'flex-start'}>
-                            <ListHeader>Wortschatz</ListHeader>
-                            <Box as="a" href={WORDS_ROUTE} _hover={{ color: 'orange.400' }}>
-                                Wortschatz
-                            </Box>
-                        </Stack>
-                        <Stack align={'flex-start'}>
-                            <ListHeader>Service Pages</ListHeader>
-                            <Box as="a" href={FAQ_ROUTE} _hover={{ color: 'orange.400' }}>
-                                FAQ
-                            </Box>
-                        </Stack>
-                    </SimpleGrid>
-                </Container>
-            </Box>
-        </>
+                    ))}               
+                </SimpleGrid>
+            </Container>
+        </Box>
     )
 }
 export default Footer
