@@ -1,10 +1,10 @@
 .progress {
   width: 100%;
-  min-height: 23px;
   background-color: #0ac0c6;
   border-radius: 8px;
   margin-bottom: 20px;
   overflow: hidden;
+  max-width: 800px;
 
   &__filler {
     height: 100%;
@@ -14,7 +14,7 @@
 
   }
   &__label {
-    padding: 7px 17px;
+    padding: 4px 17px;
     font-size: 16px;
     letter-spacing: 2px;
     color: #fff;

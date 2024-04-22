@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
-import { useNavigate } from 'react-router-dom'
+import { useEffect, useState, useContext } from "react";
+import DataContext from "./../../../context/DataContext";
 import Confetti from 'react-confetti'
 import { useWindowSize } from "@uidotdev/usehooks";
-import ButtonStartTest from '../../../components/ButtonStartTest/ButtunStartTest.jsx'
 import { KONNEKTOREN_TEST_ROUTE } from '../../../utils/consts'
-
+import TestPage from './../../Konnektoren/TestPage/TestPage.jsx'
 import {
     Flex,
     Container,
@@ -12,115 +11,65 @@ import {
     Stack,
     Text,
     Button,
-    Icon,
-    Image,
-    SimpleGrid,
     Breadcrumb,
     BreadcrumbItem,
     BreadcrumbLink,
     Grid,
-    Box
+    Box,
+    CircularProgress,
+    CircularProgressLabel
 } from '@chakra-ui/react'
 
 
-
-
-
 const ResultPage = ({ currentConnectors }) => {
+    const { connectorAnswers, answerState, setAnswerState } = useContext(DataContext);
     const { width, height } = useWindowSize()
     const [allQuestions, setAllQuestions] = useState(0)
     const [correctAnswers, setCorrectAnswers] = useState(0)
     const [wrongtAnswers, setWrongAnswers] = useState(0)
-
-    // useEffect(() => {
-    //     setAllQuestions(currentConnectors.length || 0)
-    //     setCorrectAnswers(currentConnectors.filter(item => item.sentence_type === item.answer).length)
-    //     setWrongAnswers(currentConnectors.filter(item => item.sentence_type !== item.answer).length)
-    // }, [])
-
-    const history = useNavigate()
-
-    const onClick = () => {
-        history(KONNEKTOREN_TEST_ROUTE)
+    const [isNewTest, setIsNewTest] = useState(false)
+    const [isOldTest, setIsOldTest] = useState(false)
+    function calculatePercentage(number, percentage) {
+        return (percentage * number) / 100 * 100;
     }
 
-    // if (!currentConnectors.length) {
-    //     history(KONNEKTOREN_TEST_ROUTE)
-    // }
-
-    const questions = [
-        {
-            question: 'Вопрос 1: Что такое React?',
-            options: ['Фреймворк', 'Библиотека', 'Язык программирования'],
-            correctAnswer: 'Библиотека'
-        },
-        {
-            question: 'Вопрос 2: Как создать новый React проект?',
-            options: ['create-react-app', 'npm init react-app', 'react-create-app'],
-            correctAnswer: 'create-react-app'
-        }        
-    ];
-
-    const [userAnswers, setUserAnswers] = useState({});
-
     useEffect(() => {
-        const storedAnswers = localStorage.getItem('userAnswers');
-        if (storedAnswers) {
-            setUserAnswers(JSON.parse(storedAnswers));
-        }
-    }, []);
+        setAllQuestions(currentConnectors.length || 0)
+        setCorrectAnswers(currentConnectors.filter(item => item.sentence_type === item.answer).length)
+        setWrongAnswers(currentConnectors.filter(item => item.sentence_type !== item.answer).length)
+        sessionStorage.setItem("oldQuestions", JSON.stringify(currentConnectors))
+    }, [])
 
     const Results = ({ answers }) => {
         return (
-            <>
-                <Flex w={'100%'} id="result">
-                    <Stack w={'100%'} >
-                        <Flex className="result__panel" justifyContent={'center'} gap={'8'}>
-                            <Flex flexDirection={'column'} alignItems={'center'} className="item-all">
-                                <span className="panel-item__comment">Gesamt</span>
-                                <span className="panel-item__value">{allQuestions}</span>
-                            </Flex>
-                            <Flex flexDirection={'column'} alignItems={'center'} className="item-right">
-                                <span className="panel-item__comment">Richtig</span>
-                                <span className="panel-item__value">{correctAnswers}</span>
-                            </Flex>
-                            <Flex flexDirection={'column'} alignItems={'center'} className="item-wrong">
-                                <span className="panel-item__comment">Falsch</span>
-                                <span className="panel-item__value">{wrongtAnswers}</span>
-                            </Flex>
-                        </Flex>
-                        <Grid templateColumns='35px repeat(3, 1fr)' mb={'5'}>
-                            <Box display={'contents'}>
-                                <Text as="span" className="result-table__cell cell-header">Nr.</Text>
-                                <Text as="span" className="result-table__cell cell-header">Konnektor</Text>
-                                <Text as="span" className="result-table__cell cell-header">Antwort</Text>
-                                <Text as="span" className="result-table__cell cell-header">Richtige Antwort</Text>
-                            </Box>
-                            {Object.keys(answers).map((questionIndex, id) => (
-                                <Box display={'contents'} key={questionIndex}>
-                                    <Text as="span" className="result-table__cell cell-header">{id + 1}</Text>
-                                    <Text as="span" className="result-table__cell">{questions[questionIndex].question}</Text>
-                                    <Text as="span" className={`result-table__cell cell-answer`}>{answers[questionIndex]}</Text>
-                                    <Text as="span" className="result-table__cell cell-answer">{questions[questionIndex].correctAnswer}</Text>
-                                </Box>
-                            ))}
-                        </Grid>
-                        <Flex justifyContent={'center'}>
-                            <Button colorScheme='orange' onClick={onClick}>Neuer Test</Button>
-                        </Flex>
-                    </Stack>
-                    {/* <Confetti
-                        width={width}
-                        height={height}
-                    /> */}
-                </Flex>
+            <Grid templateColumns='40px repeat(3, auto)' mb={'5'}>
+                <Box display={'contents'}>
+                    <Text as="span" className="result-table__cell cell-header">Nr.</Text>
+                    <Text as="span" className="result-table__cell cell-header">Konnektor</Text>
+                    <Text as="span" className="result-table__cell cell-header">Antwort</Text>
+                    <Text as="span" className="result-table__cell cell-header">Richtige Antwort</Text>
+                </Box>
+                {!!Object.keys(answers).length && answers.map((item, id) => (
+                    <Box display={'contents'} key={id}>
+                        <Text as="span" className="result-table__cell">{id + 1}</Text>
+                        <Text as="span" className="result-table__cell">{item.connector}</Text>
+                        <Text
+                            as="span"
+                            textDecor={`${item.answer !== item.sentence_type ? 'line-through' : 'none'}`}
+                            className={`result-table__cell cell-answer`}
+                            color={`${item.answer !== item.sentence_type ? 'red' : 'green'}`}
+                        >
+                            {item.answer.replace(/-/g, ' ')}</Text>
+                        <Text as="span" className="result-table__cell cell-answer">{`${item.sentence_type.replace(/-/g, ' ')} (${item.connector_type})`}</Text>
+                    </Box>
+                ))}
+            </Grid>
+        )
+    }
 
-            </>
-        );
-    };
+    if (isNewTest) return <TestPage />
 
     return (
-
         <>
             <Container maxW='1280px' mb={2} mt={6}>
                 <Breadcrumb fontWeight='medium' fontSize='md'>
@@ -139,54 +88,51 @@ const ResultPage = ({ currentConnectors }) => {
                 <Heading as='h2' size='xl' mt={4} mb={4} >
                     Deine Ergebnisse
                 </Heading>
-                <Results answers={userAnswers} />
+                <Stack w={'100%'} >
+                    <Grid maxW={'400px'} m={'0 auto'} justifyContent={'center'} templateColumns='repeat(auto-fit, minmax(70px, 1fr))' gap={'8'} mb={'3'}>
+                        <Flex flexDirection={'column'} alignItems={'center'} justifyContent={'center'} className="item-all">
+                            <Box as='span' color={'#0c72d2'} mb={'3'}>Gesamt</Box>
+                            <CircularProgress value={calculatePercentage(allQuestions, allQuestions)} color='#0c72d2' size='80px'>
+                                <CircularProgressLabel>
+                                    <Box as='span' color={'#0c72d2'} fontSize={'28'} lineHeight={'28'}>{allQuestions}</Box>
+                                </CircularProgressLabel>
+                            </CircularProgress>
+                        </Flex>
+                        <Flex flexDirection={'column'} alignItems={'center'} className="item-right">
+                            <Box as='span' color={'#2dd60c'} mb={'3'}>Richtig</Box>
+                            <CircularProgress value={calculatePercentage(allQuestions, correctAnswers)} color='#2dd60c' size='80px'>
+                                <CircularProgressLabel>
+                                    <Box as='span' color={'#2dd60c'} fontSize={'28'} lineHeight={'28'}>{correctAnswers}</Box>
+                                </CircularProgressLabel>
+                            </CircularProgress>
+                        </Flex>
+                        <Flex flexDirection={'column'} alignItems={'center'} className="item-wrong">
+                            <Box as='span' color={'#d70909'} mb={'3'}>Falsch</Box>
+                            <CircularProgress value={calculatePercentage(allQuestions, wrongtAnswers)} color='#d70909' size='80px'>
+                                <CircularProgressLabel>
+                                    <Box as='span' color={'#d70909'} fontSize={'28'} lineHeight={'28'}>{wrongtAnswers}</Box>
+                                </CircularProgressLabel>
+                            </CircularProgress>
+                        </Flex>
+                    </Grid>
+                    <Results answers={currentConnectors} />
+                    <Flex justifyContent={'center'} gap={'2'}>
+                        <Button colorScheme='orange' onClick={() => {
+                            setAnswerState()
+                            setIsNewTest(true)
+                        }}>Neuer Test</Button>
+                        <Button colorScheme='orange' onClick={() => {
+                            setAnswerState('old')
+                            setIsNewTest(true)
+                        }}>Tests wiederholen</Button>
+                    </Flex>
+                </Stack>
             </Container >
-        </>
-    )
-
-    return (
-        <section id="result" className="result">
-            <h2 className="result__title">Deine Ergebnisse</h2>
-            <div className="result__container">
-                <div className="result__panel">
-                    <div className="result__panel-item panel-item item-all">
-                        <span className="panel-item__comment">Gesamt</span>
-                        <span className="panel-item__value">{allQuestions}</span>
-                    </div>
-                    <div className="result__panel-item panel-item item-right">
-                        <span className="panel-item__comment">Richtig</span>
-                        <span className="panel-item__value">{correctAnswers}</span>
-                    </div>
-                    <div className="result__panel-item panel-item item-wrong">
-                        <span className="panel-item__comment">Falsch</span>
-                        <span className="panel-item__value">{wrongtAnswers}</span>
-                    </div>
-                </div>
-                <div className="result__table result-table">
-                    <div className="result-table__row">
-                        <div className="result-table__cell cell-header">Nr.</div>
-                        <div className="result-table__cell cell-header">Konnektor</div>
-                        <div className="result-table__cell cell-header">Antwort</div>
-                        <div className="result-table__cell cell-header">Richtige Antwort</div>
-                    </div>
-                    {/* {currentConnectors.map((item, id) => (
-                        <div key={item.id} className="result-table__row">
-                            <div className="result-table__cell cell-header">{id + 1}</div>
-                            <div className="result-table__cell">{item.connector}</div>
-                            <div className={`result-table__cell cell-answer ${item.answer !== item.sentence_type ? 'wrong' : 'right'}`}>{item.answer.replace(/-/g, ' ')}</div>
-                            <div className="result-table__cell cell-answer">{`${item.sentence_type.replace(/-/g, ' ')} (${item.connector_type})`}</div>
-                        </div>
-                    ))} */}
-                </div>
-                <div className="result__buttons">
-                    <ButtonStartTest onClick={onClick}>Neuer Test</ButtonStartTest>
-                </div>
-            </div>
             <Confetti
                 width={width}
                 height={height}
             />
-        </section>
+        </>
     )
 }
 

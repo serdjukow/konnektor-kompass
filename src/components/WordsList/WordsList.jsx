@@ -15,11 +15,11 @@ const WordsList = ({ state = {}, view = 'ru' }) => {
             <Flex w="100%" justifyContent="center"> 
                 <Box padding='8' w="100%">
                     {state.map(item => (
-                        <Fragment key={item.untertitle}>
-                            <Heading as='h4' size='md' mt={4} mb={1}>
+                        <Fragment key={item.untertitle} >
+                            <Heading as='h4' size='md' mt={6} mb={3} textAlign={'center'}>
                                 {item.untertitle}
                             </Heading>
-                            <UnorderedList w="100%">
+                            <UnorderedList w="100%" textAlign={'center'}>
                                 {item.words.map((el, id) => (                                  
                                     <ListItem key={id}>
                                         <Text fontSize='xl'>

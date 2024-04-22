@@ -9,12 +9,7 @@ import {
     Stack,
     useColorModeValue
 } from '@chakra-ui/react'
-import {
-    FcAbout,
-    FcAssistant,
-    FcCollaboration,
-    FcDonate,
-    FcManager,
+import {   
     FcApproval
 } from 'react-icons/fc'
 import {
@@ -76,7 +71,7 @@ const GetStartedPageContent = [
 const GetStartedCard = ({ heading, description, icon, href, buttonText }) => {
     return (
         <Box
-            maxW={{ base: 'full', md: '300px' }}
+            maxW={{ base: 'full', md: '320px' }}
             w={'full'}
             borderWidth="1px"
             borderRadius="lg"
@@ -129,7 +124,7 @@ const GetStarted = () => {
                 <Heading as='h2' size='xl' mt={4} mb={4} >
                     Get Started
                 </Heading>
-                <Container maxW={'5xl'} mt={12}>
+                <Box maxW={'100%'} mt={12}>
                     <Flex flexWrap="wrap" gridGap={6} justify="center">
                         {GetStartedPageContent.map((item, index) => (
                             <GetStartedCard key={index}
@@ -141,7 +136,7 @@ const GetStarted = () => {
                             />
                         ))}
                     </Flex>
-                </Container>
+                </Box>
             </Container >
         </>
     )

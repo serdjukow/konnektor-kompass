@@ -4,16 +4,6 @@ import LogoDark from '../../assets/images/logo-dark.png'
 import { v4 as uuidv4 } from "uuid";
 import {
     HOME_ROUTE,
-    KONNEKTOREN_ROUTE,
-    KONNEKTOREN_TEST_ROUTE,
-    KONNEKTOREN_UEBERSICHT_ROUTE,
-    PREPOSITIONEN_ROUTE,
-    PREPOSITIONEN_UEBERSICHT_ROUTE,
-    NOMEN_MIT_PREPOSITIONEN_ROUTE,
-    VERBEN_MIT_PREPOSITIONEN_ROUTE,
-    ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE,
-    WORDS_ROUTE,
-    FAQ_ROUTE,
     menuList
 } from '../../utils/consts'
 import {

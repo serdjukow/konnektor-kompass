@@ -298,7 +298,6 @@ section {
   }
 }
 
-
 // .home {
 //   text-align: center;
 //   &__container {
@@ -383,7 +382,7 @@ section {
 //   }
 // }
 
-.connector-test { 
+.connector-test {
   &__body {
     &.right {
       background-color: rgba(2, 240, 18, 0.6);
@@ -415,161 +414,23 @@ section {
   }
 }
 
-.result {
-  &__title {
-    font-size: 24px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  &__container {
-    background-color: #fff;
-    margin-bottom: 30px;
-    padding: 15px;
-    border-radius: 8px;
-  }
-  &__buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-  &__panel {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
-    gap: 10px;
-    justify-content: center;
-    gap: 30px;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  &__panel-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-}
-
-.panel-item {
-  &__value {
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  &.item-all {
-    color: #0c72d2;
-  }
-  &.item-right {
-    color: #2dd60c;
-  }
-  &.item-wrong {
-    color: #d70909;
-  }
-}
-
-  .item-all {
-    color: #0c72d2;
-  }
-  .item-right {
-    color: #2dd60c;
-  }
-  .item-wrong {
-    color: #d70909;
-  }
-
 .result-table {
-  display: grid;
-  grid-template-columns: 35px repeat(3, 1fr);
-  border: 1px solid #d7d7d7;
-  color: #4b4a4a;
-  margin-bottom: 30px;
-  &__row {
-    display: contents;
-  }
   &__cell {
-    border: 1px solid #d7d7d7;
+    border-bottom: 1px solid var(--chakra-colors-chakra-border-color);
     padding: 5px;
-    text-align: center;
-
-    &.wrong {
-      color: #d70909;
-      text-decoration: line-through;
-    }
-    &.right {
-      color: #17d106;
-    }
-  }
-  .cell-header {
-    background-color: #f5f5f5;
-    color: #757575;
-  }
-  .cell-answer {
-    text-transform: capitalize;
   }
 }
 
-// .menu {
-//   &__button {
-//     display: inline-block;
-//     top: 0;
-//     right: 0;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 40px;
-//     height: 40px;
-//     transition: background-color 0.25s ease-out;
-//     cursor: pointer;
-//     &:hover {
-//     }
+.cell-header {
+  color: var(--chakra-colors-chakra-body-text);
+  font-weight: 600;
+  color: #4A5568;
+}
 
-//     &._active {
-//     }
-//   }
-//   &__icon {
-//     z-index: 5;
-//     display: block;
-//     position: relative;
-//     width: 30px;
-//     height: 30px;
-//     & span,
-//     &::before,
-//     &::after {
-//       left: 0;
-//       position: absolute;
-//       height: 10%;
-//       width: 100%;
-//       transition: all 0.3s ease 0s;
-//       background-color: #fff;
-//     }
-//     &::before,
-//     &::after {
-//       content: "";
-//     }
-//     &::after {
-//       bottom: 0;
-//     }
-//     &::before {
-//       top: 0;
-//     }
-//     span {
-//       top: 50%;
-//       transform: scale(1) translate(0px, -50%);
-//     }
+.chakra-ui-dark {
+  .cell-header {
+    //background-color: rgb(45, 55, 72);
+    color: rgb(160, 174, 192);
+  }
 
-//     &._active {
-//       span {
-//         transform: scale(0) translate(0px, 50%);
-//       }
-//     }
-//     &._active::before {
-//       top: 50%;
-//       transform: rotate(-45deg) translate(0px, -50%);
-//     }
-//     &._active::after {
-//       bottom: 50%;
-//       transform: rotate(45deg) translate(0px, 50%);
-//     }
-//   }
-// }
+}

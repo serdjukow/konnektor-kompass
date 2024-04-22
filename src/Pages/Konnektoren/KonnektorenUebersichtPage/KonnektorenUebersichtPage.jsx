@@ -1,12 +1,11 @@
-import React, { useContext, useState } from "react";
-import DataContext from "../../../context/DataContext";
+import React, { useState } from "react";
 import ConnectorList from '../../../components/ConnectorList/ConnectorList'
 import Loader from '../../../Layouts/Loader/Loader'
+import { useConnectorenQuery } from "../../../hooks/useConnectorenQuery"
 import {
     Container, Heading, Breadcrumb,
     BreadcrumbItem,
     BreadcrumbLink,
-    Spinner,
     Flex,
     IconButton,
     Icon
@@ -17,11 +16,11 @@ import {
 } from '../../../utils/consts'
 
 const KonnektorenUebersichtPage = () => {
-    const { connectors } = useContext(DataContext);
+    const { data, isLoading, isSuccess } = useConnectorenQuery()
     const [viewport, setViewport] = useState('grid')
 
-    const data = connectors
-
+    isLoading && < Loader />
+    
     return (
         <>
             <Container maxW='1280px' mb={2} mt={6}>
@@ -60,7 +59,7 @@ const KonnektorenUebersichtPage = () => {
                         <Icon as={TfiViewListAlt} />
                     </IconButton>
                 </Flex>
-                {connectors ? <ConnectorList data={data} viewport={viewport} /> : <Loader />}
+                {isSuccess ? <ConnectorList data={data} viewport={viewport} /> : <Loader />}
             </Container >
         </>
     )

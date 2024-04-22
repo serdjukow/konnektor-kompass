@@ -105,7 +105,7 @@ const TestStartPage = () => {
                 </>
 
             ) : (
-                'Not found' //<ResultPage currentConnectors={currentConnectors} />
+                <ResultPage currentConnectors={currentConnectors} />
             )}
 
         </>

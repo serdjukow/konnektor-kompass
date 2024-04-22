@@ -43,7 +43,11 @@ const WordsPage = () => {
                 <Heading as='h2' size='xl' mt={4} mb={4} >
                     Wortschatz
                 </Heading>
-                <SimpleGrid w='100%' spacing={4} templateColumns='repeat(auto-fit, minmax(400px, 1fr))'>
+                <SimpleGrid
+                    w='100%'
+                    spacing={4}
+                    templateColumns={{ base: 'repeat(auto-fit, minmax(300px, 1fr))', sm: 'repeat(auto-fit, minmax(400px, 1fr))' }}
+                >
                     <Card>
                         <CardHeader pb={1}>
                             <Heading lineHeight='tall' as='h3' size='md' textAlign="center">
