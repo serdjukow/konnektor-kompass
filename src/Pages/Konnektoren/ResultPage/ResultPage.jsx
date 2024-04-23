@@ -22,21 +22,20 @@ import {
 
 
 const ResultPage = ({ currentConnectors }) => {
-    const { connectorAnswers, answerState, setAnswerState } = useContext(DataContext);
+    const { setAnswerState } = useContext(DataContext);
     const { width, height } = useWindowSize()
     const [allQuestions, setAllQuestions] = useState(0)
     const [correctAnswers, setCorrectAnswers] = useState(0)
     const [wrongtAnswers, setWrongAnswers] = useState(0)
     const [isNewTest, setIsNewTest] = useState(false)
-    const [isOldTest, setIsOldTest] = useState(false)
     function calculatePercentage(number, percentage) {
         return (percentage * number) / 100 * 100;
     }
 
     useEffect(() => {
         setAllQuestions(currentConnectors.length || 0)
-        setCorrectAnswers(currentConnectors.filter(item => item.sentence_type === item.answer).length)
-        setWrongAnswers(currentConnectors.filter(item => item.sentence_type !== item.answer).length)
+        setCorrectAnswers(currentConnectors.filter(item => item.type === item.answer).length)
+        setWrongAnswers(currentConnectors.filter(item => item.type !== item.answer).length)
         sessionStorage.setItem("oldQuestions", JSON.stringify(currentConnectors))
     }, [])
 
@@ -52,15 +51,15 @@ const ResultPage = ({ currentConnectors }) => {
                 {!!Object.keys(answers).length && answers.map((item, id) => (
                     <Box display={'contents'} key={id}>
                         <Text as="span" className="result-table__cell">{id + 1}</Text>
-                        <Text as="span" className="result-table__cell">{item.connector}</Text>
+                        <Text as="span" className="result-table__cell">{item.title}</Text>
                         <Text
                             as="span"
-                            textDecor={`${item.answer !== item.sentence_type ? 'line-through' : 'none'}`}
+                            textDecor={`${item.answer !== item.type ? 'line-through' : 'none'}`}
                             className={`result-table__cell cell-answer`}
-                            color={`${item.answer !== item.sentence_type ? 'red' : 'green'}`}
+                            color={`${item.answer !== item.type ? 'red' : 'green'}`}
                         >
                             {item.answer.replace(/-/g, ' ')}</Text>
-                        <Text as="span" className="result-table__cell cell-answer">{`${item.sentence_type.replace(/-/g, ' ')} (${item.connector_type})`}</Text>
+                        <Text as="span" className="result-table__cell cell-answer">{`${item.type.replace(/-/g, ' ')} (${item.connector_type})`}</Text>
                     </Box>
                 ))}
             </Grid>

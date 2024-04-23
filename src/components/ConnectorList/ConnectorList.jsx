@@ -1,6 +1,7 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import DataContext from "../../context/DataContext";
-import Loader from '../../Layouts/Loader/Loader'
+import PageModal from "../PageModal/PageModal"
+import ModalSlider from "../ModalSlider/ModalSlider"
 import {
     Table,
     Thead,
@@ -11,69 +12,55 @@ import {
     Td,
     TableContainer,
 } from '@chakra-ui/react'
+import { projectColorScheme } from "../../utils/theme";
 function createMarkup(example) {
     return { __html: example };
 }
 
+const blocksSet = [
+    "nebensatz",
+    "hauptsatz-position-0",
+    "hauptsatz-position-1",
+    "infinitivgruppe",
+    "besonderer-position"
+]
+
 const ConnectorList = ({ data = {}, viewport = 'grid' }) => {
-    const { chengeIsOpen, setModalContent } = useContext(DataContext);
-    const connectorenFilter = (type) => data?.filter(connector => connector.connector_type.toLowerCase() === type.toLowerCase())
+    const { isModalOpen, setIsModalOpen } = useContext(DataContext);
+    const [activeSlide, setActiveSlide] = useState(0)
 
-    function findConnectorById(id) {
-        let index = data?.indexOf(data?.find((connector) => connector.id === id));
-        return index
-    }
-
-    const addContent = (e) => {
+    const openModal = (e) => {
+        setIsModalOpen(true);
         let slideId = e.target.id
-        chengeIsOpen()
-        setModalContent([findConnectorById(slideId), data])
+        findItemById(slideId)
     }
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    }
+
+    function findItemById(id) {
+        let index = data?.indexOf(data?.find((data) => data.id === id));
+        setActiveSlide(index)
+    }
+
+    const dataFilter = (type) => data?.filter(data => data.type.toLowerCase() === type.toLowerCase())
 
     if (!!Object.keys(data).length) {
         return (
             viewport === 'grid' ? (
                 <>
-                    <div className="category blue">
-                        <div className="category__title"><h2>Konnektoren mit Nebensatz (= Subjunktionen)</h2></div>
-                        <div className="category__words">
-                            {connectorenFilter('subjunktionen').map(el => (
-                                <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
-                            ))}
+                    <PageModal isOpen={isModalOpen} onClose={closeModal}><ModalSlider activeSlide={activeSlide} data={data} /></PageModal>
+                    {blocksSet.map(block => (
+                        <div key={block} className={`category ${projectColorScheme[block]}`}>
+                            <div className="category__title"><h2>Konnektoren mit {block}</h2></div>
+                            <div className="category__words">
+                                {dataFilter(`${block}`).map(el => (
+                                    <span key={el.id} id={el.id} onClick={openModal} className="category__word">{el.title}</span>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                    <div className="category yellow">
-                        <div className="category__title "><h2>Konnektoren mit Hauptsatz (Position 0) (= Konjunktionen)</h2></div>
-                        <div className="category__words">
-                            {connectorenFilter('konjunktionen').map(el => (
-                                <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
-                            ))}
-                        </div>
-                    </div>
-                    <div className="category green">
-                        <div className="category__title"><h2>Konnektoren mit Hauptsatz (Position 1) (= Konjunktionaladverbien)</h2></div>
-                        <div className="category__words">
-                            {connectorenFilter("konjunktionaladverbien").map(el => (
-                                <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
-                            ))}
-                        </div>
-                    </div>
-                    <div className="category violet">
-                        <div className="category__title"><h2>Konnektoren mit Infinitivgruppe</h2></div>
-                        <div className="category__words">
-                            {connectorenFilter("infinitivgruppe").map(el => (
-                                <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
-                            ))}
-                        </div>
-                    </div>
-                    <div className="category gray">
-                        <div className="category__title"><h2>Konnektoren mit besonderer Position</h2></div>
-                        <div className="category__words">
-                            {connectorenFilter("besonderer-position").map(el => (
-                                <span key={el.id} id={el.id} onClick={addContent} className="category__word">{el.connector}</span>
-                            ))}
-                        </div>
-                    </div>
+                    ))}  
                 </>
             )
                 :
@@ -89,11 +76,11 @@ const ConnectorList = ({ data = {}, viewport = 'grid' }) => {
                                     </Tr>
                                 </Thead>
                                 <Tbody size='xl'>
-                                    {data.sort((a, b) => a.connector.localeCompare(b.connector)).map((el, id) => (
+                                    {data.sort((a, b) => a.title.localeCompare(b.title)).map((el, id) => (
                                         <Tr key={el.id}>
                                             <Td>{id + 1}</Td>
-                                            <Td>{el.connector}</Td>
-                                            <Td dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
+                                            <Td>{el.title}</Td>
+                                            <Td className={`words-example ${projectColorScheme[el.type]}`} dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
                                         </Tr>
                                     ))}
                                 </Tbody>

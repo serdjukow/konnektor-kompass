@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 :root {
   --index: calc(1vw);
-  --swiper-navigation-size: 25px !important;
+  --swiper-navigation-size: 35px !important;
 }
 
 * {
@@ -60,6 +60,7 @@ section {
 .card {
   padding-bottom: 10px;
   max-width: 500px;
+  background: var(--chakra-colors-chakra-body-bg);
   h2 {
     font-size: 38px;
     margin-bottom: 10px;
@@ -94,7 +95,6 @@ section {
     min-height: 100px;
   }
   &__text {
-    margin: 5px 0;
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
@@ -137,60 +137,38 @@ section {
   }
 }
 
-// .options {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-// }
-
-// .option {
-//   background-color: #f4f4f4;
-//   border: 1px solid #ccc;
-//   border-radius: 5px;
-//   padding: 10px 20px;
-//   margin: 5px;
-//   cursor: pointer;
-//   transition: background-color 0.25s ease-in;
-//   @media (any-hover: hover) {
-//     &:hover {
-//       background-color: #c0bfbf;
-//     }
-//   }
-// }
-
-// .connectors {
-//   color: #333;
-//   &__title {
-//     font-size: 24px;
-//     text-align: center;
-//     margin-bottom: 25px;
-//     @media (max-width: 576px) {
-//       font-size: 20px;
-//     }
-//   }
-//   &__page {
-//     text-align: center;
-//     h2 {
-//       color: #333;
-//       margin-bottom: 20px;
-//     }
-//     p {
-//       margin-bottom: 10px;
-//       line-height: 1.6;
-//     }
-//     .example {
-//       margin-left: 20px;
-//       color: #666;
-//     }
-//     ul {
-//       list-style: none;
-//       padding-left: 0;
-//     }
-//     li {
-//       list-style-type: none;
-//     }
-//   }
-// }
+.words-example {
+  &:is(.subjunktionen, .blue) {
+    strong,
+    span {
+      color: #0c72d2;
+    }
+  }
+  &:is(.konjunktionen, .yellow) {
+    strong,
+    span {
+      color: #dea90d;
+    }
+  }
+  &:is(.konjunktionaladverbien, .green) {
+    strong,
+    span {
+      color: #0cd240;
+    }
+  }
+  &:is(.infinitivgruppe, .violet) {
+    strong,
+    span {
+      color: #bb0abe;
+    }
+  }
+  &:is(.besonderer-position, .gray) {
+    strong,
+    span {
+      color: #848484;
+    }
+  }
+}
 
 .category {
   margin-bottom: 30px;
@@ -201,7 +179,8 @@ section {
     padding: 10px;
     h2 {
       font-size: 18px;
-      color: #fff;
+     color: var(--chakra-colors-chakra-body-text);
+     font-weight: 600;
     }
   }
 
@@ -220,7 +199,7 @@ section {
     align-items: center;
     padding: 10px;
     border-radius: 3px;
-    color: #fff;
+    color: var(--chakra-colors-chakra-body-text);
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -298,90 +277,6 @@ section {
   }
 }
 
-// .home {
-//   text-align: center;
-//   &__container {
-//   }
-
-//   &__item {
-//   }
-
-//   &__title {
-//     font-size: 34px;
-//     margin-bottom: 20px;
-//   }
-
-//   h2 {
-//     font-size: 30px;
-//     margin-top: 30px;
-//     margin-bottom: 10px;
-//   }
-
-//   &__subtitle {
-//     font-size: 24px;
-//     margin-top: 20px;
-//     margin-bottom: 10px;
-//   }
-
-//   p {
-//     font-size: 22px;
-//     margin-bottom: 15px;
-//   }
-
-//   &__img {
-//     aspect-ratio: 350/211;
-//     max-width: 900px;
-//     margin: 0 auto 50px;
-//     img {
-//       width: 100%;
-//       height: auto;
-//       object-fit: cover;
-//     }
-//   }
-
-//   strong {
-//     font-weight: bold;
-//   }
-
-//   &__email {
-//     margin: 50px 0 60px;
-//     font-size: 14px;
-//     color: #777;
-//     a {
-//       position: relative;
-//       text-decoration: none;
-//       color: #0a22d8;
-//       padding-bottom: 2px;
-//       transition: 0.25s ease-in;
-//       &::before {
-//         content: "";
-//         position: absolute;
-//         bottom: -1px;
-//         left: 50%;
-//         transform: translateX(-50%);
-//         width: 0;
-//         height: 2px;
-//         transition: 0.25s ease-in;
-//       }
-//       &:focus {
-//         outline: none;
-//       }
-//       &:focus-visible {
-//         outline: 2px dashed #0a22d8;
-//         outline-offset: 3px;
-//       }
-//       @media (any-hover: hover) {
-//         &:hover {
-//           &::before {
-//             background-color: #0a22d8;
-//             width: 100%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
 .connector-test {
   &__body {
     &.right {
@@ -424,7 +319,7 @@ section {
 .cell-header {
   color: var(--chakra-colors-chakra-body-text);
   font-weight: 600;
-  color: #4A5568;
+  color: #4a5568;
 }
 
 .chakra-ui-dark {
@@ -432,5 +327,6 @@ section {
     //background-color: rgb(45, 55, 72);
     color: rgb(160, 174, 192);
   }
-
 }
+
+

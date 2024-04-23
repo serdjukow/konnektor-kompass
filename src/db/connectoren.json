@@ -1,67 +1,67 @@
 [
   {
-    "connector": "als",
-    "sentence_type": "nebensatz",
+    "title": "als",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Als</span> ich ein Kind war, fuhr ich einmal nach Frankreich."
   },
   {
-    "connector": "als dass",
-    "sentence_type": "nebensatz",
+    "title": "als dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Das Problem ist zu komplex, <span>als dass</span> es schnell gelöst werden könnte."
   },
   {
-    "connector": "als ob",
-    "sentence_type": "nebensatz",
+    "title": "als ob",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich habe so großen Hunger, <span>als ob</span> ich für drei Tagen nichts gegessen hätte."
   },
   {
-    "connector": "als wenn",
-    "sentence_type": "nebensatz",
+    "title": "als wenn",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie ignoriert ihre ehemalige Chefin, <span>als wenn</span> sie einander niemals getroffen hätten."
   },
   {
-    "connector": "anstatt dass",
-    "sentence_type": "nebensatz",
+    "title": "anstatt dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Er macht lieber eine Ausbildung, <span>anstatt dass</span> er sich um einen Studienplatz bewirbt."
   },
   {
-    "connector": "auch wenn",
-    "sentence_type": "nebensatz",
+    "title": "auch wenn",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Auch wenn</span> die Grafik nicht aktuell ist, (so) lassen sich doch wichtige Informationen entnehmen."
   },
   {
-    "connector": "außer dass",
-    "sentence_type": "nebensatz",
+    "title": "außer dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Derzeit ist eigentlich alles in Ordnung, <span>außer dass</span> ich mich ein wenig krank fühle."
   },
   {
-    "connector": "außer wenn",
-    "sentence_type": "nebensatz",
+    "title": "außer wenn",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich spiele gerne PlayStation, <span>außer wenn</span> ich krank bin."
   },
   {
-    "connector": "bevor",
-    "sentence_type": "nebensatz",
+    "title": "bevor",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Bevor</span> die Probleme gelöst werden konnten, waren sie eskaliert."
   },
   {
-    "connector": "bis",
-    "sentence_type": "nebensatz",
+    "title": "bis",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie müssen die Straße weiterfahren, <span>bis</span> Sie die Linden auf der rechten Seite sehen können."
   },
   {
-    "connector": "da**",
-    "sentence_type": "nebensatz",
+    "title": "da**",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich war gestern beim Arzt, <span>da</span> ich starke Kopfschmerzen hatte.",
     "comment": {
@@ -74,14 +74,14 @@
     }
   },
   {
-    "connector": "dadurch dass",
-    "sentence_type": "nebensatz",
+    "title": "dadurch dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie können das Video <span>dadurch dass</span> sie auf “Play” klicken."
   },
   {
-    "connector": "damit***",
-    "sentence_type": "nebensatz",
+    "title": "damit***",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Bitte lassen Sie mich wissen, wie der aktuelle Stand der Dinge ist, <span>damit</span> ich eine Entscheidung treffen kann.",
     "comment": {
@@ -93,170 +93,170 @@
     }
   },
   {
-    "connector": "dass",
-    "sentence_type": "nebensatz",
+    "title": "dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Du weißt doch, <span>dass</span> der Zug oft Verspätung hat!"
   },
   {
-    "connector": "ehe",
-    "sentence_type": "nebensatz",
+    "title": "ehe",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Lass uns nach Hause gehen, <span>ehe</span> es dunkel wird."
   },
   {
-    "connector": "es sei denn, dass",
-    "sentence_type": "nebensatz",
+    "title": "es sei denn, dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Wir können den Abgabetermin einhalten, <span>es sei denn, dass</span> noch etwas Unvorhergesehenes passiert."
   },
   {
-    "connector": "falls",
-    "sentence_type": "nebensatz",
+    "title": "falls",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Falls</span> ich mal in Hamburg bin, melde ich mich bei dir."
   },
   {
-    "connector": "indem",
-    "sentence_type": "nebensatz",
+    "title": "indem",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich vergrößere meinen Wortschatz, <span>indem</span> ich viel deutsche Zeitungen lese."
   },
   {
-    "connector": "je",
-    "sentence_type": "nebensatz",
+    "title": "je",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Je</span> öfter ich mich mit diesem Thema beschäftige, desto klarer wird es mir."
   },
   {
-    "connector": "nachdem",
-    "sentence_type": "nebensatz",
+    "title": "nachdem",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Nachdem</span> ich gefrühstückt habe, fahre ich zur Arbeit."
   },
   {
-    "connector": "ob",
-    "sentence_type": "nebensatz",
+    "title": "ob",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich bin mir nicht sicher, <span>ob</span> ich heute entweder die roten oder die grünen Medikamente einnehmen muss."
   },
   {
-    "connector": "obgleich",
-    "sentence_type": "nebensatz",
+    "title": "obgleich",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Obgleich</span> sie einige Zweifel hatte, nahm sie das Angebot an."
   },
   {
-    "connector": "obschon",
-    "sentence_type": "nebensatz",
+    "title": "obschon",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie baden gerne im See, <span>obschon</span> die Temperatur nur 10°C beträgt."
   },
   {
-    "connector": "obwohl",
-    "sentence_type": "nebensatz",
+    "title": "obwohl",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Obwohl</span> das Feld gut bewässert wird, wächst hier keine einzige Pflanze."
   },
   {
-    "connector": "obzwar",
-    "sentence_type": "nebensatz",
+    "title": "obzwar",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie gingen, <span>obzwar</span> es regnete, wie jeden Tag spazieren."
   },
   {
-    "connector": "ohne dass",
-    "sentence_type": "nebensatz",
+    "title": "ohne dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich bin zum Kurs gekommen, <span>ohne dass</span> ich meine Hausaufgaben gemacht habe."
   },
   {
-    "connector": "sei es dass",
-    "sentence_type": "nebensatz",
+    "title": "sei es dass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Sei es dass</span> es regnet, sei es dass es schneit, wir gehen auf jeden Fall."
   },
   {
-    "connector": "seitdem",
-    "sentence_type": "nebensatz",
+    "title": "seitdem",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Seitdem</span> ich die Weiterbildung gemacht habe, bekomme ich viele Einladungen zu Vorstellungsgesprächen."
   },
   {
-    "connector": "selbst wenn",
-    "sentence_type": "nebensatz",
+    "title": "selbst wenn",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Selbst wenn</span> das Konzert ausverkauft ist, können wir vielleicht noch Tickets bekommen."
   },
   {
-    "connector": "sobald",
-    "sentence_type": "nebensatz",
+    "title": "sobald",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Sobald</span> die ganze Welt geimpft ist, wird Corona vorbei sein, hoffe ich."
   },
   {
-    "connector": "sodass",
-    "sentence_type": "nebensatz",
+    "title": "sodass",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Am Morgen bin ich sehr früh aufgestanden, <span>sodass</span> ich meine Hausaufgaben erledigen konnte."
   },
   {
-    "connector": "sofern",
-    "sentence_type": "nebensatz",
+    "title": "sofern",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie können auf diesen Link zugreifen, <span>sofern</span> Sie in Ihrem Gmail-Konto angemeldet sind."
   },
   {
-    "connector": "solange",
-    "sentence_type": "nebensatz",
+    "title": "solange",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Solange</span> du noch nicht fertig bist, musst du hierbleiben."
   },
   {
-    "connector": "sooft",
-    "sentence_type": "nebensatz",
+    "title": "sooft",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Du wirst dein Deutsch Schritt für Schritt verbessern, <span>sooft</span> du deinen deutschen Freund besuchst."
   },
   {
-    "connector": "soviel",
-    "sentence_type": "nebensatz",
+    "title": "soviel",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Soviel</span> mir gesagt wurde, müssen wir hier warten."
   },
   {
-    "connector": "soweit",
-    "sentence_type": "nebensatz",
+    "title": "soweit",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "<span>Soweit</span> ich weiß, warst du mit deinem Freund draußen."
   },
   {
-    "connector": "während",
-    "sentence_type": "nebensatz",
+    "title": "während",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich habe mich sehr gut unterhalten, <span>während</span> er sich gelangweilt hat."
   },
   {
-    "connector": "weil",
-    "sentence_type": "nebensatz",
+    "title": "weil",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Sie ließ das Auto hier und nahm ein Taxi, <span>weil</span> sie viel getrunken hatte."
   },
   {
-    "connector": "wenn",
-    "sentence_type": "nebensatz",
+    "title": "wenn",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich wäre Ihnen sehr dankbar, <span>wenn</span> Sie mir schriftlich antworten könnten."
   },
   {
-    "connector": "wenngleich",
-    "sentence_type": "nebensatz",
+    "title": "wenngleich",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Ich bin sehr zufrieden in Berlin, <span>wenngleich</span> ich meine Familie in Madrid vermisse."
   },
   {
-    "connector": "wie",
-    "sentence_type": "nebensatz",
+    "title": "wie",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Du musst mir bitte erzählen, <span>wie</span> es funktioniert.",
     "comment": {
@@ -268,134 +268,134 @@
     }
   },
   {
-    "connector": "wiewohl",
-    "sentence_type": "nebensatz",
+    "title": "wiewohl",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Wir müssen uns vorbereiten, <span>wiewohl</span> noch nicht klar ist, ob er überhaupt kommt."
   },
   {
-    "connector": "wobei",
-    "sentence_type": "nebensatz",
+    "title": "wobei",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Wir müssen gehen, <span>wobei</span> die Party Spaß macht."
   },
   {
-    "connector": "wo(hin)gegen",
-    "sentence_type": "nebensatz",
+    "title": "wo(hin)gegen",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Am Wochenende frühstücke ich ausgiebig, <span>wohingegen</span> ich unter der Woche nur Kaffee trinke."
   },
   {
-    "connector": "zumal",
-    "sentence_type": "nebensatz",
+    "title": "zumal",
+    "type": "nebensatz",
     "connector_type": "subjunktionen",
     "example": "Bei einem solchem Wetter bleiben wir lieber im Hotel, <span>zumal</span> unsere Ausrüstung nicht gut ist."
   },
   {
-    "connector": "aber",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "aber",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "<span>Aber</span> Er hat sich viel Mühe für sie gegeben, aber sie ignoriert ihn."
   },
   {
-    "connector": "bzw.",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "bzw.",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "Melden Sie sich telefonisch <span>bzw.</span> rufen Sie uns an, je nachdem, wo Sie wohnen."
   },
   {
-    "connector": "denn",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "denn",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "Er spaziert im Park, <span>denn</span> das Wetter ist heute gut."
   },
   {
-    "connector": "desto/umso",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "desto/umso",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "Je mehr ich lerne, <span>desto/umso</span> sicherer bestehe ich die Prüfung."
   },
   {
-    "connector": "doch",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "doch",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "<span>Doch</span> Ich wollte noch einkaufen, doch jetzt ist es zu spät."
   },
   {
-    "connector": "oder",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "oder",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "Ich gehe allein, <span>oder</span> kommst Du mit?"
   },
   {
-    "connector": "sondern",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "sondern",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "Er besucht uns nicht heute, <span>sondern</span> er kommt erst am Donnerstag."
   },
   {
-    "connector": "und",
-    "sentence_type": "hauptsatz-position-0",
+    "title": "und",
+    "type": "hauptsatz-position-0",
     "connector_type": "konjunktionen",
     "example": "Ich beschäftige mich mit dem Thema <span>und</span> du hilfst mir bitte dabei."
   },
   {
-    "connector": "allerdings",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "allerdings",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "<span>Allerdings</span> Die Reise war schön, allerdings fanden wir sie auch ziemlich ermüdend."
   },
   {
-    "connector": "also",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "also",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "<span>Also</span> Der Junge lernte, also bestand er die Prüfung."
   },
   {
-    "connector": "andererseits",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "andererseits",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Es könnte regnen, <span>andererseits</span> scheint vielleicht auch die Sonne."
   },
   {
-    "connector": "andernfalls",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "andernfalls",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Du musst rechtzeitig losgehen, <span>andernfalls</span> kommst du zu spät."
   },
   {
-    "connector": "anschließend",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "anschließend",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Der Lehrer sprach erst mit dem Kind, <span>anschließend</span> lud er die Eltern zu einem Gespräch ein."
   },
   {
-    "connector": "ansonsten",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "ansonsten",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Nimm den Regenschirm mit, <span>ansonsten</span> werden wir nass."
   },
   {
-    "connector": "aus diesem Grund",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "aus diesem Grund",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Ich mag meinen alten Beruf nicht, <span>aus diesem Grund</span> mache ich eine Umschulung."
   },
   {
-    "connector": "außerdem",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "außerdem",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Heutzutage ist es sehr wichtig, eine Fremdsprache zu lernen, <span>außerdem</span> braucht man PC-Kenntnisse."
   },
   {
-    "connector": "bis dahin",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "bis dahin",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Bald habe ich eine Prüfung, <span>bis dahin</span> werde ich fleißig lernen."
   },
   {
-    "connector": "da**",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "da**",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Wir schlafen in der Küche, <span>da</span> ist es viel wärmer als in unserem Zimmer.",
     "comment": {
@@ -408,32 +408,32 @@
     }
   },
   {
-    "connector": "dadurch",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "dadurch",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Er lebte viele Jahre in Japan, <span>dadurch</span> konnte er fast fehlerfrei Japanisch."
   },
   {
-    "connector": "dafür",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "dafür",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Sie dürfen das Gebäude betreten, <span>dafür</span> brauchen Sie aber Ihren Ausweis."
   },
   {
-    "connector": "dagegen",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "dagegen",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Es ist schon warm in Spanien, <span>dagegen</span> schneit es bei uns noch."
   },
   {
-    "connector": "daher",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "daher",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Peter hat viel geübt, <span>daher</span> hat er die Prüfung bestanden."
   },
   {
-    "connector": "damit***",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "damit***",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Das ist mein neues Fahrrad, <span>damit</span> kann man schnell fahren.",
     "comment": {
@@ -445,266 +445,266 @@
     }
   },
   {
-    "connector": "danach",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "danach",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Zuerst treffen wir uns bei uns zu Hause, <span>danach</span> besuchen wir die Nachbarn."
   },
   {
-    "connector": "dann",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "dann",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Wir übernachten in diesem Hotel, <span>dann</span> fahren wir weiter zu unserem Ziel."
   },
   {
-    "connector": "darauf",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "darauf",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "In meinem Zimmer gibt es einen Tisch, <span>darauf</span> findest du deine Jacke."
   },
   {
-    "connector": "daraufhin",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "daraufhin",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Die Klamotten werden bestellt, <span>daraufhin</span> sehen wir uns an, ob die Größe passt oder nicht."
   },
   {
-    "connector": "darum",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "darum",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Dieser Wald ist gefährlich, <span>darum</span> solltest du vorsichtig sein."
   },
   {
-    "connector": "darüber",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "darüber",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Er muss immer pünktlich sein, <span>darüber</span> haben wir ausführlich gesprochen."
   },
   {
-    "connector": "davon",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "davon",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Unser Gericht besteht aus verschiedenen Zutaten, <span>davon</span> sind 10 g Zucker."
   },
   {
-    "connector": "davor",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "davor",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Wir fahren bald in Urlaub, <span>davor</span> müssen wir unser Auto kontrollieren."
   },
   {
-    "connector": "dazu",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "dazu",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Ich hätte gerne ein Brot, <span>dazu</span> nehme ich Käse und Butter."
   },
   {
-    "connector": "demgegenüber",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "demgegenüber",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Die Regierung verschwendet viel Geld im Krieg, <span>demgegenüber</span> zwingt sie die Journalisten zu schweigen."
   },
   {
-    "connector": "demnach",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "demnach",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Ich habe einen Brief bekommen, <span>demnach</span> ist das Bürgeramt morgen geschlossen."
   },
   {
-    "connector": "demzufolge",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "demzufolge",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Wir sind mit der Besprechung fertig, <span>demzufolge</span> können wir jetzt nach Hause gehen."
   },
   {
-    "connector": "dennoch",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "dennoch",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Sie haben so viele Übungen im Unterricht gemacht, <span>dennoch</span> hat sie das Thema nicht verstanden."
   },
   {
-    "connector": "deshalb",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "deshalb",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Er schaut gerne Filme, <span>deshalb</span> kauft er sich einen großen Fernseher."
   },
   {
-    "connector": "deswegen",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "deswegen",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Sie hat sich von Ihrem Mann getrennt, <span>deswegen</span> geht sie zu einem Psychologen."
   },
   {
-    "connector": "einerseits",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "einerseits",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "<span>Einerseits</span> möchte Ella Deutsch lernen, andererseits möchte sie ins Kino gehen."
   },
   {
-    "connector": "ferner",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "ferner",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Im Urlaub hat sie viel gelesen und gegessen, <span>ferner</span> ein paar Sehenswürdigkeiten besichtigt."
   },
   {
-    "connector": "folglich",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "folglich",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Ihr Chef hat die Dienstreise nicht bewilligt, <span>folglich</span> konnte sie nicht verreisen."
   },
   {
-    "connector": "gleichzeitig",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "gleichzeitig",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Er hat sich auf die Prüfung vorbereitet, <span>gleichzeitig</span> hat er viel gearbeitet."
   },
   {
-    "connector": "immerhin",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "immerhin",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Wir haben kein Geld, <span>immerhin</span> haben wir einander."
   },
   {
-    "connector": "infolgedessen",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "infolgedessen",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Katja hat viel geübt, <span>infolgedessen</span> hat sie die Prüfung bestanden."
   },
   {
-    "connector": "inzwischen",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "inzwischen",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Warten Sie bitte im Wartezimmer, <span>inzwischen</span> können Sie unsere bunten Broschüren durchlesen."
   },
   {
-    "connector": "jedoch",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "jedoch",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Der Baum im Hof der Schule kriegt wenig Wasser, <span>jedoch</span> ist er groß geworden und immerhin ist er grün."
   },
   {
-    "connector": "mittlerweile",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "mittlerweile",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Früher lebte er in Norwegen, <span>mittlerweile</span> hat er aber auch in seiner neuen Heimat Frankreich Freunde gefunden."
   },
   {
-    "connector": "schließlich",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "schließlich",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Im Film begegnet die Schauspielerin vielen Schwierigkeiten, <span>schließlich</span> überwindet sie alle."
   },
   {
-    "connector": "seitdem",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "seitdem",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Bei uns ist eingebrochen worden, <span>seitdem</span> haben wir mehr Sicherungsmaßnahmen installiert."
   },
   {
-    "connector": "somit",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "somit",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Er hat sich immer nur Serien angeschaut, <span>somit</span> konnte er die Prüfung nicht schaffen."
   },
   {
-    "connector": "sonst",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "sonst",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Menschen sollten sich impfen lassen, <span>sonst</span> können sie krank werden."
   },
   {
-    "connector": "später",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "später",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Am Anfang war er so motiviert, <span>später</span> kam er mit weinenden Augen zurück."
   },
   {
-    "connector": "stattdessen",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "stattdessen",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Die Bibliothek ist heute geschlossen, <span>stattdessen</span> können wir im Cafe lernen."
   },
   {
-    "connector": "trotzdem",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "trotzdem",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Es regnet, <span>trotzdem</span> gehe ich spazieren."
   },
   {
-    "connector": "vorher",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "vorher",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Die Hochzeit meines Freundes ist am Samstag, <span>vorher</span> muss ich zum Friseur."
   },
   {
-    "connector": "währenddessen",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "währenddessen",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Ich esse jetzt, <span>währenddessen</span> kannst du ja fernsehen."
   },
   {
-    "connector": "weder … noch",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "weder … noch",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Ich bin böse auf dich; <span>weder</span> warst du pünktlich, <span>noch</span> hast du mir eine Nachricht geschickt."
   },
   {
-    "connector": "zudem",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "zudem",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Der Supermarkt war weit weg, <span>zudem</span> hatte ich kein Geld."
   },
   {
-    "connector": "zuvor",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "zuvor",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "Später besprechen wir die Hausaufgaben, <span>zuvor</span> wiederholen wir den Wortschatz."
   },
   {
-    "connector": "zwar",
-    "sentence_type": "hauptsatz-position-1",
+    "title": "zwar",
+    "type": "hauptsatz-position-1",
     "connector_type": "konjunktionaladverbien",
     "example": "<span>Zwar</span> habe ich eine neue Stelle gefunden, aber ich kann erst nächsten Monat dort anfangen zu arbeiten."
   },
   {
-    "connector": "(an)statt zu",
-    "sentence_type": "infinitivgruppe",
+    "title": "(an)statt zu",
+    "type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "<span>Anstatt</span> etwas <span>zu</span> essen, gehe ich heute hungrig schlafen."
   },
   {
-    "connector": "außer zu",
-    "sentence_type": "infinitivgruppe",
+    "title": "außer zu",
+    "type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "Ich habe im Urlaub fast nichts gemacht, <span>außer</span> am Strand <span>zu</span> schlafen."
   },
   {
-    "connector": "ohne zu",
-    "sentence_type": "infinitivgruppe",
+    "title": "ohne zu",
+    "type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "Ich kann nicht losfahren, <span>ohne</span> dich nochmals <span>zu</span> treffen."
   },
   {
-    "connector": "um zu",
-    "sentence_type": "infinitivgruppe",
+    "title": "um zu",
+    "type": "infinitivgruppe",
     "connector_type": "infinitivgruppe",
     "example": "<span>Um</span> den Test <span>zu</span> bestehen, musst du viel lernen."
   },
   {
-    "connector": "nämlich",
-    "sentence_type": "besonderer-position",
+    "title": "nämlich",
+    "type": "besonderer-position",
     "connector_type": "besonderer-position",
     "example": "Honolulu hat ein angenehmes Klima, es ist <span>nämlich</span> meist sonnig oder frühlingshaft dort."
   },
   {
-    "connector": "nicht nur, sondern auch",
-    "sentence_type": "besonderer-position",
+    "title": "nicht nur, sondern auch",
+    "type": "besonderer-position",
     "connector_type": "besonderer-position",
     "example": "Ich habe morgen <span>nicht nur</span> Arbeit, <span>sondern</span> ich muss <span>auch</span> zum Deutschkurs."
   },
   {
-    "connector": "sowohl als auch",
-    "sentence_type": "besonderer-position",
+    "title": "sowohl als auch",
+    "type": "besonderer-position",
     "connector_type": "besonderer-position",
     "example": "Ich möchte <span>sowohl</span> Deutsch <span>als auch</span> Französisch lernen."
   }

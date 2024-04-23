@@ -51,7 +51,7 @@
     "title": "aufpassen",
     "type": "bei + Dativ",
     "casus": "Dativ",
-    "example": "Ich muss beim Essen <span>auf</span>passen, weil ich eine Allergie habe."
+    "example": "Ich muss <span>beim</span> Essen aufpassen, weil ich eine Allergie habe."
   },
   {
     "title": "aufregen, sich",
@@ -159,7 +159,7 @@
     "title": "beschweren, sich",
     "type": "über + Akkusativ",
     "casus": "Akkusativ",
-    "example": "Sie beschweren sich <span>beim</span> Koch über das schreckliche Mittagsmenü."
+    "example": "Sie beschweren sich beim Koch <span>über</span> das schreckliche Mittagsmenü."
   },
   {
     "title": "bestehen",
@@ -465,7 +465,7 @@
     "title": "leben",
     "type": "von + Dativ",
     "casus": "Dativ",
-    "example": "Von seinem Gehalt kann er gut <span>leben</span>."
+    "example": "<span>Von</span> seinem Gehalt kann er gut leben."
   },
   {
     "title": "leiden",
@@ -537,7 +537,7 @@
   {
     "title": "riechen",
     "type": "nach + Dativ",
-    "example": "Die Linsensuppe <span>riecht</span> nach Ingwer.",
+    "example": "Die Linsensuppe riecht <span>nach</span> Ingwer.",
     "casus": "Dativ"
   },
   {
@@ -789,7 +789,7 @@
   {
     "title": "zählen",
     "type": "auf + Akkusativ",
-    "example": "Auf meinen besten Freund kann ich immer <span>zählen</span>!",
+    "example": "<span>Auf</span> meinen besten Freund kann ich immer zählen!",
     "casus": "Akkusativ"
   },
   {

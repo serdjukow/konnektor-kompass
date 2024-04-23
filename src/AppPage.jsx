@@ -5,7 +5,6 @@ import { useRoutes } from './routes'
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import DataContext from './context/DataContext'
-import Modal from './components/Modal/Modal'
 import "./App.scss";
 
 const AppPage = () => {
@@ -38,10 +37,8 @@ const AppPage = () => {
 				<div className="wrapper">
 					<Header />
 					<div className="page"><Suspense fallback={<Loader />}>{routes}</Suspense></div>
-					<Modal modalContent={modalContent} isOpen={isOpen} chengeIsOpen={chengeIsOpen} />
 					<Footer />
 				</div>
-
 			</BrowserRouter>
 		</DataContext.Provider>
 	)

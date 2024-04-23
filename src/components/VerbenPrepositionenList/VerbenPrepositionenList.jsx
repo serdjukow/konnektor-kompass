@@ -12,9 +12,15 @@ import {
     Td,
     TableContainer,
 } from '@chakra-ui/react'
+import { projectColorScheme } from "../../utils/theme";
 function createMarkup(example) {
     return { __html: example };
 }
+
+const blocksSet = [
+    "Akkusativ",
+    "Dativ"
+]
 
 const VerbenPrepositionenList = ({ data = {}, viewport = 'grid' }) => {
     const { isModalOpen, setIsModalOpen } = useContext(DataContext);
@@ -42,22 +48,16 @@ const VerbenPrepositionenList = ({ data = {}, viewport = 'grid' }) => {
             viewport === 'grid' ? (
                 <>
                     <PageModal isOpen={isModalOpen} onClose={closeModal}><ModalSlider activeSlide={activeSlide} data={data} /></PageModal>
-                    <div className="category yellow">
-                        <div className="category__title"><h2>Verb + Akkusativ</h2></div>
-                        <div className="category__words">
-                            {dataFilter('Akkusativ').map(el => (
-                                <span key={el.id} id={el.id} onClick={openModal} className="category__word">{el.title}</span>
-                            ))}
+                    {blocksSet.map(block => (
+                        <div key={block} className={`category ${projectColorScheme[block]}`}>
+                            <div className="category__title"><h2>Verb + {block}</h2></div>
+                            <div className="category__words">
+                                {dataFilter(`${block}`).map(el => (
+                                    <span key={el.id} id={el.id} onClick={openModal} className="category__word">{el.title}</span>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                    <div className="category green">
-                        <div className="category__title "><h2>Verb + Dativ</h2></div>
-                        <div className="category__words">
-                            {dataFilter('Dativ').map(el => (
-                                <span key={el.id} id={el.id} onClick={openModal} className="category__word">{el.title}</span>
-                            ))}
-                        </div>
-                    </div>
+                    ))}     
                 </>
             )
                 :
@@ -79,7 +79,7 @@ const VerbenPrepositionenList = ({ data = {}, viewport = 'grid' }) => {
                                             <Td>{id + 1}</Td>
                                             <Td>{el.title}</Td>
                                             <Td>{el.type}</Td>
-                                            <Td dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
+                                            <Td className={`words-example ${projectColorScheme[el.casus]}`} dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
                                         </Tr>
                                     ))}
                                 </Tbody>

@@ -66,7 +66,7 @@ const ConnectorTestCard = ({ data = {}, setEndQuestion }) => {
                 <Card w={'100%'} maxW={'800px'}>
                     <CardHeader>
                         <Heading lineHeight='tall' as='h3' size='lg' textAlign="center" mb={'3'}>
-                            {data[currentQuestion]?.connector}
+                            {data[currentQuestion]?.title}
                         </Heading>
                     </CardHeader>
                     <CardBody>
@@ -84,7 +84,7 @@ const ConnectorTestCard = ({ data = {}, setEndQuestion }) => {
                                     onClick={() => handleAnswer(option)}
                                     bgColor={buttonColorScheme[option]}
                                     _hover={{ opacity: "0.8" }}
-                                    textTransform={'capitalize'}
+                                    textTransform={'capitalize'}                                    
                                 >
                                     {option.replace(/-/g, ' ')}
                                 </Button>
@@ -101,8 +101,6 @@ const ConnectorTestCard = ({ data = {}, setEndQuestion }) => {
         )
 
     } else return 'End test'
-
-
 }
 export default ConnectorTestCard
 

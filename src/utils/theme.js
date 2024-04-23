@@ -33,3 +33,17 @@ const colortSheme = [
 ]
 
 export { colortSheme }
+
+export const projectColorScheme = {
+  nebensatz: "blue",
+  "hauptsatz-position-0": "yellow",
+  "hauptsatz-position-1": "green",
+  infinitivgruppe: "violet",
+  "besonderer-position": "gray",
+  "mit Genitiv": "blue",
+  "mit Dativ": "yellow",
+  "mit Akkusativ": "green",
+  "mit Dativ oder Akkusativ": "violet",
+  Dativ: "yellow",
+  Akkusativ: "green",
+}
