@@ -10,7 +10,6 @@ import "./App.scss";
 const AppPage = () => {
 	const routes = useRoutes()	
 	const [isOpen, setIsOpen] = useState(false)
-	const [modalContent, setModalContent] = useState([])
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [connectorAnswers, setConnectorAnswers] = useState([])
 	const [answerState, setAnswerState] = useState()
@@ -24,7 +23,6 @@ const AppPage = () => {
 			value={{
 				isOpen,
 				chengeIsOpen,
-				setModalContent,
 				isModalOpen,
 				setIsModalOpen,
 				connectorAnswers,

@@ -3,7 +3,7 @@ import { useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
-import PrepositionenCard from "../PrepositionenCard/PrepositionenCard.jsx";
+import Card from "../Card/Card.jsx";
 
 const ModalSlider = ({ activeSlide = 0, data = {}, children }) => {
     const swiperRef = useRef(null);
@@ -38,7 +38,7 @@ const ModalSlider = ({ activeSlide = 0, data = {}, children }) => {
         >
             {data.map(item => (
                 <SwiperSlide key={item.id} className="swiper-slide">
-                    <PrepositionenCard item={item} />
+                    <Card item={item} />
                 </SwiperSlide>
             ))}
         </Swiper>)

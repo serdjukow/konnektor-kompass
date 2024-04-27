@@ -1,807 +1,807 @@
 [
   {
     "title": "abhängen",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "Ob wir unsere Party drinnen oder draußen machen, hängt <span>von</span> dem Wetter ab."
   },
   {
     "title": "abraten",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "Ich rate dir <span>von</span> deiner Idee ab, weil ich sie riskant finde."
   },
   {
     "title": "achten",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Bitte achten Sie <span>auf</span> darauf, pünktlich zum Termin zu kommen!"
   },
   {
     "title": "anfangen",
-    "type": "mit + Dativ",
-    "casus": "Dativ",
+    "usage": "mit + Dativ",
+    "type": "Dativ",
     "example": "Ich habe vor ein paar Wochen <span>mit</span> dem Kurs angefangen."
   },
   {
     "title": "anpassen, sich",
-    "type": "an + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "an + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich passe mich <span>an</span> meine neue Lebenssituation an."
   },
   {
     "title": "arbeiten",
-    "type": "an + Dativ",
-    "casus": "Dativ",
+    "usage": "an + Dativ",
+    "type": "Dativ",
     "example": "Er arbeitet seit Wochen <span>an</span> dem umfangreichen Projekt, aber ist noch nicht fertig."
   },
   {
     "title": "ärgern, sich",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich ärgere mich <span>über</span> den jeden Tag zu spät kommenden Bus."
   },
   {
     "title": "aufpassen",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich muss am Wochenende <span>auf</span> meine Kinder aufpassen."
   },
   {
     "title": "aufpassen",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Ich muss <span>beim</span> Essen aufpassen, weil ich eine Allergie habe."
   },
   {
     "title": "aufregen, sich",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Er regt sich <span>über</span> die schlechte Fußballmannschaft auf."
   },
   {
     "title": "basieren",
-    "type": "auf + Dativ",
-    "casus": "Dativ",
+    "usage": "auf + Dativ",
+    "type": "Dativ",
     "example": "Was ich sage, basiert <span>auf</span> wissenschaftlichen Fakten."
   },
   {
     "title": "bedanken, sich",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Ich bedanke mich <span>bei</span> meinem Kollegen, weil er mir geholfen hat."
   },
   {
     "title": "bedanken, sich",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich bedanke mich <span>für</span> deine tolle Hilfe!"
   },
   {
     "title": "begeistern, sich",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Sie kann sich <span>für</span> diese faszinierende Art von Literatur immer wieder begeistern."
   },
   {
     "title": "beginnen",
-    "type": "mit + Dativ",
-    "casus": "Dativ",
+    "usage": "mit + Dativ",
+    "type": "Dativ",
     "example": "Ich beginne morgen <span>mit</span> der Arbeit."
   },
   {
     "title": "begnügen, sich",
-    "type": "mit + Dativ",
-    "casus": "Dativ",
+    "usage": "mit + Dativ",
+    "type": "Dativ",
     "example": "Ich begnüge mich <span>mit</span> meinem geringen Gehalt, weil ich die Arbeit liebe."
   },
   {
     "title": "beharren",
-    "type": "auf + Dativ",
-    "casus": "Dativ",
+    "usage": "auf + Dativ",
+    "type": "Dativ",
     "example": "Das Kind beharrte <span>darauf</span>, den ganzen Tag zu spielen statt zu lernen."
   },
   {
     "title": "beklagen, sich",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Ich beklage mich <span>bei</span> meinem Chef über die schlechte Bezahlung."
   },
   {
     "title": "beklagen, sich",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Die Schüler beklagen sich <span>über</span> das wirklich ungenießbare Mittagessen."
   },
   {
     "title": "bemühen, sich",
-    "type": "um + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "um + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich bemühe mich <span>um</span> eine neue Arbeitsstelle, weil mir die alte nicht mehr gefällt."
   },
   {
     "title": "beneiden",
-    "type": "um + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "um + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich beneide meine Kollegen <span>um</span> ihre Fähigkeit, mehrere Sprachen fehlerlos zu sprechen."
   },
   {
     "title": "berichten",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "Die Zeitungen berichten täglich <span>von</span> der Entwicklung verschiedener Impfstoffe."
   },
   {
     "title": "berichten",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Im Fernsehen wurde <span>über</span> die Ereignisse in Australien berichtet."
   },
   {
     "title": "beruhen",
-    "type": "auf + Dativ",
-    "casus": "Dativ",
+    "usage": "auf + Dativ",
+    "type": "Dativ",
     "example": "Die Geschichte beruht <span>auf</span> Tatsachen."
   },
   {
     "title": "beschäftigen, sich",
-    "type": "mit + Dativ",
-    "casus": "Dativ",
+    "usage": "mit + Dativ",
+    "type": "Dativ",
     "example": "Er beschäftigte sich <span>im</span> Studium mit verschiedenen Themen."
   },
   {
     "title": "beschweren, sich",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Sie beschweren sich <span>bei</span> ihrem Chef."
   },
   {
     "title": "beschweren, sich",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Sie beschweren sich beim Koch <span>über</span> das schreckliche Mittagsmenü."
   },
   {
     "title": "bestehen",
-    "type": "aus + Dativ",
-    "casus": "Dativ",
+    "usage": "aus + Dativ",
+    "type": "Dativ",
     "example": "Dieses ungesunde Getränk besteht fast nur <span>aus</span> Wasser und Zucker!"
   },
   {
     "title": "bestehen",
-    "type": "auf + Dativ",
-    "casus": "Dativ",
+    "usage": "auf + Dativ",
+    "type": "Dativ",
     "example": "Sie besteht <span>auf</span> Kaffee zum Frühstück, auch wenn ihr Mann das ungesund findet."
   },
   {
     "title": "bevorzugen",
-    "type": "gegenüber + Dativ",
-    "casus": "Dativ",
+    "usage": "gegenüber + Dativ",
+    "type": "Dativ",
     "example": "Ich bevorzuge Variante A <span>gegenüber</span> Variante B."
   },
   {
     "title": "bewerben, sich",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Ich bewerbe mich <span>bei</span> Media-Markt als Kassierin."
   },
   {
     "title": "bewerben, sich",
-    "type": "an + Dativ",
-    "casus": "Dativ",
+    "usage": "an + Dativ",
+    "type": "Dativ",
     "example": "Ich will mich <span>an</span> der Berliner Humboldt-Universität bewerben."
   },
   {
     "title": "bewerben, sich",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich bewerbe mich hiermit <span>auf</span> die ausgeschriebene Stelle."
   },
   {
     "title": "bewerben, sich",
-    "type": "um + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "um + Akkusativ",
+    "type": "Akkusativ",
     "example": "Die Schülerin bewirbt sich <span>um</span> ein Praktikum."
   },
   {
     "title": "bitten",
-    "type": "um + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "um + Akkusativ",
+    "type": "Akkusativ",
     "example": "Laura bittet ihre Kollegen <span>um</span> Verständnis für die Verspätung."
   },
   {
     "title": "bleiben",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Ich bleibe <span>bei</span> meiner Meinung."
   },
   {
     "title": "danken",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Mario dankt <span>für</span> die Hilfe, die er bekommen hat."
   },
   {
     "title": "denken",
-    "type": "an + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "an + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich denke oft <span>an</span> dich."
   },
   {
     "title": "denken",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Was denkst du <span>über</span> meinen Vorschlag, findest du ihn gut?"
   },
   {
     "title": "drehen, sich",
-    "type": "um + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "um + Akkusativ",
+    "type": "Akkusativ",
     "example": "Das Gespräch dreht sich <span>um</span> ein neues Projekt."
   },
   {
     "title": "engagieren, sich",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Viele Leute engagieren sich <span>für</span> einen guten Zweck."
   },
   {
     "title": "entschuldigen, sich",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Mario entschuldigt sich <span>bei</span> seinem Kollegen."
   },
   {
     "title": "entschuldigen, sich",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich entschuldige mich <span>für</span> meine Fehler."
   },
   {
     "title": "entschließen, sich",
-    "type": "zu + Dativ",
-    "casus": "Dativ",
+    "usage": "zu + Dativ",
+    "type": "Dativ",
     "example": "Er hat <span>sich</span> nach langem Überlegen endlich zu diesem Studium <span>entschlossen</span>."
   },
   {
     "title": "einladen",
-    "type": "zu + Dativ",
-    "casus": "Dativ",
+    "usage": "zu + Dativ",
+    "type": "Dativ",
     "example": "Er lädt mich <span>zu</span> seiner Geburtstagsparty ein."
   },
   {
     "title": "einwilligen",
-    "type": "in + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "in + Akkusativ",
+    "type": "Akkusativ",
     "example": "Sie hat <span>in</span> die Scheidung eingewilligt."
   },
   {
     "title": "erinnern, sich",
-    "type": "an + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "an + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich erinnere mich <span>an</span> meine Schulzeit."
   },
   {
     "title": "erkranken",
-    "type": "an + Dativ",
-    "casus": "Dativ",
+    "usage": "an + Dativ",
+    "type": "Dativ",
     "example": "Sie erkrankte letzten Winter <span>an</span> einer schweren Grippe."
   },
   {
     "title": "erkundigen, sich",
-    "type": "bei + Dativ",
-    "casus": "Dativ",
+    "usage": "bei + Dativ",
+    "type": "Dativ",
     "example": "Ich habe mich <span>beim</span> Bahnmitarbeiter nach den Fahrpreisen erkundigt."
   },
   {
     "title": "erkundigen, sich",
-    "type": "nach + Dativ",
-    "casus": "Dativ",
+    "usage": "nach + Dativ",
+    "type": "Dativ",
     "example": "Ich war zum ersten Mal in Rom und musste mich mehrmals <span>nach</span> dem Weg erkundigen."
   },
   {
     "title": "erwarten, sich",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "Was erwartest du <span>von</span> deinen Freunden?"
   },
   {
     "title": "flüchten",
-    "type": "vor + Dativ",
-    "casus": "Dativ",
+    "usage": "vor + Dativ",
+    "type": "Dativ",
     "example": "Viele Menschen mussten <span>vor</span> dem Krieg in ihrer Heimat flüchten."
   },
   {
     "title": "fragen",
-    "type": "nach + Dativ",
-    "casus": "Dativ",
+    "usage": "nach + Dativ",
+    "type": "Dativ",
     "example": "Der Journalist fragt <span>nach</span> mehr Information über dieses Thema."
   },
   {
     "title": "freuen, sich",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich freue mich <span>auf</span> darauf, dich nächste Woche wiederzusehen."
   },
   {
     "title": "freuen, sich",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich freue mich <span>über</span> den Besuch meines Freundes, der seit gestern hier ist."
   },
   {
     "title": "führen",
-    "type": "zu + Dativ",
-    "casus": "Dativ",
+    "usage": "zu + Dativ",
+    "type": "Dativ",
     "example": "Das heiße Wetter hat <span>zu</span> Wassermangel in der ganzen Region geführt."
   },
   {
     "title": "fürchten, sich",
-    "type": "vor + Dativ",
-    "casus": "Dativ",
+    "usage": "vor + Dativ",
+    "type": "Dativ",
     "example": "Der Hund ist ganz brav, du brauchst dich nicht <span>vor</span> ihm zu fürchten."
   },
   {
     "title": "gehören",
-    "type": "zu + Dativ",
-    "casus": "Dativ",
+    "usage": "zu + Dativ",
+    "type": "Dativ",
     "example": "Zu einem guten Essen gehört auch das passende Getränk."
   },
   {
     "title": "geraten",
-    "type": "in + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "in + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich hoffe, dass Sie wegen der fehlenden Dokumente nicht <span>in</span> Schwierigkeiten geraten."
   },
   {
     "title": "geraten",
-    "type": "an + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "an + Akkusativ",
+    "type": "Akkusativ",
     "example": "Er ist im Fachmarkt leider <span>an</span> einen inkompetenten Verkäufer geraten."
   },
   {
     "title": "gewöhnen, sich",
-    "type": "an + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "an + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich habe mich schnell <span>an</span> Deutschland gewöhnt."
   },
   {
     "title": "glauben",
-    "type": "an + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "an + Akkusativ",
+    "type": "Akkusativ",
     "example": "Seine Chefin glaubt <span>an</span> ihn, weil sie weiß, dass er die Aufgabe schaffen kann."
   },
   {
     "title": "halten",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich halte dich <span>für</span> einen erfahrenen Arzt."
   },
   {
     "title": "halten",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "Ich halte nicht viel <span>von</span> deinem Vorschlag, weil er nicht umsetzbar ist."
   },
   {
     "title": "handeln",
-    "type": "mit + Dativ",
-    "casus": "Dativ",
+    "usage": "mit + Dativ",
+    "type": "Dativ",
     "example": "Unsere Firma handelt <span>mit</span> verschiedenen Textilien."
   },
   {
     "title": "handeln",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "Viele Gedichte handeln <span>von</span> unerwiderter Liebe."
   },
   {
     "title": "hängen",
-    "type": "an + Dativ",
-    "casus": "Dativ",
+    "usage": "an + Dativ",
+    "type": "Dativ",
     "example": "Diese alten Sachen sind zwar nicht wertvoll, aber ich hänge sehr <span>an</span> ihnen."
   },
   {
     "title": "hinweisen",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Wir möchten Sie hiermit <span>auf</span> die Änderungen im Vertrag hinweisen."
   },
   {
     "title": "hoffen",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Wir haben lange <span>auf</span> gutes Wetter gehofft."
   },
   {
     "title": "interessieren, sich",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "ich interessiere mich <span>für</span> die Umwelt."
   },
   {
     "title": "kämpfen",
-    "type": "mit + Dativ",
-    "casus": "Dativ",
+    "usage": "mit + Dativ",
+    "type": "Dativ",
     "example": "Im Krieg kämpften verschiedene Gruppen <span>miteinander</span>."
   },
   {
     "title": "kämpfen",
-    "type": "gegen + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "gegen + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich kämpfe <span>gegen</span> Rassismus."
   },
   {
     "title": "kämpfen",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Er hat sein ganzes Leben <span>für</span> Freiheit gekämpft."
   },
   {
     "title": "konzentrieren, sich",
-    "type": "auf + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "auf + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich muss mich <span>auf</span> die Aufgabe konzentrieren."
   },
   {
     "title": "kümmern, sich",
-    "type": "um + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "um + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich kümmere mich am Abend <span>um</span> die Hausaufgaben der Kinder."
   },
   {
     "title": "lachen",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Über die lustige Geschichte habe ich sehr lange <span>gelacht</span>."
   },
   {
     "title": "leben",
-    "type": "für + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "für + Akkusativ",
+    "type": "Akkusativ",
     "example": "Seit seine Frau verstorben ist, lebt er fast nur noch <span>für</span> seine Arbeit."
   },
   {
     "title": "leben",
-    "type": "von + Dativ",
-    "casus": "Dativ",
+    "usage": "von + Dativ",
+    "type": "Dativ",
     "example": "<span>Von</span> seinem Gehalt kann er gut leben."
   },
   {
     "title": "leiden",
-    "type": "unter + Dativ",
-    "casus": "Dativ",
+    "usage": "unter + Dativ",
+    "type": "Dativ",
     "example": "Die Leute, die viel Kaffee trinken, leiden oft <span>unter</span> Schlafproblemen."
   },
   {
     "title": "leiden",
-    "type": "an + Dativ",
-    "casus": "Dativ",
+    "usage": "an + Dativ",
+    "type": "Dativ",
     "example": "Frau Slitz leidet <span>an</span> Burn-out."
   },
   {
     "title": "nachdenken",
-    "type": "über + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "über + Akkusativ",
+    "type": "Akkusativ",
     "example": "Ich denke <span>über</span> dein Angebot nach und sage dir morgen, wie ich mich entschieden habe."
   },
   {
     "title": "neigen",
-    "type": "zu + Dativ",
-    "casus": "Dativ",
+    "usage": "zu + Dativ",
+    "type": "Dativ",
     "example": "Sie neigt politisch <span>zum</span> Sozialismus."
   },
   {
     "title": "protestieren",
-    "type": "gegen + Akkusativ",
-    "casus": "Akkusativ",
+    "usage": "gegen + Akkusativ",
+    "type": "Akkusativ",
     "example": "Bauern versammeln sich, um <span>gegen</span> die Weizenpreise zu protestieren."
   },
 
   {
     "title": "protestieren",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Sie protestieren <span>für</span> die Demokratie in ihrem Land.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "rächen, sich",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Für die Beleidigung werde ich mich <span>an</span> ihm rächen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "rächen, sich",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Für die Beleidigung werde ich mich <span>an</span> ihm rächen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "rechnen",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich habe nicht damit gerechnet, dass es heute regnet.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "reden",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich habe mit meinem Mann geredet.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "reden",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Wir haben lange <span>über</span> die Arbeitsverteilung geredet.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "riechen",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Die Linsensuppe riecht <span>nach</span> Ingwer.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "schimpfen",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Er hat gestern <span>über</span> deinen Freund geschimpft, weil der immer unhöflich ist.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "schimpfen",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Am Stammtisch schimpfen Leute <span>auf</span> die Politik, mit der sie nicht einverstanden sind.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "schimpfen",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Er schimpft den ganzen Tag <span>mit</span> seinem Hund.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "schützen, sich",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Der erste Schritt, um sich <span>vor</span> Corona zu schützen, ist das Tragen einer Maske.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "schwärmen",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Sie schwärmte <span>von</span> ihrem Urlaub in der Türkei.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "sehnen, sich",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Er sehnte sich <span>nach</span> Urlaub.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "sorgen, sich",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Ali sorgt sich <span>um</span> seine berufliche Zukunft.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "sorgen",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Ich sorge <span>für</span> meine schwer erkrankte Mutter.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "sprechen",
-    "type": "von + in Dativ",
+    "usage": "von + in Dativ",
     "example": "Dana hat den ganzen Abend nur <span>von</span> ihrem Kind gesprochen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "sprechen",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Kann ich mal kurz <span>mit</span> Ihnen sprechen?",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "sprechen",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Er spricht oft <span>über</span> seine Probleme in der Arbeit.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "sprechen",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Alle Beweise sprechen <span>dafür</span>, dass er unschuldig war.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "staunen",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Sie staunte <span>über</span> das unerwartete Geschenk.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "stimmen",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Bei der Wahl stimmten fast 40 Prozent <span>für</span> diese Partei.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "stimmen",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Sie stimmte bei der Präsidentschaftswahl <span>gegen</span> ihren verrückten Präsidenten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "stoßen",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "In der Zeitung bin ich <span>auf</span> eine interessante Meldung gestoßen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "streben",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Er strebt <span>nach</span> einer höheren Position in der Firma.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "streiten",
-    "type": "mit  + Dativ",
+    "usage": "mit  + Dativ",
     "example": "Ich will nicht <span>mit</span> meinen Nachbarn streiten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "streiten, (sich)",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Wir streiten (sich) oft <span>über</span> Politik.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "streiten, (sich)",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Ihr könnt (euch) <span>um</span> das letzte Pizzastück streiten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "suchen",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Ich suche <span>nach</span> einer gemütlichen Wohnung.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "täuschen, sich",
-    "type": "in + Dativ",
+    "usage": "in + Dativ",
     "example": "Ich dachte, du wärst ein Freund, aber ich hab mich wohl <span>in</span> dir getäuscht!",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "teilen",
-    "type": "in + Akkusativ",
+    "usage": "in + Akkusativ",
     "example": "Ich habe den Kuchen <span>in</span> acht Stücke geteilt.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "teilen",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich will den Kuchen <span>mit</span> meinem Mann teilen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "teilnehmen",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ich nehme jeden Morgen unter der Woche <span>am</span> Unterricht teil.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "träumen",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Ich träume <span>von</span> einer großen Villa.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "überzeugen, (sich)",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Ich bin sehr <span>von</span> seiner tollen Idee überzeugt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unterhalten, sich",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Heute habe ich mich <span>mit</span> meinem Mann stundenlang unterhalten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unterhalten, sich",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Wir haben uns heute <span>über</span> die neuen Corona Regeln unterhalten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verlassen, sich",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich kann immer mich <span>auf</span> meinen Mann verlassen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verlieben, sich",
-    "type": "in + Akkusativ",
+    "usage": "in + Akkusativ",
     "example": "Er hat sich <span>in</span> eine Frau verliebt, mit der er sein ganzes Leben titleringen könnte.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verstoßen",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Er hat <span>gegen</span> die Verkehrsregeln verstoßen und muss deshalb eine Strafe bezahlen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "vertrauen",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Manchmal muss man <span>auf</span> die Hilfe von anderen vertrauen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verzichten",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich verzichte <span>auf</span> Plastiktüten, um die Umwelt zu schützen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "vorbereiten, sich",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Hast du dich gut <span>auf</span> das Vorstellungsgespräch vorbereitet?",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "warnen",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Ich habe meinen Sohn davor gewarnt, bei Rot die Straße zu überqueren.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "warten",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich musste eine Stunde <span>auf</span> meinen Bruder warten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "wehren, sich",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Du musst dich <span>gegen</span> diese Ungerechtigkeit wehren!",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "wenden, sich",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Ich wende mich <span>an</span> Sie, weil ich viele Fragen habe.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "wundern, sich",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "İch wundere mich <span>über</span> die Geduld einiger Eltern.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "zählen",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Er zählt <span>zu</span> den berühmtesten Künstlern der Stadt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "zählen",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "<span>Auf</span> meinen besten Freund kann ich immer zählen!",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "zuraten",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Ich möchte allen <span>dazu</span> zuraten, sich an die Corona-Regeln zu halten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "zweifeln",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ich weiß, dass ihr <span>an</span> meiner Pünktlichkeit zweifelt, aber ich werde um 9 Uhr da sein!",
-    "casus": "Dativ"
+    "type": "Dativ"
   }
 ]

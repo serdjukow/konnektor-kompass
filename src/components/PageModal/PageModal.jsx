@@ -5,7 +5,6 @@ import { CloseButton } from '@chakra-ui/react'
 
 
 const PageModal = ({ isOpen, onClose, children }) => {
-
     useEffect(() => {
         const modalRoot = document.createElement('div');
         modalRoot.id = 'modal-root';

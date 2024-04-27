@@ -38,7 +38,7 @@ const AdjektivePrepositionenList = ({ data = {}, viewport = 'grid' }) => {
         setIsModalOpen(false);
     }
 
-    const dataFilter = (type) => data?.filter(data => data.casus.toLowerCase() === type.toLowerCase())
+    const dataFilter = (type) => data?.filter(data => data.type.toLowerCase() === type.toLowerCase())
 
     function findItemById(id) {
         let index = data?.indexOf(data?.find((data) => data.id === id));
@@ -80,8 +80,8 @@ const AdjektivePrepositionenList = ({ data = {}, viewport = 'grid' }) => {
                                         <Tr key={el.id}>
                                             <Td>{id + 1}</Td>
                                             <Td>{el.title}</Td>
-                                            <Td>{el.type}</Td>
-                                            <Td className={`words-example ${projectColorScheme[el.casus]}`} dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
+                                            <Td>{el.usage}</Td>
+                                            <Td className={`words-example ${projectColorScheme[el.type]}`} dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
                                         </Tr>
                                     ))}
                                 </Tbody>

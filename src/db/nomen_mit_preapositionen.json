@@ -1,722 +1,722 @@
 [
   {
     "title": "Abhängigkeit",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Unsere Abhängigkeit <span>von</span> ausländischem Öl geht zu Lasten unserer Wirtschaft.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Abneigung",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Wir haben eine erkennbare Abneigung <span>gegen</span> Diskriminierung.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Abschied",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Der Abschied <span>von</span> ihrem Freund ist sehr schwer für sie.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Abstand",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Ich halte Abstand <span>von</span> allen, weil die Zahlen der Corona-Fällen ständig steigen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Abstand",
-    "type": "zwischen + Dativ",
+    "usage": "zwischen + Dativ",
     "example": "Der Abstand <span>zwischen</span> diesen zwei Häusern ist riesengroß.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Abstand",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Der Abstand <span>von</span> hier <span>zur</span> Wand beträgt 3 Meter.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Achtung",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Der Verbrecher hat geringe Achtung <span>vor</span> den Gesetzen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Ähnlichkeit",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Hat der Name Azzi Ähnlichkeit <span>mit</span> dem Wort Amazone?",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Ähnlichkeit",
-    "type": "zwischen + Dativ",
+    "usage": "zwischen + Dativ",
     "example": "<span>Zwischen</span> den Gesichtern der Zwillinge gab es eine unglaubliche Ähnlichkeit.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Angst",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Jedes Mal, wenn er zum Klettern ins Gebirge fährt, hat seine Mutter Angst <span>um</span> ihn.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Angst",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Unser Hausmeister hat Angst <span>vor</span> dem großen Hund, der unseren Nachbarn gehört.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Anschluss",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Im Anschluss <span>an</span> den Film können Sie dem Regisseur noch Fragen stellen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Antwort",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich wusste die Antwort <span>auf</span> seine schwierige Frage nicht.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Appetit",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich habe keinen Appetit <span>auf</span> das Essen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Auseinandersetzung",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Nach der Auseinandersetzung <span>mit</span> dem Thema verstehen wir die Situation besser.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Bedürfnis",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Wir haben ein starkes Bedürfnis <span>nach</span> Liebe.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Begründung",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Für ihr unhöfliches Verhalten hatten sie keine Begründung.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Beitrag",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Unsere Firma leistet einen Beitrag <span>zum</span> Umweltschutz.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Belohnung",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Für ihr gutes Benehmen haben Kinder eine Belohnung bekommen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Bemühung",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Die Bemühungen des Arztes <span>um</span> den Verletzten waren leider vergeblich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Beschränkung",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Die Beschränkungen <span>auf</span> die wirklich notwendigen Dinge können der Seele guttun.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Beschwerde",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Auf meine Beschwerde <span>über</span> das schmutzige Hotel hat das Reisebüro nicht reagiert.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Besuch",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Im Sommer werde ich <span>bei</span> meiner Tante zu Besuch sein.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Beteiligung",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Die Beteiligung <span>an</span> der Diskussion machte mir großen Spaß.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Beweis",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die Polizei erbringt den Beweis <span>für</span> die Schuld des Einbrechers.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Beziehung",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Er hat keine Beziehung <span>zu</span> Geld und gibt leider viel zu viel aus.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Beziehung",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Robert hatte eine intensive Beziehung <span>mit</span> jemandem von der Schule.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Beziehung",
-    "type": "zwischen + Dativ",
+    "usage": "zwischen + Dativ",
     "example": "Orientieren Sie sich <span>an</span> der Beziehung <span>zwischen</span> den Farben, um das Puzzle zu lösen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Bezug",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich nehme Bezug <span>auf</span> Ihren Brief vom 17.3.2021.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Bitte",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Mit der Bitte <span>um</span> baldige Antwort verbleibe ich mit freundlichen Grüßen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Bitte",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Ich habe eine kleine Bitte <span>an</span> dich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Blick",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Meine Nachbarin wirft einen Blick <span>auf</span> meine Pflanzen, während ich im Urlaub bin.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Dank",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die Blumen sind ein Dank <span>für</span> deine tolle Hilfe.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Diskussion",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Wir werden heute eine Diskussion <span>über</span> ein aktuelles Thema führen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Druck",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Bitte mach keinen Druck <span>auf</span> die Kinder!",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Eindruck",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "David macht einen guten Eindruck <span>auf</span> mich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Einfluss",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Die internationalen Konzerne üben viel Einfluss <span>auf</span> die Politiker aus.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Einladung",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Danke für die Einladung <span>zu</span> eurer Hochzeit.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Entscheidung",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Bedeutet eine Entscheidung <span>für</span> mehr Zeit mit der Familie weniger Einkommen?",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Entscheidung",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Er bereute seine Entscheidung <span>gegen</span> die ihm angebotene Beförderung nicht.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Entschuldigung",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Die Entschuldigung <span>bei</span> seinen Eltern fiel ihm sehr schwer.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Entschuldigung",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die Entschuldigung <span>für</span> seine Fehler kam von Herzen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Erinnerung",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Ich habe nur noch eine schwache Erinnerung <span>an</span> meine Kindheit.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Ersatz",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Unser Torwart ist krank geworden, wir brauchen dringend einen Ersatz <span>für</span> ihn.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Forderung",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Die Arbeitgeber lehnten die Forderung <span>nach</span> mehr Gehalt ab.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Forderung",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Der Betriebsleiter stellt einige Forderungen <span>an</span> die Angestellten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Frage",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Die Frage <span>nach</span> dem Sinn des Lebens konnte ihm niemand beantworten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Frage",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Die Journalisten haben kluge Fragen <span>an</span> den Regierungschef gerichtet.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Freude",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Er zeigte seine Freude <span>über</span> das gewonnene Spiel.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Freundschaft",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Er beendete seine Freundschaft <span>mit</span> Mahoni.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Furcht",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Die Furcht <span>vor</span> Kriminalität nimmt zu.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Gedanke",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Der Gedanke <span>an</span> den Verlust ihres Arbeitsplatzes macht ihr Angst.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Geduld",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Warum würdest du mit unserer Geduld spielen?",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Gespräch",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Bei Problemen in der Firma hilft manchmal ein Gespräch <span>mit</span> dem Betriebsrat.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Glaube",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Der Glaube <span>an</span> Gott hilft vielen Menschen weiter.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Glückwunsch",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Herzlichen Glückwunsch <span>zu</span> Ihrem Talent!",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Grund",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Was ist der Grund <span>für</span> Ihre Absage?",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Grundlage",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Reichtum ist oft die Grundlage <span>für</span> Macht.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Hass",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Der Verbrecher gab als Grund für seine Taten einen tiefen Hass <span>auf</span> die Polizei an.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Hilfe",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Sie braucht Hilfe <span>bei</span> ihren Hausaufgaben.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Hinweis",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Es gibt keine Hinweise <span>auf</span> eine gestiegene Zahl von Einbrüchen in dieser Gegend.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Hoffnung",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ahmeds Hoffnung <span>auf</span> einen Arbeitsplatz wurde enttäuscht.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Information",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Ich finde Informationen <span>zu</span> Sportmöglichkeiten wichtig.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Interesse",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ihr Interesse <span>an</span> Autos ist sehr groß.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Kampf",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Sie führten einen heftigen Kampf <span>gegen</span> die Zeit.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Konsequenz",
-    "type": "aus + Dativ",
+    "usage": "aus + Dativ",
     "example": "Der Politiker zog Konsequenzen <span>aus</span> der Wahlniederlage und trat zurück.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Kontakt",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich werde <span>mit</span> Ihnen in Kontakt bleiben.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Konzentration",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich habe manchmal Probleme mit meiner Konzentration <span>auf</span> den Unterricht.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Kritik",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Die Kritik <span>an</span> manchen Vorgaben der Regierung ist sehr stark.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Liebe",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Die Liebe einer Mutter <span>zu</span> ihren Kindern ist die größte.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Lohn",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Sie war mit dem Lohn <span>für</span> ihre Anstrengung nicht zufrieden.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Lust",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Nach der Arbeit habe ich oft große Lust <span>auf</span> Sport.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Mangel",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Der Mangel <span>an</span> neuen Wohnungen treibt die Preise in die Höhe.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Mischung",
-    "type": "aus + Dativ",
+    "usage": "aus + Dativ",
     "example": "Die richtige Mischung <span>aus</span> den Zutaten des Kuchens ist wichtig.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Misstrauen",
-    "type": "gegenüber + Dativ",
+    "usage": "gegenüber + Dativ",
     "example": "Das Misstrauen <span>gegenüber</span> dem Präsident wird ihn die Wahlen verlieren lassen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Mut",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Wir brauchen Mut <span>zur</span> Wahrheit, denn Angst hilft nicht weiter.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Neigung",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Im Gefängnis befinden sich einige Personen mit einer Neigung <span>zu</span> starker Gewalt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Neugier",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Die Neugier <span>auf</span> die kraftvollen Geschichten dieses Autors zog die Menschen ins Kino.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Nutzen",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Ich glaube, diese Informationen haben keinen Nutzen <span>für</span> euch.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Orientierung",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Unsere starke Orientierung <span>an</span> den Wünschen unserer Kunden sichern den Erfolg.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Reaktion",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Als Reaktion <span>auf</span> die Proteste ist die Regierung zurückgetreten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Recht",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Alle Menschen haben ein Recht <span>auf</span> Unterstützung.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Respekt",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Wir brauchen mehr Respekt <span>vor</span> alten Menschen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Rücksicht",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Aus Rücksicht <span>auf</span> die Nachbarn drehte er das Radio leiser.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Schuld",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ihn trifft keine Schuld <span>an</span> dem Unfall.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Schutz",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Impfungen bieten Schutz <span>vor</span> ansteckenden Krankheiten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Sehnsucht",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Wir haben Sehnsucht <span>nach</span> dem Urlaub.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Stolz",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich konnte meinen Stolz <span>auf</span> meine Tochter nicht verbergen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Streben",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "In seinem Streben <span>nach</span> Erfolg im Beruf vergaß er fast seine Familie.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Streit",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Wegen meiner Katze habe ich manchmal Streit <span>mit</span> meinem Nachbarn.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Suche",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Wir sind auf der Suche <span>nach</span> einer neuen Wohnung, weil unsere alte zu klein wurde.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Teilnahme",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Die Teilnahme <span>an</span> dieser Fortbildung ist für alle Mitarbeiter obligatorisch.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Teilung",
-    "type": "in + Akkusativ",
+    "usage": "in + Akkusativ",
     "example": "Die Teilung <span>in</span> BRD und DDR dauerte ca. 40 Jahre.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Überblick",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Heute haben wir Zeit, uns einen Überblick <span>über</span> die gelernten Themen zu verschaffen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Unterschied",
-    "type": "zwischen + Dativ",
+    "usage": "zwischen + Dativ",
     "example": "Der Unterschied <span>zwischen</span> Köln und Düsseldorf ist meiner Meinung nach nicht groß.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Unterschied",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Im Unterschied <span>zu</span> deinem Bruder konntest du schon mit fünf Jahren lesen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Verantwortung",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Eltern haben eine große Verantwortung <span>für</span> die Zukunft ihrer Kinder.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Verbindung",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Viele Menschen sind in Verbindung <span>mit</span> dem Coronavirus gestorben.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Vergleich",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Europa ist im Vergleich <span>mit</span> Asien ein kleiner Kontinent.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Vergleich",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Im Vergleich <span>zu</span> ihren Geschwistern ist sie lebhafter.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Verhalten",
-    "type": "gegenüber + Dativ",
+    "usage": "gegenüber + Dativ",
     "example": "Sie entschuldigt sich für ihr unfreundliches Verhalten <span>gegenüber</span> ihrem Kollegen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Verhältnis",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Er hatte ein heimliches Verhältnis <span>mit</span> seiner Kollegin, obwohl er verheiratet war.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Verhältnis",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Du hast ein gutes Verhältnis <span>zu</span> Kindern.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Verlangen",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Ihr Verlangen <span>nach</span> Freiheit ist stark.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Verständnis",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Du musst mehr Verständnis <span>für</span> deine Brüder haben.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Verstoß",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Das ist ein ernster Verstoß <span>gegen</span> unsere Gesetze!",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Verzicht",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Während seiner Diät fand er den Verzicht <span>auf</span> Schokolade am schwersten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Voraussetzung",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Geld ist leider oft die Voraussetzung <span>für</span> Glück.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Warnung",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "In der U-Bahn finden wir viele Warnungen <span>vor</span> Taschendiebstählen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Widerstand",
-    "type": "gegen + Akkusativ",
+    "usage": "gegen + Akkusativ",
     "example": "Die Opposition verstärkte den Widerstand <span>gegen</span> die Regierungsmaßnahmen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Wirkung",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Sie hatte eine erstaunliche Wirkung <span>auf</span> ihre Mitmenschen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Wunsch",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Endlich wurde sein Wunsch <span>nach</span> Frieden in seinem Land erfüllt!",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Wut",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "John hatte eine große Wut <span>auf</span> den unfreundlichen Busfahrer.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Wut",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "John zeigte seine Wut <span>über</span> die permanenten Busverspätungen sehr deutlich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Zeit",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Der Chef hat erst nächste Woche Zeit <span>für</span> ein Gespräch.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Zunahme",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Das war eine starke Zunahme <span>von</span> über 350 Prozent in 15 Jahren.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Zunahme",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Infolge des Klimawandels erwartet Dr. Peters eine Zunahme der Temperatur <span>um</span> 2 Grad.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Zunahme",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Die Zunahme der Arbeitslosenzahl <span>auf</span> 200.000 bereitete der Regierung Sorgen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "Zustimmung",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Die öffentliche Zustimmung <span>zu</span> den Corona-Maßnahmen schwankt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "Zweifel",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ich habe große Zweifel <span>am</span> Wahrheitsgehalt dieser Zeitungsberichte.",
-    "casus": "Dativ"
+    "type": "Dativ"
   }
 ]

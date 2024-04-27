@@ -1,17 +1,13 @@
+import { projectColorScheme } from "../../utils/theme";
 function createMarkup(example) {
     return { __html: example }
 }
 
-const NomenPrepositionenCard = ({ item }) => {
-    const colors = {        
-        "Dativ": "yellow",
-        "Akkusativ": "green"
-    }
-    
+const Card = ({ item }) => {
     return (
-        <div id={item.id} className={`card ${colors[item.type]}`}>
+        <div id={item.id} className={`card ${projectColorScheme[item.type]}`}>
             <div className="card__body">
-                <p className="card__text">{item.type.replace(/-/g, ' ')}</p>
+                <p className="card__text">{item.usage ? item.usage.replace(/-/g, ' ') : item.type.replace(/-/g, ' ')}</p>
                 <h2>{item.title}</h2>
                 <p
                     className="card__exemple"
@@ -21,4 +17,4 @@ const NomenPrepositionenCard = ({ item }) => {
         </div>
     )
 }
-export default NomenPrepositionenCard
+export default Card

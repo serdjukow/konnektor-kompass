@@ -8,8 +8,7 @@ import {
     Text
 } from '@chakra-ui/react'
 
-const WordsList = ({ state = {}, view = 'ru' }) => {    
-
+const WordsList = ({ state = {}, view = 'ru' }) => {
     if (!!Object.keys(state).length) {
         return (
             <Flex w="100%" justifyContent="center"> 

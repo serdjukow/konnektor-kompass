@@ -13,15 +13,12 @@ import {
 import {
     WORDS_ROUTE
 } from '../../../utils/consts'
-import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 
 
 const WordsUebersicht = () => {
     const { data, isLoading, isSuccess } = useWordsQuery()
-    const [viewport, setViewport] = useState('grid')
     const [view, setView] = useState("ru")
     const { theme } = useParams()
-    const { colorMode, toggleColorMode } = useColorMode()
     
     const { title, unterthemen } = isSuccess && data.find(item => item.title === theme)
     
@@ -76,7 +73,7 @@ const WordsUebersicht = () => {
                         </ButtonGroup>
                     </Stack>
                 </Flex>
-                {isSuccess ? <WordsList state={unterthemen} viewport={viewport} view={view}/> : <Spinner
+                {isSuccess ? <WordsList state={unterthemen} view={view}/> : <Spinner
                     thickness="4px"
                     speed="0.65s"
                     emptyColor="gray.200"

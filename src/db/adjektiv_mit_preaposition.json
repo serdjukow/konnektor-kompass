@@ -1,584 +1,584 @@
 [
   {
     "title": "abhängig",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Der Ort unserer Party am Samstag ist <span>vom</span> Wetter abhängig.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "adressiert",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "<span>An</span> wen ist der Brief adressiert? An welchen Mitarbeiter genau ist Ihre Kritik adressiert?",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "angenehm",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die Wassertemperatur war angenehm <span>für</span> uns, sie war weder zu kalt noch zu warm.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "angesehen",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Der Buchautor ist angesehen <span>bei</span> vielen Lesern.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "angewiesen",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich besitze kein Auto und bin deshalb <span>auf</span> die öffentlichen Verkehrsmittel angewiesen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "ärgerlich",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Sie ist sehr ärgerlich <span>über</span> die Rücksichtslosigkeit einiger Menschen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "arm",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Deutschland ist <span>arm</span> an Rohstoffen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "befreundet",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich bin seit Jahren <span>mit</span> ihm befreundet.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "begeistert",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Von seiner Lieblingsmannschaft ist er immer wieder <span>begeistert</span>.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "begrenzt",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Die Besuchszeit ist <span>begrenzt</span> auf 45 Minuten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "bekannt",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Der Dieb ist <span>bei</span> der Polizei bekannt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "bekannt",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Albert Einstein ist <span>bekannt</span> für seine wissenschaftlichen Erfindungen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "beliebt",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Er ist fast <span>bei</span> allen Mitarbeitern beliebt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "beliebt",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die Ostsee ist <span>beliebt</span> für ihr sauberes Wasser.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "bereit",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Hätte ich nicht so viel Arbeit, wäre ich <span>bereit</span> für neue Aufgaben.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "bereit",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Er ist <span>zu</span> vielen Schandtaten bereit. :)",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "berühmt",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Meine Heimatstadt ist im ganzen Land <span>berühmt</span> für ihre alten Traditionen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "beschäftigt",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Sie ist <span>mit</span> ihrer Arbeit beschäftigt und will nicht gestört werden.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "besorgt",
-    "type": "um + Akkusativ",
+    "usage": "um + Akkusativ",
     "example": "Ich kam hierher, weil ich <span>um</span> dich besorgt war.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "besorgt",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Wir sind sehr besorgt <span>darüber</span>, was in der Welt vor sich geht.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "beteiligt",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Warst du <span>an</span> diesem Projekt beteiligt oder haben deine Kollegen das alleine gemacht?",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "beunruhigt",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Ich bin sehr beunruhigt <span>über</span> ihren schlechten Gesundheitszustand.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "bezeichnend",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Dass sie nie zu unseren Treffen kommt, finde ich sehr bezeichnend <span>für</span> ihre Arbeitsmoral.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "blass",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "<span>Vor</span> Schreck waren sie ganz blass.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "böse",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Martin ist sehr böse <span>auf</span> seine Schwestern, weil sie nicht auf ihn gewartet haben.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "charakteristisch",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Diese Symptome sind charakteristisch <span>für</span> eine Allergie.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "dankbar",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Wir sind dankbar <span>für</span> Ihre Hilfe.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "eifersüchtig",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Die Tochter war eifersüchtig <span>auf</span> ihren Bruder, weil die Eltern sich nur um ihn kümmern.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "einverstanden",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Alle Teammitglieder waren <span>mit</span> ihren Aufgaben einverstanden.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "entfernt",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Sie sind hier 350 Meilen <span>von</span> der nächsten Insel entfernt.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "entscheidend",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Compliance ist entscheidend <span>für</span> unsere persönliche und moralische Entwicklung.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "entschlossen",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Ich bin fest entschlossen <span>zu</span> diesem Schritt, egal was du sagst!",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "entsetzt",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Sie waren entsetzt <span>über</span> Martins leichtfertiges Verhalten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "enttäuscht",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Sie ist enttäuscht <span>von</span> ihrem Prüfungsergebnis.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "erfahren",
-    "type": "in + Dativ",
+    "usage": "in + Dativ",
     "example": "Sie ist erfahren <span>in</span> der Altenpflege, weil sie seit 30 Jahren in diesem Bereich arbeitet.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "erfreut",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Am Frauentag war ich sehr erfreut <span>über</span> den Blumenstrauß, den man mir schenkte.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "erstaunt",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Er war <span>über</span> diese Situation erstaunt, weil er etwas ganz anderes erwartet hatte.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "fähig",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Das Kind war <span>zu</span> viel mehr fähig, als seine Eltern gedacht hatten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "fertig",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Endlich bin ich <span>mit</span> meinen Hausaufgaben fertig.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "frei",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Das eingelegte Gemüse ist frei <span>von</span> Konservierungsstoffen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "freundlich",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "<span>Zu</span> seinen Freunden sollte man immer freundlich sein.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "froh",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Ich bin sehr froh <span>über</span> den Ausgang der Wahl.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "gebunden",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Der Arzt ist <span>an</span> seine Schweigepflicht gebunden. Wir sind <span>an</span> unseren Vertrag gebunden.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "geeignet",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die junge Mitarbeiter ist nicht gut geeignet <span>für</span> diese anspruchsvolle Position.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "geschützt",
-    "type": "vor + Akkusativ",
+    "usage": "vor + Akkusativ",
     "example": "Im Haus sind wir <span>vor</span> dem Sturm geschützt.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "gespannt",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ihr seid sehr gespannt <span>auf</span> das Konzert, das nächste Woche stattfindet.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "gewöhnt",
-    "type": "an + Akkusativ",
+    "usage": "an + Akkusativ",
     "example": "Du bist schon sehr gewöhnt <span>an</span> die türkische Kultur, obwohl du noch nicht lang dort lebst.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "gierig",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Ich bin so gierig <span>nach</span> all den guten Dingen im Leben, ich kriege nie genug davon.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "glücklich",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Einige Leute wären nicht glücklich <span>über</span> solche Nachrichten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "gut",
-    "type": "in + Dativ",
+    "usage": "in + Dativ",
     "example": "Ich bin außergewöhnlich gut <span>in</span> Mathematik.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "gut",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Ein Sprichwort, das viele nicht verstehen, lautet: “Sei gut <span>zu</span> denen, die dich hassen.”",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "höflich",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Zu Kunden sollte man immer höflich <span>sein</span>.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "interessiert",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ich bin <span>an</span> Ihrem Angebot nicht interessiert.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "lieb",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Opa war immer lieb <span>zu</span> seinen Enkelkindern, und sie möchten ihn sehr.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "misstrauisch",
-    "type": "gegenüber + Dativ",
+    "usage": "gegenüber + Dativ",
     "example": "Wieso bist du so misstrauisch <span>den jungen Menschen</span> gegenüber?",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "müde",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Ich war müde <span>von</span> der langen Reise.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "neidisch",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Unsere Konkurrenten sind sehr neidisch <span>auf</span> unseren großen Erfolg.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "nett",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Mein Vater ist immer nett <span>zu</span> meiner Mutter.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "neugierig",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Ich bin neugierig <span>auf</span> den Film, der bald ins Kino kommt.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "nötig",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Worte sind nicht unbedingt nötig <span>für</span> Kommunikation mit anderen Menschen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "notwendig",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Regelmäßige Übungen sind notwendig <span>für</span> eine gute Gesundheit.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "nützlich",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "<span>Für</span> mich sind deine Hinweise sehr nützlich, sie helfen mir sehr.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "offen",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Der Verein ist <span>für</span> alle Gruppen offen.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "reich",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Walnüsse sind sehr reich <span>an</span> Omega 3.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "schädlich",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Hast du eine Idee, warum Alkohol so schädlich <span>für</span> die Gesundheit ist?",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "schuld",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Ihr seid beide schuld <span>an</span> diesem Chaos.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "selbstverständlich",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Ein umfassender Service ist <span>für</span> unsere Mitarbeiter selbstverständlich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "sicher",
-    "type": "vor + Dativ",
+    "usage": "vor + Dativ",
     "example": "Ist dieser Ort sicher <span>vor</span> einem Angriff?",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "stolz",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Sie war stolz <span>auf</span> ihren beruflichen Erfolg.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "süchtig",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Ich bin richtig süchtig <span>nach</span> Schokolade.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "traurig",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Bist du traurig <span>über</span> das, dass wir ihn nicht wiedersehen werden?",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "typisch",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Äpfel sind typisch <span>für</span> diese Gegend.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "überzeugt",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Wir sind überzeugt <span>von</span> dem, was wir tun. (= ganz sicher)",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unabhängig",
-    "type": "von + Dativ",
+    "usage": "von + Dativ",
     "example": "Die Frau hat eine eigene Arbeit und ist deshalb finanziell unabhängig <span>von</span> ihrem Mann.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unangenehm",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Ich hatte Angst, dass das Gespräch unangenehm <span>für</span> mich wäre, aber es war okay.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "unbeliebt",
-    "type": "bei + Dativ",
+    "usage": "bei + Dativ",
     "example": "Der Campingplatz ist beliebt <span>bei</span> Gästen aus Italien.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unerfahren",
-    "type": "in + Dativ",
+    "usage": "in + Dativ",
     "example": "Der junge Mitarbeiter ist <span>in</span> vielen Bereichen noch recht unerfahren.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unfähig",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Gut erzogene Menschen sind unfähig <span>zu</span> jeder Art von Gewalttätigkeit.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unfreundlich",
-    "type": "zu + Dativ",
+    "usage": "zu + Dativ",
     "example": "Man sollte nie unfreundlich <span>zu</span> seinen Freunden sein.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "ungeeignet",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Dieses Umfeld ist ungeeignet <span>für</span> dich, such dir lieber ein anderes.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "unglücklich",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Wir sind unglücklich <span>über</span> die Niederlage unserer Partei.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "unschädlich",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Dieses Mittel ist <span>für</span> junge Menschen absolut unschädlich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "unschuldig",
-    "type": "an + Dativ",
+    "usage": "an + Dativ",
     "example": "Sie war <span>an</span> diesem Attentat unschuldig.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "unterteilt",
-    "type": "in + Akkusativ",
+    "usage": "in + Akkusativ",
     "example": "Der Schrank ist <span>in</span> mehrere Fächer unterteilt.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "unzufrieden",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Sie ist unzufrieden <span>mit</span> meinem Beruf.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "verantwortlich",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Jeder ist <span>für</span> seine Taten verantwortlich.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verärgert",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Ich bin sehr verärgert <span>über</span> die respektlose Behandlung meiner Kinder.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verheiratet",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich bin seit drei Jahren <span>mit</span> meiner Freundin aus Grundschulzeiten verheiratet.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "verliebt",
-    "type": "in + Akkusativ",
+    "usage": "in + Akkusativ",
     "example": "Ich bin verliebt <span>in</span> meine Frau.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "verlobt",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Tommy ist <span>mit</span> seinem Nachbarin verlobt und sie wollen bald heiraten.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "verrückt",
-    "type": "nach + Dativ",
+    "usage": "nach + Dativ",
     "example": "Meine Freundin ist verrückt <span>nach</span> der neuen Popband.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "verwandt",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Ich bin <span>verwandt</span> mit der Frau meines Kollegen.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "wichtig",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Es ist wichtig <span>für</span> uns alle, dass wir uns an die neuen Regeln halten.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "wütend",
-    "type": "über + Akkusativ",
+    "usage": "über + Akkusativ",
     "example": "Er war sehr wütend <span>über</span> das Benehmen seines Sohnes.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "wütend",
-    "type": "auf + Akkusativ",
+    "usage": "auf + Akkusativ",
     "example": "Er ist sehr wütend <span>auf</span> seinen Sohn.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   },
   {
     "title": "zufrieden",
-    "type": "mit + Dativ",
+    "usage": "mit + Dativ",
     "example": "Seine Chefs sind sehr zufrieden <span>mit</span> ihm, weil er für die Firma gut verhandelt hat.",
-    "casus": "Dativ"
+    "type": "Dativ"
   },
   {
     "title": "zuständig",
-    "type": "für + Akkusativ",
+    "usage": "für + Akkusativ",
     "example": "Die Köche und Kellner sind zuständig <span>für</span> die Vorbereitung des Buffets.",
-    "casus": "Akkusativ"
+    "type": "Akkusativ"
   }
 ]
