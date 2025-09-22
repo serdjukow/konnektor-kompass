@@ -30,7 +30,7 @@ const PrepositionenUebersichtPage = () => {
                 size="xl"
             />
         )
-  
+
     return (
         <>
             <Container maxW='1280px' mb={2} mt={6}>
@@ -48,23 +48,25 @@ const PrepositionenUebersichtPage = () => {
             </Container>
 
             <Container maxW='1280px' centerContent mb={6}>
-                <Heading as='h2' size='xl' mt={4} mb={4}>
+                <Heading as='h2' size='xl' mt={4} mb={6} textAlign="center" color="gray.700">
                     Präpositionen in der deutschen Sprache
                 </Heading>
-                <Flex w="100%" gap="2" justifyContent='flex-end' alignItems='center' mt={2} mb={4}>
+                <Flex w="100%" gap="2" justifyContent='flex-end' alignItems='center' mt={2} mb={6}>
                     <IconButton
-                        variant='outline'
-                        colorScheme='gray'
+                        variant={viewport === 'grid' ? 'solid' : 'outline'}
+                        colorScheme={viewport === 'grid' ? 'blue' : 'gray'}
                         aria-label='Show as grid'
                         onClick={() => setViewport('grid')}
+                        size="md"
                     >
                         <Icon as={TfiLayoutGrid2} />
                     </IconButton>
                     <IconButton
-                        variant='outline'
-                        colorScheme='gray'
+                        variant={viewport === 'list' ? 'solid' : 'outline'}
+                        colorScheme={viewport === 'list' ? 'blue' : 'gray'}
                         aria-label='Show as list'
                         onClick={() => setViewport('list')}
+                        size="md"
                     >
                         <Icon as={TfiViewListAlt} />
                     </IconButton>

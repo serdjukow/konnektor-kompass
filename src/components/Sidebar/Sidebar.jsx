@@ -39,7 +39,8 @@ function HamurgerMenu() {
                 //variant='outline'
                 color={useColorModeValue('gray.900', 'gray.100')}
                 _focus={{ outline: "none" }}
-                fontSize={20}
+                fontSize={{ base: 18, md: 20 }}
+                size={{ base: "sm", md: "md" }}
                 onClick={onOpen}
             >
                 <Icon as={GiHamburgerMenu} />
@@ -52,8 +53,8 @@ function HamurgerMenu() {
             >
                 <DrawerOverlay />
                 <DrawerContent
-                    minW="200px"
-                    maxW={{ base: "full", sm: "300px" }}
+                    minW="250px"
+                    maxW={{ base: "full", sm: "350px", md: "400px" }}
                     h="100vh"
                     bg={useColorModeValue('gray.100', 'gray.900')}
                     flexDir="column"

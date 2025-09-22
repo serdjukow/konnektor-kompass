@@ -11,6 +11,7 @@ import {
     Th,
     Td,
     TableContainer,
+    useColorModeValue,
 } from '@chakra-ui/react'
 import { projectColorScheme } from "../../utils/theme";
 
@@ -28,6 +29,14 @@ const blocksSet = [
 const PrepositionenList = ({ data = {}, viewport = 'grid' }) => {
     const { isModalOpen, setIsModalOpen } = useContext(DataContext);
     const [activeSlide, setActiveSlide] = useState(0)
+
+    // Цвета для темной/светлой темы
+    const tableBg = useColorModeValue('white', 'gray.800')
+    const headerBg = useColorModeValue('gray.50', 'gray.700')
+    const headerColor = useColorModeValue('gray.700', 'gray.200')
+    const cellColor = useColorModeValue('gray.800', 'gray.200')
+    const cellSecondaryColor = useColorModeValue('gray.600', 'gray.400')
+    const hoverBg = useColorModeValue('gray.50', 'gray.700')
 
     const openModal = (e) => {
         setIsModalOpen(true);
@@ -52,7 +61,7 @@ const PrepositionenList = ({ data = {}, viewport = 'grid' }) => {
                 <>
                     <PageModal isOpen={isModalOpen} onClose={closeModal}><ModalSlider activeSlide={activeSlide} data={data} /></PageModal>
                     {blocksSet.map(block => (
-                        <div key={block} className={`category ${projectColorScheme[block]}`}>                       
+                        <div key={block} className={`category ${projectColorScheme[block]}`}>
                             <div className="category__title"><h2>Präpositionen {block}</h2></div>
                             <div className="category__words">
                                 {dataFilter(`${block}`).map(el => (
@@ -66,22 +75,22 @@ const PrepositionenList = ({ data = {}, viewport = 'grid' }) => {
                 :
                 (
                     <>
-                        <TableContainer w="100%" p="10" borderRadius="4">
-                            <Table variant='simple' >
-                                <Thead>
+                        <TableContainer w="100%" p="6" borderRadius="12" bg={tableBg} boxShadow="lg">
+                            <Table variant='simple' size="md">
+                                <Thead bg={headerBg}>
                                     <Tr>
-                                        <Th>№</Th>
-                                        <Th>Präpositionen</Th>
-                                        <Th>Präposition + Kasus</Th>
-                                        <Th>Beispielsatz</Th>
+                                        <Th color={headerColor} fontWeight="600" fontSize="sm">№</Th>
+                                        <Th color={headerColor} fontWeight="600" fontSize="sm">Präpositionen</Th>
+                                        <Th color={headerColor} fontWeight="600" fontSize="sm">Präposition + Kasus</Th>
+                                        <Th color={headerColor} fontWeight="600" fontSize="sm">Beispielsatz</Th>
                                     </Tr>
                                 </Thead>
-                                <Tbody size='xl'>
+                                <Tbody>
                                     {data.map((el, id) => (
-                                        <Tr key={el.id}>
-                                            <Td>{id + 1}</Td>
-                                            <Td>{el.title}</Td>
-                                            <Td>{el.type}</Td>
+                                        <Tr key={el.id} _hover={{ bg: hoverBg }} transition="background-color 0.2s">
+                                            <Td color={cellSecondaryColor} fontWeight="500">{id + 1}</Td>
+                                            <Td color={cellColor} fontWeight="600">{el.title}</Td>
+                                            <Td color={cellSecondaryColor} fontWeight="500">{el.type}</Td>
                                             <Td className={`words-example ${projectColorScheme[el.type]}`} dangerouslySetInnerHTML={createMarkup(el.example)}></Td>
                                         </Tr>
                                     ))}

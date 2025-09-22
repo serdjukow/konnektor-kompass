@@ -34,22 +34,30 @@ const Header = (props) => {
         <>
             <Box
                 bg={useColorModeValue('gray.100', 'gray.900')}
-                px={4}
+                px={{ base: 4, md: 8 }}
                 top="0"
                 position="fixed"
                 zIndex={'1000'}
+                w="100%"
             >
-                <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+                <Flex
+                    h={{ base: 16, md: 20 }}
+                    alignItems={'center'}
+                    justifyContent={'space-between'}
+                    maxW="1200px"
+                    mx="auto"
+                >
                     <Link to={HOME_ROUTE} className="logo">
                         <img src={colorMode === "light" ? LogoDark : Logo} alt="Konnektor Kompas Logo" />
                     </Link>
 
                     <Flex alignItems={'center'}>
-                        <Stack direction={'row'} spacing={7} gap="3">
+                        <Stack direction={'row'} spacing={{ base: 4, md: 7 }} gap="3">
                             <Button
                                 onClick={toggleColorMode}
                                 _focus={{ outline: "none" }}
-                                fontSize={20}
+                                fontSize={{ base: 18, md: 20 }}
+                                size={{ base: "sm", md: "md" }}
                             >
                                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
                             </Button>

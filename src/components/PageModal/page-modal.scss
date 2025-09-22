@@ -1,69 +1,115 @@
 .page-modal {
-  
-  &__overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow-y: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(4px);
-    pointer-events: inherit;
-    transition: 0.3s ease-in;
-    min-height: 400px;
-    padding: 20px 10px;
-  }
-
-  &__content {
-    background: var(--chakra-colors-chakra-body-bg);
-    border-radius: 15px;
-    padding: 15px 20px;
-    min-width: 300px;
-    max-width: 500px;
-  }
-
-  &__header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-
-  &__close {
-    font-size: 25px;
-    line-height: 1;
-    color: #333;
-    cursor: pointer;
-    transition: color 0.3s ease-in;
-    @media (any-hover: hover) {
-      &:hover {
-        color: #949494;
-      }
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(4px);
+        pointer-events: inherit;
+        transition: 0.3s ease-in;
+        min-height: 400px;
+        padding: 20px 10px;
     }
-  }
+
+    &__content {
+        background: var(--chakra-colors-chakra-body-bg);
+        border-radius: 15px;
+        padding: 15px 20px;
+        min-width: 300px;
+        max-width: 500px;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    &__close {
+        font-size: 25px;
+        line-height: 1;
+        color: #333;
+        cursor: pointer;
+        transition: color 0.3s ease-in;
+        @media (any-hover: hover) {
+            &:hover {
+                color: #949494;
+            }
+        }
+    }
 }
 
 .swiper,
 .swiper-slide {
-  
 }
 
+// Полностью скрываем все стандартные элементы Swiper
 .swiper-button-prev,
-.swiper-button-next {
-  position: absolute;
-  padding: 10px;
-  color: #ec7201 !important;
-  font-weight: 600;
-  top: 70px !important;
-  padding: 5px !important;
+.swiper-button-next,
+.swiper-pagination,
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active,
+.swiper-pagination-fraction,
+.swiper-pagination-progressbar,
+.swiper-pagination-custom,
+.swiper-scrollbar {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.swiper-custom-pagination {
-  font-size: 18px;
-  font-weight: 500;
+// Улучшенные стили для кастомного Swiper
+.custom-swiper {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.custom-swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+// Дополнительное скрытие для всех возможных элементов пагинации
+.custom-swiper .swiper-pagination,
+.custom-swiper .swiper-pagination-bullet,
+.custom-swiper .swiper-pagination-bullet-active,
+.custom-swiper .swiper-pagination-fraction,
+.custom-swiper .swiper-pagination-progressbar,
+.custom-swiper .swiper-pagination-custom {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+// Принудительное использование полной ширины модального окна
+.chakra-stack {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex-shrink: 0 !important;
 }

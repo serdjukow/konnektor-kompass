@@ -1,332 +1,393 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 :root {
-  --index: calc(1vw);
-  --swiper-navigation-size: 35px !important;
+    --index: calc(1vw);
+    --swiper-navigation-size: 35px !important;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  color: var(--chakra-colors-chakra-body-text);
-  background: var(--chakra-colors-chakra-body-bg);
+    font-family: "Poppins", sans-serif;
+    color: var(--chakra-colors-chakra-body-text);
+    background: var(--chakra-colors-chakra-body-bg);
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  padding-top: 50px;
-  overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 64px; // 16 * 4 = 64px для мобильных
+    overflow-y: auto;
+
+    @media (min-width: 768px) {
+        padding-top: 80px; // 20 * 4 = 80px для десктопа
+    }
 }
 
 ul {
-  list-style: none !important;
-  padding-left: 0 !important;
+    list-style: none !important;
+    padding-left: 0 !important;
 }
 
 .info-panel {
-  display: flex;
-  gap: 15px;
+    display: flex;
+    gap: 15px;
 }
 
 .connectors-value {
-  color: #fff;
+    color: #fff;
 }
 
 .answer-wrong {
-  color: red;
+    color: red;
 }
 
 .answer-right {
-  color: aquamarine;
+    color: aquamarine;
 }
 
 .page {
-  width: 100%;
-  flex: 1 1 auto;
+    width: 100%;
+    flex: 1 1 auto;
 }
 
 section {
-  margin: 20px auto 0;
-  max-width: 1280px;
-  padding: 0 15px;
+    margin: 20px auto 0;
+    max-width: 1280px;
+    padding: 0 15px;
 }
 
 .card {
-  padding-bottom: 10px;
-  max-width: 500px;
-  background: var(--chakra-colors-chakra-body-bg);
-  h2 {
-    font-size: 38px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  &:is(.subjunktionen, .blue) {
+    padding-bottom: 10px;
+    max-width: 500px;
+    background: var(--chakra-colors-chakra-body-bg);
     h2 {
-      color: #0c72d2;
+        font-size: 38px;
+        margin-bottom: 10px;
+        text-align: center;
     }
-  }
-  &:is(.konjunktionen, .yellow) {
-    h2 {
-      color: #dea90d;
+    &:is(.subjunktionen, .blue) {
+        h2 {
+            color: #0c72d2;
+        }
     }
-  }
-  &:is(.konjunktionaladverbien, .green) {
-    h2 {
-      color: #0cd240;
+    &:is(.konjunktionen, .yellow) {
+        h2 {
+            color: #dea90d;
+        }
     }
-  }
-  &:is(.infinitivgruppe, .violet) {
-    h2 {
-      color: #bb0abe;
+    &:is(.konjunktionaladverbien, .green) {
+        h2 {
+            color: #0cd240;
+        }
     }
-  }
-  &:is(.besonderer-position, .gray) {
-    h2 {
-      color: #848484;
+    &:is(.infinitivgruppe, .violet) {
+        h2 {
+            color: #bb0abe;
+        }
     }
-  }
-  &__body {
-    min-height: 100px;
-  }
-  &__text {
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 500;
-  }
+    &:is(.besonderer-position, .gray) {
+        h2 {
+            color: #848484;
+        }
+    }
+    &__body {
+        min-height: 100px;
+    }
+    &__text {
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 500;
+    }
 
-  &__exemple {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
+    &__exemple {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 
-  &:is(.subjunktionen, .blue) {
-    strong,
-    span {
-      color: #0c72d2;
+    &:is(.subjunktionen, .blue) {
+        strong,
+        span {
+            color: #0c72d2;
+        }
     }
-  }
-  &:is(.konjunktionen, .yellow) {
-    strong,
-    span {
-      color: #dea90d;
+    &:is(.konjunktionen, .yellow) {
+        strong,
+        span {
+            color: #dea90d;
+        }
     }
-  }
-  &:is(.konjunktionaladverbien, .green) {
-    strong,
-    span {
-      color: #0cd240;
+    &:is(.konjunktionaladverbien, .green) {
+        strong,
+        span {
+            color: #0cd240;
+        }
     }
-  }
-  &:is(.infinitivgruppe, .violet) {
-    strong,
-    span {
-      color: #bb0abe;
+    &:is(.infinitivgruppe, .violet) {
+        strong,
+        span {
+            color: #bb0abe;
+        }
     }
-  }
-  &:is(.besonderer-position, .gray) {
-    strong,
-    span {
-      color: #848484;
+    &:is(.besonderer-position, .gray) {
+        strong,
+        span {
+            color: #848484;
+        }
     }
-  }
 }
 
 .words-example {
-  &:is(.subjunktionen, .blue) {
-    strong,
-    span {
-      color: #0c72d2;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    border-left: 4px solid transparent;
+
+    .chakra-ui-dark & {
+        background-color: #2d3748;
+        color: #e2e8f0;
     }
-  }
-  &:is(.konjunktionen, .yellow) {
-    strong,
-    span {
-      color: #dea90d;
+
+    &:is(.subjunktionen, .blue) {
+        border-left-color: #0c72d2;
+        strong,
+        span {
+            color: #0c72d2;
+            font-weight: 600;
+        }
     }
-  }
-  &:is(.konjunktionaladverbien, .green) {
-    strong,
-    span {
-      color: #0cd240;
+    &:is(.konjunktionen, .yellow) {
+        border-left-color: #dea90d;
+        strong,
+        span {
+            color: #dea90d;
+            font-weight: 600;
+        }
     }
-  }
-  &:is(.infinitivgruppe, .violet) {
-    strong,
-    span {
-      color: #bb0abe;
+    &:is(.konjunktionaladverbien, .green) {
+        border-left-color: #0cd240;
+        strong,
+        span {
+            color: #0cd240;
+            font-weight: 600;
+        }
     }
-  }
-  &:is(.besonderer-position, .gray) {
-    strong,
-    span {
-      color: #848484;
+    &:is(.infinitivgruppe, .violet) {
+        border-left-color: #bb0abe;
+        strong,
+        span {
+            color: #bb0abe;
+            font-weight: 600;
+        }
     }
-  }
+    &:is(.besonderer-position, .gray) {
+        border-left-color: #848484;
+        strong,
+        span {
+            color: #848484;
+            font-weight: 600;
+        }
+    }
 }
 
 .category {
-  margin-bottom: 30px;
-  width: 100%;
-  &__title {
-    margin-bottom: 10px;
-    text-align: center;
-    padding: 10px;
-    h2 {
-      font-size: 18px;
-     color: var(--chakra-colors-chakra-body-text);
-     font-weight: 600;
+    margin-bottom: 30px;
+    width: 100%;
+    &__title {
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 12px;
+        border-radius: 8px;
+        h2 {
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
     }
-  }
 
-  &__words {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-    &::last-child {
-      border-bottom: none;
+    &__words {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        &::last-child {
+            border-bottom: none;
+        }
     }
-  }
 
-  &__word {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border-radius: 3px;
-    color: var(--chakra-colors-chakra-body-text);
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: center;
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.34);
-    transition: background-color 0.25s ease-in;
-    @media (max-width: 576px) {
-      font-size: 18px;
-    }
-  }
-  :is(.subjunktionen, .blue) & {
-    &__title {
-      background-color: #0c72d2;
-    }
     &__word {
-      background-color: rgba(#0c72d2, 0.7);
-      @media (any-hover: hover) {
-        &:hover {
-          background-color: #0c72d2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        border-radius: 8px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+        border: 2px solid transparent;
+        @media (max-width: 576px) {
+            font-size: 18px;
+            padding: 14px 18px;
         }
-      }
-    }
-  }
-  &:is(.konjunktionen, .yellow) & {
-    &__title {
-      background-color: #dea90d;
-    }
-    &__word {
-      background-color: rgba(#dea90d, 0.7);
-      @media (any-hover: hover) {
         &:hover {
-          background-color: #dea90d;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            border-color: rgba(255, 255, 255, 0.3);
         }
-      }
     }
-  }
-  &:is(.konjunktionaladverbien, .green) & {
-    &__title {
-      background-color: #0abe3a;
-    }
-    &__word {
-      background-color: rgba(#0abe3a, 0.7);
-      @media (any-hover: hover) {
-        &:hover {
-          background-color: #0abe3a;
+    :is(.subjunktionen, .blue) & {
+        &__title {
+            background-color: #0c72d2;
         }
-      }
-    }
-  }
-  &:is(.infinitivgruppe, .violet) & {
-    &__title {
-      background-color: #bb0abe;
-    }
-    &__word {
-      background-color: rgba(#bb0abe, 0.7);
-      @media (any-hover: hover) {
-        &:hover {
-          background-color: #bb0abe;
+        &__word {
+            background-color: rgba(#0c72d2, 0.7);
+            @media (any-hover: hover) {
+                &:hover {
+                    background-color: #0c72d2;
+                }
+            }
         }
-      }
     }
-  }
-  &:is(.besonderer-position, .gray) & {
-    &__title {
-      background-color: #848484;
-    }
-    &__word {
-      background-color: rgba(#848484, 0.7);
-      @media (any-hover: hover) {
-        &:hover {
-          background-color: #848484;
+    &:is(.konjunktionen, .yellow) & {
+        &__title {
+            background-color: #dea90d;
         }
-      }
+        &__word {
+            background-color: rgba(#dea90d, 0.7);
+            @media (any-hover: hover) {
+                &:hover {
+                    background-color: #dea90d;
+                }
+            }
+        }
     }
-  }
+    &:is(.konjunktionaladverbien, .green) & {
+        &__title {
+            background-color: #0abe3a;
+        }
+        &__word {
+            background-color: rgba(#0abe3a, 0.7);
+            @media (any-hover: hover) {
+                &:hover {
+                    background-color: #0abe3a;
+                }
+            }
+        }
+    }
+    &:is(.infinitivgruppe, .violet) & {
+        &__title {
+            background-color: #bb0abe;
+        }
+        &__word {
+            background-color: rgba(#bb0abe, 0.7);
+            @media (any-hover: hover) {
+                &:hover {
+                    background-color: #bb0abe;
+                }
+            }
+        }
+    }
+    &:is(.besonderer-position, .gray) & {
+        &__title {
+            background-color: #848484;
+        }
+        &__word {
+            background-color: rgba(#848484, 0.7);
+            @media (any-hover: hover) {
+                &:hover {
+                    background-color: #848484;
+                }
+            }
+        }
+    }
 }
 
 .connector-test {
-  &__body {
-    &.right {
-      background-color: rgba(2, 240, 18, 0.6);
+    &__body {
+        &.right {
+            background-color: rgba(2, 240, 18, 0.6);
+        }
+        &.wrong {
+            background-color: rgba(248, 16, 20, 0.6);
+            animation: shake 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) both;
+        }
     }
-    &.wrong {
-      background-color: rgba(248, 16, 20, 0.6);
-      animation: shake 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) both;
-    }
-  }
 }
 
 @keyframes shake {
-  10%,
-  90% {
-    transform: translateX(-0.5px);
-  }
-  20%,
-  80% {
-    transform: translateX(1px);
-  }
-  30%,
-  50%,
-  70% {
-    transform: translateX(-2px);
-  }
-  40%,
-  60% {
-    transform: translateX(2px);
-  }
+    10%,
+    90% {
+        transform: translateX(-0.5px);
+    }
+    20%,
+    80% {
+        transform: translateX(1px);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translateX(-2px);
+    }
+    40%,
+    60% {
+        transform: translateX(2px);
+    }
 }
 
 .result-table {
-  &__cell {
-    border-bottom: 1px solid var(--chakra-colors-chakra-border-color);
-    padding: 5px;
-  }
+    &__cell {
+        border-bottom: 1px solid var(--chakra-colors-chakra-border-color);
+        padding: 5px;
+    }
 }
 
 .cell-header {
-  color: var(--chakra-colors-chakra-body-text);
-  font-weight: 600;
-  color: #4a5568;
+    color: var(--chakra-colors-chakra-body-text);
+    font-weight: 600;
+    color: #4a5568;
 }
 
 .chakra-ui-dark {
-  .cell-header {
-    //background-color: rgb(45, 55, 72);
-    color: rgb(160, 174, 192);
-  }
+    .cell-header {
+        //background-color: rgb(45, 55, 72);
+        color: rgb(160, 174, 192);
+    }
 }
 
-
+// Глобальное скрытие всех стандартных элементов Swiper
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination,
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active,
+.swiper-pagination-fraction,
+.swiper-pagination-progressbar,
+.swiper-pagination-custom,
+.swiper-scrollbar,
+.custom-swiper .swiper-pagination,
+.custom-swiper .swiper-pagination-bullet,
+.custom-swiper .swiper-pagination-bullet-active,
+.custom-swiper .swiper-pagination-fraction,
+.custom-swiper .swiper-pagination-progressbar,
+.custom-swiper .swiper-pagination-custom {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}

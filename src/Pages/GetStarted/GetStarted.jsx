@@ -9,7 +9,7 @@ import {
     Stack,
     useColorModeValue
 } from '@chakra-ui/react'
-import {   
+import {
     FcApproval
 } from 'react-icons/fc'
 import {
@@ -110,7 +110,7 @@ const GetStartedCard = ({ heading, description, icon, href, buttonText }) => {
 const GetStarted = () => {
     return (
         <>
-            <Container maxW='1280px' mb={2} mt={6}>
+            <Container maxW='1280px' mb={2} mt={{ base: 6, md: 8 }}>
                 <Breadcrumb fontWeight='medium' fontSize='md'>
                     <BreadcrumbItem>
                         <BreadcrumbLink href='/'>Home</BreadcrumbLink>
@@ -120,7 +120,7 @@ const GetStarted = () => {
                     </BreadcrumbItem>
                 </Breadcrumb>
             </Container>
-            <Container maxW='1280px' centerContent mb={10} mt={6} justifyContent="flex-start">
+            <Container maxW='1280px' centerContent mb={10} mt={{ base: 6, md: 8 }} justifyContent="flex-start">
                 <Heading as='h2' size='xl' mt={4} mb={4} >
                     Get Started
                 </Heading>
