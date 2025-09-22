@@ -108,7 +108,7 @@
 }
 
 // Принудительное использование полной ширины модального окна
-.chakra-stack {
+.page-modal .chakra-stack {
     max-width: 100% !important;
     width: 100% !important;
     flex-shrink: 0 !important;

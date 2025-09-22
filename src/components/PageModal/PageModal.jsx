@@ -15,7 +15,7 @@ const PageModal = ({ isOpen, onClose, children, title = "Details" }) => {
     const borderColor = useColorModeValue('gray.200', 'gray.600');
 
     return (
-        <Modal isOpen={isOpen} onClose={onClose} size="xl">
+        <Modal isOpen={isOpen} onClose={onClose} size="xl" isCentered>
             <ModalOverlay />
             <ModalContent
                 bg={contentBg}
@@ -26,6 +26,8 @@ const PageModal = ({ isOpen, onClose, children, title = "Details" }) => {
                 boxShadow="2xl"
                 border="1px solid"
                 borderColor={borderColor}
+                mx="auto"
+                my="auto"
             >
                 <ModalHeader
                     fontSize="md"

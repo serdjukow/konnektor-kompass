@@ -55,6 +55,15 @@ ul {
     flex: 1 1 auto;
 }
 
+// Градиентный фон для всех страниц (как на главной)
+.page {
+    background: linear-gradient(to bottom right, #f7fafc, #edf2f7, #e6fffa); // Светлая тема
+}
+
+.chakra-ui-dark .page {
+    background: linear-gradient(to bottom right, #1a202c, #2d3748, #2f855a); // Темная тема
+}
+
 section {
     margin: 20px auto 0;
     max-width: 1280px;

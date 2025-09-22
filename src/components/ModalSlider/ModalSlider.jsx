@@ -85,7 +85,7 @@ const ModalSlider = ({ activeSlide = 0, data = {}, children }) => {
                     }
                     
                     /* Ограничиваем ширину контейнера точек */
-                    .chakra-stack {
+                    .modal-swiper .chakra-stack {
                         max-width: 100% !important;
                         overflow: hidden !important;
                     }

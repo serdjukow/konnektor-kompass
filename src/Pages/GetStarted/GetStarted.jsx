@@ -1,17 +1,25 @@
 import React from "react";
 import {
-    Container, Text, Heading, Card, CardHeader, CardBody, CardFooter, SimpleGrid, Button, Breadcrumb,
+    Container, Text, Heading, SimpleGrid, Button, Breadcrumb,
     BreadcrumbItem,
     BreadcrumbLink,
-    Flex,
     Box,
     Icon,
-    Stack,
-    useColorModeValue
+    useColorModeValue,
+    VStack,
+    HStack,
+    Badge
 } from '@chakra-ui/react'
 import {
-    FcApproval
-} from 'react-icons/fc'
+    FaBookOpen,
+    FaLanguage,
+    FaGraduationCap,
+    FaRocket,
+    FaTrophy,
+    FaLightbulb,
+    FaPlay,
+    FaArrowRight
+} from 'react-icons/fa'
 import {
     KONNEKTOREN_TEST_ROUTE,
     KONNEKTOREN_UEBERSICHT_ROUTE,
@@ -27,118 +35,259 @@ const GetStartedPageContent = [
     {
         title: "Konnektoren",
         text: "Konnektoren in Deutsch verbinden Teile eines Satzes oder Sätze miteinander, um die Verbindung und Logik im Text zu verbessern.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: KONNEKTOREN_UEBERSICHT_ROUTE
+        buttonText: "Lernen",
+        buttonLink: KONNEKTOREN_UEBERSICHT_ROUTE,
+        icon: FaLanguage,
+        color: "blue",
+        gradient: "linear(to-r, blue.400, blue.600)"
     },
     {
         title: "Präpositionen",
         text: "Präpositionen in Deutsch zeigen Beziehungen zwischen Wörtern im Satz, z.B. Ort, Zeit oder Richtung.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: PREPOSITIONEN_UEBERSICHT_ROUTE
+        buttonText: "Lernen",
+        buttonLink: PREPOSITIONEN_UEBERSICHT_ROUTE,
+        icon: FaBookOpen,
+        color: "green",
+        gradient: "linear(to-r, green.400, green.600)"
     },
     {
         title: "Nomen mit Präpositionen",
         text: "Nomen mit Präpositionen in Deutsch sind Substantive, die oft mit bestimmten Präpositionen kombiniert werden, um Bedeutungen oder Verhältnisse im Satz zu verdeutlichen.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: NOMEN_MIT_PREPOSITIONEN_ROUTE
+        buttonText: "Lernen",
+        buttonLink: NOMEN_MIT_PREPOSITIONEN_ROUTE,
+        icon: FaGraduationCap,
+        color: "purple",
+        gradient: "linear(to-r, purple.400, purple.600)"
     },
     {
         title: "Verben mit Präpositionen",
         text: "Verben mit Präpositionen in Deutsch bilden feste Verbindungen mit bestimmten Präpositionen, um spezifische Bedeutungen oder Aktionen im Satz auszudrücken.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: VERBEN_MIT_PREPOSITIONEN_ROUTE
+        buttonText: "Lernen",
+        buttonLink: VERBEN_MIT_PREPOSITIONEN_ROUTE,
+        icon: FaLightbulb,
+        color: "yellow",
+        gradient: "linear(to-r, yellow.400, yellow.600)"
     },
     {
         title: "Adjektive mit Präpositionen",
         text: "Adjektive mit Präpositionen in Deutsch beschreiben Nomen und werden oft mit bestimmten Präpositionen kombiniert, um genaue Verhältnisse oder Eigenschaften im Satz zu verdeutlichen.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE
+        buttonText: "Lernen",
+        buttonLink: ADJEKTIVE_MIT_PREPOSITIONEN_ROUTE,
+        icon: FaTrophy,
+        color: "orange",
+        gradient: "linear(to-r, orange.400, orange.600)"
     },
     {
         title: "Wortschatz",
         text: "Wortschatz in Deutsch umfasst einen breiten und spezialisierten Wortschatz für Alltag und Beruf.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: WORDS_ROUTE
+        buttonText: "Lernen",
+        buttonLink: WORDS_ROUTE,
+        icon: FaBookOpen,
+        color: "teal",
+        gradient: "linear(to-r, teal.400, teal.600)"
     },
     {
         title: "Konnektoren Test",
         text: "Machen Sie den Test zu Konnektoren in Deutsch und wählen Sie die richtige Verwendung aus mehreren Antwortmöglichkeiten aus.",
-        buttonText: "Mehr zum Thema",
-        buttonLink: KONNEKTOREN_TEST_ROUTE
+        buttonText: "Test starten",
+        buttonLink: KONNEKTOREN_TEST_ROUTE,
+        icon: FaRocket,
+        color: "red",
+        gradient: "linear(to-r, red.400, red.600)",
+        isSpecial: true
     }
 ]
 
-const GetStartedCard = ({ heading, description, icon, href, buttonText }) => {
+const GetStartedCard = ({ heading, description, icon, href, buttonText, color, gradient, isSpecial }) => {
+    const cardBg = useColorModeValue('white', 'gray.800')
+    const textColor = useColorModeValue('gray.600', 'gray.300')
+    const headingColor = useColorModeValue('gray.800', 'white')
+    const borderColor = useColorModeValue('gray.200', 'gray.600')
+
     return (
         <Box
-            maxW={{ base: 'full', md: '320px' }}
+            maxW={{ base: 'full', md: '350px' }}
             w={'full'}
-            borderWidth="1px"
-            borderRadius="lg"
+            bg={cardBg}
+            borderRadius="2xl"
             overflow="hidden"
-            p={5}>
-            <Stack align={'start'} spacing={2} h={'100%'}>
-                <Flex
-                    w={16}
-                    h={16}
-                    align={'center'}
-                    justify={'center'}
-                    flexShrink={'0'}
-                    color={'white'}
-                    rounded={'full'}
-                    bg={useColorModeValue('gray.100', 'gray.700')}>
-                    {icon}
-                </Flex>
-                <Box mt={2} h={'100%'}>
-                    <Heading size="md">{heading}</Heading>
-                    <Text mt={1} fontSize={'sm'}>
-                        {description}
-                    </Text>
-                </Box>
+            border="1px solid"
+            borderColor={borderColor}
+            boxShadow="0 10px 15px -3px rgba(0, 0, 0, 0.1)"
+            transition="all 0.3s"
+            _hover={{
+                transform: "translateY(-8px)",
+                boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)"
+            }}
+            position="relative"
+        >
+            {/* Цветная полоса сверху */}
+            <Box
+                h="4px"
+                bgGradient={gradient}
+                w="100%"
+            />
+
+            <VStack align="stretch" spacing={6} p={6} h="100%">
+                {/* Иконка и заголовок */}
+                <HStack spacing={4} align="start">
+                    <Box
+                        p={4}
+                        bgGradient={gradient}
+                        borderRadius="xl"
+                        boxShadow="lg"
+                        flexShrink={0}
+                    >
+                        <Icon as={icon} w={8} h={8} color="white" />
+                    </Box>
+                    <VStack align="start" spacing={2} flex={1}>
+                        <Heading
+                            size="lg"
+                            color={headingColor}
+                            fontWeight="700"
+                        >
+                            {heading}
+                        </Heading>
+                        {isSpecial && (
+                            <Badge
+                                colorScheme={color}
+                                variant="subtle"
+                                borderRadius="full"
+                                px={3}
+                                py={1}
+                            >
+                                <Icon as={FaPlay} mr={1} />
+                                Empfohlen
+                            </Badge>
+                        )}
+                    </VStack>
+                </HStack>
+
+                {/* Описание */}
+                <Text
+                    fontSize="md"
+                    color={textColor}
+                    lineHeight="1.6"
+                    flex={1}
+                >
+                    {description}
+                </Text>
+
+                {/* Кнопка */}
                 <Button
-                    variant={'link'}
                     as="a"
                     href={href}
-                    colorScheme={'blue'}
-                >{buttonText}
+                    colorScheme={color}
+                    bgGradient={gradient}
+                    _hover={{
+                        bgGradient: gradient,
+                        transform: "translateY(-2px)",
+                        boxShadow: "lg"
+                    }}
+                    rightIcon={<Icon as={FaArrowRight} />}
+                    size="lg"
+                    fontWeight="600"
+                    borderRadius="xl"
+                    transition="all 0.3s"
+                >
+                    {buttonText}
                 </Button>
-            </Stack>
+            </VStack>
         </Box>
     )
 }
 
 const GetStarted = () => {
+    const textColor = useColorModeValue('gray.600', 'gray.300')
+    const headingColor = useColorModeValue('gray.800', 'white')
+
     return (
-        <>
-            <Container maxW='1280px' mb={2} mt={{ base: 6, md: 8 }}>
-                <Breadcrumb fontWeight='medium' fontSize='md'>
-                    <BreadcrumbItem>
-                        <BreadcrumbLink href='/'>Home</BreadcrumbLink>
-                    </BreadcrumbItem>
-                    <BreadcrumbItem isCurrentPage>
-                        <BreadcrumbLink href='#'>Get Started</BreadcrumbLink>
-                    </BreadcrumbItem>
-                </Breadcrumb>
+        <Box>
+            <Container maxW='1400px' py={8}>
+                <VStack spacing={8} w="100%">
+                    {/* Breadcrumb */}
+                    <Box w="100%">
+                        <Breadcrumb fontWeight='medium' fontSize='md'>
+                            <BreadcrumbItem>
+                                <BreadcrumbLink href='/'>Home</BreadcrumbLink>
+                            </BreadcrumbItem>
+                            <BreadcrumbItem isCurrentPage>
+                                <BreadcrumbLink href='#'>Get Started</BreadcrumbLink>
+                            </BreadcrumbItem>
+                        </Breadcrumb>
+                    </Box>
+
+                    {/* Заголовок */}
+                    <VStack spacing={4} textAlign="center">
+                        <Heading
+                            as='h1'
+                            size='2xl'
+                            color={headingColor}
+                            fontWeight="700"
+                            textShadow="0 2px 4px rgba(0,0,0,0.1)"
+                        >
+                            Wählen Sie Ihr Lerngebiet
+                        </Heading>
+                        <Text
+                            fontSize="lg"
+                            color={textColor}
+                            maxW="600px"
+                            lineHeight="1.6"
+                        >
+                            Entdecken Sie verschiedene Bereiche der deutschen Sprache und wählen Sie aus,
+                            was Sie lernen möchten. Jeder Bereich bietet interaktive Übungen und Tests.
+                        </Text>
+                    </VStack>
+
+                    {/* Карточки */}
+                    <Box w="100%" mt={8}>
+                        <SimpleGrid
+                            columns={{ base: 1, md: 2, lg: 3 }}
+                            spacing={8}
+                            justifyItems="center"
+                        >
+                            {GetStartedPageContent.map((item, index) => (
+                                <GetStartedCard
+                                    key={index}
+                                    heading={item.title}
+                                    icon={item.icon}
+                                    description={item.text}
+                                    href={item.buttonLink}
+                                    buttonText={item.buttonText}
+                                    color={item.color}
+                                    gradient={item.gradient}
+                                    isSpecial={item.isSpecial}
+                                />
+                            ))}
+                        </SimpleGrid>
+                    </Box>
+
+                    {/* Дополнительная информация */}
+                    <Box
+                        w="100%"
+                        maxW="800px"
+                        mt={12}
+                        p={8}
+                        bg={useColorModeValue('white', 'gray.800')}
+                        borderRadius="2xl"
+                        boxShadow="0 10px 15px -3px rgba(0, 0, 0, 0.1)"
+                        border="1px solid"
+                        borderColor={useColorModeValue('gray.200', 'gray.600')}
+                    >
+                        <VStack spacing={4} textAlign="center">
+                            <Icon as={FaLightbulb} w={12} h={12} color="yellow.500" />
+                            <Heading size="lg" color={headingColor}>
+                                Tipp für den Einstieg
+                            </Heading>
+                            <Text color={textColor} lineHeight="1.6">
+                                Beginnen Sie mit dem <strong>Konnektoren Test</strong>, um Ihr aktuelles Niveau zu testen.
+                                Anschließend können Sie gezielt die Bereiche lernen, in denen Sie sich verbessern möchten.
+                            </Text>
+                        </VStack>
+                    </Box>
+                </VStack>
             </Container>
-            <Container maxW='1280px' centerContent mb={10} mt={{ base: 6, md: 8 }} justifyContent="flex-start">
-                <Heading as='h2' size='xl' mt={4} mb={4} >
-                    Get Started
-                </Heading>
-                <Box maxW={'100%'} mt={12}>
-                    <Flex flexWrap="wrap" gridGap={6} justify="center">
-                        {GetStartedPageContent.map((item, index) => (
-                            <GetStartedCard key={index}
-                                heading={item.title}
-                                icon={<Icon as={FcApproval} w={10} h={10} />}
-                                description={item.text}
-                                href={item.buttonLink}
-                                buttonText={item.buttonText}
-                            />
-                        ))}
-                    </Flex>
-                </Box>
-            </Container >
-        </>
+        </Box>
     )
 }
 
