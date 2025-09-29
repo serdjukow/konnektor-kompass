@@ -4,6 +4,8 @@ import { v4 as uuidv4 } from "uuid";
 const useServerData = () => {
   const [connectors, setConnectors] = useState([]);
 
+  console.log(connectors)
+
   async function fetchConnectors() {
     try {
       const response = await fetch("./db/db.json");
